@@ -69,25 +69,107 @@ function Dashboard() {
                 <div className='cardContainer'>
                     <div className='leftCardBox'>
                         <div className='card'>
+                            <div className='cardHeader'>
+                                <h1>COURSE 1</h1>
+                                <div className='bullet'></div>
+                                <Link>SEE DETAILS</Link>
+                            </div>
+                            <div className='cardBody'>
+                                <div className='bodyText'>
+                                    <h4>Recognising Phishing Emails</h4>
+                                    <p>Learn about the various tactics used by cybercriminals to deceive users.</p>
+                                    <h3>3 UNITS</h3>
+                                </div>
+                                <div className='bodyImage'>
+                                    <img src={card1} />
+                                </div>
+                            </div>
+                            <div className='progressBar'>
+                                <div className='progress'></div>
+                            </div>
+                            <div className='cardButton'>
+                                <Link>Continue</Link>
+                            </div>
+                        </div>
+
+
+                        <div className='card'>
+                            <div className='cardHeader'>
+                                <h1>COURSE 2</h1>
+                                <div className='bullet'></div>
+                                <Link>SEE DETAILS</Link>
+                            </div>
+                            <div className='cardBody'>
+                                <div className='bodyText'>
+                                    <h4>Avoiding Phishing Scams</h4>
+                                    <p>Learn the psychological manipulation techniques used by cybercriminals</p>
+                                    <h3>3 UNITS</h3>
+                                </div>
+                                <div className='bodyImage'>
+                                    <img src={card2} />
+                                </div>
+                            </div>
+                            <div className='progressBar'>
+                                <div className='progress'></div>
+                            </div>
+                            <div className='cardButton'>
+                                <Link>Continue</Link>
+                            </div>
+                        </div>
+
+
+
+                        <div className='card'>
+                            <div className='cardHeader'>
+                                <h1>COURSE 3</h1>
+                                <div className='bullet'></div>
+                                <Link>SEE DETAILS</Link>
+                            </div>
+                            <div className='cardBody'>
+                                <div className='bodyText'>
+                                    <h4>Reporting and Responding to Phishing Attempts</h4>
+                                    <p>Learn how to report suspicious emails to the appropriate authorities</p>
+                                    <h3>3 UNITS</h3>
+                                </div>
+                                <div className='bodyImage'>
+                                    <img src={card3} />
+                                </div>
+                            </div>
+                            <div className='progressBar'>
+                                <div className='progress'></div>
+                            </div>
+                            <div className='cardButton'>
+                                <Link>Continue</Link>
+                            </div>
+                        </div>
+
+                        {/* <div className='card'>
                             <div className='cardContent'>
                                 <div>
                                     <div className='cardText'>
-                                        <h3>COURSE 1</h3>
+                                        <h3>COURSE 2</h3>
                                         <div className='bullet'></div>
                                         <Link>SEE DETAILS</Link>
                                     </div>
-                                    <div className='cardParagraph'>
-                                        <p><span>Recognizing Phishing Emails</span> <br /> Learn about the various tactics used by <br /> cybercriminals to deceive users.</p>
+                                    <h3 className='cardTopic'>Avoiding Phishing Scams</h3>
+                                    <div className='cardBody'>
+                                        <div className='cardLeft'>
+                                            <div className='cardParagraph'>
+                                                <p>Learn the psychological manipulation techniques used by cybercriminals</p>
+                                            </div>
+                                            <h2>3 UNITS</h2>
+                                            <div className='progressBar'>
+                                                <div className='progress'></div>
+                                            </div>
+                                            <div className='cardButton'>
+                                                <Link>Continue</Link>
+                                            </div>
+                                        </div>
+                                        <img src={card2} />
                                     </div>
-                                    <h2>3 UNITS</h2>
-                                    <div className='progressBar'>
-                                        <div className='progress'></div>
-                                    </div>
-                                    <div className='cardButton'>
-                                        <Link>Continue</Link>
-                                    </div>
+
                                 </div>
-                                <img src={card1} />
+
                             </div>
 
                         </div>
@@ -140,7 +222,7 @@ function Dashboard() {
                                 <img src={card3} />
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
                     <div className='rightCardBox'>
                         <div className='smallCard'>
@@ -168,11 +250,11 @@ function Dashboard() {
                                 <h2>ShieldEd Chest</h2>
                                 <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
                                 <div className='progressBar'>
-                                        <div className='progress'></div>
-                                    </div>
-                                    <Link className='smallCardLink'>SEE ALL</Link>
+                                    <div className='progress'></div>
+                                </div>
+                                <Link className='smallCardLink'>SEE ALL</Link>
                             </div>
-                            <img src={card6}/>
+                            <img src={card6} />
                         </div>
 
 
@@ -183,13 +265,13 @@ function Dashboard() {
                             </div>
                             <div className='advertLinks'>
                                 <div className='advertIcons'>
-                                    <CloseOutlinedIcon/>
-                                    <InfoOutlinedIcon/>
+                                    <CloseOutlinedIcon />
+                                    <InfoOutlinedIcon />
                                 </div>
                                 <Link>Women Techstars Fellowship</Link>
                             </div>
                             <center>
-                            <Link className='removeAdvert'>REMOVE ADS</Link>
+                                <Link className='removeAdvert'>REMOVE ADS</Link>
                             </center>
                         </div>
                     </div>
