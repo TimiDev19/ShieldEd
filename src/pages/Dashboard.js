@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/Frame 1.png'
 import card1 from '../assets/card1.png'
@@ -24,8 +24,32 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 
 function Dashboard() {
+
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+    };
+
     return (
-        <div className="page-container">
+        <>
+        <nav className="navbar">
+      <div className="logo"><img src={Logo}/></div>
+      <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+        <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
+        <li><Link><div className='menuLink'>LEADERBOARDS</div></Link></li>
+        <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
+        <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
+        <li><Link><div className='menuLink'>SHOP</div></Link></li>
+        <li><Link><div className='menuLink'>SHIELDED FOR TEAMS</div></Link></li>
+        <li><Link><div className='menuLink'>SETTINGS</div></Link></li>
+        <li><Link><div className='menuLink'>HELP</div></Link></li>
+      </ul>
+      <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
+    </nav>
+
+
+    <div className="page-container">
             <div className="sidebar">
                 <ul className="sidebar-menu">
                     <img src={Logo} />
@@ -279,6 +303,9 @@ function Dashboard() {
                 {/* Main content of your page */}
             </div>
         </div>
+
+        </>
+        
     )
 }
 

@@ -1,10 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
+body{
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
 .page-container {
     display: flex;
     height: 100vh;
     font-family: inter;
-    overflow: none;
 }
 
 .sidebar {
@@ -22,7 +26,7 @@
     padding: 0;
 }
 
-.sidebar-menu img{
+.sidebar-menu img {
     height: 39px;
     width: auto;
     margin-left: 5px;
@@ -41,12 +45,12 @@
     background-color: #555;
 }
 
-.dashboardLeftSideTop{
+.dashboardLeftSideTop {
     border-bottom: 1px solid #F2F2F2;
     margin-bottom: 10px
 }
 
-.dashboardLeftSideTop a{
+.dashboardLeftSideTop a {
     text-decoration: none;
     font-size: 14px;
     color: #5A5A5A;
@@ -57,7 +61,7 @@
     align-self: center;
 }
 
-.dashboardLeftSideTop a .icons{
+.dashboardLeftSideTop a .icons {
     align-self: center;
     margin: auto;
     justify-self: center;
@@ -66,7 +70,7 @@
     justify-content: center;
 }
 
-.dashboardLeftSideTop .menuLink{
+.dashboardLeftSideTop .menuLink {
     width: 90%;
     margin: auto;
     padding: 10px 5px;
@@ -75,12 +79,12 @@
     transition: .5s ease-in-out;
 }
 
-.dashboardLeftSideTop .menuLink:hover{
+.dashboardLeftSideTop .menuLink:hover {
     background-color: #e9f2f9;
     cursor: pointer;
 }
 
-.dashboardLeftSideTop .menuLinkSelected{
+.dashboardLeftSideTop .menuLinkSelected {
     background-color: #E9F3FC;
     width: 90%;
     margin: auto;
@@ -91,11 +95,11 @@
 
 
 
-.menuLinkBottom{
+.menuLinkBottom {
     margin-bottom: 10px
 }
 
-.menuLinkBottom a{
+.menuLinkBottom a {
     text-decoration: none;
     font-size: 14px;
     color: #5A5A5A;
@@ -105,7 +109,7 @@
     background-color: #FFFFFF;
 }
 
-.menuLinkBottom a .icons{
+.menuLinkBottom a .icons {
     align-self: center;
     margin: auto;
     justify-self: center;
@@ -113,7 +117,7 @@
     margin-right: 10px;
 }
 
-.menuLinkBottom .menuLink{
+.menuLinkBottom .menuLink {
     width: 90%;
     margin: auto;
     padding: 10px 5px;
@@ -122,12 +126,12 @@
     transition: .5s ease-in-out;
 }
 
-.menuLinkBottom .menuLink:hover{
+.menuLinkBottom .menuLink:hover {
     background-color: #e9f2f9;
     cursor: pointer;
 }
 
-.menuLinkBottom .menuLinkSelected{
+.menuLinkBottom .menuLinkSelected {
     background-color: #E9F3FC;
     width: 90%;
     margin: auto;
@@ -138,11 +142,11 @@
 
 
 
-.sideBarBottom{
+.sideBarBottom {
     margin-bottom: 10px
 }
 
-.sideBarBottom a{
+.sideBarBottom a {
     text-decoration: none;
     font-size: 14px;
     color: #5A5A5A;
@@ -152,7 +156,7 @@
     background-color: #FFFFFF;
 }
 
-.sideBarBottom a .icons{
+.sideBarBottom a .icons {
     align-self: center;
     margin: auto;
     justify-self: center;
@@ -160,7 +164,7 @@
     margin-right: 10px;
 }
 
-.sideBarBottom .menuLink{
+.sideBarBottom .menuLink {
     width: 90%;
     margin: auto;
     padding: 10px 5px;
@@ -169,12 +173,12 @@
     transition: .5s ease-in-out;
 }
 
-.sideBarBottom .menuLink:hover{
+.sideBarBottom .menuLink:hover {
     background-color: #e9f2f9;
     cursor: pointer;
 }
 
-.sideBarBottom .menuLinkSelected{
+.sideBarBottom .menuLinkSelected {
     background-color: #E9F3FC;
     width: 90%;
     margin: auto;
@@ -188,24 +192,26 @@
 .content {
     flex: 1;
     padding: 40px;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 
-.contentHeader{
+.contentHeader {
     height: fit-content;
     display: flex;
     justify-content: space-between;
     padding: 5px 20px;
 }
 
-.headerText h2{
+.headerText h2 {
     font-weight: 600;
     font-size: 30px;
     line-height: 34px;
     font-family: inter;
 }
 
-.headerText h2 span{
+.headerText h2 span {
     color: #595959;
     font-weight: 200;
     font-size: 20px;
@@ -213,7 +219,7 @@
     font-family: inter;
 }
 
-.headerSearchbox{
+.headerSearchbox {
     height: 47px;
     align-self: center;
     width: 400px;
@@ -222,30 +228,30 @@
     background-color: #F2F2F2;
 }
 
-.headerSearchbox::placeholder{
+.headerSearchbox::placeholder {
     padding-left: 20px;
 }
 
-.headerHanger{
+.headerHanger {
     height: 40px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.headerHanger select{
+.headerHanger select {
     border: none;
     background-color: transparent;
     font-size: 20px;
 }
 
-.gameCurrency{
+.gameCurrency {
     display: flex;
     align-self: center;
     text-align: right;
 }
 
-.gameCurrency h4{
+.gameCurrency h4 {
     padding: 10px;
     font-weight: 400;
     font-family: inter;
@@ -254,7 +260,7 @@
     font-size: 20px;
 }
 
-.gameCurrency h4 img{
+.gameCurrency h4 img {
     height: 25px;
     align-items: center;
     align-self: center;
@@ -262,24 +268,24 @@
     margin-right: 3px;
 }
 
-.gameCurrency h4 .icons{
+.gameCurrency h4 .icons {
     font-size: larger;
     padding-right: 3px;
     color: #2389DE;
 }
 
-.gameCurrency h4 .icons-heart{
+.gameCurrency h4 .icons-heart {
     font-size: larger;
     padding-right: 3px;
     color: red;
 }
 
-.cardContainer{
+.cardContainer {
     display: flex;
 }
 
-.leftCardBox{
-    height: 65vh;
+.leftCardBox {
+    height: 100vh;
     width: 60%;
     flex-direction: column;
     overflow-y: scroll;
@@ -287,10 +293,9 @@
     padding-left: 0;
 }
 
-.rightCardBox{
+.rightCardBox {
     margin: 0;
     height: 100vh;
-    height: 65vh;
     width: 40%;
     overflow-y: scroll;
     padding: 0;
@@ -298,7 +303,7 @@
     justify-content: end;
 }
 
-.card{
+.card {
     width: 80%;
     margin: auto;
     background-color: #F2F2F2;
@@ -312,7 +317,7 @@
     margin-left: 17px;
 }
 
-.cardHeader{
+.cardHeader {
     display: flex;
     flex-direction: row;
     height: 20px;
@@ -321,20 +326,20 @@
     justify-content: space-between;
 }
 
-.cardHeader h1{
+.cardHeader h1 {
     font-size: 18px;
     align-self: center;
     color: #2389DE;
     padding-right: 10px;
 }
 
-.cardHeader a{
+.cardHeader a {
     align-content: end;
     color: #2389DE;
     padding-left: 10px;
 }
 
-.bullet{
+.bullet {
     width: 14px;
     height: 14px;
     background-color: #2389DE;
@@ -342,7 +347,7 @@
     align-self: center;
 }
 
-.cardBody{
+.cardBody {
     width: 100%;
     margin: auto;
     height: fit-content;
@@ -351,7 +356,7 @@
     padding-bottom: 0;
 }
 
-.progressBar{
+.progressBar {
     height: 15px;
     width: 60%;
     background-color: white;
@@ -361,37 +366,37 @@
     box-shadow: 0 0 .05rem gray;
 }
 
-.progress{
+.progress {
     height: 15px;
     width: 33%;
     background-color: #2389DE;
     border-radius: 10px;
 }
 
-.bodyText h4{
+.bodyText h4 {
     margin: 0;
     padding: 0;
     padding-top: 5px;
 }
 
-.bodyText h3{
+.bodyText h3 {
     font-weight: 300;
     font-size: 16px;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.bodyImage img{
+.bodyImage img {
     height: 150px;
     width: auto;
 }
 
-.cardButton{
+.cardButton {
     margin-top: 25px;
 }
 
-.cardButton a{
-    padding: 5px 10px;
+.cardButton a {
+    padding: 10px 15px;
     background-color: #2389DE;
     border-radius: 4px;
     text-decoration: none;
@@ -399,7 +404,7 @@
 }
 
 
-.smallCard{
+.smallCard {
     width: 85%;
     margin-right: 0;
     padding-right: 0;
@@ -413,22 +418,22 @@
     margin-bottom: 20px;
 }
 
-.smallCardTextBox{
+.smallCardTextBox {
     display: flex;
     flex-direction: column;
 }
 
-.smallCardTextBox h2{
+.smallCardTextBox h2 {
     font-size: 18px;
     font-family: inter;
 }
 
-.smallCardTextBox p{
+.smallCardTextBox p {
     margin-top: 0;
     align-self: center;
 }
 
-.smallCardTextBox a{
+.smallCardTextBox a {
     font-size: 14px;
     padding: 5px 10px;
     background-color: #2389DE;
@@ -439,17 +444,17 @@
     text-decoration: none;
 }
 
-.smallCard img{
+.smallCard img {
     height: 100px;
     align-self: center;
 }
 
-.smallCard .trophyImage{
+.smallCard .trophyImage {
     height: 200px;
     align-self: center;
 }
 
-.smallCardTextBox .smallCardLink{
+.smallCardTextBox .smallCardLink {
     color: #2389DE;
     background-color: transparent;
     padding-top: 30px;
@@ -457,7 +462,7 @@
 }
 
 
-.advertCard{
+.advertCard {
     width: 85%;
     margin-right: 0;
     padding-right: 0;
@@ -471,7 +476,7 @@
     margin-bottom: 20px;
 }
 
-.advertCardTextBox{
+.advertCardTextBox {
     width: 95%;
     margin-right: 5px;
     align-self: center;
@@ -481,11 +486,11 @@
     border-radius: 10px;
 }
 
-.advertCardTextBox h3{
+.advertCardTextBox h3 {
     font-weight: lighter;
 }
 
-.advertLinks{
+.advertLinks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -494,22 +499,137 @@
     margin-bottom: 40px;
 }
 
-.advertLinks a{
+.advertLinks a {
     color: #2389DE;
     text-decoration: none;
     font-size: 14px;
 }
 
-.removeAdvert{
+.removeAdvert {
     padding-top: 50px;
     color: #2389DE;
 }
 
-.cardBody{
+.cardBody {
     display: flex;
     flex-direction: row;
 }
 
-@media (max-width: 1190px) {
-    
+@media (max-width: 1190px) {}
+
+.navbar {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logo img {
+    height: 2rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links.open {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 60px;
+    /* Adjust top position based on your navbar height */
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links li {
+    margin: 10px 6px;
+}
+
+.nav-links a {
+    display: flex;
+    color: #2389DE;
+    text-decoration: none;
+}
+
+.burger-menu {
+    display: none;
+    /* Hidden by default on larger screens */
+    color: #2389DE;
+    font-size: 2rem;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 971px) {
+    .sidebar{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+
+    .burger-menu {
+        display: block;
+        /* Display burger menu icon on smaller screens */
+    }
+
+    .nav-links {
+        display: none;
+        /* Hide the nav links on smaller screens */
+    }
+}
+
+@media (max-width: 1140px) {
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftCardBox{
+        width: 100%;
+        height: fit-content;
+    }
+    .rightCardBox{
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 700px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .cardContainer{
+        width: 100%;
+    }
+    .contentHeader {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5px 20px;
+        margin-bottom: 15px;
+    }
+    .headerHanger{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .headerSearchbox {
+        align-self: self-start;
+    }
+    .gameCurrency {
+        display: flex;
+        align-self: self-start;
+        text-align: right;
+    }
 }
