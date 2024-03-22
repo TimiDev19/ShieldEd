@@ -1,70 +1,44 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-.dashboardPage{
-    background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: 2fr;
+.page-container {
+    display: flex;
+    height: 100vh;
     font-family: inter;
+    overflow: none;
 }
 
-.dashboardLeftSide{
-    width: 272px;
-    box-shadow: 0 0 .2rem gray;
-    height: 98vh;
-    padding: 10px;
-    text-align: left;
+.sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: hidden;
-    position: fixed;
+    width: 272px;
+    height: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 .5rem gray;
 }
 
-.dashboardLeftSide img{
-    width: 224px;
-    margin: auto;
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu img{
+    height: 39px;
+    width: auto;
+    margin-left: 5px;
     display: block;
     padding-bottom: 10px;
 }
 
-.dashboardLeftSide a{
-    text-decoration: none;
-    font-size: 14px;
-    color: #5A5A5A;
-    display: flex;
-    align-items: center;
-    text-align: left;
-}
-
-.dashboardLeftSide a .icons{
-    align-self: center;
-    margin: auto;
-    justify-self: center;
-    font-size: medium;
-    margin-right: 10px;
-}
-
-.dashboardLeftSide .menuLink{
-    width: 95%;
-    margin: auto;
-    padding: 10px 5px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    transition: .5s ease-in-out;
-}
-
-.dashboardLeftSide .menuLink:hover{
-    background-color: #e9f2f9;
+.sidebar-menu li {
+    padding: 10px 20px;
+    color: #fff;
     cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
-.dashboardLeftSide .menuLinkSelected{
-    background-color: #E9F3FC;
-    width: 95%;
-    margin: auto;
-    padding: 10px 5px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+.sidebar-menu li:hover {
+    background-color: #555;
 }
 
 .dashboardLeftSideTop{
@@ -72,20 +46,473 @@
     margin-bottom: 10px
 }
 
-.account-box{
+.dashboardLeftSideTop a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5A5A5A;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    background-color: #FFFFFF;
+    align-self: center;
 }
 
-.profile{
-    width: 40px;
+.dashboardLeftSideTop a .icons{
+    align-self: center;
+    margin: auto;
+    justify-self: center;
+    font-size: large;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.dashboardLeftSideTop .menuLink{
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s ease-in-out;
+}
+
+.dashboardLeftSideTop .menuLink:hover{
+    background-color: #e9f2f9;
+    cursor: pointer;
+}
+
+.dashboardLeftSideTop .menuLinkSelected{
+    background-color: #E9F3FC;
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.menuLinkBottom{
+    margin-bottom: 10px
+}
+
+.menuLinkBottom a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5A5A5A;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.menuLinkBottom a .icons{
+    align-self: center;
+    margin: auto;
+    justify-self: center;
+    font-size: medium;
+    margin-right: 10px;
+}
+
+.menuLinkBottom .menuLink{
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s ease-in-out;
+}
+
+.menuLinkBottom .menuLink:hover{
+    background-color: #e9f2f9;
+    cursor: pointer;
+}
+
+.menuLinkBottom .menuLinkSelected{
+    background-color: #E9F3FC;
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.sideBarBottom{
+    margin-bottom: 10px
+}
+
+.sideBarBottom a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5A5A5A;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.sideBarBottom a .icons{
+    align-self: center;
+    margin: auto;
+    justify-self: center;
+    font-size: medium;
+    margin-right: 10px;
+}
+
+.sideBarBottom .menuLink{
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s ease-in-out;
+}
+
+.sideBarBottom .menuLink:hover{
+    background-color: #e9f2f9;
+    cursor: pointer;
+}
+
+.sideBarBottom .menuLinkSelected{
+    background-color: #E9F3FC;
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+
+.contentHeader{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.headerText h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    font-family: inter;
+}
+
+.headerText h2 span{
+    color: #595959;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: inter;
+}
+
+.headerSearchbox{
+    height: 47px;
+    align-self: center;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+.headerSearchbox::placeholder{
+    padding-left: 20px;
+}
+
+.headerHanger{
     height: 40px;
-    background-color: green;
-    border-radius: 50%;
-    margin-right: 5px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.profileText{
+.headerHanger select{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.gameCurrency{
+    display: flex;
+    align-self: center;
+    text-align: right;
+}
+
+.gameCurrency h4{
+    padding: 10px;
+    font-weight: 400;
+    font-family: inter;
+    display: flex;
+    align-self: center;
+    font-size: 20px;
+}
+
+.gameCurrency h4 img{
+    height: 25px;
+    align-items: center;
+    align-self: center;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+.gameCurrency h4 .icons{
+    font-size: larger;
+    padding-right: 3px;
+    color: #2389DE;
+}
+
+.gameCurrency h4 .icons-heart{
+    font-size: larger;
+    padding-right: 3px;
+    color: red;
+}
+
+.cardContainer{
+    display: flex;
+}
+
+.leftCardBox{
+    height: 70vh;
+    width: 60%;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.rightCardBox{
+    margin: 0;
+    height: 100vh;
+    height: 70vh;
+    width: 40%;
+    overflow-y: scroll;
+    padding: 0;
+    padding-top: 17px;
+    justify-content: end;
+}
+
+.card{
+    width: 80%;
+    margin: auto;
+    background-color: #F2F2F2;
+    height: fit-content;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
+    padding: 26px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: 17px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardText{
+    display: flex;
+    flex-direction: row;
+    color: #2389DE;
+    font-family: inter;
+    width: 70%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.bullet{
+    height: 10px;
+    width: 10px;
+    background-color: #2389DE;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.cardText a{
+    align-self: center;
+    color: #2389DE;
+    font-weight: bold;
+}
+
+.cardParagraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardContent img{
+    height: 160px;
+    width: auto;
+}
+
+.cardParagraph p{
+    margin-top: 0;
+}
+
+.cardParagraph p span{
+    font-weight: bold;
+    font-family: inter;
+    line-height: 40px;
+}
+
+.cardParagraph p{
+    font-weight: 300;
+    font-family: inter;
+    font-size: 17px;
+}
+
+.card h2{
+    margin-top: 0;
+    font-weight: 300;
+    font-family: inter;
+    font-size: 17px;
+}
+
+.progressBar{
+    height: 12px;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 0 .2rem gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.progress h4{
+    display: flex;
+    height: 12px;
+}
+
+.progress{
+    width: 33%;
+    background-color: #2389DE;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.cardButton a{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #2389DE;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    height: 55px;
+    width: 170px;
+    font-size: 16px;
+}
+
+.smallCard{
+    width: 85%;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: #F2F2F2;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 26px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.smallCardTextBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.smallCardTextBox h2{
+    font-size: 18px;
+    font-family: inter;
+}
+
+.smallCardTextBox p{
+    margin-top: 0;
+    align-self: center;
+}
+
+.smallCardTextBox a{
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #2389DE;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.smallCard img{
+    height: 100px;
+    align-self: center;
+}
+
+.smallCard .trophyImage{
+    height: 200px;
+    align-self: center;
+}
+
+.smallCardTextBox .smallCardLink{
+    color: #2389DE;
+    background-color: transparent;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+
+.advertCard{
+    width: 85%;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: #F2F2F2;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.advertCardTextBox{
+    width: 95%;
+    margin-right: 5px;
+    align-self: center;
+    background-color: #0C304E;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.advertCardTextBox h3{
+    font-weight: lighter;
+}
+
+.advertLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #2389DE;
+    font-size: small;
+    margin-bottom: 40px;
+}
+
+.advertLinks a{
+    color: #2389DE;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.removeAdvert{
+    padding-top: 50px;
+    color: #2389DE;
 }
