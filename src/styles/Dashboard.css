@@ -279,7 +279,7 @@
 }
 
 .leftCardBox{
-    height: 70vh;
+    height: 65vh;
     width: 60%;
     flex-direction: column;
     overflow-y: scroll;
@@ -290,7 +290,7 @@
 .rightCardBox{
     margin: 0;
     height: 100vh;
-    height: 70vh;
+    height: 65vh;
     width: 40%;
     overflow-y: scroll;
     padding: 0;
