@@ -27,6 +27,8 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import avatar from '../assets/Avatars.png';
 import LogoutIcon from '@mui/icons-material/Logout';
+import learningCard from './learningCard';
+
 
 
 function Dashboard() {
@@ -138,7 +140,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link>Continue</Link>
+                                <Link to="/learningCard">Continue</Link>
                                 </div>
                             </div>
 
