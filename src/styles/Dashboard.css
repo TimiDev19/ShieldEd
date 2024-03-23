@@ -1120,32 +1120,29 @@ right: 0;
     }
 }
 
-@media (max-width: 700px) {
-    body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .cardContainer{
-        width: 100%;
-    }
-    .contentHeader {
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 5px 20px;
-        margin-bottom: 15px;
-    }
-    .headerHanger{
-        flex-direction: column;
+@media (max-width: 750px) {
+    .contentNavbar{
+        grid-template-columns: repeat(1, 1fr);
         height: fit-content;
     }
-    .headerSearchbox {
-        align-self: self-start;
-    }
-    .gameCurrency {
+    .currencyBox .gameCurrency {
         display: flex;
-        align-self: self-start;
-        text-align: right;
+        align-self: center;
+        text-align: left;
+        justify-content: left;
+    }
+}
+
+@media (max-width: 450px) {
+    .bodyImage img {
+        height: 100px;
+        width: auto;
+    }
+}
+
+@media (max-width: 350px) {
+    .bodyImage img {
+        height: 70px;
+        width: auto;
     }
 }
