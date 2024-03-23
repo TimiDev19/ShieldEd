@@ -609,6 +609,10 @@ body{
         width: 100%;
         height: fit-content;
     }
+    .card{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media (max-width: 700px) {
