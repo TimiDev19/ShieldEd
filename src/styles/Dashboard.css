@@ -9,6 +9,7 @@ body{
     display: flex;
     height: 100vh;
     font-family: inter;
+    overflow-y: hidden;
 }
 
 .sidebar {
@@ -192,8 +193,6 @@ body{
 .content {
     flex: 1;
     padding: 40px;
-    height: 100vh;
-    overflow-y: scroll;
 }
 
 
@@ -222,10 +221,14 @@ body{
 .headerSearchbox {
     height: 47px;
     align-self: center;
-    width: 400px;
+    width: 50%;
     border-radius: 5px;
     border: none;
     background-color: #F2F2F2;
+}
+
+.headerHanger select{
+    width: 50%;
 }
 
 .headerSearchbox::placeholder {
@@ -282,25 +285,29 @@ body{
 
 .cardContainer {
     display: flex;
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 .leftCardBox {
-    height: 100vh;
+    height: 65vh;
     width: 60%;
     flex-direction: column;
     overflow-y: scroll;
     padding: 20px;
     padding-left: 0;
+    margin-top: 5px;
 }
 
 .rightCardBox {
     margin: 0;
-    height: 100vh;
+    height: 65vh;
     width: 40%;
     overflow-y: scroll;
     padding: 0;
     padding-top: 17px;
     justify-content: end;
+    margin-top: 5px;
 }
 
 .card {

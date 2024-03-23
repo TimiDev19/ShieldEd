@@ -33,141 +33,144 @@ function Dashboard() {
 
     return (
         <>
-        <nav className="navbar">
-      <div className="logo"><img src={Logo}/></div>
-      <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-        <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
-        <li><Link><div className='menuLink'>LEADERBOARDS</div></Link></li>
-        <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
-        <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
-        <li><Link><div className='menuLink'>SHOP</div></Link></li>
-        <li><Link><div className='menuLink'>SHIELDED FOR TEAMS</div></Link></li>
-        <li><Link><div className='menuLink'>SETTINGS</div></Link></li>
-        <li><Link><div className='menuLink'>HELP</div></Link></li>
-      </ul>
-      <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
-    </nav>
-
-
-    <div className="page-container">
-            <div className="sidebar">
-                <ul className="sidebar-menu">
-                    <img src={Logo} />
-                    <div className='dashboardLeftSideTop'>
-                        <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
-                        <Link><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
-                        <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
-                        <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
-                    </div>
-                    <div className='menuLinkBottom'>
-                        <Link><div className='menuLink'><StorefrontOutlinedIcon className='icons' />SHOP</div></Link>
-                        <Link><div className='menuLink'><Groups2OutlinedIcon className='icons' />SHIELDED FOR TEAMS</div></Link>
-                    </div>
-                    {/* Add more sidebar menu items as needed */}
+            <nav className="navbar">
+                <div className="logo"><img src={Logo} /></div>
+                <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+                    <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
+                    <li><Link><div className='menuLink'>LEADERBOARDS</div></Link></li>
+                    <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
+                    <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
+                    <li><Link><div className='menuLink'>SHOP</div></Link></li>
+                    <li><Link><div className='menuLink'>SHIELDED FOR TEAMS</div></Link></li>
+                    <li><Link><div className='menuLink'>SETTINGS</div></Link></li>
+                    <li><Link><div className='menuLink'>HELP</div></Link></li>
                 </ul>
-                <div className='sideBarBottom'>
-                    <Link><div className='menuLink'><SettingsOutlinedIcon className='icons' />Settings</div></Link>
-                    <Link><div className='menuLink'><HelpOutlineOutlinedIcon className='icons' />Help</div></Link>
-                </div>
-            </div>
-            <div className="content">
-                <div className='contentHeader'>
-                    <div className='headerText'>
-                        <h2>Welcome Back, Gabriella <br /> <span>What are you learning today?</span></h2>
+                <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
+            </nav>
+
+
+            <div className="page-container">
+                <div className="sidebar">
+                    <ul className="sidebar-menu">
+                        <img src={Logo} />
+                        <div className='dashboardLeftSideTop'>
+                            <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
+                            <Link><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
+                            <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
+                            <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
+                        </div>
+                        <div className='menuLinkBottom'>
+                            <Link><div className='menuLink'><StorefrontOutlinedIcon className='icons' />SHOP</div></Link>
+                            <Link><div className='menuLink'><Groups2OutlinedIcon className='icons' />SHIELDED FOR TEAMS</div></Link>
+                        </div>
+                        {/* Add more sidebar menu items as needed */}
+                    </ul>
+                    <div className='sideBarBottom'>
+                        <Link><div className='menuLink'><SettingsOutlinedIcon className='icons' />Settings</div></Link>
+                        <Link><div className='menuLink'><HelpOutlineOutlinedIcon className='icons' />Help</div></Link>
                     </div>
-                    <input type='search' className='headerSearchbox' placeholder='search' />
                 </div>
-                <div className='headerHanger'>
-                    <select>
-                        <option>Understanding Phishing Attacks  </option>
-                        <option>Violin</option>
-                        <option>Saxophone</option>
-                        <option>None</option>
-                    </select>
-                    <div className='gameCurrency'>
-                        <h4><img src={icon} />100</h4>
-                        <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
-                        <h4><FavoriteIcon className='icons-heart' />10</h4>
+                <div className="content">
+                    <div className='contentNavbar'>
+                        <div className='contentHeader'>
+                            <div className='headerText'>
+                                <h2>Welcome Back, Gabriella <br /> <span>What are you learning today?</span></h2>
+                            </div>
+                            <input type='search' className='headerSearchbox' placeholder='search' />
+                        </div>
+                        <div className='headerHanger'>
+                            <select>
+                                <option>Understanding Phishing Attacks  </option>
+                                <option>Violin</option>
+                                <option>Saxophone</option>
+                                <option>None</option>
+                            </select>
+                            <div className='gameCurrency'>
+                                <h4><img src={icon} />100</h4>
+                                <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
+                                <h4><FavoriteIcon className='icons-heart' />10</h4>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className='cardContainer'>
-                    <div className='leftCardBox'>
-                        <div className='card'>
-                            <div className='cardHeader'>
-                                <h1>COURSE 1</h1>
-                                <div className='bullet'></div>
-                                <Link>SEE DETAILS</Link>
-                            </div>
-                            <div className='cardBody'>
-                                <div className='bodyText'>
-                                    <h4>Recognising Phishing Emails</h4>
-                                    <p>Learn about the various tactics used by cybercriminals to deceive users.</p>
-                                    <h3>3 UNITS</h3>
-                                </div>
-                                <div className='bodyImage'>
-                                    <img src={card1} />
-                                </div>
-                            </div>
-                            <div className='progressBar'>
-                                <div className='progress'></div>
-                            </div>
-                            <div className='cardButton'>
-                                <Link>Continue</Link>
-                            </div>
-                        </div>
 
-
-                        <div className='card'>
-                            <div className='cardHeader'>
-                                <h1>COURSE 2</h1>
-                                <div className='bullet'></div>
-                                <Link>SEE DETAILS</Link>
-                            </div>
-                            <div className='cardBody'>
-                                <div className='bodyText'>
-                                    <h4>Avoiding Phishing Scams</h4>
-                                    <p>Learn the psychological manipulation techniques used by cybercriminals</p>
-                                    <h3>3 UNITS</h3>
+                    <div className='cardContainer'>
+                        <div className='leftCardBox'>
+                            <div className='card'>
+                                <div className='cardHeader'>
+                                    <h1>COURSE 1</h1>
+                                    <div className='bullet'></div>
+                                    <Link>SEE DETAILS</Link>
                                 </div>
-                                <div className='bodyImage'>
-                                    <img src={card2} />
+                                <div className='cardBody'>
+                                    <div className='bodyText'>
+                                        <h4>Recognising Phishing Emails</h4>
+                                        <p>Learn about the various tactics used by cybercriminals to deceive users.</p>
+                                        <h3>3 UNITS</h3>
+                                    </div>
+                                    <div className='bodyImage'>
+                                        <img src={card1} />
+                                    </div>
+                                </div>
+                                <div className='progressBar'>
+                                    <div className='progress'></div>
+                                </div>
+                                <div className='cardButton'>
+                                    <Link>Continue</Link>
                                 </div>
                             </div>
-                            <div className='progressBar'>
-                                <div className='progress'></div>
-                            </div>
-                            <div className='cardButton'>
-                                <Link>Continue</Link>
-                            </div>
-                        </div>
 
 
-
-                        <div className='card'>
-                            <div className='cardHeader'>
-                                <h1>COURSE 3</h1>
-                                <div className='bullet'></div>
-                                <Link>SEE DETAILS</Link>
-                            </div>
-                            <div className='cardBody'>
-                                <div className='bodyText'>
-                                    <h4>Reporting and Responding to Phishing Attempts</h4>
-                                    <p>Learn how to report suspicious emails to the appropriate authorities</p>
-                                    <h3>3 UNITS</h3>
+                            <div className='card'>
+                                <div className='cardHeader'>
+                                    <h1>COURSE 2</h1>
+                                    <div className='bullet'></div>
+                                    <Link>SEE DETAILS</Link>
                                 </div>
-                                <div className='bodyImage'>
-                                    <img src={card3} />
+                                <div className='cardBody'>
+                                    <div className='bodyText'>
+                                        <h4>Avoiding Phishing Scams</h4>
+                                        <p>Learn the psychological manipulation techniques used by cybercriminals</p>
+                                        <h3>3 UNITS</h3>
+                                    </div>
+                                    <div className='bodyImage'>
+                                        <img src={card2} />
+                                    </div>
+                                </div>
+                                <div className='progressBar'>
+                                    <div className='progress'></div>
+                                </div>
+                                <div className='cardButton'>
+                                    <Link>Continue</Link>
                                 </div>
                             </div>
-                            <div className='progressBar'>
-                                <div className='progress'></div>
-                            </div>
-                            <div className='cardButton'>
-                                <Link>Continue</Link>
-                            </div>
-                        </div>
 
-                        {/* <div className='card'>
+
+
+                            <div className='card'>
+                                <div className='cardHeader'>
+                                    <h1>COURSE 3</h1>
+                                    <div className='bullet'></div>
+                                    <Link>SEE DETAILS</Link>
+                                </div>
+                                <div className='cardBody'>
+                                    <div className='bodyText'>
+                                        <h4>Reporting and Responding to Phishing Attempts</h4>
+                                        <p>Learn how to report suspicious emails to the appropriate authorities</p>
+                                        <h3>3 UNITS</h3>
+                                    </div>
+                                    <div className='bodyImage'>
+                                        <img src={card3} />
+                                    </div>
+                                </div>
+                                <div className='progressBar'>
+                                    <div className='progress'></div>
+                                </div>
+                                <div className='cardButton'>
+                                    <Link>Continue</Link>
+                                </div>
+                            </div>
+
+                            {/* <div className='card'>
                             <div className='cardContent'>
                                 <div>
                                     <div className='cardText'>
@@ -247,65 +250,65 @@ function Dashboard() {
                             </div>
 
                         </div> */}
-                    </div>
-                    <div className='rightCardBox'>
-                        <div className='smallCard'>
-                            <div className='smallCardTextBox'>
-                                <h2>Try Cyber Plus For Free</h2>
-                                <p>No ads, advanced challenges and special rewards!</p>
-                                <Link className='smallCardButton'>Try 7 Days For Free</Link>
-                            </div>
-                            <img src={card4} />
                         </div>
-
-
-                        <div className='smallCard'>
-                            <img src={card5} className='trophyImage' />
-                            <div className='smallCardTextBox'>
-                                <h2>Shield Master League</h2>
-                                <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
-                                <Link className='smallCardLink'>VIEW LEAGUE</Link>
-                            </div>
-                        </div>
-
-
-                        <div className='smallCard'>
-                            <div className='smallCardTextBox'>
-                                <h2>ShieldEd Chest</h2>
-                                <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
-                                <div className='progressBar'>
-                                    <div className='progress'></div>
+                        <div className='rightCardBox'>
+                            <div className='smallCard'>
+                                <div className='smallCardTextBox'>
+                                    <h2>Try Cyber Plus For Free</h2>
+                                    <p>No ads, advanced challenges and special rewards!</p>
+                                    <Link className='smallCardButton'>Try 7 Days For Free</Link>
                                 </div>
-                                <Link className='smallCardLink'>SEE ALL</Link>
+                                <img src={card4} />
                             </div>
-                            <img src={card6} />
-                        </div>
 
 
-                        <div className='advertCard'>
-                            <div className='advertCardTextBox'>
-                                <h1>6 Month Intensive Fellowship</h1>
-                                <h3>Calling on African women to learn a digital skill for free</h3>
-                            </div>
-                            <div className='advertLinks'>
-                                <div className='advertIcons'>
-                                    <CloseOutlinedIcon />
-                                    <InfoOutlinedIcon />
+                            <div className='smallCard'>
+                                <img src={card5} className='trophyImage' />
+                                <div className='smallCardTextBox'>
+                                    <h2>Shield Master League</h2>
+                                    <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
+                                    <Link className='smallCardLink'>VIEW LEAGUE</Link>
                                 </div>
-                                <Link>Women Techstars Fellowship</Link>
                             </div>
-                            <center>
-                                <Link className='removeAdvert'>REMOVE ADS</Link>
-                            </center>
+
+
+                            <div className='smallCard'>
+                                <div className='smallCardTextBox'>
+                                    <h2>ShieldEd Chest</h2>
+                                    <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
+                                    <div className='progressBar'>
+                                        <div className='progress'></div>
+                                    </div>
+                                    <Link className='smallCardLink'>SEE ALL</Link>
+                                </div>
+                                <img src={card6} />
+                            </div>
+
+
+                            <div className='advertCard'>
+                                <div className='advertCardTextBox'>
+                                    <h1>6 Month Intensive Fellowship</h1>
+                                    <h3>Calling on African women to learn a digital skill for free</h3>
+                                </div>
+                                <div className='advertLinks'>
+                                    <div className='advertIcons'>
+                                        <CloseOutlinedIcon />
+                                        <InfoOutlinedIcon />
+                                    </div>
+                                    <Link>Women Techstars Fellowship</Link>
+                                </div>
+                                <center>
+                                    <Link className='removeAdvert'>REMOVE ADS</Link>
+                                </center>
+                            </div>
                         </div>
                     </div>
+                    {/* Main content of your page */}
                 </div>
-                {/* Main content of your page */}
             </div>
-        </div>
 
         </>
-        
+
     )
 }
 
