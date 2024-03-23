@@ -778,7 +778,7 @@ body {
     height: calc(100vh - 300px);
     overflow-y: scroll;
     margin-bottom: 10px;
-    padding-bottom: 50vh;
+    padding-bottom: 100vh;
 }
 
 
