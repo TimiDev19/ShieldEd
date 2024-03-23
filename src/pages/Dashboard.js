@@ -72,6 +72,163 @@ function Dashboard() {
                 </div>
                 <div className="content">
                     <div className='contentNavbar'>
+                        <div className='welcomeText'>
+                            <h1>Welcome Back, Gabriella<br /> <span>What are you learning today ?</span></h1>
+                        </div>
+                        <div className='searchBox'>
+                            <input type='search' placeholder='search' className='searchInput' />
+                        </div>
+                        <div className='dropdownBox'>
+                            <select>
+                                <option>Understanding Phishing Attacks  </option>
+                                <option>Violin</option>
+                                <option>Saxophone</option>
+                                <option>None</option>
+                            </select>
+                        </div>
+                        <div className='currencyBox'>
+                            <div className='gameCurrency'>
+                                <h4><img src={icon} />100</h4>
+                                <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
+                                <h4><FavoriteIcon className='icons-heart' />10</h4>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className='cardContainer'>
+                        <div className='leftCardBox'>
+                            <div className='card'>
+                                <div className='cardHeader'>
+                                    <h1>COURSE 1</h1>
+                                    <div className='bullet'></div>
+                                    <Link>SEE DETAILS</Link>
+                                </div>
+                                <div className='cardBody'>
+                                    <div className='bodyText'>
+                                        <h4>Recognising Phishing Emails</h4>
+                                        <p>Learn about the various tactics used by cybercriminals to deceive users.</p>
+                                        <h3>3 UNITS</h3>
+                                    </div>
+                                    <div className='bodyImage'>
+                                        <img src={card1} />
+                                    </div>
+                                </div>
+                                <div className='progressBar'>
+                                    <div className='progress'></div>
+                                </div>
+                                <div className='cardButton'>
+                                    <Link>Continue</Link>
+                                </div>
+                            </div>
+
+                            <div className='card'>
+                                <div className='cardHeader'>
+                                    <h1>COURSE 2</h1>
+                                    <div className='bullet'></div>
+                                    <Link>SEE DETAILS</Link>
+                                </div>
+                                <div className='cardBody'>
+                                    <div className='bodyText'>
+                                        <h4>Avoiding Phishing Scams</h4>
+                                        <p>Learn the psychological manipulation techniques used by cybercriminals</p>
+                                        <h3>3 UNITS</h3>
+                                    </div>
+                                    <div className='bodyImage'>
+                                        <img src={card2} />
+                                    </div>
+                                </div>
+                                <div className='progressBar'>
+                                    <div className='progress'></div>
+                                </div>
+                                <div className='cardButton'>
+                                    <Link>Continue</Link>
+                                </div>
+                            </div>
+
+                            <div className='card'>
+                                <div className='cardHeader'>
+                                    <h1>COURSE 3</h1>
+                                    <div className='bullet'></div>
+                                    <Link>SEE DETAILS</Link>
+                                </div>
+                                <div className='cardBody'>
+                                    <div className='bodyText'>
+                                        <h4>Reporting and Responding to Phishing Attempts</h4>
+                                        <p>Learn how to report suspicious emails to the appropriate authorities</p>
+                                        <h3>3 UNITS</h3>
+                                    </div>
+                                    <div className='bodyImage'>
+                                        <img src={card3} />
+                                    </div>
+                                </div>
+                                <div className='progressBar'>
+                                    <div className='progress'></div>
+                                </div>
+                                <div className='cardButton'>
+                                    <Link>Continue</Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='rightCardBox'>
+                            <div className='smallCard'>
+                                <div className='smallCardTextBox'>
+                                    <h2>Try Cyber Plus For Free</h2>
+                                    <p>No ads, advanced challenges and special rewards!</p>
+                                    <Link className='smallCardButton'>Try 7 Days For Free</Link>
+                                </div>
+                                <img src={card4} />
+                            </div>
+
+
+                            <div className='smallCard'>
+                                <img src={card5} className='trophyImage' />
+                                <div className='smallCardTextBox'>
+                                    <h2>Shield Master League</h2>
+                                    <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
+                                    <Link className='smallCardLink'>VIEW LEAGUE</Link>
+                                </div>
+                            </div>
+
+
+                            <div className='smallCard'>
+                                <div className='smallCardTextBox'>
+                                    <h2>ShieldEd Chest</h2>
+                                    <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
+                                    <div className='progressBar'>
+                                        <div className='progress'></div>
+                                    </div>
+                                    <Link className='smallCardLink'>SEE ALL</Link>
+                                </div>
+                                <img src={card6} />
+                            </div>
+
+
+                            <div className='advertCard'>
+                                <div className='advertCardTextBox'>
+                                    <h1>6 Month Intensive Fellowship</h1>
+                                    <h3>Calling on African women to learn a digital skill for free</h3>
+                                </div>
+                                <div className='advertLinks'>
+                                    <div className='advertIcons'>
+                                        <CloseOutlinedIcon />
+                                        <InfoOutlinedIcon />
+                                    </div>
+                                    <Link>Women Techstars Fellowship</Link>
+                                </div>
+                                <center>
+                                    <Link className='removeAdvert'>REMOVE ADS</Link>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    {/* <div className='contentNavbar'>
                         <div className='contentHeader'>
                             <div className='headerText'>
                                 <h2>Welcome Back, Gabriella <br /> <span>What are you learning today?</span></h2>
@@ -168,88 +325,8 @@ function Dashboard() {
                                 <div className='cardButton'>
                                     <Link>Continue</Link>
                                 </div>
-                            </div>
-
-                            {/* <div className='card'>
-                            <div className='cardContent'>
-                                <div>
-                                    <div className='cardText'>
-                                        <h3>COURSE 2</h3>
-                                        <div className='bullet'></div>
-                                        <Link>SEE DETAILS</Link>
-                                    </div>
-                                    <h3 className='cardTopic'>Avoiding Phishing Scams</h3>
-                                    <div className='cardBody'>
-                                        <div className='cardLeft'>
-                                            <div className='cardParagraph'>
-                                                <p>Learn the psychological manipulation techniques used by cybercriminals</p>
-                                            </div>
-                                            <h2>3 UNITS</h2>
-                                            <div className='progressBar'>
-                                                <div className='progress'></div>
-                                            </div>
-                                            <div className='cardButton'>
-                                                <Link>Continue</Link>
-                                            </div>
-                                        </div>
-                                        <img src={card2} />
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <div className='card'>
-                            <div className='cardContent'>
-                                <div>
-                                    <div className='cardText'>
-                                        <h3>COURSE 2</h3>
-                                        <div className='bullet'></div>
-                                        <Link>SEE DETAILS</Link>
-                                    </div>
-                                    <div className='cardParagraph'>
-                                        <p><span>Avoiding Phishing Scams</span> <br /> Learn the psychological manipulation techniques used by cybercriminals.</p>
-                                    </div>
-                                    <h2>3 UNITS</h2>
-                                    <div className='progressBar'>
-                                        <div className='progress'></div>
-                                    </div>
-                                    <div className='cardButton'>
-                                        <Link>Start Learning</Link>
-                                    </div>
-                                </div>
-                                <img src={card2} />
-                            </div>
-
-                        </div>
-
-
-                        <div className='card'>
-                            <div className='cardContent'>
-                                <div>
-                                    <div className='cardText'>
-                                        <h3>COURSE 3</h3>
-                                        <div className='bullet'></div>
-                                        <Link>SEE DETAILS</Link>
-                                    </div>
-                                    <div className='cardParagraph'>
-                                        <p><span>Reporting and Responding to Phishing Attempts</span> <br /> Learn how to report suspicious emails to the appropriate authorities</p>
-                                    </div>
-                                    <h2>3 UNITS</h2>
-                                    <div className='progressBar'>
-                                        <div className='progress'></div>
-                                    </div>
-                                    <div className='cardButton'>
-                                        <Link>Start Learning</Link>
-                                    </div>
-                                </div>
-                                <img src={card3} />
-                            </div>
-
-                        </div> */}
+                            </div> */}
+                    {/* 
                         </div>
                         <div className='rightCardBox'>
                             <div className='smallCard'>
@@ -302,7 +379,7 @@ function Dashboard() {
                                 </center>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Main content of your page */}
                 </div>
             </div>
