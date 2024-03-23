@@ -188,11 +188,48 @@ body {
     margin-bottom: 10px;
 }
 
+.profileBox{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    height: fit-content;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 10px;
+}
 
+.profileBox img{
+    height: 100%;
+    align-self: center;
+}
+
+.profileBox .profileText{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    align-self: center;
+}
+
+.profileBox .profileText h4{
+    font-size: 16px;
+    line-height: 10px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.profileBox .profileText h6{
+    margin-top: 7px;
+    font-weight: 300;
+}
+
+.profileBox .icons{
+    align-self: center;
+    padding-left: 10px;
+}
 
 .content {
     flex: 1;
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 /*
@@ -647,11 +684,11 @@ body {
 */
 
 .contentNavbar {
-    width: 100%;
-    height: 200px;
+    width: 73.5vw;
+    margin: auto;
+    height: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 10px;
 }
 
 .welcomeText {
@@ -675,15 +712,36 @@ body {
 .searchBox {
     display: flex;
     justify-content: right;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.searchBox .icons{
+    align-self: center;
+    color: #272727;
+}
+
+.searchBar{
+    display: flex;
+    width: 70%;
+    background-color: #F2F2F2;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .searchInput {
     align-self: center;
-    width: 100%;
+    width: 60%;
     height: 40px;
     border: none;
     background-color: #F2F2F2;
     border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.searchInput::placeholder{
+    font-size: 16px;
 }
 
 .dropdownBox {
@@ -693,10 +751,13 @@ body {
 }
 
 .dropdownBox select {
-    align-self: center;
+    align-self: top;
     height: 40px;
-    width: 70%;
+    width: 50%;
     border: none;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 16px;
 }
 
 .currencyBox .gameCurrency {
@@ -713,6 +774,8 @@ body {
     display: flex;
     align-self: center;
     font-size: 20px;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 /* .currencyBox .gameCurrency h4 .icons{
@@ -767,6 +830,10 @@ body {
     overflow-y: scroll;
     margin-bottom: 10px;
     padding-bottom: 300px;
+}
+
+.leftCardBox::-webkit-scrollbar, .rightCardBox::-webkit-scrollbar{
+    display: none;
 }
 
 .rightCardBox {
@@ -847,8 +914,14 @@ body {
     background-color: white;
     border-radius: 10px;
     margin-top: 0;
-    padding-top: 0;
+    padding: 0;
     box-shadow: 0 0 .05rem gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBar img{
+    align-self: center;
 }
 
 .progress {
@@ -856,6 +929,15 @@ body {
     width: 33%;
     background-color: #2389DE;
     border-radius: 10px;
+}
+
+.progressText{
+    width: 303%;
+    background-color: transparent;
+    height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
 }
 
 .bodyText h4 {
@@ -869,6 +951,10 @@ body {
     font-size: 16px;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.bodyImage img:nth-child(1){
+    height: 170px;
 }
 
 .bodyImage img {

@@ -8,7 +8,9 @@ import card4 from '../assets/card4.png'
 import card5 from '../assets/card5.png'
 import card6 from '../assets/card6.png'
 import icon from '../assets/newicon.png'
+import ShieldIcon from '@mui/icons-material/Shield';
 import '../styles/Dashboard.css'
+import SearchIcon from '@mui/icons-material/Search';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
@@ -22,6 +24,9 @@ import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import avatar from '../assets/Avatars.png';
+import LogoutIcon from '@mui/icons-material/Logout';
+
 
 function Dashboard() {
 
@@ -68,6 +73,14 @@ function Dashboard() {
                     <div className='sideBarBottom'>
                         <Link><div className='menuLink'><SettingsOutlinedIcon className='icons' />Settings</div></Link>
                         <Link><div className='menuLink'><HelpOutlineOutlinedIcon className='icons' />Help</div></Link>
+                        <div className='profileBox'>
+                            <img src={avatar} />
+                            <div className='profileText'>
+                                <h4>Gabriella Blu</h4>
+                                <h6>gabriella@gmail</h6>
+                            </div>
+                            <LogoutIcon className='icons' />
+                        </div>
                     </div>
                 </div>
                 <div className="content">
@@ -76,7 +89,10 @@ function Dashboard() {
                             <h1>Welcome Back, Gabriella<br /> <span>What are you learning today ?</span></h1>
                         </div>
                         <div className='searchBox'>
+                            <div className='searchBar'>
+                            <SearchIcon className='icons'/>
                             <input type='search' placeholder='search' className='searchInput' />
+                            </div>
                         </div>
                         <div className='dropdownBox'>
                             <select>
@@ -88,7 +104,7 @@ function Dashboard() {
                         </div>
                         <div className='currencyBox'>
                             <div className='gameCurrency'>
-                                <h4><img src={icon} />100</h4>
+                                <h4><ShieldOutlinedIcon className='icons' />100</h4>
                                 <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
                                 <h4><FavoriteIcon className='icons-heart' />10</h4>
                             </div>
@@ -115,7 +131,10 @@ function Dashboard() {
                                     </div>
                                 </div>
                                 <div className='progressBar'>
-                                    <div className='progress'></div>
+                                    <div className='progress'>
+                                        <div className='progressText'>1/3</div>
+                                    </div>
+                                    <img src={icon}/>
                                 </div>
                                 <div className='cardButton'>
                                     <Link>Continue</Link>
@@ -139,10 +158,13 @@ function Dashboard() {
                                     </div>
                                 </div>
                                 <div className='progressBar'>
-                                    <div className='progress'></div>
+                                    <div className='progress'>
+                                        <div className='progressText'>1/3</div>
+                                    </div>
+                                    <img src={icon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link>Continue</Link>
+                                    <Link>Start Learning</Link>
                                 </div>
                             </div>
 
@@ -163,10 +185,13 @@ function Dashboard() {
                                     </div>
                                 </div>
                                 <div className='progressBar'>
-                                    <div className='progress'></div>
+                                    <div className='progress'>
+                                        <div className='progressText'>1/3</div>
+                                    </div>
+                                    <img src={icon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link>Continue</Link>
+                                    <Link>Start Learning</Link>
                                 </div>
                             </div>
                         </div>
@@ -222,164 +247,6 @@ function Dashboard() {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-                    {/* <div className='contentNavbar'>
-                        <div className='contentHeader'>
-                            <div className='headerText'>
-                                <h2>Welcome Back, Gabriella <br /> <span>What are you learning today?</span></h2>
-                            </div>
-                            <input type='search' className='headerSearchbox' placeholder='search' />
-                        </div>
-                        <div className='headerHanger'>
-                            <select>
-                                <option>Understanding Phishing Attacks  </option>
-                                <option>Violin</option>
-                                <option>Saxophone</option>
-                                <option>None</option>
-                            </select>
-                            <div className='gameCurrency'>
-                                <h4><img src={icon} />100</h4>
-                                <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
-                                <h4><FavoriteIcon className='icons-heart' />10</h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='cardContainer'>
-                        <div className='leftCardBox'>
-                            <div className='card'>
-                                <div className='cardHeader'>
-                                    <h1>COURSE 1</h1>
-                                    <div className='bullet'></div>
-                                    <Link>SEE DETAILS</Link>
-                                </div>
-                                <div className='cardBody'>
-                                    <div className='bodyText'>
-                                        <h4>Recognising Phishing Emails</h4>
-                                        <p>Learn about the various tactics used by cybercriminals to deceive users.</p>
-                                        <h3>3 UNITS</h3>
-                                    </div>
-                                    <div className='bodyImage'>
-                                        <img src={card1} />
-                                    </div>
-                                </div>
-                                <div className='progressBar'>
-                                    <div className='progress'></div>
-                                </div>
-                                <div className='cardButton'>
-                                    <Link>Continue</Link>
-                                </div>
-                            </div>
-
-
-                            <div className='card'>
-                                <div className='cardHeader'>
-                                    <h1>COURSE 2</h1>
-                                    <div className='bullet'></div>
-                                    <Link>SEE DETAILS</Link>
-                                </div>
-                                <div className='cardBody'>
-                                    <div className='bodyText'>
-                                        <h4>Avoiding Phishing Scams</h4>
-                                        <p>Learn the psychological manipulation techniques used by cybercriminals</p>
-                                        <h3>3 UNITS</h3>
-                                    </div>
-                                    <div className='bodyImage'>
-                                        <img src={card2} />
-                                    </div>
-                                </div>
-                                <div className='progressBar'>
-                                    <div className='progress'></div>
-                                </div>
-                                <div className='cardButton'>
-                                    <Link>Continue</Link>
-                                </div>
-                            </div>
-
-
-
-                            <div className='card'>
-                                <div className='cardHeader'>
-                                    <h1>COURSE 3</h1>
-                                    <div className='bullet'></div>
-                                    <Link>SEE DETAILS</Link>
-                                </div>
-                                <div className='cardBody'>
-                                    <div className='bodyText'>
-                                        <h4>Reporting and Responding to Phishing Attempts</h4>
-                                        <p>Learn how to report suspicious emails to the appropriate authorities</p>
-                                        <h3>3 UNITS</h3>
-                                    </div>
-                                    <div className='bodyImage'>
-                                        <img src={card3} />
-                                    </div>
-                                </div>
-                                <div className='progressBar'>
-                                    <div className='progress'></div>
-                                </div>
-                                <div className='cardButton'>
-                                    <Link>Continue</Link>
-                                </div>
-                            </div> */}
-                    {/* 
-                        </div>
-                        <div className='rightCardBox'>
-                            <div className='smallCard'>
-                                <div className='smallCardTextBox'>
-                                    <h2>Try Cyber Plus For Free</h2>
-                                    <p>No ads, advanced challenges and special rewards!</p>
-                                    <Link className='smallCardButton'>Try 7 Days For Free</Link>
-                                </div>
-                                <img src={card4} />
-                            </div>
-
-
-                            <div className='smallCard'>
-                                <img src={card5} className='trophyImage' />
-                                <div className='smallCardTextBox'>
-                                    <h2>Shield Master League</h2>
-                                    <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
-                                    <Link className='smallCardLink'>VIEW LEAGUE</Link>
-                                </div>
-                            </div>
-
-
-                            <div className='smallCard'>
-                                <div className='smallCardTextBox'>
-                                    <h2>ShieldEd Chest</h2>
-                                    <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
-                                    <div className='progressBar'>
-                                        <div className='progress'></div>
-                                    </div>
-                                    <Link className='smallCardLink'>SEE ALL</Link>
-                                </div>
-                                <img src={card6} />
-                            </div>
-
-
-                            <div className='advertCard'>
-                                <div className='advertCardTextBox'>
-                                    <h1>6 Month Intensive Fellowship</h1>
-                                    <h3>Calling on African women to learn a digital skill for free</h3>
-                                </div>
-                                <div className='advertLinks'>
-                                    <div className='advertIcons'>
-                                        <CloseOutlinedIcon />
-                                        <InfoOutlinedIcon />
-                                    </div>
-                                    <Link>Women Techstars Fellowship</Link>
-                                </div>
-                                <center>
-                                    <Link className='removeAdvert'>REMOVE ADS</Link>
-                                </center>
-                            </div>
-                        </div>
-                    </div> */}
                     {/* Main content of your page */}
                 </div>
             </div>
