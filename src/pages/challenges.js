@@ -1,21 +1,21 @@
 import heartIcon from '../assets/heartIcon.png' 
-import { Link } from 'react-router-dom'
+import '../styles/challenges.css'
 
 const challenges = () => {
   return (
     <div className="challengesContainer">
-      <div className="progressBar">
-        <div className="progress">
-          <div className="progressText">1/5</div>
+      <div className="challengesBar">
+        <div className="challengesProg">
+          <div className="barText">1/5</div>
         </div>
         <img src={heartIcon}/>
       </div>
 
-      <p>Identifying Common Phishing Techniques</p>
-      <h3>
+      <h3>Identifying Common Phishing Techniques</h3>
+      <p className='text2'>
         A suspicious link has landed in your inbox. Is it a harmless URL or a
-        phishing trap? Analyze the email carefully and make your decision
-      </h3>
+        phishing trap? <br/> Analyze the email carefully and make your decision
+      </p>
     </div>
   );
 };
