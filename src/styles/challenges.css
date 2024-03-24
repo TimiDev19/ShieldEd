@@ -1,0 +1,37 @@
+.challemgesContainer{
+    display: block;
+    align-items: center;
+}
+
+.progressBar {
+    height: 15px;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 0;
+    box-shadow: 0 0 .05rem gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    height: 15px;
+    width: 40%;
+    background-color: #2389DE;
+    border-radius: 10px;
+}
+
+.progressText{
+    width: 303%;
+    background-color: transparent;
+    height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.progressBar img{
+    align-self: center;
+    height: 25px;
+}
