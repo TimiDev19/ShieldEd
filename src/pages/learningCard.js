@@ -56,12 +56,11 @@ const learningCard = () => {
                         </div>
                   </div>
               </div>
-              
-                  <div className='secondBtn'>
-                  <Link to="/challenges"><button className='btn2'>Start challenge <h4><WhatshotOutlinedIcon className='icons' /></h4></button></Link>
-                  </div>
             
 
+            </div>
+            <div className='secondBtn'>
+                  <Link to="/challenges"><button className='btn2'>Start challenge <h4><WhatshotOutlinedIcon className='icons' /></h4></button></Link>
             </div>
         </div>
         
