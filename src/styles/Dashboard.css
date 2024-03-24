@@ -879,7 +879,7 @@ body {
 }
 
 .cardHeader h1 {
-    font-size: 18px;
+    font-size: 16px;
     align-self: center;
     color: #2389DE;
     padding-right: 10px;
@@ -902,6 +902,7 @@ body {
 .cardBody {
     width: 100%;
     margin: auto;
+    margin-top: 0;
     height: fit-content;
     display: flex;
     justify-content: space-between;
@@ -945,6 +946,11 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 5px;
+}
+
+.bodyText p {
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .bodyText h3 {
