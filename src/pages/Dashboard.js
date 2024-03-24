@@ -105,7 +105,7 @@ function Dashboard() {
                         </div>
                         <div className='currencyBox'>
                             <div className='gameCurrency'>
-                                <h4><ShieldOutlinedIcon className='icons' />100</h4>
+                                <h4><img src={newIcon} />100</h4>
                                 <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
                                 <h4><FavoriteIcon className='icons-heart' />10</h4>
                             </div>
