@@ -8,6 +8,7 @@ import card4 from '../assets/card4.png'
 import card5 from '../assets/card5.png'
 import card6 from '../assets/card6.png'
 import icon from '../assets/newicon.png'
+import newIcon from '../assets/icon.png'
 import ShieldIcon from '@mui/icons-material/Shield';
 import '../styles/Dashboard.css'
 import SearchIcon from '@mui/icons-material/Search';
@@ -134,7 +135,7 @@ function Dashboard() {
                                     <div className='progress'>
                                         <div className='progressText'>1/3</div>
                                     </div>
-                                    <img src={icon}/>
+                                    <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
                                     <Link>Continue</Link>
@@ -161,7 +162,7 @@ function Dashboard() {
                                     <div className='progress'>
                                         <div className='progressText'>1/3</div>
                                     </div>
-                                    <img src={icon}/>
+                                    <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
                                     <Link>Start Learning</Link>
@@ -188,7 +189,7 @@ function Dashboard() {
                                     <div className='progress'>
                                         <div className='progressText'>1/3</div>
                                     </div>
-                                    <img src={icon}/>
+                                    <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
                                     <Link>Start Learning</Link>
