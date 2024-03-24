@@ -5,6 +5,7 @@ import subject2 from  '../assets/Subject2.png';
 import subject3 from '../assets/subject3.png';
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
+import WhatshotOutlinedIcon from '@mui/icons-material/WhatshotOutlined';
 
 const learningCard = () => {
   
@@ -55,6 +56,10 @@ const learningCard = () => {
                         </div>
                   </div>
               </div>
+              
+                  <div className='secondBtn'>
+                  <button className='btn2'>Start challenge <h4><WhatshotOutlinedIcon className='icons' /></h4></button>
+                  </div>
             
         </div>
         

@@ -126,3 +126,28 @@
   width: 40px;
   background-color: transparent;
 }
+
+.secondBtn {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.btn2 {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  background-color: #2389de;
+  padding:0px;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
