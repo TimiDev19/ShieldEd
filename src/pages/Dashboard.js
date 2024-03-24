@@ -130,7 +130,7 @@ function Dashboard() {
                                         <h3>3 UNITS</h3>
                                     </div>
                                     <div className='bodyImage'>
-                                        <img src={card1} className='card1img'/>
+                                        <img src={card1} />
                                     </div>
                                 </div>
                                 <div className='progressBar'>

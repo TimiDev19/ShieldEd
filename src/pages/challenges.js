@@ -1,4 +1,5 @@
 import heartIcon from '../assets/heartIcon.png' 
+import { Link } from 'react-router-dom'
 
 const challenges = () => {
   return (
