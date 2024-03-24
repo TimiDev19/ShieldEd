@@ -77,7 +77,7 @@ function Dashboard() {
                             <img src={avatar} />
                             <div className='profileText'>
                                 <h4>Gabriella Blu</h4>
-                                <h6>gabriella@gmail</h6>
+                                <h6>gabriella@gmail.com</h6>
                             </div>
                             <LogoutIcon className='icons' />
                         </div>
