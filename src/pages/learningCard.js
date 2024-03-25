@@ -23,9 +23,9 @@ const learningCard = () => {
             </div>
       
         
-              
 
-              <div className='learningCardBox'>
+            <div className='learningContainer'>
+            <div className='learningCardBox'>
                   <div className='learningCardGridBox'>
                         <div className='learningCard'>
                               <h3>Spoofed Email Address</h3>
@@ -56,6 +56,8 @@ const learningCard = () => {
                   </div>
               </div>
             
+
+            </div>
         </div>
         
       );

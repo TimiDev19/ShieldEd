@@ -126,3 +126,35 @@
   width: 40px;
   background-color: transparent;
 }
+
+@media (max-width: 900px) {
+  .App{
+    padding-bottom: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .learningCardGridBox{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .learningCard{
+    margin-bottom: 20px;
+  }
+  .loneLearningCardBox{
+    width: 100%;
+    padding: 0;
+  }
+  .learningCardBox .loneLearningCard{
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    background-color: #E9F3FC;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  /* .learningContainer{
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 100vh;
+  } */
+}
