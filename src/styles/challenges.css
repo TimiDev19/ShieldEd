@@ -1,0 +1,52 @@
+/* .challengesContainer{
+  display: block;
+  align-items: center;
+} */
+
+.challengesBar{
+  height: 15px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 220px;
+  box-shadow: 0 0 0.05rem gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.challengesProg{
+  height: 15px;
+  width: 20%;
+  margin-top: 20px;
+  background-color: #2389de;
+  border-radius: 10px;
+}
+
+.barText{
+  width: 600%;
+  background-color: transparent;
+  height: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.challengesBar img{
+  align-self: center;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.challengesContainer h3{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
+}
+.text2{
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-align: center;
+}

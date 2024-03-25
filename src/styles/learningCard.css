@@ -1,3 +1,4 @@
+
 .btn {
   text-align: center;
   border-radius: 13px;
@@ -11,26 +12,191 @@
 .learning {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.btn {
+  text-align: center;
+  border-radius: 17px;
+  background-color: white;
+  padding: 6px;
+  width: 70px;
+  height: 30px;
+  border: 1px solid #2389DE;
+
+}
+
+.learning {
+  text-align: center;
+  font-family: inter;
+
   margin-top: 30px;
 }
 
 .text {
   margin-top: 10px;
+
 }
 
 .secondBtn {
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.learning p{
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.learningCardBox{
+  width: 70%;
+  margin: auto;
+  height: fit-content;
+}
+
+.learningCardGridBox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.learningCard{
+  width: 90%;
+  margin: auto;
+  height: fit-content;
+  background-color: #E9F3FC;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.learningCard h3{
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.learningCard p{
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+.learningCard img{
+  width: 90%;
+  height: auto;
+}
+
+.learningCardBox{
+  margin-top: 20px;
+  align-self: center;
+}
+
+.learningCardBox .loneLearningCard{
+  width: 65%;
+  margin: auto;
+  height: fit-content;
+  background-color: #E9F3FC;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.learningCardBox .loneLearningCard p{
+  font-size: 14px;
+}
+
+.learningCardBox .loneLearningCard .imgBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.learningCardBox .loneLearningCard .imgBox img{
+  width: 60%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.lowerImage{
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.learningHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.learningHeader .icons{
+  padding: 26px;
+  padding-left: 15px;
+  align-self: top;
+  font-size: xx-large;
+  color: black;
+}
+
+.learningHeader .icons:hover{
+  color: #2389DE;
+}
+
+.hidden{
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+}
+
+
+@media (max-width: 900px) {
+  .App{
+    padding-bottom: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .learningCardGridBox{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .learningCard{
+    margin-bottom: 20px;
+  }
+  .loneLearningCardBox{
+    width: 100%;
+    padding: 0;
+  }
+  .learningCardBox .loneLearningCard{
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    background-color: #E9F3FC;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+/* .secondBtn {
   margin-top: 100px;
   text-align: center;
 }
 
 .btn2 {
+
   position: fixed;
+
+  position: absolute;
+
   bottom: 50px;
   text-align: center;
   border-radius: 4px;
   border: none;
   background-color: #2389de;
+
   padding: ;
+
+  padding:0px;
+
   text-decoration: none;
   width: 150px;
   height: 50px;
@@ -41,4 +207,36 @@
   cursor: pointer;
   margin-left: 600px;
   font-family: Arial, Helvetica, sans-serif;
+
 }
+
+} */
+
+.secondBtn{
+  width: fit-content;
+  margin: auto;
+}
+
+.secondBtn a{
+  text-decoration: none;
+}
+
+.btn2{
+  bottom: 50px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  background-color: #2389de;
+  padding:0px;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: inter;
+}
+

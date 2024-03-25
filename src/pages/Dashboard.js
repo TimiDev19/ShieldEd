@@ -93,7 +93,6 @@ function Dashboard() {
                         </div>
                         <div className='searchBox'>
                             <div className='searchBar'>
-                            <SearchIcon className='icons'/>
                             <input type='search' placeholder='search' className='searchInput' />
                             </div>
                         </div>
@@ -111,6 +110,14 @@ function Dashboard() {
                                 <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
                                 <h4><FavoriteIcon className='icons-heart' />10</h4>
                             </div>
+                        </div>
+                        <div  className='hiddenDropdown'>
+                        <select>
+                                <option>Understanding Phishing Attacks  </option>
+                                <option>Violin</option>
+                                <option>Saxophone</option>
+                                <option>None</option>
+                            </select>
                         </div>
                     </div>
 
