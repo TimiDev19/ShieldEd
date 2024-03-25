@@ -265,15 +265,6 @@ body {
     margin-bottom: 0;
 }
 
-.searchBox .icons{
-    align-self: center;
-    color: #272727;
-    position: absolute;
-    width: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
 .searchBar{
     display: flex;
     width: 70%;
@@ -292,13 +283,9 @@ body {
     padding: 5px 25px;
 }
 
-.searchInput:focus{
-    border-color: #2389DE;
-}
 
 .searchInput::placeholder{
     font-size: 16px;
-    padding: 25px;
 }
 
 .dropdownBox {

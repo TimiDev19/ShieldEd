@@ -93,7 +93,6 @@ function Dashboard() {
                         </div>
                         <div className='searchBox'>
                             <div className='searchBar'>
-                            <SearchIcon className='icons'/>
                             <input type='search' placeholder='search' className='searchInput' />
                             </div>
                         </div>
