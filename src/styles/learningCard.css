@@ -1,3 +1,18 @@
+
+.btn {
+  text-align: center;
+  border-radius: 13px;
+  background-color: white;
+  padding: 6px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.learning {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
 @import url('https://fonts.cdnfonts.com/css/inter');
 
 .btn {
@@ -14,11 +29,17 @@
 .learning {
   text-align: center;
   font-family: inter;
+
   margin-top: 30px;
 }
 
 .text {
   margin-top: 10px;
+
+}
+
+.secondBtn {
+
   font-size: 18px;
   font-weight: 500;
 }
@@ -161,13 +182,21 @@
 }
 
 .btn2 {
+
+  position: fixed;
+
   position: absolute;
+
   bottom: 50px;
   text-align: center;
   border-radius: 4px;
   border: none;
   background-color: #2389de;
+
+  padding: ;
+
   padding:0px;
+
   text-decoration: none;
   width: 150px;
   height: 50px;
@@ -178,6 +207,9 @@
   cursor: pointer;
   margin-left: 600px;
   font-family: Arial, Helvetica, sans-serif;
+
+}
+
 } */
 
 .secondBtn{
@@ -207,3 +239,4 @@
   margin-top: 10px;
   font-family: inter;
 }
+

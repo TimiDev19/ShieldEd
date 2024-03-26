@@ -4,7 +4,7 @@ import subject from '../assets/Subject.png';
 import subject2 from  '../assets/Subject2.png';
 import subject3 from '../assets/subject3.png';
 import CloseIcon from '@mui/icons-material/Close';
-import { Link } from 'react-router-dom';
+
 import WhatshotOutlinedIcon from '@mui/icons-material/WhatshotOutlined';
 
 const learningCard = () => {
@@ -12,13 +12,26 @@ const learningCard = () => {
     return (
         <div className="App">
 
+             
+              <div className='learning'>
+
             <div className='learningHeader'>
                   <Link to='/'><CloseIcon className='icons'/></Link>
                   <div className='learning'>
+
               <button className='btn'>UNIT 1</button>
               <h4 className="text">Common Phishing Techniques</h4>
               <p className="text-two">Before you begin the challenge, let's learn about common tactics used by <br/>cybercriminals in phishing attacks.</p>
               </div>
+
+              
+              <div>
+              
+              </div>
+              
+              <div className='secondBtn'>
+              <button className='btn2'>Start challenge <h4><WhatshotOutlinedIcon className='icons' /></h4></button>
+
 
               <div className='hidden'></div>
             </div>
@@ -55,6 +68,7 @@ const learningCard = () => {
                               </div>
                         </div>
                   </div>
+
               </div>
             
 
@@ -69,11 +83,3 @@ const learningCard = () => {
 
 export default learningCard;
 
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-  
-// }
-
-// export default App;
