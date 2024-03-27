@@ -1,5 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
+.learningBody{
+  height: 100vh;
+  overflow-y: scroll;
+}
+
 .btn {
   text-align: center;
   border-radius: 17px;

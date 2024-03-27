@@ -147,7 +147,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                <Link to="/courses">Continue</Link>
+                                <Link to="/learningCard">Continue</Link>
                                 </div>
                             </div>
 
@@ -174,7 +174,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link to=''>Start Learning</Link>
+                                    <Link>Start Learning</Link>
                                 </div>
                             </div>
 
