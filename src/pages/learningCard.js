@@ -11,9 +11,9 @@ const learningCard = () => {
   
     return (
         <div className="App">
-
+            <div className='learningBody'>
             <div className='learningHeader'>
-                  <Link to='/'><CloseIcon className='icons'/></Link>
+                  <Link to='/courses'><CloseIcon className='icons'/></Link>
                   <div className='learning'>
               <button className='btn'>UNIT 1</button>
               <h4 className="text">Common Phishing Techniques</h4>
@@ -61,6 +61,8 @@ const learningCard = () => {
             </div>
             <div className='secondBtn'>
                   <Link to="/challenges"><button className='btn2'>Start challenge <h4><WhatshotOutlinedIcon className='icons' /></h4></button></Link>
+            </div>
+
             </div>
         </div>
         
