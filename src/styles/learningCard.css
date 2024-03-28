@@ -1,13 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-/* .App{
-  max-height: 100vh;
+.learningBody{
+  height: 100vh;
   overflow-y: scroll;
 }
-
-.App::-webkit-scrollbar{
-  display: none;
-} */
 
 .btn {
   text-align: center;

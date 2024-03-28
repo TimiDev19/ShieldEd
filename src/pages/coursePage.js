@@ -9,8 +9,9 @@ import card5 from '../assets/card5.png'
 import card6 from '../assets/card6.png'
 import icon from '../assets/newicon.png'
 import newIcon from '../assets/icon.png'
+import HexagonRoundedIcon from '@mui/icons-material/HexagonRounded';
 import ShieldIcon from '@mui/icons-material/Shield';
-import '../styles/Dashboard.css'
+// import '../styles/Courses.css'
 import SearchIcon from '@mui/icons-material/Search';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
@@ -27,22 +28,22 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import avatar from '../assets/Avatars.png';
 import LogoutIcon from '@mui/icons-material/Logout';
+import KeyboardBackspaceRoundedIcon from '@mui/icons-material/KeyboardBackspaceRounded';
 import learningCard from './learningCard';
-import LandingPage from './LandingPage'
+import { HexagonRounded } from '@mui/icons-material'
 
 
+function coursePage() {
 
-function Dashboard() {
+    // const [isMenuOpen, setMenuOpen] = useState(false);
 
-    const [isMenuOpen, setMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setMenuOpen(!isMenuOpen);
-    };
+    // const toggleMenu = () => {
+    //     setMenuOpen(!isMenuOpen);
+    // };
 
     return (
         <>
-            <nav className="navbar">
+            {/* <nav className="navbar">
                 <div className="logo"><img src={Logo} /></div>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
@@ -55,7 +56,7 @@ function Dashboard() {
                     <li><Link><div className='menuLink'>HELP</div></Link></li>
                 </ul>
                 <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
-            </nav>
+            </nav> */}
 
 
             <div className="page-container">
@@ -89,27 +90,11 @@ function Dashboard() {
                 </div>
                 <div className="content">
                     <div className='contentNavbar'>
-                        <div className='welcomeText'>
-                            <h1>Welcome Back, Gabriella<br /> <span>What are you learning today ?</span></h1>
-                        </div>
-                        <div className='searchBox'>
-                            <div className='searchBar'>
-                            <input type='search' placeholder='search' className='searchInput' />
-                            </div>
-                        </div>
                         <div className='dropdownBox'>
-                            <select>
-                                <option>Understanding Phishing Attacks  </option>
-                                <option>Password Security Best Practices</option>
-                                <option>Safe Web Browsing and Online Behavior</option>
-                                <option>Securing Your Mobile Devices</option>
-                                <option>Protecting Personal Data Online</option>
-                                <option>Intro to Two-Factor Authentication (2FA)</option>
-                                <option>Recognising AND aVOIDING Scams</option>
-                                <option>Privacy Settings on Social Media Platforms</option>
-                                <option>Cyberbullying and Online Harassment</option>
-                                {/* <option>None</option> */}
-                            </select>
+                            <div className='lefSideOfNavbar'>
+                                <Link to="/"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
+                                <h2>Understanding Phishing Attacks</h2>
+                            </div>
                         </div>
                         <div className='currencyBox'>
                             <div className='gameCurrency'>
@@ -118,8 +103,8 @@ function Dashboard() {
                                 <h4><FavoriteIcon className='icons-heart' />10</h4>
                             </div>
                         </div>
-                        <div  className='hiddenDropdown'>
-                        <select>
+                        <div className='hiddenDropdown'>
+                            <select>
                                 <option>Understanding Phishing Attacks  </option>
                                 <option>Violin</option>
                                 <option>Saxophone</option>
@@ -131,86 +116,38 @@ function Dashboard() {
 
                     <div className='cardContainer'>
                         <div className='leftCardBox'>
-                            <div className='card'>
-                                <div className='cardHeader'>
-                                    <h1>COURSE 1</h1>
-                                    <div className='bullet'></div>
-                                    <Link>SEE DETAILS</Link>
+                            {/* <div className="hexagon-container">
+                                <div className='hexagonIconBox'>
+                                    <HexagonRounded className='icons' />
                                 </div>
-                                <div className='cardBody'>
-                                    <div className='bodyText'>
-                                        <h4>Recognising Phishing Emails</h4>
-                                        <p>Learn about the various tactics used by cybercriminals to deceive users.</p>
-                                        <h3>3 UNITS</h3>
-                                    </div>
-                                    <div className='bodyImage'>
-                                        <img src={card1} />
-                                    </div>
+                            </div> */}
+
+                            <div className='learningCardHeader'>
+                                <div className='learningCardHeaderText'>
+                                    <h4>UNIT 1</h4>
+                                    <h2>Common Phishing Techniques</h2>
                                 </div>
-                                <div className='progressBar'>
-                                    <div className='progress'>
-                                        <div className='progressText'>1/3</div>
-                                    </div>
-                                    <img src={newIcon}/>
-                                </div>
-                                <div className='cardButton'>
-                                <Link to="/courses">Continue</Link>
-                                </div>
+                                <Link to="/learningCard">Learning Cards</Link>
                             </div>
 
-                            <div className='card'>
-                                <div className='cardHeader'>
-                                    <h1>COURSE 2</h1>
-                                    <div className='bullet'></div>
-                                    <Link>SEE DETAILS</Link>
+                            <div className='learningCardHeader'>
+                                <div className='learningCardHeaderText'>
+                                    <h4>UNIT 2</h4>
+                                    <h2>Spotting Suspicious Sender Addresses</h2>
                                 </div>
-                                <div className='cardBody'>
-                                    <div className='bodyText'>
-                                        <h4>Avoiding Phishing Scams</h4>
-                                        <p>Learn the psychological manipulation techniques used by cybercriminals</p>
-                                        <h3>3 UNITS</h3>
-                                    </div>
-                                    <div className='bodyImage'>
-                                        <img src={card2} />
-                                    </div>
-                                </div>
-                                <div className='progressBar'>
-                                    <div className='progress'>
-                                        <div className='progressText'>1/3</div>
-                                    </div>
-                                    <img src={newIcon}/>
-                                </div>
-                                <div className='cardButton'>
-                                    <Link to=''>Start Learning</Link>
-                                </div>
+                                <Link to="/learningCard">Learning Cards</Link>
                             </div>
 
-                            <div className='card'>
-                                <div className='cardHeader'>
-                                    <h1>COURSE 3</h1>
-                                    <div className='bullet'></div>
-                                    <Link>SEE DETAILS</Link>
+                            <div className='learningCardHeader'>
+                                <div className='learningCardHeaderText'>
+                                    <h4>UNIT 3</h4>
+                                    <h2>Analyzing Phishing Email Content</h2>
                                 </div>
-                                <div className='cardBody'>
-                                    <div className='bodyText'>
-                                        <h4>Reporting and Responding to Phishing Attempts</h4>
-                                        <p>Learn how to report suspicious emails to the appropriate authorities</p>
-                                        <h3>3 UNITS</h3>
-                                    </div>
-                                    <div className='bodyImage'>
-                                        <img src={card3} />
-                                    </div>
-                                </div>
-                                <div className='progressBar'>
-                                    <div className='progress'>
-                                        <div className='progressText'>1/3</div>
-                                    </div>
-                                    <img src={newIcon}/>
-                                </div>
-                                <div className='cardButton'>
-                                    <Link to="/LandingPage">Start Learning</Link>
-                                </div>
+                                <Link to="/learningCard">Learning Cards</Link>
                             </div>
+
+
+
                         </div>
                         <div className='rightCardBox'>
                             <div className='smallCard'>
@@ -269,8 +206,7 @@ function Dashboard() {
             </div>
 
         </>
-
     )
 }
 
-export default Dashboard
+export default coursePage
