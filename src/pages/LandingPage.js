@@ -42,11 +42,6 @@ const LandingPage = () => {
                 </div>
 
             </div>
-
-            <div className='card4Container'>
-                <h1>Join our cybersecurity awareness <br/> community</h1>
-                <img src={LPTestimonials}/>
-            </div>
         </div>
     );
 }

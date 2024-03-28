@@ -116,7 +116,7 @@
 
 .icons{
     margin-left: 8px;
-    margin-right: 8px;
+    margin-top: 4px;
 }
 
 .button2{
@@ -131,25 +131,14 @@
     font-size: 18px;
     background-color: #2389de;
     cursor: pointer;
-
-}
-
-.card4Container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-}
-
-.card4Container h1{
-    width: 1257px;
-    font-family: inter;
-    font-weight: 500;
-    font-size: 50px;
     text-align: center;
-    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+
 
 
 
