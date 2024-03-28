@@ -28,6 +28,7 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import avatar from '../assets/Avatars.png';
 import LogoutIcon from '@mui/icons-material/Logout';
 import learningCard from './learningCard';
+import LandingPage from './LandingPage'
 
 
 
@@ -201,7 +202,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link>Start Learning</Link>
+                                    <Link to="/LandingPage">Start Learning</Link>
                                 </div>
                             </div>
                         </div>
