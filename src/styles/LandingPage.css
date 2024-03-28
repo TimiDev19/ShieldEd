@@ -5,6 +5,12 @@ body {
   width: 100%;
 }
 
+.learningBody{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
 .sectionThree {
   display: flex;
   width: 100%;
@@ -58,3 +64,31 @@ body {
   height: 280px;
   width: auto;
 }
+/* design for card questions */
+  
+  .card h3{
+  display: block;
+  width: 100%;
+  }
+   
+ 
+  .card-container {
+    display: flex;
+    margin: 30px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px; 
+    background-color:#2389DE; 
+    color: white;
+    font-size: small;
+  }
+ 
+  
+  
