@@ -89,10 +89,10 @@ function coursePage() {
                     </div>
                 </div>
                 <div className="content">
-                    <div className='contentNavbar'>
+                    <div className='courseContentNavbar'>
                         <div className='dropdownBox'>
                             <div className='lefSideOfNavbar'>
-                                <Link to="/"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
+                                <Link to="/dashboard"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
                                 <h2>Understanding Phishing Attacks</h2>
                             </div>
                         </div>

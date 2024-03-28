@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.learningCardHeader{
+    display: flex;
+    padding: 10px 20px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.learningCardHeader h4{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: inter;
+}
+
+.learningCardHeader h2{
+    font-size: 20px;
+    font-family: inter;
+}
+
+.learningCardHeader a{
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #2389DE;
+    border-radius: 5px;
+    font-family: inter;
+    font-size: 14px;
+}
+
+.lefSideOfNavbar{
+    display: flex;
+    height: fit-content;
+}
+
+.lefSideOfNavbar a{
+    align-self: center;
+    padding-right: 10px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.lefSideOfNavbar h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.courseContentNavbar {
+    width: auto;
+    margin: auto;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 0;
+}

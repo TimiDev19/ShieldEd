@@ -83,7 +83,7 @@ function Dashboard() {
                                 <h4>Gabriella Blu</h4>
                                 <h6>gabriella@gmail.com</h6>
                             </div>
-                            <LogoutIcon className='icons' />
+                            <Link to='/'><LogoutIcon className='icons' /></Link>
                         </div>
                     </div>
                 </div>
@@ -105,10 +105,6 @@ function Dashboard() {
                                 <option>Securing Your Mobile Devices</option>
                                 <option>Protecting Personal Data Online</option>
                                 <option>Intro to Two-Factor Authentication (2FA)</option>
-                                <option>Recognising AND aVOIDING Scams</option>
-                                <option>Privacy Settings on Social Media Platforms</option>
-                                <option>Cyberbullying and Online Harassment</option>
-                                {/* <option>None</option> */}
                             </select>
                         </div>
                         <div className='currencyBox'>
@@ -181,7 +177,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link to=''>Start Learning</Link>
+                                    <Link to='/landingPage'>Start Learning</Link>
                                 </div>
                             </div>
 
