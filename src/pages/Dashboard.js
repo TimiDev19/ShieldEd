@@ -99,9 +99,15 @@ function Dashboard() {
                         <div className='dropdownBox'>
                             <select>
                                 <option>Understanding Phishing Attacks  </option>
-                                <option>Violin</option>
-                                <option>Saxophone</option>
-                                <option>None</option>
+                                <option>Password Security Best Practices</option>
+                                <option>Safe Web Browsing and Online Behavior</option>
+                                <option>Securing Your Mobile Devices</option>
+                                <option>Protecting Personal Data Online</option>
+                                <option>Intro to Two-Factor Authentication (2FA)</option>
+                                <option>Recognising AND aVOIDING Scams</option>
+                                <option>Privacy Settings on Social Media Platforms</option>
+                                <option>Cyberbullying and Online Harassment</option>
+                                {/* <option>None</option> */}
                             </select>
                         </div>
                         <div className='currencyBox'>
