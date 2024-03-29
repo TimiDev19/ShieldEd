@@ -11,7 +11,7 @@ import icon from '../assets/newicon.png'
 import newIcon from '../assets/icon.png'
 import HexagonRoundedIcon from '@mui/icons-material/HexagonRounded';
 import ShieldIcon from '@mui/icons-material/Shield';
-// import '../styles/Courses.css'
+import '../styles/Courses.css'
 import SearchIcon from '@mui/icons-material/Search';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
