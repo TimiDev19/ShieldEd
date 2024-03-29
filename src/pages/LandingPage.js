@@ -10,7 +10,7 @@ const LandingPage = () => {
     return (
         
         <div className='fullLP'>
-            <div className='card3Container' style={{backgroundImage:`url(${patternLP})`, backgroundSize: `cover`, backgroundPosition:`center` }}>
+            <div className='card3Container' style={{backgroundImage:`url(${patternLP})`,backgroundSize: `100% 100%`,  backgroundPosition:`center`, backgroundRepeat:`no-repeat` }}>
                 <div className='header'>
                     <header> Cyber Security Training <br/>for Every Department</header>
                 </div>
