@@ -28,6 +28,7 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import avatar from '../assets/Avatars.png';
 import LogoutIcon from '@mui/icons-material/Logout';
 import learningCard from './learningCard';
+import LandingPage from './LandingPage'
 
 
 
@@ -104,9 +105,6 @@ function Dashboard() {
                                 <option>Securing Your Mobile Devices</option>
                                 <option>Protecting Personal Data Online</option>
                                 <option>Intro to Two-Factor Authentication (2FA)</option>
-                                <option>Recognizing and Avoiding Scams</option>
-                                <option>Privacy Settings on Social Media Platforms</option>
-                                <option>Cyberbullying and Online Harassment</option>
                             </select>
                         </div>
                         <div className='currencyBox'>
@@ -206,7 +204,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link>Start Learning</Link>
+                                    <Link to="/LandingPage">Start Learning</Link>
                                 </div>
                             </div>
                         </div>

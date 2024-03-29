@@ -2,11 +2,16 @@ import './App.css';
 import Dashboard from './pages/Dashboard';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import learningCard from './pages/learningCard.js';
+import landingPage from './pages/LandingPage.js';
 import challenges from './pages/challenges.js';
 import coursePage from './pages/coursePage';
+
 import LandingPage from './pages/LandingPage';
 import loginPage from './pages/loginPage';
 import signupPage from './pages/signupPage';
+
+import { lazy } from 'react';
+
 
 function App() {
   return (
