@@ -123,6 +123,7 @@ const LandingPage = () => {
                     </div>
                     <div className='sectionThreeHorizontalCardRight'>
                         <img src={section3image} />
+
                     </div>
                 </div>
 
@@ -148,7 +149,6 @@ const LandingPage = () => {
                         <div className='sectionThreeGridLeftImageBox'>
                         <img className='sectionImageRight' src={sectionThreeIconTwo} />
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -220,33 +220,7 @@ const LandingPage = () => {
                             </div>
                         </div>
 
-                        <div className='communityCard'>
-                            <img src={LandingAvatar3} />
-                            <div className='communityCardText'>
-                                <h2 className='special'>Oluwabukola Aderinsola</h2>
-                                <h6>Paris, France</h6>
-                                <p>
-                                    Encountered a suspicious email today <br /> claiming to be from my
-                                    bank. Has anyone <br />else experienced something similar?
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-
-                    <div className='communityCard'>
-                        <img src={LandingAvatar4} />
-                        <div className='communityCardText'>
-                            <h2>Chen Wei</h2>
-                            <h6>Shanghai, China</h6>
-                            <p>
-                                "Need help identifying a potentially<br />
-                                malicious app on my smartphone. It's been <br />
-                                draining battery and displaying strange <br />
-                                behavior. Any advice on how to proceed?
-                            </p>
-                        </div>
-                    </div>
 
                     <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
                         <div className='linkBox'>
@@ -311,7 +285,10 @@ const LandingPage = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
+            </div>
+
         </div>
     );
 }
