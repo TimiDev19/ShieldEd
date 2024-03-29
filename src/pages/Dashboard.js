@@ -82,7 +82,7 @@ function Dashboard() {
                                 <h4>Gabriella Blu</h4>
                                 <h6>gabriella@gmail.com</h6>
                             </div>
-                            <LogoutIcon className='icons' />
+                            <Link to='/'><LogoutIcon className='icons' /></Link>
                         </div>
                     </div>
                 </div>
@@ -99,9 +99,14 @@ function Dashboard() {
                         <div className='dropdownBox'>
                             <select>
                                 <option>Understanding Phishing Attacks  </option>
-                                <option>Violin</option>
-                                <option>Saxophone</option>
-                                <option>None</option>
+                                <option>Password Security Best Practices</option>
+                                <option>Safe Web Browsing and Online Behavior</option>
+                                <option>Securing Your Mobile Devices</option>
+                                <option>Protecting Personal Data Online</option>
+                                <option>Intro to Two-Factor Authentication (2FA)</option>
+                                <option>Recognizing and Avoiding Scams</option>
+                                <option>Privacy Settings on Social Media Platforms</option>
+                                <option>Cyberbullying and Online Harassment</option>
                             </select>
                         </div>
                         <div className='currencyBox'>
@@ -174,7 +179,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link to=''>Start Learning</Link>
+                                    <Link to='/landingPage'>Start Learning</Link>
                                 </div>
                             </div>
 
