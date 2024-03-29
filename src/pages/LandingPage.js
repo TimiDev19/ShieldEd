@@ -19,6 +19,9 @@ import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIcon from "../assets/sectionThreeIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
+import section3icon from '../assets/section3icon.png'
+import section3image from '../assets/section3image.png'
+import section3image1 from '../assets/section3image1.png'
 
 import LPtraining from '../assets/LPtraining.png'
 import LPTestimonials from '../assets/LPTestimonials.png'
@@ -105,32 +108,42 @@ const LandingPage = () => {
 
 
             <div className="sectionThree">
-                <div className="leftSide">
-                    <div className="leftIcon">
-                        <img src={leftIcon} />
+                <h1>Feel the best experince<br/> with our features</h1>
+
+                <div className='sectionThreeHorizontalCard'>
+                    <div className='sectionThreeHorizontalCardLeft'>
+                        <img src={section3icon}/>
+                        <h1>Free Bite-Sized Lessons</h1>
+                        <p>
+                        With quick, bite-sized lessons, you’ll earn <br/>
+                        points and unlock new levels while gaining <br/>
+                        practical cybersecurity skills.
+                        </p>
+                        
                     </div>
-                    <h4>We Keep You Motivated</h4>
-                    <p className="smallText">
-                        With game-like features, interactive challenges, and <br /> friendly
-                        reminders, we ensure that learning adventure.
-                    </p>
-                    <div className="imageOne">
-                        <img src={sectionThreeIcon} />
+                    <div className='sectionThreeHorizontalCardRight'>
+                        <img src={section3image}/>
                     </div>
                 </div>
-                <div className="rightSide">
-                    <div className="rightIcon">
-                        <img src={rightIcon} />
-                    </div>
-                    <h4>Complete and Earn Rewards</h4>
-                    <p className="smallTextTwo">
-                        Track your progress, challenge yourself, and climb the <br />
-                        ranks. See how you measure up against peers as you <br />
-                        master cybersecurity skills and earn rewards
-                    </p>
 
-                    <div className="imageTwo">
-                        <img src={sectionThreeIconTwo} />
+                <div className='sectionThreeGrid'>
+                    <div className='sectionThreeGridLeft'>
+                        <img src={leftIcon}/>
+                        <h1>We Keep You Motivated</h1>
+                        <p>
+                        With game-like features, interactive challenges, and <br/>
+                        friendly reminders, we ensure that learning adventure.
+                        </p>
+                        <img className='sectionImage' src={section3image1}/>
+                    </div>
+                    <div className='sectionThreeGridLeft'>
+                        <img src={rightIcon}/>
+                        <h1>We Keep You Motivated</h1>
+                        <p>
+                        With game-like features, interactive challenges, and <br/>
+                        friendly reminders, we ensure that learning adventure.
+                        </p>
+                        <img className='sectionImageRight' src={sectionThreeIconTwo}/>
                     </div>
                 </div>
             </div>
@@ -169,11 +182,8 @@ const LandingPage = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
-                    <div className='communitySection'>
+                </div>
+                <div className='communitySection'>
                         <h2>Join our cybersecurity awareness community</h2>
                         <div className='communityCard'>
                             <img src={LandingAvatar1} />
@@ -294,7 +304,6 @@ const LandingPage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     );
