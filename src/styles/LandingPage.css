@@ -418,7 +418,6 @@ body {
 .sectionThreeHorizontalCardLeft img{
     height: 50px;
     width: 50px;
-
 }
 
 .sectionThreeHorizontalCardLeft h1{
@@ -500,6 +499,8 @@ body {
     align-self: center;
     justify-self: center;
 }
+
+
 
 
 .imageOne img {
