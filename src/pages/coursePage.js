@@ -12,10 +12,14 @@ import newIcon from '../assets/icon.png'
 import HexagonRoundedIcon from '@mui/icons-material/HexagonRounded';
 import ShieldIcon from '@mui/icons-material/Shield';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import '../styles/Courses.css'
 =======
 // import '../styles/Courses.css'
 >>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
+=======
+import '../styles/Courses.css'
+>>>>>>> main
 import SearchIcon from '@mui/icons-material/Search';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
@@ -94,6 +98,7 @@ function coursePage() {
                 </div>
                 <div className="content">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div className='courseContentNavbar'>
                         <div className='dropdownBox'>
                             <div className='lefSideOfNavbar'>
@@ -104,6 +109,12 @@ function coursePage() {
                             <div className='lefSideOfNavbar'>
                                 <Link to="/"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
 >>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
+=======
+                    <div className='courseContentNavbar'>
+                        <div className='dropdownBox'>
+                            <div className='lefSideOfNavbar'>
+                                <Link to="/dashboard"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
+>>>>>>> main
                                 <h2>Understanding Phishing Attacks</h2>
                             </div>
                         </div>

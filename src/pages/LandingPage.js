@@ -1,8 +1,27 @@
+import React, { useEffect, useRef, useState } from 'react';
+import Logo from '../assets/Frame 1.png'
+import { Link } from 'react-router-dom';
+import '../styles/LandingPage.css';
+import TranslateIcon from '@mui/icons-material/Translate';
+import landingImage from '../assets/landingpicture.png';
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
+import LandingAvatar1 from '../assets/landingAvatar.png';
+import LandingAvatar2 from '../assets/landindAvatar1.png';
+import LandingAvatar3 from '../assets/landindAvatar2.png';
+import LandingAvatar4 from '../assets/landingAvatar3.png';
+import pattern from '../assets/pattern.png'
+import ScrollReveal from 'scrollreveal';
+
+
 import "../styles/LandingPage.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIcon from "../assets/sectionThreeIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
+import section3icon from '../assets/section3icon.png'
+import section3image from '../assets/section3image.png'
+import section3image1 from '../assets/section3image1.png'
 
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
@@ -194,9 +213,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
-        
 
 
             <div className='communitySection'>
