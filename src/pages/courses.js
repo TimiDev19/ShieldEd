@@ -28,7 +28,6 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import avatar from '../assets/Avatars.png';
 import LogoutIcon from '@mui/icons-material/Logout';
 import learningCard from './learningCard';
-import LandingPage from './LandingPage'
 
 
 
@@ -83,7 +82,7 @@ function Dashboard() {
                                 <h4>Gabriella Blu</h4>
                                 <h6>gabriella@gmail.com</h6>
                             </div>
-                            <Link to='/'><LogoutIcon className='icons' /></Link>
+                            <LogoutIcon className='icons' />
                         </div>
                     </div>
                 </div>
@@ -100,18 +99,9 @@ function Dashboard() {
                         <div className='dropdownBox'>
                             <select>
                                 <option>Understanding Phishing Attacks  </option>
-                                <option>Password Security Best Practices</option>
-                                <option>Safe Web Browsing and Online Behavior</option>
-                                <option>Securing Your Mobile Devices</option>
-                                <option>Protecting Personal Data Online</option>
-                                <option>Intro to Two-Factor Authentication (2FA)</option>
-<<<<<<< HEAD
-=======
-                                <option>Recognising AND aVOIDING Scams</option>
-                                <option>Privacy Settings on Social Media Platforms</option>
-                                <option>Cyberbullying and Online Harassment</option>
-                                {/* <option>None</option> */}
->>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
+                                <option>Violin</option>
+                                <option>Saxophone</option>
+                                <option>None</option>
                             </select>
                         </div>
                         <div className='currencyBox'>
@@ -157,7 +147,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                <Link to="/courses">Continue</Link>
+                                <Link to="/learningCard">Continue</Link>
                                 </div>
                             </div>
 
@@ -184,11 +174,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-<<<<<<< HEAD
-                                    <Link to='/landingPage'>Start Learning</Link>
-=======
-                                    <Link to=''>Start Learning</Link>
->>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
+                                    <Link>Start Learning</Link>
                                 </div>
                             </div>
 
@@ -215,7 +201,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-                                    <Link to="/LandingPage">Start Learning</Link>
+                                    <Link>Start Learning</Link>
                                 </div>
                             </div>
                         </div>

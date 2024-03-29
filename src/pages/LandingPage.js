@@ -1,3 +1,9 @@
+import "../styles/LandingPage.css";
+import leftIcon from "../assets/leftIcon.png";
+import rightIcon from "../assets/rightIcon.png";
+import sectionThreeIcon from "../assets/sectionThreeIcon.png";
+import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
+
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
 import { Link } from 'react-router-dom';
@@ -188,7 +194,9 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
+        
 
 
             <div className='communitySection'>
@@ -316,3 +324,4 @@ const LandingPage = () => {
     );
 }
 export default LandingPage;
+
