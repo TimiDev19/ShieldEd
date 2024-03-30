@@ -176,6 +176,7 @@
     margin: 0;
     padding: 20px;
     text-align: center;
+    margin-bottom: 240px;
 }
 
 .communitySection h2 {
@@ -215,7 +216,9 @@
 
 .communityCardText .special {
     font-size: 21px;
-    padding-top: 20px;
+    display: inline-block;
+    white-space: nowrap;
+    /* padding-top: 20px; */
 }
 
 .communityCardText h2 {
@@ -732,7 +735,7 @@ body {
     width: 100%;
     background-color: #F9FAFB;
     text-align: center;
-    overflow-x: hidden;
+    overflow-x: hidden;  
 }
 
 .frequentlyAskedQuestions h1 {
@@ -747,8 +750,6 @@ body {
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
 }
-
-
 
 
 

@@ -235,7 +235,7 @@ const LandingPage = () => {
                             <h6>Paris, France</h6>
                             <p>
                                 Encountered a suspicious email today <br /> claiming to be from my
-                                bank. Has anyone <br />else experienced something similar?
+                                bank. Has anyone else experienced something similar?
                             </p>
                         </div>
                     </div>
