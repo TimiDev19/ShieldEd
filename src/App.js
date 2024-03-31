@@ -6,16 +6,25 @@ import landingPage from './pages/LandingPage.js';
 import challenges from './pages/challenges.js';
 import coursePage from './pages/coursePage';
 
+import LandingPage from './pages/LandingPage';
+import loginPage from './pages/loginPage';
+import signupPage from './pages/signupPage';
+
+import { lazy } from 'react';
+
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-        <Route path="/" exact Component={Dashboard}/>
+        <Route path='/' exact Component={LandingPage} />
+        <Route path="/dashboard" exact Component={Dashboard}/>
         <Route path="/learningCard" exact Component={learningCard}/>
         <Route path="/challenges" exact Component={challenges}/>
         <Route path="/courses" exact Component={coursePage} />
-        <Route path="/landingPage" exact Component={landingPage} />
+        <Route path='/loginPage' exact Component={loginPage} />
+        <Route path='/signup' exact Component={signupPage} />
         </Routes>
       </Router>
     </div>
