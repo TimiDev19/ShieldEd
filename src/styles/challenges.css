@@ -1,8 +1,8 @@
-/* .challengesContainer{
+/* /* .challengesContainer{
   display: block;
   align-items: center;
 } */
-
+/* 
 .challengesBar{
   height: 15px;
   width: 70%;
@@ -49,4 +49,117 @@
   font-weight: 300;
   margin-bottom: 0;
   text-align: center;
+} */ 
+
+
+
+
+
+
+.challengesContainer{
+  text-align: center;
+}
+
+
+
+
+.challengesHeader{
+  padding: 20px;
+  height: fit-content;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.challengesHeader a{
+  color: black;
+}
+
+.challengesHeader .icons{
+  align-self: center;
+}
+
+.challengesProgressBar{
+  align-self: center;
+  height: 15px;
+  border-radius: 10px;
+  width: 85%;
+  background-color: #F8FAFF;
+  margin-left: 40px;
+  box-shadow: 0 0 .2rem gray;
+}
+
+.challengesProgress{
+  background-color: #2389DE;
+  width: 20%;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.challengesText{
+  background-color: transparent;
+  width: 500%;
+  text-align: center;
+  height: 15px;
+}
+
+.challengeProgress{
+  color: gray;
+  font-size: 16px;
+  align-self: center;
+}
+
+.challengeHeadText h3{
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.challengeHeadText p{
+  color: #050505;
+  font-family: inter;
+  width: 80%;
+  margin: auto;
+  font-weight: 300;
+  padding-bottom: 35px;
+}
+
+.heart{
+  color: red;
+  margin-left: 10px;
+}
+
+.challengButtonBox{
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftChallengeBtn{
+  padding: 13px;
+  background-color: #2389DE;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  align-self: center;
+  margin-right: 40px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+
+.rightChallengeBtn{
+  padding: 10px 40px;
+  background-color: white;
+  border-radius: 10px;
+  color: #2389DE;
+  border: 2px solid #2389DE;
+  text-decoration: none;
+  align-self: center;
+}
+
+
+.challengesContainer{
+  height: 100vh;
+  overflow-y: scroll;
 }
