@@ -11,15 +11,11 @@ import icon from '../assets/newicon.png'
 import newIcon from '../assets/icon.png'
 import HexagonRoundedIcon from '@mui/icons-material/HexagonRounded';
 import ShieldIcon from '@mui/icons-material/Shield';
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import '../styles/Courses.css'
-=======
+
 // import '../styles/Courses.css'
->>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
-=======
-import '../styles/Courses.css'
->>>>>>> main
+
 import SearchIcon from '@mui/icons-material/Search';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
@@ -39,6 +35,9 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import KeyboardBackspaceRoundedIcon from '@mui/icons-material/KeyboardBackspaceRounded';
 import learningCard from './learningCard';
 import { HexagonRounded } from '@mui/icons-material'
+import learningCard1 from '../assets/learningframe1.png';
+import learningCard2 from '../assets/learningframe2.png';
+import learningReward from '../assets/Reward.png'
 
 
 function coursePage() {
@@ -92,29 +91,16 @@ function coursePage() {
                                 <h4>Gabriella Blu</h4>
                                 <h6>gabriella@gmail.com</h6>
                             </div>
-                            <LogoutIcon className='icons' />
+                            <Link to='/'><LogoutIcon className='icons' /></Link>
                         </div>
                     </div>
                 </div>
                 <div className="content">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    <div className='courseContentNavbar'>
-                        <div className='dropdownBox'>
-                            <div className='lefSideOfNavbar'>
-                                <Link to="/dashboard"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
-=======
-                    <div className='contentNavbar'>
-                        <div className='dropdownBox'>
-                            <div className='lefSideOfNavbar'>
-                                <Link to="/"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
->>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
 =======
                     <div className='courseContentNavbar'>
                         <div className='dropdownBox'>
                             <div className='lefSideOfNavbar'>
-                                <Link to="/dashboard"><KeyboardBackspaceRoundedIcon className='icons'/></Link>
->>>>>>> main
+                                <Link to="/dashboard"><KeyboardBackspaceRoundedIcon className='icons' /></Link>
                                 <h2>Understanding Phishing Attacks</h2>
                             </div>
                         </div>
@@ -144,30 +130,42 @@ function coursePage() {
                                 </div>
                             </div> */}
 
-                            <div className='learningCardHeader'>
-                                <div className='learningCardHeaderText'>
-                                    <h4>UNIT 1</h4>
-                                    <h2>Common Phishing Techniques</h2>
+                            <div className='learningCardBox'>
+                                <div className='learningCardHeader'>
+                                    <div className='learningCardHeaderText'>
+                                        <h4>UNIT 1</h4>
+                                        <h2>Common Phishing Techniques</h2>
+                                    </div>
+                                    <Link to="/learningCard">Learning Cards</Link>
                                 </div>
-                                <Link to="/learningCard">Learning Cards</Link>
+                                <img src={learningCard1} />
                             </div>
 
-                            <div className='learningCardHeader'>
-                                <div className='learningCardHeaderText'>
-                                    <h4>UNIT 2</h4>
-                                    <h2>Spotting Suspicious Sender Addresses</h2>
+
+
+                            <div className='learningCardBox'>
+                                <div className='learningCardHeader'>
+                                    <div className='learningCardHeaderText'>
+                                        <h4>UNIT 2</h4>
+                                        <h2>Spotting Suspicious Sender Addresses</h2>
+                                    </div>
+                                    <Link to="/learningCard">Learning Cards</Link>
                                 </div>
-                                <Link to="/learningCard">Learning Cards</Link>
+                                <img src={learningCard2} />
+                                <img src={learningReward}  className='reward'/>
                             </div>
 
-                            <div className='learningCardHeader'>
-                                <div className='learningCardHeaderText'>
-                                    <h4>UNIT 3</h4>
-                                    <h2>Analyzing Phishing Email Content</h2>
+                            <div className='learningCardBox'>
+                                <div className='learningCardHeader'>
+                                    <div className='learningCardHeaderText'>
+                                        <h4>UNIT 3</h4>
+                                        <h2>Analyzing Phishing Email Content</h2>
+                                    </div>
+                                    <Link to="/learningCard">Learning Cards</Link>
                                 </div>
-                                <Link to="/learningCard">Learning Cards</Link>
+                                <img src={learningCard2} />
+                                <img src={learningReward}  className='reward'/>
                             </div>
-
 
 
                         </div>

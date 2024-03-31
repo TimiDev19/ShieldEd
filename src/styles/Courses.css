@@ -1,5 +1,25 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
+.learningCardBox{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.learningCardBox .reward{
+    width: fit-content;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.learningCardBox img{
+    width: 60%;
+    align-self: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
 .learningCardHeader{
     display: flex;
     padding: 10px 20px;

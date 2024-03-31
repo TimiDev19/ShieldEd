@@ -713,6 +713,9 @@ right: 0;
     .sidebar{
         display: none;
     }
+    .landingnavbar{
+        display: none;
+    }
     .navbar{
         display: flex;
         padding: 0px 7px;
