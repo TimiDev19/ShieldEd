@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
 
-.landingPageContainer{
+.landingPageContainer {
     overflow-y: scroll;
     height: 100vh;
 }
@@ -16,7 +16,7 @@
     /* Change the background color as needed */
 }
 
-.landingnavbar-logo img{
+.landingnavbar-logo img {
     height: 38px;
     width: auto;
     /* Adjust the font size as needed */
@@ -38,18 +38,18 @@
     margin-left: auto;
 }
 
-.landingnavbar-links-right button{
+.landingnavbar-links-right button {
     background-color: #2389DE;
 }
 
-.rightLinkButton{
+.rightLinkButton {
     color: white;
     padding: 10px;
     background-color: #2389DE;
     border-radius: 5px;
 }
 
-.navbar-links-right a{
+.navbar-links-right a {
     text-decoration: none;
     padding: 10px;
     color: #2389DE;
@@ -57,7 +57,7 @@
     font-weight: 400;
 }
 
-.navbar-links-right .rightButton{
+.navbar-links-right .rightButton {
     color: white;
     padding: 10px;
     background-color: #2389DE;
@@ -65,17 +65,17 @@
     margin-right: 10px;
 }
 
-.navbar-links-right .icons{
+.navbar-links-right .icons {
     color: #2389DE;
     align-self: center;
 }
 
-.navbar-links-right .icons:hover{
+.navbar-links-right .icons:hover {
     cursor: pointer;
 }
 
 
-.landingHome{
+.landingHome {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@
     box-shadow: 0 0 .2rem gray;
 }
 
-.landingHomeTextBox{
+.landingHomeTextBox {
     width: 90%;
     margin: auto;
     align-self: center;
@@ -92,21 +92,21 @@
     justify-content: center;
 }
 
-.landingHomeTextBox h1{
+.landingHomeTextBox h1 {
     font-size: 54px;
     font-family: inter;
     font-weight: 500;
     line-height: 1rem;
 }
 
-.landingHomeTextBox p{
+.landingHomeTextBox p {
     font-weight: 20px;
     color: #98A2B3;
     width: 45%;
     margin: auto;
 }
 
-.buttonBox{
+.buttonBox {
     padding-top: 20px;
     width: fit-content;
     margin: auto;
@@ -114,7 +114,7 @@
     justify-content: space-between;
 }
 
-.buttonBox .leftButton{
+.buttonBox .leftButton {
     padding: 10px;
     background-color: #2389DE;
     color: white;
@@ -125,19 +125,19 @@
     display: flex;
 }
 
-.leftButton a{
+.leftButton a {
     color: white;
     font-size: 14px;
     text-decoration: none;
     align-self: center;
 }
 
-.leftButton .icons{
+.leftButton .icons {
     align-self: center;
     padding-left: 10px;
 }
 
-.buttonBox .rightButton{
+.buttonBox .rightButton {
     padding: 10px;
     background-color: white;
     color: #2389DE;
@@ -149,19 +149,19 @@
     display: flex;
 }
 
-.rightButton a{
+.rightButton a {
     color: #2389DE;
     font-size: 14px;
     text-decoration: none;
     align-self: center;
 }
 
-.rightButton .icons{
+.rightButton .icons {
     align-self: center;
     padding-left: 10px;
 }
 
-.landingHome img{
+.landingHome img {
     width: 80%;
     margin: auto;
     box-shadow: 0 0 .2rem gray;
@@ -171,14 +171,14 @@
 }
 
 
-.communitySection{
+.communitySection {
     height: 100vh;
     margin: 0;
     padding: 20px;
     text-align: center;
 }
 
-.communitySection h2{
+.communitySection h2 {
     width: 75%;
     margin: auto;
     font-size: 50px;
@@ -186,7 +186,7 @@
     font-weight: 400;
 }
 
-.communityCard{
+.communityCard {
     background-color: #E9F3FC;
     height: fit-content;
     width: fit-content;
@@ -198,14 +198,14 @@
     padding: 20px;
 }
 
-.communityCard img{
+.communityCard img {
     height: 90px;
     width: auto;
     padding-right: 0;
     margin-right: 0;
 }
 
-.communityCardText{
+.communityCardText {
     text-align: left;
     width: 100%;
     flex-direction: row;
@@ -213,12 +213,12 @@
     margin-left: 0;
 }
 
-.communityCardText .special{
+.communityCardText .special {
     font-size: 21px;
     padding-top: 20px;
 }
 
-.communityCardText h2{
+.communityCardText h2 {
     font-size: 25px;
     font-weight: 600;
     padding: 0;
@@ -226,7 +226,7 @@
     line-height: 1rem;
 }
 
-.communityCardText h6{
+.communityCardText h6 {
     margin: 0;
     margin-top: 10px;
     padding: 0;
@@ -235,18 +235,18 @@
     font-weight: 200;
 }
 
-.communityCardText p{
+.communityCardText p {
     font-size: 18px;
 }
 
-.communityCardGrid{
+.communityCardGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 70%;
     margin: auto;
 }
 
-.footerContainer{
+.footerContainer {
     height: 50vh;
     width: 100%;
     margin-top: 80px;
@@ -257,7 +257,7 @@
     flex-direction: column;
 }
 
-.linkBox{
+.linkBox {
     height: 300px;
     width: 90%;
     margin: auto;
@@ -266,32 +266,32 @@
     margin-bottom: 5px;
 }
 
-.leftLinkBox{
+.leftLinkBox {
     align-items: start;
     justify-content: left;
     text-align: left;
     padding-right: 70px;
 }
 
-.leftLinkBox img{
+.leftLinkBox img {
     height: 35px;
     width: auto;
 }
 
-.leftLinkBox p{
+.leftLinkBox p {
     font-size: 14px;
     font-weight: 200;
     font-family: inter;
 }
 
-.leftLinkButtonBox{
+.leftLinkButtonBox {
     width: 100%;
     display: flex;
     height: 50px;
     justify-content: space-between;
 }
 
-.leftLinkButtonBox a{
+.leftLinkButtonBox a {
     align-self: center;
     width: 40%;
     height: 50px;
@@ -303,33 +303,33 @@
     text-decoration: none;
 }
 
-.leftLinkButtonBox input{
+.leftLinkButtonBox input {
     border: .5px solid grey;
     width: 55%;
     border-radius: 10px;
 }
 
-.leftLinkButtonBox input::placeholder{
+.leftLinkButtonBox input::placeholder {
     padding-left: 10px;
 }
 
-.rightLinkBox{
+.rightLinkBox {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.rightListBox{
+.rightListBox {
     padding-left: 85px;
     width: fit-content;
     text-align: left;
 }
 
-.rightListBox ul{
+.rightListBox ul {
     list-style: none;
     width: fit-content;
 }
 
-.rightListBox li{
+.rightListBox li {
     color: #98A2B3;
     padding: 5px;
     font-size: 14px;
@@ -338,12 +338,12 @@
 }
 
 
-.rightListBox li span{
+.rightListBox li span {
     font-size: 12px;
 }
 
 
-.lowerFooterText{
+.lowerFooterText {
     height: fit-content;
     width: 90%;
     margin: auto;
@@ -353,20 +353,20 @@
     padding-top: 0;
 }
 
-.lowerFooterLeft{
+.lowerFooterLeft {
     width: fit-content;
     display: flex;
     justify-content: space-between;
 }
 
-.lowerFooterLeft li{
+.lowerFooterLeft li {
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
     color: #98A2B3;
 }
 
-.lowerFooterRight li{
+.lowerFooterRight li {
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
@@ -374,24 +374,24 @@
 }
 
 body {
-  font-family: inter;
-  width: 100%;
+    font-family: inter;
+    width: 100%;
 }
 
 .sectionThree {
-  width: 100%;
-  margin: auto;
-  height: fit-content;
-  text-align: center;
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    text-align: center;
 }
 
-.sectionThree h1{
+.sectionThree h1 {
     font-size: 45px;
     font-weight: 500;
     font-family: inter;
 }
 
-.sectionThreeHorizontalCard{
+.sectionThreeHorizontalCard {
     width: 73%;
     margin: auto;
     height: fit-content;
@@ -404,7 +404,7 @@ body {
     margin-bottom: 20px;
 }
 
-.sectionThreeHorizontalCardLeft{
+.sectionThreeHorizontalCardLeft {
     width: 30%;
     margin: 10px 0;
     height: fit-content;
@@ -415,16 +415,16 @@ body {
     text-align: left;
 }
 
-.sectionThreeHorizontalCardLeft img{
+.sectionThreeHorizontalCardLeft img {
     height: 50px;
     width: 50px;
 }
 
-.sectionThreeHorizontalCardLeft h1{
+.sectionThreeHorizontalCardLeft h1 {
     font-size: 26px;
 }
 
-.sectionThreeHorizontalCardLeft p{
+.sectionThreeHorizontalCardLeft p {
     color: #98A2B3;
     font-size: 16px;
     font-weight: 200px;
@@ -433,7 +433,7 @@ body {
     padding-top: 0;
 }
 
-.sectionThreeGrid{
+.sectionThreeGrid {
     width: 78%;
     margin: auto;
     display: flex;
@@ -441,7 +441,7 @@ body {
     justify-content: space-between;
 }
 
-.sectionThreeGridLeft{
+.sectionThreeGridLeft {
     width: fit-content;
     height: fit-content;
     background-color: #F9FAFB;
@@ -452,28 +452,28 @@ body {
     margin-bottom: 20px;
 }
 
-.sectionThreeGridLeftImageBox{
+.sectionThreeGridLeftImageBox {
     width: 100%;
     height: 400px;
     display: flex;
 }
 
-.sectionThreeGridLeftImageBox .sectionImage{
+.sectionThreeGridLeftImageBox .sectionImage {
     align-self: center;
     height: 200px;
     width: auto;
 }
 
-.sectionThreeGridLeft img{
+.sectionThreeGridLeft img {
     height: 50px;
     width: 50px;
 }
 
-.sectionThreeGridLeft h1{
+.sectionThreeGridLeft h1 {
     font-size: 26px;
 }
 
-.sectionThreeGridLeft p{
+.sectionThreeGridLeft p {
     color: #98A2B3;
     font-size: 16px;
     font-weight: 200px;
@@ -482,7 +482,7 @@ body {
     padding-top: 0;
 }
 
-.sectionThreeGridLeft .sectionImage{
+.sectionThreeGridLeft .sectionImage {
     width: 450px;
     height: auto;
     padding: 0;
@@ -490,7 +490,7 @@ body {
     align-self: center;
 }
 
-.sectionThreeGridLeft .sectionImageRight{
+.sectionThreeGridLeft .sectionImageRight {
     width: 370px;
     height: auto;
     margin: auto;
@@ -504,59 +504,61 @@ body {
 
 
 .imageOne img {
-  height: 400px;
-  width: auto;
+    height: 400px;
+    width: auto;
 }
+
 .smallText {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
+    font-size: small;
+    color: #98a2b3;
+    text-align: center;
 }
 
 .leftIcon {
-  flex: 1;
+    flex: 1;
 }
 
 
 
 .smallTextTwo {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
+    font-size: small;
+    color: #98a2b3;
+    text-align: center;
 }
 
 .imageTwo img {
-  height: 280px;
-  width: auto;
+    height: 280px;
+    width: auto;
 }
 
 
 
 
-.fullLP{
+.fullLP {
     max-height: 100vh;
 }
-.fullLP::-webkit-scrollbar{
+
+.fullLP::-webkit-scrollbar {
     display: none;
 }
 
-.card3Container{
+.card3Container {
     background-color: #2389de;
-    padding: 20px 90px 40px 90px;   
+    padding: 20px 90px 40px 90px;
 }
 
 /* .background-container{
     background-image: `
 } */
 
-.header{
+.header {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.card3Container header{
-    width:696px;
+.card3Container header {
+    width: 696px;
     height: 115px;
     font-size: 50px;
     font-weight: 500;
@@ -568,18 +570,18 @@ body {
     color: white;
 }
 
-.cardBody{
+.cardBody {
     display: flex;
     flex-direction: row;
 }
 
-.topParagraph{
+.topParagraph {
     color: white;
     font-size: 30px;
     font-family: inter;
 }
 
-.smallParagraph{
+.smallParagraph {
     color: white;
     font-size: 24px;
     margin-bottom: 5px;
@@ -587,7 +589,7 @@ body {
     font-family: inter;
 }
 
-.rightBody h5{
+.rightBody h5 {
     color: rgba(225, 225, 225, 1);
     font-weight: 100;
     font-family: inter;
@@ -595,36 +597,37 @@ body {
     line-height: 20px;
 }
 
-.card3Container hr{
+.card3Container hr {
     width: 300px;
     margin: 0;
     padding: 0;
-    
+
 }
 
-.card3Container a{
+.card3Container a {
     text-decoration: none;
 }
 
-.leftBody img{
+.leftBody img {
     height: 350px;
     /* width: 700px; */
-    
+
 }
-.buttonContainer{
+
+.buttonContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    
+
 }
 
-.buttonContainer button{
+.buttonContainer button {
     margin-right: 30px;
 }
 
-.button1{
+.button1 {
     color: #2389de;
     background-color: white;
     border: 1px;
@@ -643,12 +646,12 @@ body {
     justify-content: center;
 }
 
-.icons{
+.icons {
     margin-left: 8px;
     margin-top: 4px;
 }
 
-.button2{
+.button2 {
     width: 134px;
     height: 50px;
     border: 1px solid white;
@@ -666,3 +669,199 @@ body {
     justify-content: center;
 }
 
+
+
+
+.frequentlyAskedQuestions {
+    width: 100%;
+    background-color: #F9FAFB;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.frequentlyAskedQuestions h1 {
+    font-weight: 500;
+    font-family: inter;
+    font-size: 50px;
+}
+
+.questionsBox {
+    width: 70%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 971px) {
+    .sidebar {
+        display: none;
+    }
+
+    .landingnavbar {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        padding: 0px 7px;
+    }
+
+    .burger-menu {
+        display: block;
+        padding-right: 10px;
+        /* Display burger menu icon on smaller screens */
+    }
+
+    .nav-links {
+        display: none;
+        /* Hide the nav links on smaller screens */
+    }
+}
+
+@media (max-width: 1200px) {
+    .sectionThreeHorizontalCard {
+        flex-direction: column;
+    }
+
+    .sectionThreeHorizontalCardLeft {
+        align-self: flex-start;
+        width: fit-content;
+    }
+
+    .sectionThreeHorizontalCardRight img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .sectionThreeGrid {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .sectionThreeGridLeft {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 40%;
+        height: fit-content;
+    }
+
+    .sectionThreeGridLeftImageBox .sectionImage {
+        align-self: center;
+        height: auto;
+        width: 90%;
+        padding-bottom: 0;
+    }
+
+    .communityCardGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+
+    .rightLinkBox {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 20px;
+    }
+
+    .rightListBox {
+        padding-left: 85px;
+        width: fit-content;
+        text-align: left;
+    }
+
+    .rightListBox ul {
+        list-style: none;
+        width: fit-content;
+    }
+
+    .rightListBox li {
+        color: #98A2B3;
+        padding: 5px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        font-family: inter;
+    }
+
+
+    .rightListBox li span {
+        font-size: 12px;
+    }
+    .linkBox {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        border-bottom: 1px #98A2B3 solid;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    
+}
+
+@media (max-width: 830px) {
+    .landingHome {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .landingHomeTextBox h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 950px) {
+    .questionsBox {
+        width: 70%;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .landingHome{
+        height: 80vh;
+    }
+    .landingHomeTextBox h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .landingHome{
+        height: 60vh;
+    }
+    .landingHomeTextBox h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    .landingHomeTextBox h1{
+        font-size: 22px;
+    }
+}

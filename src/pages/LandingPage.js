@@ -12,6 +12,7 @@ import LandingAvatar3 from '../assets/landindAvatar2.png';
 import LandingAvatar4 from '../assets/landingAvatar3.png';
 import pattern from '../assets/pattern.png'
 import ScrollReveal from 'scrollreveal';
+import CollapsibleBox from '../components/collapsableBox';
 
 
 import "../styles/LandingPage.css";
@@ -66,8 +67,32 @@ const LandingPage = () => {
     }, [fullText]);
 
 
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+    };
+
+
+
     return (
         <div className='landingPageContainer'>
+
+            <nav className="navbar">
+                <div className="logo"><img src={Logo} /></div>
+                <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+                    <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
+                    <li><Link><div className='menuLink'>LEADERBOARDS</div></Link></li>
+                    <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
+                    <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
+                    <li><Link><div className='menuLink'>SHOP</div></Link></li>
+                    <li><Link><div className='menuLink'>SHIELDED FOR TEAMS</div></Link></li>
+                    <li><Link><div className='menuLink'>SETTINGS</div></Link></li>
+                    <li><Link><div className='menuLink'>HELP</div></Link></li>
+                </ul>
+                <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
+            </nav>
+
             <nav className="landingnavbar">
                 <div className="landingnavbar-logo"><img src={Logo} /></div>
                 <div className="landingnavbar-links">
@@ -146,9 +171,9 @@ const LandingPage = () => {
                             friendly reminders, we ensure that learning adventure.
                         </p>
                         <div className='sectionThreeGridLeftImageBox'>
-                        <img className='sectionImageRight' src={sectionThreeIconTwo} />
+                            <img className='sectionImageRight' src={sectionThreeIconTwo} />
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -192,11 +217,38 @@ const LandingPage = () => {
 
 
             <div className='communitySection'>
-                    <h2>Join our cybersecurity awareness community</h2>
+                <h2>Join our cybersecurity awareness community</h2>
+                <div className='communityCard'>
+                    <img src={LandingAvatar1} />
+                    <div className='communityCardText'>
+                        <h2>Alexandre Dubois</h2>
+                        <h6>Paris, France</h6>
+                        <p>
+                            Encountered a suspicious email today <br /> claiming to be from my
+                            bank. Has anyone <br />else experienced something similar?
+                        </p>
+                    </div>
+                </div>
+
+                <div className='communityCardGrid'>
                     <div className='communityCard'>
-                        <img src={LandingAvatar1} />
+                        <img src={LandingAvatar2} />
                         <div className='communityCardText'>
-                            <h2>Alexandre Dubois</h2>
+                            <h2>Priya Patel</h2>
+                            <h6>Mumbai, India</h6>
+                            <p>
+                                Received a suspicious text message <br />
+                                asking me to click on a link to claim a <br />
+                                prize. Wondering if anyone else has <br />
+                                encountered this scam?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='communityCard'>
+                        <img src={LandingAvatar3} />
+                        <div className='communityCardText'>
+                            <h2 className='special'>Oluwabukola Aderinsola</h2>
                             <h6>Paris, France</h6>
                             <p>
                                 Encountered a suspicious email today <br /> claiming to be from my
@@ -204,114 +256,123 @@ const LandingPage = () => {
                             </p>
                         </div>
                     </div>
+                </div>
 
-                    <div className='communityCardGrid'>
-                        <div className='communityCard'>
-                            <img src={LandingAvatar2} />
-                            <div className='communityCardText'>
-                                <h2>Priya Patel</h2>
-                                <h6>Mumbai, India</h6>
-                                <p>
-                                    Received a suspicious text message <br />
-                                    asking me to click on a link to claim a <br />
-                                    prize. Wondering if anyone else has <br />
-                                    encountered this scam?
-                                </p>
-                            </div>
-                        </div>
 
-                        <div className='communityCard'>
-                            <img src={LandingAvatar3} />
-                            <div className='communityCardText'>
-                                <h2 className='special'>Oluwabukola Aderinsola</h2>
-                                <h6>Paris, France</h6>
-                                <p>
-                                    Encountered a suspicious email today <br /> claiming to be from my
-                                    bank. Has anyone <br />else experienced something similar?
-                                </p>
-                            </div>
+                <div className='communityCard'>
+                    <img src={LandingAvatar4} />
+                    <div className='communityCardText'>
+                        <h2>Chen Wei</h2>
+                        <h6>Shanghai, China</h6>
+                        <p>
+                            "Need help identifying a potentially<br />
+                            malicious app on my smartphone. It's been <br />
+                            draining battery and displaying strange <br />
+                            behavior. Any advice on how to proceed?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='frequentlyAskedQuestions'>
+
+                <h1>Have Questions? We're Happy to Help!</h1>
+
+                <div className='questionsBox'>
+                    <div className='leftQuestionBox'>
+                        <CollapsibleBox title="Is ShieldEd suitable for beginners?">
+                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                        </CollapsibleBox>
+
+                        <CollapsibleBox title="Security and Privacy">
+                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                        </CollapsibleBox>
+
+                        <CollapsibleBox title="Community Features">
+                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                        </CollapsibleBox>
+                    </div>
+
+                    <div className='rightQuestionBox'>
+                        <CollapsibleBox title="Team Training">
+                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                        </CollapsibleBox>
+
+                        <CollapsibleBox title="Technical Support">
+                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                        </CollapsibleBox>
+
+                        <CollapsibleBox title="Subscription and Pricing">
+                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                        </CollapsibleBox>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
+                <div className='linkBox'>
+                    <div className='leftLinkBox'>
+                        <img src={Logo} />
+                        <p>
+                            Be the first to receive all the recent updates, <br />
+                            articles, and valuable materials.
+                        </p>
+                        <div className='leftLinkButtonBox'>
+                            <input type='email' placeholder='Email Address' />
+                            <Link>Subscribe</Link>
                         </div>
                     </div>
 
-
-                    <div className='communityCard'>
-                        <img src={LandingAvatar4} />
-                        <div className='communityCardText'>
-                            <h2>Chen Wei</h2>
-                            <h6>Shanghai, China</h6>
-                            <p>
-                                "Need help identifying a potentially<br />
-                                malicious app on my smartphone. It's been <br />
-                                draining battery and displaying strange <br />
-                                behavior. Any advice on how to proceed?
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
-                        <div className='linkBox'>
-                            <div className='leftLinkBox'>
-                                <img src={Logo} />
-                                <p>
-                                    Be the first to receive all the recent updates, <br />
-                                    articles, and valuable materials.
-                                </p>
-                                <div className='leftLinkButtonBox'>
-                                    <input type='email' placeholder='Email Address' />
-                                    <Link>Subscribe</Link>
-                                </div>
-                            </div>
-
-                            <div className='rightLinkBox'>
-                                <div className='rightListBox'>
-                                    <ul>
-                                        <li><span>Industries</span></li>
-                                        <li>Financial Services</li>
-                                        <li>Government</li>
-                                        <li>Enterprises</li>
-                                        <li>Remote Workers</li>
-                                        <li>Education</li>
-                                        <li>Healthcare</li>
-                                    </ul>
-                                </div>
-
-                                <div className='rightListBox'>
-                                    <ul>
-                                        <li><span>Resources</span></li>
-                                        <li>Blog</li>
-                                        <li>News Room</li>
-                                        <li>Family Crash Course</li>
-                                        <li>Cybernary</li>
-                                        <li>Events and Webinars</li>
-                                        <li>Free Awarness Posters</li>
-                                    </ul>
-                                </div>
-
-                                <div className='rightListBox'>
-                                    <ul>
-                                        <li><span>More</span></li>
-                                        <li>About Us</li>
-                                        <li>SecureSeniors Initiative</li>
-                                        <li>Affiliate Program</li>
-                                        <li>Community</li>
-                                        <li>Contact Us</li>
-                                    </ul>
-                                </div>
-                            </div>
+                    <div className='rightLinkBox'>
+                        <div className='rightListBox'>
+                            <ul>
+                                <li><span>Industries</span></li>
+                                <li>Financial Services</li>
+                                <li>Government</li>
+                                <li>Enterprises</li>
+                                <li>Remote Workers</li>
+                                <li>Education</li>
+                                <li>Healthcare</li>
+                            </ul>
                         </div>
 
-                        <div className='lowerFooterText'>
-                            <div className='lowerFooterLeft'>
-                                <li>Terms of Service</li>
-                                <li>Privacy Policy</li>
-                                <li>Accessibility Statement</li>
-                            </div>
-                            <div className='lowerFooterRight'>
-                                <li>&copy; 2024 ShieldEd. All rights reserved.</li>
-                            </div>
+                        <div className='rightListBox'>
+                            <ul>
+                                <li><span>Resources</span></li>
+                                <li>Blog</li>
+                                <li>News Room</li>
+                                <li>Family Crash Course</li>
+                                <li>Cybernary</li>
+                                <li>Events and Webinars</li>
+                                <li>Free Awarness Posters</li>
+                            </ul>
+                        </div>
+
+                        <div className='rightListBox'>
+                            <ul>
+                                <li><span>More</span></li>
+                                <li>About Us</li>
+                                <li>SecureSeniors Initiative</li>
+                                <li>Affiliate Program</li>
+                                <li>Community</li>
+                                <li>Contact Us</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+
+                <div className='lowerFooterText'>
+                    <div className='lowerFooterLeft'>
+                        <li>Terms of Service</li>
+                        <li>Privacy Policy</li>
+                        <li>Accessibility Statement</li>
+                    </div>
+                    <div className='lowerFooterRight'>
+                        <li>&copy; 2024 ShieldEd. All rights reserved.</li>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

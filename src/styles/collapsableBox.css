@@ -1,0 +1,173 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.collapsible-box {
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #2389de;
+  color: white;
+  font-family: inter;
+  font-size: 13.5px;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  cursor: pointer;
+  background-color: #2389de;
+  border-radius: 10px;
+  color: white;
+  font-family: inter;
+  font-size: 14px;
+  width: auto;
+}
+
+.collapsible-content {
+  padding: 10px;
+  text-align: left;
+}
+
+.icon {
+  transition: transform 0.3s ease;
+}
+
+
+@media (max-width: 1200px) {
+  .sectionThreeHorizontalCard {
+    flex-direction: column;
+  }
+
+  .sectionThreeHorizontalCardLeft {
+    align-self: flex-start;
+    width: fit-content;
+  }
+
+  .sectionThreeHorizontalCardRight img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .sectionThreeGrid {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .sectionThreeGridLeft {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 40%;
+    height: fit-content;
+  }
+
+  .sectionThreeGridLeftImageBox .sectionImage {
+    align-self: center;
+    height: auto;
+    width: 90%;
+    padding-bottom: 0;
+  }
+
+  .communityCardGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: auto;
+  }
+
+  .rightLinkBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+  }
+
+  .rightListBox {
+    padding-left: 85px;
+    width: fit-content;
+    text-align: left;
+  }
+
+  .rightListBox ul {
+    list-style: none;
+    width: fit-content;
+  }
+
+  .rightListBox li {
+    color: #98A2B3;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: inter;
+  }
+
+
+  .rightListBox li span {
+    font-size: 12px;
+  }
+
+  .linkBox {
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px #98A2B3 solid;
+    margin-bottom: 5px;
+  }
+
+  .collapsible-box {
+    border: none;
+    border-radius: 10px;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #2389de;
+    color: white;
+    font-family: inter;
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .collapsible-box {
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #2389de;
+    color: white;
+    font-family: inter;
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .collapsible-box {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #2389de;
+    color: white;
+    font-family: inter;
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 950px) {
+  .collapsible-box {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #2389de;
+    color: white;
+    font-family: inter;
+    font-size: 13.5px;
+  }
+}

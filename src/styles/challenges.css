@@ -127,3 +127,30 @@
   color: red;
   margin-left: 10px;
 }
+
+.challengButtonBox{
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftChallengeBtn{
+  padding: 10px;
+  background-color: #2389DE;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  align-self: center;
+}
+
+
+.rightChallengeBtn{
+  padding: 10px 40px;
+  background-color: white;
+  border-radius: 10px;
+  color: #2389DE;
+  border: 2px solid #2389DE;
+  text-decoration: none;
+  align-self: center;
+}

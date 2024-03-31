@@ -24,6 +24,10 @@ const challenges = () => {
           Analyze the email carefully and make your decision.
         </p>
         <img src={quizImage} />
+        <div className='challengButtonBox'>
+          <Link className='leftChallengeBtn'>Report as Phising</Link>
+          <Link className='rightChallengeBtn'>Verify</Link>
+        </div>
       </div>
     </div>
   );

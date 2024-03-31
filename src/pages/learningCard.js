@@ -7,6 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
 import WhatshotOutlinedIcon from '@mui/icons-material/WhatshotOutlined';
 
+
 const learningCard = () => {
   
     return (
