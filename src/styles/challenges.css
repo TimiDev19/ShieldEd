@@ -136,12 +136,15 @@
 }
 
 .leftChallengeBtn{
-  padding: 10px;
+  padding: 13px;
   background-color: #2389DE;
   border-radius: 10px;
   color: white;
   text-decoration: none;
   align-self: center;
+  margin-right: 40px;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 
@@ -153,4 +156,10 @@
   border: 2px solid #2389DE;
   text-decoration: none;
   align-self: center;
+}
+
+
+.challengesContainer{
+  height: 100vh;
+  overflow-y: scroll;
 }
