@@ -109,7 +109,7 @@ const LandingPage = () => {
 
 
             <div className="sectionThree">
-                <h1>Feel the best experince<br /> with our features</h1>
+                <h1>Feel the best experience<br /> with our features</h1>
 
                 <div className='sectionThreeHorizontalCard'>
                     <div className='sectionThreeHorizontalCardLeft'>
@@ -147,11 +147,10 @@ const LandingPage = () => {
 
                     <div className='sectionThreeGridLeft'>
                         <div className='sectionThreeGridLeftTextBox'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
+                            <img src={rightIcon} />
+                            <h1>Complete and Earn Rewards</h1>
                             <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
+                            Track your progress, challenge yourself, and climb the <br/> ranks. See how you measure up against peers as you  <br/> master cybersecurity skills and earn rewards.
                             </p>
                         </div>
                         <div className='sectionThreeGridLeftTextBoxImage'>
