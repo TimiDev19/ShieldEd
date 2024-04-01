@@ -122,7 +122,7 @@ const LandingPage = () => {
                         <img src={section3image} />
                     </div>
                 </div>
-                <div className='responsiveSection3Card'>
+                {/* <div className='responsiveSection3Card'>
                     <div className='sectionThreeHorizontalCard'>
                         <div className='sectionThreeHorizontalCardLeft'>
                             <img src={leftIcon} />
@@ -152,7 +152,7 @@ const LandingPage = () => {
                             <img src={sectionThreeIconTwo} />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
