@@ -172,11 +172,10 @@
 
 
 .communitySection {
-    height: 100vh;
+    height: fit-content;
     margin: 0;
     padding: 20px;
     text-align: center;
-    margin-bottom: 240px;
 }
 
 .communitySection h2 {
@@ -216,9 +215,7 @@
 
 .communityCardText .special {
     font-size: 21px;
-    display: inline-block;
-    white-space: nowrap;
-    /* padding-top: 20px; */
+    padding-top: 20px;
 }
 
 .communityCardText h2 {
@@ -250,7 +247,7 @@
 }
 
 .footerContainer {
-    height: 50vh;
+    height: fit-content;
     width: 100%;
     margin-top: 80px;
     background-position: center;
@@ -438,6 +435,7 @@ body {
 }
 
 
+
 .sectionThreeGrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -594,7 +592,7 @@ body {
 
 
 .fullLP {
-    max-height: 100vh;
+    max-height: fit-content;
 }
 
 .fullLP::-webkit-scrollbar {
@@ -735,7 +733,7 @@ body {
     width: 100%;
     background-color: #F9FAFB;
     text-align: center;
-    overflow-x: hidden;  
+    overflow-x: hidden;
 }
 
 .frequentlyAskedQuestions h1 {
@@ -767,7 +765,9 @@ body {
 
 
 
-@media screen and (max-width: 971px) {
+
+
+/* @media screen and (max-width: 971px) {
     .sidebar {
         display: none;
     }
@@ -784,12 +784,10 @@ body {
     .burger-menu {
         display: block;
         padding-right: 10px;
-        /* Display burger menu icon on smaller screens */
     }
 
     .nav-links {
         display: none;
-        /* Hide the nav links on smaller screens */
     }
 }
 
@@ -920,5 +918,58 @@ body {
 @media (max-width: 400px) {
     .landingHomeTextBox h1{
         font-size: 22px;
+    }
+} */
+
+.responsiveSection3Card{
+    display: none;
+}
+
+
+@media (max-width: 950px) {
+    .questionsBox {
+        width: 70%;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+    }
+    .rightBody{
+        align-self: center;
+    }
+    .leftBody{
+        align-self: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .responsiveSection3Card{
+        display: block;
+    }
+    .sectionThreeGrid{
+        display: none;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sectionThreeGridLeft{
+        width: 100%;
+        margin: auto;
+        background-color: #F9FAFB;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 .05rem gray;
+    }
+    .responsiveSection3Card .sectionThreeHorizontalCardRight img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .linkBox{
+        flex-direction: column;
+        justify-content: center;
     }
 }
