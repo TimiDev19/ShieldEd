@@ -105,16 +105,10 @@ function Dashboard() {
                                 <option>Securing Your Mobile Devices</option>
                                 <option>Protecting Personal Data Online</option>
                                 <option>Intro to Two-Factor Authentication (2FA)</option>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                                <option>Recognising AND aVOIDING Scams</option>
+                                <option>Recognising and Avoiding Scams</option>
                                 <option>Privacy Settings on Social Media Platforms</option>
                                 <option>Cyberbullying and Online Harassment</option>
                                 {/* <option>None</option> */}
->>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
-=======
->>>>>>> main
                             </select>
                         </div>
                         <div className='currencyBox'>
@@ -187,15 +181,7 @@ function Dashboard() {
                                     <img src={newIcon}/>
                                 </div>
                                 <div className='cardButton'>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                     <Link to='/landingPage'>Start Learning</Link>
-=======
-                                    <Link to=''>Start Learning</Link>
->>>>>>> 28d36598080cc3dbd72b36b095738cbd1ae6abb0
-=======
-                                    <Link to='/landingPage'>Start Learning</Link>
->>>>>>> main
                                 </div>
                             </div>
 

@@ -1,594 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-
-.landingPageContainer {
-    overflow-y: scroll;
-    height: 100vh;
-}
-
-.landingnavbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    box-shadow: 0 0 .5rem gray;
-    /* Change the background color as needed */
-}
-
-.landingnavbar-logo img {
-    height: 38px;
-    width: auto;
-    /* Adjust the font size as needed */
-}
-
-.landingnavbar-links {
-    display: flex;
-}
-
-.landingnavbar-links a {
-    margin-right: 15px;
-    /* Adjust the spacing between links as needed */
-    color: grey;
-    /* Change the link color as needed */
-    text-decoration: none;
-}
-
-.landingnavbar-links-right {
-    margin-left: auto;
-}
-
-.landingnavbar-links-right button {
-    background-color: #2389DE;
-}
-
-.rightLinkButton {
-    color: white;
-    padding: 10px;
-    background-color: #2389DE;
-    border-radius: 5px;
-}
-
-.navbar-links-right a {
-    text-decoration: none;
-    padding: 10px;
-    color: #2389DE;
-    size: 14px;
-    font-weight: 400;
-}
-
-.navbar-links-right .rightButton {
-    color: white;
-    padding: 10px;
-    background-color: #2389DE;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-
-.navbar-links-right .icons {
-    color: #2389DE;
-    align-self: center;
-}
-
-.navbar-links-right .icons:hover {
-    cursor: pointer;
-}
-
-
-.landingHome {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    box-shadow: 0 0 .2rem gray;
-}
-
-.landingHomeTextBox {
-    width: 90%;
-    margin: auto;
-    align-self: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.landingHomeTextBox h1 {
-    font-size: 54px;
-    font-family: inter;
-    font-weight: 500;
-    line-height: 1rem;
-}
-
-.landingHomeTextBox p {
-    font-weight: 20px;
-    color: #98A2B3;
-    width: 45%;
-    margin: auto;
-}
-
-.buttonBox {
-    padding-top: 20px;
-    width: fit-content;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.buttonBox .leftButton {
-    padding: 10px;
-    background-color: #2389DE;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 14px;
-    margin-right: 5px;
-    display: flex;
-}
-
-.leftButton a {
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
-    align-self: center;
-}
-
-.leftButton .icons {
-    align-self: center;
-    padding-left: 10px;
-}
-
-.buttonBox .rightButton {
-    padding: 10px;
-    background-color: white;
-    color: #2389DE;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 14px;
-    border: 2px solid #2389DE;
-    margin-left: 5px;
-    display: flex;
-}
-
-.rightButton a {
-    color: #2389DE;
-    font-size: 14px;
-    text-decoration: none;
-    align-self: center;
-}
-
-.rightButton .icons {
-    align-self: center;
-    padding-left: 10px;
-}
-
-.landingHome img {
-    width: 80%;
-    margin: auto;
-    box-shadow: 0 0 .2rem gray;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin-bottom: 0;
-}
-
-
-.communitySection {
-    height: 100vh;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-}
-
-.communitySection h2 {
-    width: 75%;
-    margin: auto;
-    font-size: 50px;
-    font-family: inter;
-    font-weight: 400;
-}
-
-.communityCard {
-    background-color: #E9F3FC;
-    height: fit-content;
-    width: fit-content;
-    margin: auto;
-    margin-top: 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 .3rem grey;
-    display: flex;
-    padding: 20px;
-}
-
-.communityCard img {
-    height: 90px;
-    width: auto;
-    padding-right: 0;
-    margin-right: 0;
-}
-
-.communityCardText {
-    text-align: left;
-    width: 100%;
-    flex-direction: row;
-    padding-left: 10px;
-    margin-left: 0;
-}
-
-.communityCardText .special {
-    font-size: 21px;
-    padding-top: 20px;
-}
-
-.communityCardText h2 {
-    font-size: 25px;
-    font-weight: 600;
-    padding: 0;
-    margin: 0;
-    line-height: 1rem;
-}
-
-.communityCardText h6 {
-    margin: 0;
-    margin-top: 10px;
-    padding: 0;
-    font-size: 16px;
-    line-height: 1rem;
-    font-weight: 200;
-}
-
-.communityCardText p {
-    font-size: 18px;
-}
-
-.communityCardGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 70%;
-    margin: auto;
-}
-
-.footerContainer {
-    height: 50vh;
-    width: 100%;
-    margin-top: 80px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
-
-.linkBox {
-    height: 300px;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    border-bottom: 1px #98A2B3 solid;
-    margin-bottom: 5px;
-}
-
-.leftLinkBox {
-    align-items: start;
-    justify-content: left;
-    text-align: left;
-    padding-right: 70px;
-}
-
-.leftLinkBox img {
-    height: 35px;
-    width: auto;
-}
-
-.leftLinkBox p {
-    font-size: 14px;
-    font-weight: 200;
-    font-family: inter;
-}
-
-.leftLinkButtonBox {
-    width: 100%;
-    display: flex;
-    height: 50px;
-    justify-content: space-between;
-}
-
-.leftLinkButtonBox a {
-    align-self: center;
-    width: 40%;
-    height: 50px;
-    text-align: center;
-    align-content: center;
-    background-color: #2389DE;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.leftLinkButtonBox input {
-    border: .5px solid grey;
-    width: 55%;
-    border-radius: 10px;
-}
-
-.leftLinkButtonBox input::placeholder {
-    padding-left: 10px;
-}
-
-.rightLinkBox {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.rightListBox {
-    padding-left: 85px;
-    width: fit-content;
-    text-align: left;
-}
-
-.rightListBox ul {
-    list-style: none;
-    width: fit-content;
-}
-
-.rightListBox li {
-    color: #98A2B3;
-    padding: 5px;
-    font-size: 14px;
-    margin-bottom: 10px;
-    font-family: inter;
-}
-
-
-.rightListBox li span {
-    font-size: 12px;
-}
-
-
-.lowerFooterText {
-    height: fit-content;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding-top: 0;
-}
-
-.lowerFooterLeft {
-    width: fit-content;
-    display: flex;
-    justify-content: space-between;
-}
-
-.lowerFooterLeft li {
-    list-style: none;
-    padding-right: 20px;
-    font-size: 14px;
-    color: #98A2B3;
-}
-
-.lowerFooterRight li {
-    list-style: none;
-    padding-right: 20px;
-    font-size: 14px;
-    color: #98A2B3;
-}
-
-body {
-    font-family: inter;
-    width: 100%;
-}
-
-.sectionThree {
-    width: 100%;
-    margin: auto;
-    height: fit-content;
-    text-align: center;
-}
-
-.sectionThree h1 {
-    font-size: 45px;
-    font-weight: 500;
-    font-family: inter;
-}
-
-.sectionThreeHorizontalCard {
-    width: 73%;
-    margin: auto;
-    height: fit-content;
-    background-color: #F9FAFB;
-    display: flex;
-    padding: 20px 40px;
-    justify-content: space-between;
-    border-radius: 20px;
-    box-shadow: 0 0 .05rem gray;
-    margin-bottom: 20px;
-}
-
-.sectionThreeHorizontalCardLeft {
-    width: 30%;
-    margin: 10px 0;
-    height: fit-content;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-}
-
-.sectionThreeHorizontalCardLeft img {
-    height: 50px;
-    width: 50px;
-
-}
-
-.sectionThreeHorizontalCardLeft h1 {
-    font-size: 26px;
-}
-
-.sectionThreeHorizontalCardLeft p {
-    color: #98A2B3;
-    font-size: 16px;
-    font-weight: 200px;
-    font-family: inter;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-
-.sectionThreeGrid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: fit-content;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.sectionThreeGridLeft{
-    width: 90%;
-    margin: auto;
-    background-color: #F9FAFB;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 .05rem gray;
-}
-
-.sectionThreeGridLeftTextBox{
-    text-align: left;
-}
-
-.sectionThreeGridLeftTextBox img{
-    width: 50px;
-    height: 50px;
-}
-
-.sectionThreeGridLeftTextBox h1{
-    font-size: 26px;
-}
-
-.sectionThreeGridLeftTextBox p{
-    color: #98A2B3;
-    font-size: 16px;
-    font-weight: 200px;
-    font-family: inter;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.sectionThreeGridLeftTextBoxImage{
-    width: 100%;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.sectionThreeGridLeftTextBoxImage img{
-    width: 100%;
-    height: auto;
-}
-
-.sectionThreeGridLeftTextBoxImage .sectionImageRight{
-    width: 60%;
-}
-/* .sectionThreeGrid {
-    width: 78%;
-    margin: auto;
-    display: flex;
-    height: fit-content;
-    justify-content: space-between;
-}
-
-.sectionThreeGridLeft {
-    width: fit-content;
-    height: fit-content;
-    background-color: #F9FAFB;
-    text-align: left;
-    padding: 60px 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 .05rem gray;
-    margin-bottom: 20px;
-}
-
-.sectionThreeGridLeftImageBox {
-    width: 100%;
-    height: 400px;
-    display: flex;
-}
-
-.sectionThreeGridLeftImageBox .sectionImage {
-    align-self: center;
-    height: 200px;
-    width: auto;
-}
-
-.sectionThreeGridLeft img {
-    height: 50px;
-    width: 50px;
-}
-
-.sectionThreeGridLeft h1 {
-    font-size: 26px;
-}
-
-.sectionThreeGridLeft p {
-    color: #98A2B3;
-    font-size: 16px;
-    font-weight: 200px;
-    font-family: inter;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.sectionThreeGridLeft .sectionImage {
-    width: 450px;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    align-self: center;
-}
-
-.sectionThreeGridLeft .sectionImageRight {
-    width: 370px;
-    height: auto;
-    margin: auto;
-    margin-bottom: 0;
-    padding: 0;
-    align-self: center;
-    justify-self: center;
-} */
-
-
-.imageOne img {
-    height: 400px;
-    width: auto;
-}
-
-.smallText {
-    font-size: small;
-    color: #98a2b3;
-    text-align: center;
-}
-
-.leftIcon {
-    flex: 1;
-}
-
-
-
-.smallTextTwo {
-    font-size: small;
-    color: #98a2b3;
-    text-align: center;
-}
-
-.imageTwo img {
-    height: 280px;
-    width: auto;
-}
-
-
-
 .landingPageContainer{
     overflow-y: scroll;
     height: 100vh;
@@ -762,7 +173,7 @@ body {
 
 
 .communitySection{
-    height: 100vh;
+    height: fit-content;
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -1450,7 +861,126 @@ body {
 }
 
 @media (max-width: 400px) {
-    .landingHomeTextBox h1{
-        font-size: 22px;
-    }
+        .landingHome{
+            height: fit-content;
+        }
+        .landingHomeTextBox{
+            margin-bottom: 0px;
+        }
+        .landingHomeTextBox h1{
+            font-size: 22px;
+        }
+        .landingHomeTextBox p{
+            font-size: 10px;
+            width: 80%;
+            margin: auto;
+        }
+        .landingHome img{
+            margin-top: 50px;
+        }
+    
+        .sectionThree {
+            width: 100%;
+            margin: auto;
+            height: fit-content;
+            text-align: center;
+        }
+        
+        .sectionThree h1 {
+            font-size: 20px;
+        }
+        
+        .sectionThreeHorizontalCard {
+            width: fit-content;
+            margin: auto;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            /* padding: 20px 40px; */
+            /* justify-content: space-between; */
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .sectionThreeHorizontalCardLeft {
+            width: fit-content;
+            height: fit-content;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        
+        .sectionThreeHorizontalCardLeft img {
+            height: 50px;
+            width: 50px;
+        }
+        
+        .sectionThreeHorizontalCardLeft h1 {
+            font-size: 17px;
+        }
+        
+        .sectionThreeHorizontalCardLeft p {
+            font-size: 12px;
+            margin-top: 0;
+            padding-top: 0;
+        }
+    
+        .sectionThreeGrid{
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        
+        .sectionThreeGridLeft{
+            width: 90%;
+            margin: auto;
+            background-color: #F9FAFB;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 .05rem gray;
+        }
+        
+        .sectionThreeGridLeftTextBox{
+            text-align: left;
+        }
+        
+        .sectionThreeGridLeftTextBox img{
+            width: 30px;
+            height: 30px;
+        }
+        
+        .sectionThreeGridLeftTextBox h1{
+            font-size: 20px;
+        }
+        
+        .sectionThreeGridLeftTextBox p{
+            color: #98A2B3;
+            font-size: 12px;
+            font-weight: 200px;
+            font-family: inter;
+            margin-top: 0;
+            padding-top: 0;
+        }
+        
+        .sectionThreeGridLeftTextBoxImage{
+            width: 100%;
+            height: 400px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .sectionThreeGridLeftTextBoxImage img{
+            width: 100%;
+            height: auto;
+        }
+        
+        .sectionThreeGridLeftTextBoxImage .sectionImageRight{
+            width: 60%;
+        }
+    
 }
