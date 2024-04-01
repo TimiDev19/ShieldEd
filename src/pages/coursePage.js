@@ -96,7 +96,7 @@ function coursePage() {
                     </div>
                 </div>
                 <div className="content">
-=======
+
                     <div className='courseContentNavbar'>
                         <div className='dropdownBox'>
                             <div className='lefSideOfNavbar'>
