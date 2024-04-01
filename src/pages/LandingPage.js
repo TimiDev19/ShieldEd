@@ -13,9 +13,6 @@ import LandingAvatar4 from '../assets/landingAvatar3.png';
 import pattern from '../assets/pattern.png'
 import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
-
-
-import "../styles/LandingPage.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIcon from "../assets/sectionThreeIcon.png";
@@ -23,7 +20,6 @@ import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
 import section3icon from '../assets/section3icon.png'
 import section3image from '../assets/section3image.png'
 import section3image1 from '../assets/section3image1.png'
-
 import LPtraining from '../assets/LPtraining.png'
 import LPTestimonials from '../assets/LPTestimonials.png'
 import patternLP from '../assets/patternLP.png'
@@ -384,3 +380,4 @@ const LandingPage = () => {
     );
 }
 export default LandingPage;
+
