@@ -122,40 +122,6 @@ const LandingPage = () => {
                         <img src={section3image} />
                     </div>
                 </div>
-                {/* <div className='responsiveSection3Card'>
-                    <div className='sectionThreeHorizontalCard'>
-                        <div className='sectionThreeHorizontalCardLeft'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
-                            <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
-                            </p>
-
-                        </div>
-                        <div className='sectionThreeHorizontalCardRight'>
-                            <img src={section3image1} />
-                        </div>
-                    </div>
-
-                    <div className='sectionThreeHorizontalCard'>
-                        <div className='sectionThreeHorizontalCardLeft'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
-                            <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
-                            </p>
-
-                        </div>
-                        <div className='sectionThreeHorizontalCardRight'>
-                            <img src={sectionThreeIconTwo} />
-                        </div>
-                    </div>
-                </div> */}
-
-
-
                 <div className='sectionThreeGrid'>
                     <div className='sectionThreeGridLeft'>
                         <div className='sectionThreeGridLeftTextBox'>
@@ -170,7 +136,6 @@ const LandingPage = () => {
                             <img className='sectionImage' src={section3image1} />
                         </div>
                     </div>
-
 
                     <div className='sectionThreeGridLeft'>
                         <div className='sectionThreeGridLeftTextBox'>

@@ -446,7 +446,7 @@ body {
 
 .sectionThreeGridLeft{
     width: fit-content;
-    height: fit-content;
+    height: auto;
     background-color: #F9FAFB;
     text-align: left;
     padding: 60px 40px;
