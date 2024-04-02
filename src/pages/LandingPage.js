@@ -13,6 +13,9 @@ import LandingAvatar4 from '../assets/landingAvatar3.png';
 import pattern from '../assets/pattern.png'
 import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
+
+
+import "../styles/LandingPage.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIcon from "../assets/sectionThreeIcon.png";
@@ -20,6 +23,7 @@ import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
 import section3icon from '../assets/section3icon.png'
 import section3image from '../assets/section3image.png'
 import section3image1 from '../assets/section3image1.png'
+
 import LPtraining from '../assets/LPtraining.png'
 import LPTestimonials from '../assets/LPTestimonials.png'
 import patternLP from '../assets/patternLP.png'
@@ -64,7 +68,9 @@ const LandingPage = () => {
 
 
     return (
-        <div className='landingPageContainer'>
+        <>
+
+<div className='landingPageContainer'>
             <nav className="landingnavbar">
                 <div className="landingnavbar-logo"><img src={Logo} /></div>
                 <div className="landingnavbar-links">
@@ -122,23 +128,17 @@ const LandingPage = () => {
                         <img src={section3image} />
                     </div>
                 </div>
+                <div className='responsiveSection3Card'>
+                    <div className='sectionThreeHorizontalCard'>
+                        <div className='sectionThreeHorizontalCardLeft'>
+                            <img src={leftIcon} />
+                            <h1>We Keep You Motivated</h1>
+                            <p>
+                                With game-like features, interactive challenges, and <br />
+                                friendly reminders, we ensure that learning adventure.
+                            </p>
 
-                <div className='sectionThreeGrid'>
-                    <div className='responsiveSection3Card'>
-                        <div className='sectionThreeGridLeft'>
-                            <div className='sectionThreeGridLeftTextBox'>
-                                <img src={leftIcon} />
-                                <h1>We Keep You Motivated</h1>
-                                <p>
-                                    With game-like features, interactive challenges, and <br />
-                                    friendly reminders, we ensure that learning adventure.
-                                </p>
-                            </div>
-                            <div className='sectionThreeGridLeftTextBoxImage'>
-                                <img className='sectionImage' src={section3image1} />
-                            </div>
                         </div>
-
                         <div className='sectionThreeHorizontalCardRight'>
                             <img src={section3image1} />
                         </div>
@@ -153,29 +153,17 @@ const LandingPage = () => {
                                 ranks. See how you measure up against peers as you <br />
                                 master cybersecurity skills and earn rewards.
                             </p>
-                            </div>
-                            <div className='sectionThreeGridLeftTextBoxImage'>
-                                <img className='sectionImageRight' src={sectionThreeIconTwo} />
-                            </div>
+
+                        </div>
+                        <div className='sectionThreeHorizontalCardRight'>
+                            <img src={sectionThreeIconTwo} />
                         </div>
                     </div>
                 </div>
 
+
+
                 <div className='sectionThreeGrid'>
-                    <div className='sectionThreeGridLeft'>
-                            <div className='sectionThreeGridLeftTextBox'>
-                                <img src={leftIcon} />
-                                <h1>We Keep You Motivated</h1>
-                                <p>
-                                    With game-like features, interactive challenges, and <br />
-                                    friendly reminders, we ensure that learning adventure.
-                                </p>
-                            </div>
-                            <div className='sectionThreeGridLeftTextBoxImage'>
-                                <img className='sectionImage' src={section3image1} />
-                            </div>
-                        </div>
-                        
                     <div className='sectionThreeGridLeft'>
                         <div className='sectionThreeGridLeftTextBox'>
                             <img src={leftIcon} />
@@ -185,8 +173,24 @@ const LandingPage = () => {
                                 friendly reminders, we ensure that learning adventure.
                             </p>
                         </div>
-                        <div className='sectionThreeGridLeftTextBoxImage'>
-                            <img className='sectionImageRight' src={sectionThreeIconTwo} />
+                        <div className='sectionThreeCardImageBox'>
+                            <img src={section3image1} className='sectionThreeCardImageBoxImage'/>
+                        </div>
+                    </div>
+
+
+                    <div className='sectionThreeGridLeft'>
+                        <div className='sectionThreeGridLeftTextBox'>
+                            <img src={leftIcon} />
+                            <h1>Compete and Earn Rewards</h1>
+                            <p>
+                            Track your progress, challenge yourself, and climb the <br/>
+                            ranks. See how you measure up against peers as you <br/>
+                            master cybersecurity skills and earn rewards.
+                            </p>
+                        </div>
+                        <div className='sectionThreeCardImageBox'>
+                            <img src={sectionThreeIconTwo} className='sectionThreeCardImageBoxImage2'/>
                         </div>
                     </div>
                 </div>
@@ -381,7 +385,7 @@ const LandingPage = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 export default LandingPage;
-
