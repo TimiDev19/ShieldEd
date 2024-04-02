@@ -145,10 +145,11 @@ const LandingPage = () => {
                     <div className='sectionThreeHorizontalCard'>
                         <div className='sectionThreeHorizontalCardLeft'>
                             <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
+                            <h1>Compete and Earn Rewards</h1>
                             <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
+                                Track your progress, challenge yourself, and climb the <br />
+                                ranks. See how you measure up against peers as you <br />
+                                master cybersecurity skills and earn rewards.
                             </p>
 
                         </div>
