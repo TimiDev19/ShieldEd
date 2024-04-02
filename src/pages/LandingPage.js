@@ -68,202 +68,177 @@ const LandingPage = () => {
 
 
     return (
-        <div className='landingPageContainer'>
-            <nav className="landingnavbar">
-                <div className="landingnavbar-logo"><img src={Logo} /></div>
-                <div className="landingnavbar-links">
-                    <a href="#home">Learn</a>
-                    <a href="#link">Resources</a>
-                    <a href="#link">Industries</a>
-                    <a href="#link">About Us</a>
-                    <a href="#link">Contact</a>
-                </div>
-                <div className="navbar-links-right">
-                    <a href="/loginPage">Login</a>
-                    <a href="/signup" className='rightButton'>Get Started</a>
-                    <TranslateIcon className='icons' />
-                </div>
-            </nav>
+        <>
 
-
-            <div className='landingHome'>
-
-                <div className='landingHomeTextBox'>
-                    <h1>{text}</h1>
-                    <div ref={revealRef}>
-                        <h1>The Fun Way</h1>
+            <div className='landingPageContainer'>
+                <nav className="landingnavbar">
+                    <div className="landingnavbar-logo"><img src={Logo} /></div>
+                    <div className="landingnavbar-links">
+                        <a href="#home">Learn</a>
+                        <a href="#link">Resources</a>
+                        <a href="#link">Industries</a>
+                        <a href="#link">About Us</a>
+                        <a href="#link">Contact</a>
                     </div>
-
-                    <p>
-                        Unlock the secrets of cybersecurity through interactive
-                        learning experiences, engaging challenges, and expert guidance.
-                    </p>
-                    <div className='buttonBox'>
-                        <div className='leftButton'><Link to='/dashboard'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
-                        <div className='rightButton'><Link>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
+                    <div className="navbar-links-right">
+                        <a href="/loginPage">Login</a>
+                        <a href="/signup" className='rightButton'>Get Started</a>
+                        <TranslateIcon className='icons' />
                     </div>
-                </div>
-                <img src={landingImage} />
-            </div>
+                </nav>
 
 
+                <div className='landingHome'>
 
-            <div className="sectionThree">
-                <h1>Feel the best experince<br /> with our features</h1>
+                    <div className='landingHomeTextBox'>
+                        <h1>{text}</h1>
+                        <div ref={revealRef}>
+                            <h1>The Fun Way</h1>
+                        </div>
 
-                <div className='sectionThreeHorizontalCard'>
-                    <div className='sectionThreeHorizontalCardLeft'>
-                        <img src={section3icon} />
-                        <h1>Free Bite-Sized Lessons</h1>
                         <p>
-                            With quick, bite-sized lessons, you’ll earn <br />
-                            points and unlock new levels while gaining <br />
-                            practical cybersecurity skills.
+                            Unlock the secrets of cybersecurity through interactive
+                            learning experiences, engaging challenges, and expert guidance.
                         </p>
-
+                        <div className='buttonBox'>
+                            <div className='leftButton'><Link to='/dashboard'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='rightButton'><Link>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
+                        </div>
                     </div>
-                    <div className='sectionThreeHorizontalCardRight'>
-                        <img src={section3image} />
-                    </div>
+                    <img src={landingImage} />
                 </div>
-                <div className='responsiveSection3Card'>
+
+
+
+                <div className="sectionThree">
+                    <h1>Feel the best experince<br /> with our features</h1>
+
                     <div className='sectionThreeHorizontalCard'>
                         <div className='sectionThreeHorizontalCardLeft'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
+                            <img src={section3icon} />
+                            <h1>Free Bite-Sized Lessons</h1>
                             <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
+                                With quick, bite-sized lessons, you’ll earn <br />
+                                points and unlock new levels while gaining <br />
+                                practical cybersecurity skills.
                             </p>
 
                         </div>
                         <div className='sectionThreeHorizontalCardRight'>
-                            <img src={section3image1} />
+                            <img src={section3image} />
+                        </div>
+                    </div>
+                    <div className='responsiveSection3Card'>
+                        <div className='sectionThreeHorizontalCard'>
+                            <div className='sectionThreeHorizontalCardLeft'>
+                                <img src={leftIcon} />
+                                <h1>We Keep You Motivated</h1>
+                                <p>
+                                    With game-like features, interactive challenges, and <br />
+                                    friendly reminders, we ensure that learning adventure.
+                                </p>
+
+                            </div>
+                            <div className='sectionThreeHorizontalCardRight'>
+                                <img src={section3image1} />
+                            </div>
+                        </div>
+
+                        <div className='sectionThreeHorizontalCard'>
+                            <div className='sectionThreeHorizontalCardLeft'>
+                                <img src={leftIcon} />
+                                <h1>Compete and Earn Rewards</h1>
+                                <p>
+                                    Track your progress, challenge yourself, and climb the <br />
+                                    ranks. See how you measure up against peers as you <br />
+                                    master cybersecurity skills and earn rewards.
+                                </p>
+
+                            </div>
+                            <div className='sectionThreeHorizontalCardRight'>
+                                <img src={sectionThreeIconTwo} />
+                            </div>
                         </div>
                     </div>
 
-                    <div className='sectionThreeHorizontalCard'>
-                        <div className='sectionThreeHorizontalCardLeft'>
-                            <img src={leftIcon} />
-                            <h1>Compete and Earn Rewards</h1>
-                            <p>
-                                Track your progress, challenge yourself, and climb the <br />
-                                ranks. See how you measure up against peers as you <br />
-                                master cybersecurity skills and earn rewards.
-                            </p>
 
+
+                    <div className='sectionThreeGrid'>
+                        <div className='sectionThreeGridLeft'>
+                            <div className='sectionThreeGridLeftTextBox'>
+                                <img src={leftIcon} />
+                                <h1>We Keep You Motivated</h1>
+                                <p>
+                                    With game-like features, interactive challenges, and <br />
+                                    friendly reminders, we ensure that learning adventure.
+                                </p>
+                            </div>
+                            <div className='sectionThreeGridLeftTextBoxImage'>
+                                <img className='sectionImage' src={section3image1} />
+                            </div>
                         </div>
-                        <div className='sectionThreeHorizontalCardRight'>
-                            <img src={sectionThreeIconTwo} />
-                        </div>
-                    </div>
-                </div>
 
 
-
-                <div className='sectionThreeGrid'>
-                    <div className='sectionThreeGridLeft'>
-                        <div className='sectionThreeGridLeftTextBox'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
-                            <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
-                            </p>
-                        </div>
-                        <div className='sectionThreeGridLeftTextBoxImage'>
-                            <img className='sectionImage' src={section3image1} />
-                        </div>
-                    </div>
-
-
-                    <div className='sectionThreeGridLeft'>
-                        <div className='sectionThreeGridLeftTextBox'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
-                            <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
-                            </p>
-                        </div>
-                        <div className='sectionThreeGridLeftTextBoxImage'>
-                            <img className='sectionImageRight' src={sectionThreeIconTwo} />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div className='fullLP'>
-                <div className='card3Container' style={{ backgroundImage: `url(${patternLP})`, backgroundSize: `cover`, backgroundPosition: `center` }}>
-                    <div className='header'>
-                        <header> Cyber Security Training <br />for Every Department</header>
-                    </div>
-                    <div className='cardBody'>
-                        <div className='rightBody'>
-                            <Link><p className='topParagraph'>Sales Department </p></Link>
-                            <h5>Our cybersecurity training for sales departments is <br /> meticulously crafted to address   the vulnerabilities <br /> and threats that sales teams face daily.</h5>
-                            <hr />
-                            <Link><p className='smallParagraph'>Finance Teams</p></Link>
-                            <hr />
-                            <Link><p className='smallParagraph'>Human Resources</p></Link>
-                            <hr />
-                            <Link><p className='smallParagraph'>Marketing Departments</p></Link>
-                            <hr />
-                            <Link><p className='smallParagraph'>Procurement Teams</p></Link>
-                            <hr />
-                            <Link><p className='smallParagraph'>Legal Departments</p></Link>
-                            <hr />
-                            <Link><p className='smallParagraph'>Executive Teams</p></Link>
-
-                        </div>
-                        <div className='leftBody'>
-                            <img src={LPtraining} />
-                            <div className='buttonContainer'>
-                                <Link><button className='button1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
-                                <Link><button className='button2'>Read more</button></Link>
-
+                        <div className='sectionThreeGridLeft'>
+                            <div className='sectionThreeGridLeftTextBox'>
+                                <img src={leftIcon} />
+                                <h1>We Keep You Motivated</h1>
+                                <p>
+                                    With game-like features, interactive challenges, and <br />
+                                    friendly reminders, we ensure that learning adventure.
+                                </p>
+                            </div>
+                            <div className='sectionThreeGridLeftTextBoxImage'>
+                                <img className='sectionImageRight' src={sectionThreeIconTwo} />
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 
-            <div className='communitySection'>
-                <h2>Join our cybersecurity awareness community</h2>
-                <div className='communityCard'>
-                    <img src={LandingAvatar1} />
-                    <div className='communityCardText'>
-                        <h2>Alexandre Dubois</h2>
-                        <h6>Paris, France</h6>
-                        <p>
-                            Encountered a suspicious email today <br /> claiming to be from my
-                            bank. Has anyone <br />else experienced something similar?
-                        </p>
+
+                <div className='fullLP'>
+                    <div className='card3Container' style={{ backgroundImage: `url(${patternLP})`, backgroundSize: `cover`, backgroundPosition: `center` }}>
+                        <div className='header'>
+                            <header> Cyber Security Training <br />for Every Department</header>
+                        </div>
+                        <div className='cardBody'>
+                            <div className='rightBody'>
+                                <Link><p className='topParagraph'>Sales Department </p></Link>
+                                <h5>Our cybersecurity training for sales departments is <br /> meticulously crafted to address   the vulnerabilities <br /> and threats that sales teams face daily.</h5>
+                                <hr />
+                                <Link><p className='smallParagraph'>Finance Teams</p></Link>
+                                <hr />
+                                <Link><p className='smallParagraph'>Human Resources</p></Link>
+                                <hr />
+                                <Link><p className='smallParagraph'>Marketing Departments</p></Link>
+                                <hr />
+                                <Link><p className='smallParagraph'>Procurement Teams</p></Link>
+                                <hr />
+                                <Link><p className='smallParagraph'>Legal Departments</p></Link>
+                                <hr />
+                                <Link><p className='smallParagraph'>Executive Teams</p></Link>
+
+                            </div>
+                            <div className='leftBody'>
+                                <img src={LPtraining} />
+                                <div className='buttonContainer'>
+                                    <Link><button className='button1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
+                                    <Link><button className='button2'>Read more</button></Link>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div className='communityCardGrid'>
-                    <div className='communityCard'>
-                        <img src={LandingAvatar2} />
-                        <div className='communityCardText'>
-                            <h2>Priya Patel</h2>
-                            <h6>Mumbai, India</h6>
-                            <p>
-                                Received a suspicious text message <br />
-                                asking me to click on a link to claim a <br />
-                                prize. Wondering if anyone else has <br />
-                                encountered this scam?
-                            </p>
-                        </div>
-                    </div>
 
+                <div className='communitySection'>
+                    <h2>Join our cybersecurity awareness community</h2>
                     <div className='communityCard'>
-                        <img src={LandingAvatar3} />
+                        <img src={LandingAvatar1} />
                         <div className='communityCardText'>
-                            <h2 className='special'>Oluwabukola Aderinsola</h2>
+                            <h2>Alexandre Dubois</h2>
                             <h6>Paris, France</h6>
                             <p>
                                 Encountered a suspicious email today <br /> claiming to be from my
@@ -271,117 +246,145 @@ const LandingPage = () => {
                             </p>
                         </div>
                     </div>
+
+                    <div className='communityCardGrid'>
+                        <div className='communityCard'>
+                            <img src={LandingAvatar2} />
+                            <div className='communityCardText'>
+                                <h2>Priya Patel</h2>
+                                <h6>Mumbai, India</h6>
+                                <p>
+                                    Received a suspicious text message <br />
+                                    asking me to click on a link to claim a <br />
+                                    prize. Wondering if anyone else has <br />
+                                    encountered this scam?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='communityCard'>
+                            <img src={LandingAvatar3} />
+                            <div className='communityCardText'>
+                                <h2 className='special'>Oluwabukola Aderinsola</h2>
+                                <h6>Paris, France</h6>
+                                <p>
+                                    Encountered a suspicious email today <br /> claiming to be from my
+                                    bank. Has anyone <br />else experienced something similar?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className='communityCard'>
+                        <img src={LandingAvatar4} />
+                        <div className='communityCardText'>
+                            <h2>Chen Wei</h2>
+                            <h6>Shanghai, China</h6>
+                            <p>
+                                "Need help identifying a potentially<br />
+                                malicious app on my smartphone. It's been <br />
+                                draining battery and displaying strange <br />
+                                behavior. Any advice on how to proceed?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='frequentlyAskedQuestions'>
+                    <h1>Have Questions? We're Happy To Help!</h1>
+                    <div className='questionsBox'>
+                        <div>
+                            <CollapsibleBox title="Is ShieldEd suitable for beginners?">
+                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            </CollapsibleBox>
+                            <CollapsibleBox title="Security and Privacy">
+                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            </CollapsibleBox>
+                            <CollapsibleBox title="Community  Features">
+                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            </CollapsibleBox>
+                        </div>
+                        <div>
+                            <CollapsibleBox title="Team Training">
+                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            </CollapsibleBox>
+                            <CollapsibleBox title="Technical Support">
+                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            </CollapsibleBox>
+                            <CollapsibleBox title="Subscription and Pricing">
+                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            </CollapsibleBox>
+                        </div>
+                    </div>
                 </div>
 
 
-                <div className='communityCard'>
-                    <img src={LandingAvatar4} />
-                    <div className='communityCardText'>
-                        <h2>Chen Wei</h2>
-                        <h6>Shanghai, China</h6>
-                        <p>
-                            "Need help identifying a potentially<br />
-                            malicious app on my smartphone. It's been <br />
-                            draining battery and displaying strange <br />
-                            behavior. Any advice on how to proceed?
-                        </p>
+                <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
+                    <div className='linkBox'>
+                        <div className='leftLinkBox'>
+                            <img src={Logo} />
+                            <p>
+                                Be the first to receive all the recent updates, <br />
+                                articles, and valuable materials.
+                            </p>
+                            <div className='leftLinkButtonBox'>
+                                <input type='email' placeholder='Email Address' />
+                                <Link>Subscribe</Link>
+                            </div>
+                        </div>
+
+                        <div className='rightLinkBox'>
+                            <div className='rightListBox'>
+                                <ul>
+                                    <li><span>Industries</span></li>
+                                    <li>Financial Services</li>
+                                    <li>Government</li>
+                                    <li>Enterprises</li>
+                                    <li>Remote Workers</li>
+                                    <li>Education</li>
+                                    <li>Healthcare</li>
+                                </ul>
+                            </div>
+
+                            <div className='rightListBox'>
+                                <ul>
+                                    <li><span>Resources</span></li>
+                                    <li>Blog</li>
+                                    <li>News Room</li>
+                                    <li>Family Crash Course</li>
+                                    <li>Cybernary</li>
+                                    <li>Events and Webinars</li>
+                                    <li>Free Awarness Posters</li>
+                                </ul>
+                            </div>
+
+                            <div className='rightListBox'>
+                                <ul>
+                                    <li><span>More</span></li>
+                                    <li>About Us</li>
+                                    <li>SecureSeniors Initiative</li>
+                                    <li>Affiliate Program</li>
+                                    <li>Community</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='lowerFooterText'>
+                        <div className='lowerFooterLeft'>
+                            <li>Terms of Service</li>
+                            <li>Privacy Policy</li>
+                            <li>Accessibility Statement</li>
+                        </div>
+                        <div className='lowerFooterRight'>
+                            <li>&copy; 2024 ShieldEd. All rights reserved.</li>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div className='frequentlyAskedQuestions'>
-                <h1>Have Questions? We're Happy To Help!</h1>
-                <div className='questionsBox'>
-                    <div>
-                        <CollapsibleBox title="Is ShieldEd suitable for beginners?">
-                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
-                        </CollapsibleBox>
-                        <CollapsibleBox title="Security and Privacy">
-                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
-                        </CollapsibleBox>
-                        <CollapsibleBox title="Community  Features">
-                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
-                        </CollapsibleBox>
-                    </div>
-                    <div>
-                        <CollapsibleBox title="Team Training">
-                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
-                        </CollapsibleBox>
-                        <CollapsibleBox title="Technical Support">
-                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
-                        </CollapsibleBox>
-                        <CollapsibleBox title="Subscription and Pricing">
-                            <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
-                        </CollapsibleBox>
-                    </div>
-                </div>
-            </div>
-
-
-            <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
-                <div className='linkBox'>
-                    <div className='leftLinkBox'>
-                        <img src={Logo} />
-                        <p>
-                            Be the first to receive all the recent updates, <br />
-                            articles, and valuable materials.
-                        </p>
-                        <div className='leftLinkButtonBox'>
-                            <input type='email' placeholder='Email Address' />
-                            <Link>Subscribe</Link>
-                        </div>
-                    </div>
-
-                    <div className='rightLinkBox'>
-                        <div className='rightListBox'>
-                            <ul>
-                                <li><span>Industries</span></li>
-                                <li>Financial Services</li>
-                                <li>Government</li>
-                                <li>Enterprises</li>
-                                <li>Remote Workers</li>
-                                <li>Education</li>
-                                <li>Healthcare</li>
-                            </ul>
-                        </div>
-
-                        <div className='rightListBox'>
-                            <ul>
-                                <li><span>Resources</span></li>
-                                <li>Blog</li>
-                                <li>News Room</li>
-                                <li>Family Crash Course</li>
-                                <li>Cybernary</li>
-                                <li>Events and Webinars</li>
-                                <li>Free Awarness Posters</li>
-                            </ul>
-                        </div>
-
-                        <div className='rightListBox'>
-                            <ul>
-                                <li><span>More</span></li>
-                                <li>About Us</li>
-                                <li>SecureSeniors Initiative</li>
-                                <li>Affiliate Program</li>
-                                <li>Community</li>
-                                <li>Contact Us</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='lowerFooterText'>
-                    <div className='lowerFooterLeft'>
-                        <li>Terms of Service</li>
-                        <li>Privacy Policy</li>
-                        <li>Accessibility Statement</li>
-                    </div>
-                    <div className='lowerFooterRight'>
-                        <li>&copy; 2024 ShieldEd. All rights reserved.</li>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </>
     );
 }
 export default LandingPage;
