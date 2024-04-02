@@ -445,7 +445,7 @@ body {
 }
 
 .sectionThreeGridLeft{
-    width: fit-content;
+    width: 42%;
     height: auto;
     background-color: #F9FAFB;
     text-align: left;
@@ -453,6 +453,26 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 .05rem gray;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThreeCardImageBox{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionThreeCardImageBox .sectionThreeCardImageBoxImage{
+    width: 80%;
+    height: auto;
+}
+
+.sectionThreeCardImageBox .sectionThreeCardImageBoxImage2{
+    height: 100%;
+    width: auto;
 }
 
 .sectionThreeGridLeftImageBox{
