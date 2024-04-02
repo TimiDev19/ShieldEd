@@ -182,7 +182,7 @@ const LandingPage = () => {
                     <div className='sectionThreeGridLeft'>
                         <div className='sectionThreeGridLeftTextBox'>
                             <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
+                            <h1>We Keep gt You Motivated</h1>
                             <p>
                                 With game-like features, interactive challenges, and <br />
                                 friendly reminders, we ensure that learning adventure.
