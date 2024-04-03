@@ -13,6 +13,7 @@ import LandingAvatar4 from '../assets/landingAvatar3.png';
 import pattern from '../assets/pattern.png'
 import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
+import PopupExample from '../components/Popup';
 
 
 import "../styles/LandingPage.css";
@@ -79,6 +80,7 @@ const LandingPage = () => {
                         <a href="#link">Industries</a>
                         <a href="#link">About Us</a>
                         <a href="#link">Contact</a>
+                        <PopupExample />
                     </div>
                     <div className="navbar-links-right">
                         <a href="/loginPage">Login</a>
