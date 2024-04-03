@@ -1,0 +1,119 @@
+
+  
+  .card-container {
+    display: flex;
+    width: 80%; 
+    margin: 30px auto; 
+    color: #015B20;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .success-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-bottom: 20px; /* Adjust spacing between cards */
+    background-color: white;
+    display: flex;
+  }
+  
+  .success-card img {
+    width: 150px; 
+    margin-left: 30px;
+  }
+  
+  .success-card .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-top: 0;
+  }
+  
+  .success-card .icon {
+    display: flex;
+    align-items: center; 
+    margin-top: -10px;
+  }
+  
+  .success-card h1{
+  margin-bottom: 12px;
+  margin-top: 30px;
+  }
+  
+  .success-card .btn {
+    margin-left: auto; 
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: #015B20;
+    color: white;
+    text-align: center;
+    padding: 16px 10px 10px ;
+    width: 150px;
+    border-color: #015B20;
+    margin-right: 40px;
+    border-radius: 10px;
+  }
+  
+  
+  .secondContainer {
+    display: flex;
+    width: 80%; 
+    margin: 30px auto;
+    color: #CB1A14;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .errorCard {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-bottom: 20px; 
+    background-color: white;
+    display: flex;
+  }
+  
+  .errorCard img {
+    width: 150px; 
+    margin-left: 30px;
+  }
+  
+  .errorCard .secondContent {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+  
+  .errorCard .secondBtn {
+    margin-left: auto; 
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: #CB1A14;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 130px;
+    border-color: #CB1A14;
+    margin-right: 40px;
+    border-radius: 10px;
+    
+  }
+  
+  .errorCard .secondIcon {
+    display: flex;
+    align-items: center; 
+    margin-top: -10px;
+  }
+  
+  @media (max-width: 768px) {
+    .success-card {
+      padding: 20px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .errorCard {
+      padding: 20px; 
+    }
+  }

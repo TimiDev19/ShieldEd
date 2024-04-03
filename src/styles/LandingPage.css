@@ -248,6 +248,16 @@
     grid-template-columns: repeat(2, 1fr);
     width: 70%;
     margin: auto;
+   
+}
+
+.leftcardMargin{
+margin-right: 22px;
+margin-left: -15px;
+}
+
+.rightCardMargin{
+margin-left: 10px;
 }
 
 .footerContainer {
@@ -447,17 +457,23 @@ body {
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
+   
 }
 
 .sectionThreeGridLeft{
     width: 90%;
     margin: auto;
     background-color: #F9FAFB;
-    padding: 20px;
+    /* padding-right: 40px; */
     border-radius: 20px;
     box-shadow: 0 0 .05rem gray;
+    margin-top: 10px;
 }
 
+
+.sectionThreeRightMargin{
+padding-left: 50px;
+}
 .sectionThreeGridLeftTextBox{
     text-align: left;
 }

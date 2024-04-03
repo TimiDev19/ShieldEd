@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     height: 100vh;
+    overflow: hidden;
 }
 
 .leftLoginBox{
@@ -10,24 +11,23 @@
     height: fit-content;
     align-self: flex-start;
     margin-top: 25%;
+    position: relative;
 }
 
 
-.leftLoginPage{
+.leftSignupPage{
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.rightLoginFormBox .icons{
+.rightFormBox .icons{
     color: black;
-/* margin: 30px 50px; */
-position: fixed;
-  top: 0;
-  right: 0;
-  padding: 30px; 
-  z-index: 9999; /* Ensure the icon appears above other content */
+    top: 15px;
+    right: 35px;
+
+  position: absolute;
 }
 
 .leftLoginPage img{
@@ -51,29 +51,31 @@ position: fixed;
     margin-top: 0;
 }
 
-.rightLoginPage{
+.rightPage{
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.rightLoginFormBox{
+.rightFormBox{
     width: 100%;
     margin: auto;
     height: fit-content;
     align-self: center;
     text-align: center;
+   padding: 20px;
 }
 
-.rightLoginFormBox h3{
+.rightFormBox h3{
     font-size: 34px;
     font-family: inter;
     font-weight: 500;
     margin-bottom: 0;
+    
 }
 
-.rightLoginFormBox h5{
+.rightFormBox h5{
     font-size: 12px;
     color: #949CA9;
     font-family: inter;
@@ -81,7 +83,7 @@ position: fixed;
     margin: 0;
 }
 
-.rightLoginFormBox input{
+.rightFormBox input{
     display: block;
     align-self: center;
     margin: auto;
@@ -93,11 +95,11 @@ position: fixed;
     padding: 0 10px;
 }
 
-.rightLoginFormBox input::placeholder{
+.rightFormBox input::placeholder{
     color: #949CA9;
 }
 
-.rightLoginFormBox label{
+.rightFormBox label{
    align-self: flex-start;
    margin-left: 15px;
    padding-bottom: 10px;
@@ -105,38 +107,41 @@ position: fixed;
    font-size: 14px;
 }
 
-.bottomLabel{
-    text-align: right;
+.bottomLabels{
+    text-align: left;
     height: fit-content;
     width: 90%;
-    margin: auto;
+    margin-left: 15px;
+    color: #666666;
+    margin-top: -10px;
 }
 
-.bottomLabel h5{
+.bottomLabels h6{
     margin-top: 0;
     color: #2389DE;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
-.rightLoginFormInputBox{
+.rightFormInputBox{
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-.loginButton{
-    width: 100%;
+.createAccountBtn{
+    max-width: 90%;
     margin: auto;
-    padding: 10px 35%;
+    margin-top: -20px;
+    padding: 10px;
     background-color: #2389DE;
     text-decoration: none;
     color: white;
     border-radius: 10px;
 }
 
-.rightLoginFormBox h1{
+.rightFormBox h1{
     font-size: 18px;
     margin: 50px auto;
     font-family: inter;
@@ -150,18 +155,17 @@ position: fixed;
     align-content: center;
     background-color: transparent;
     justify-content: center;
-    padding: 10 10px;
+    padding: 0 10px;
     border: 1px solid #949CA9;
     border-radius: 10px;
-    margin-bottom: 40px;
-    margin-top: 0px;
+    margin-top: -20px;
 }
 
 .googleButton img{
     height: 27px;
     width: auto;
     align-self: center;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .googleButtonLink{
@@ -176,12 +180,44 @@ position: fixed;
     font-weight: 400;
 }
 
-.rightLoginFormBox h10{
+.rightFormInputBox h10 {
     padding-top: 10px;
     font-size: 12px;
 }
 
-.rightLoginFormBox h10 span a{
+.rightFormBox h10 span a{
     color: #2389DE;
     text-decoration: none;
 }
+
+.checkboxContainer{
+    margin-top: -8px;
+    margin-bottom: 48px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+.checkboxContainer input{
+    height: 14px;
+    width: 14px;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.checkboxContainer h10{
+    font-size: 12px;
+    color: #666666;
+}
+
+.checkboxContainer h10 a{
+    color: #666666;
+}
+
+.orBox{
+margin-top: 15px;
+}
+

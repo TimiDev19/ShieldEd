@@ -4,6 +4,7 @@ import '../styles/loginPage.css'
 import loginBG from '../assets/loginBackground.png'
 import whiteIcon from '../assets/whiteIcon.png'
 import googleImage from '../assets/google.png'
+import { CloseOutlined } from '@mui/icons-material'
 
 function loginPage() {
     return (
@@ -20,6 +21,7 @@ function loginPage() {
             </div>
             <div className='rightLoginPage'>
                 <div className='rightLoginFormBox'>
+                <Link to='/'><CloseOutlined className='icons' /></Link>
                     <h3>Welcome Back</h3>
                     <h5>Continue our learning with ShieldEd</h5>
                     <div className='rightLoginFormInputBox'>
@@ -37,7 +39,7 @@ function loginPage() {
                             <h4>Sign in with Google</h4>
                         </div>
                     </Link>
-                    <h10>Don't have an account? <span><Link to='/signup'>Sign Up</Link></span></h10>
+                    <h10>Don't have an account? <span><Link to='/newSignup'>Sign Up</Link></span></h10>
                 </div>
             </div>
         </div>
