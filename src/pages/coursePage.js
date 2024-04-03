@@ -11,7 +11,12 @@ import icon from '../assets/newicon.png'
 import newIcon from '../assets/icon.png'
 import HexagonRoundedIcon from '@mui/icons-material/HexagonRounded';
 import ShieldIcon from '@mui/icons-material/Shield';
+import PopupExample from '../components/Popup';
+
 import '../styles/Courses.css'
+
+// import '../styles/Courses.css'
+
 import SearchIcon from '@mui/icons-material/Search';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
@@ -34,6 +39,9 @@ import { HexagonRounded } from '@mui/icons-material'
 import learningCard1 from '../assets/learningframe1.png';
 import learningCard2 from '../assets/learningframe2.png';
 import learningReward from '../assets/Reward.png'
+import subject from '../assets/Subject.png';
+import subject1 from '../assets/Subject2.png'
+import subject2 from '../assets/subject3.png'
 
 
 function coursePage() {
@@ -43,6 +51,25 @@ function coursePage() {
     // const toggleMenu = () => {
     //     setMenuOpen(!isMenuOpen);
     // };
+
+
+    const cards = [
+        {
+            header: "Spoofed Email Addresses",
+            paragraph: "Attackers may disguise their email addresses to appear as if they're from legitimate organizations.",
+            image: subject2
+        },
+        {
+            header: "Deceptive Links",
+            paragraph: "Links in phishing emails may lead to fake websites designed to steal login credentials or install malware on the victim's device.",
+            image: subject1
+        },
+        {
+            header: "Urgent Requests",
+            paragraph: "Phishing emails often contain urgent language or threats to create a sense of urgency and pressure the recipient into taking immediate action.",
+            image: subject
+        }
+    ];
 
     return (
         <>
@@ -92,6 +119,7 @@ function coursePage() {
                     </div>
                 </div>
                 <div className="content">
+
                     <div className='courseContentNavbar'>
                         <div className='dropdownBox'>
                             <div className='lefSideOfNavbar'>
@@ -128,12 +156,11 @@ function coursePage() {
                             <div className='learningCardBox'>
                                 <div className='learningCardHeader'>
                                     <div className='learningCardHeaderText'>
-                                        <h4>UNIT 1</h4>
+                                        <h4>UNIT 1 <PopupExample cards={cards} /></h4>
                                         <h2>Common Phishing Techniques</h2>
                                     </div>
-                                    <Link to="/learningCard">Learning Cards</Link>
+                                    {/* <Link to="/learningCard">Learning Cards</Link> */}
                                 </div>
-                                <img src={learningCard1} />
                             </div>
 
 
@@ -141,25 +168,21 @@ function coursePage() {
                             <div className='learningCardBox'>
                                 <div className='learningCardHeader'>
                                     <div className='learningCardHeaderText'>
-                                        <h4>UNIT 2</h4>
+                                        <h4>UNIT 2 <PopupExample cards={cards} /></h4>
                                         <h2>Spotting Suspicious Sender Addresses</h2>
                                     </div>
-                                    <Link to="/learningCard">Learning Cards</Link>
+                                   
                                 </div>
-                                <img src={learningCard2} />
-                                <img src={learningReward}  className='reward'/>
                             </div>
 
                             <div className='learningCardBox'>
                                 <div className='learningCardHeader'>
                                     <div className='learningCardHeaderText'>
-                                        <h4>UNIT 3</h4>
+                                        <h4>UNIT 3 <PopupExample cards={cards} /></h4>
                                         <h2>Analyzing Phishing Email Content</h2>
                                     </div>
-                                    <Link to="/learningCard">Learning Cards</Link>
+                                    
                                 </div>
-                                <img src={learningCard2} />
-                                <img src={learningReward}  className='reward'/>
                             </div>
 
 

@@ -1,10 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-
-.landingPageContainer {
+.landingPageContainer{
     overflow-y: scroll;
     height: 100vh;
 }
+
+
 
 .landingnavbar {
     display: flex;
@@ -12,11 +13,11 @@
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    box-shadow: 0 0 .5rem gray;
+    box-shadow: 0 0 .2rem gray;
     /* Change the background color as needed */
 }
 
-.landingnavbar-logo img {
+.landingnavbar-logo img{
     height: 38px;
     width: auto;
     /* Adjust the font size as needed */
@@ -38,18 +39,18 @@
     margin-left: auto;
 }
 
-.landingnavbar-links-right button {
+.landingnavbar-links-right button{
     background-color: #2389DE;
 }
 
-.rightLinkButton {
+.rightLinkButton{
     color: white;
     padding: 10px;
     background-color: #2389DE;
     border-radius: 5px;
 }
 
-.navbar-links-right a {
+.navbar-links-right a{
     text-decoration: none;
     padding: 10px;
     color: #2389DE;
@@ -57,7 +58,7 @@
     font-weight: 400;
 }
 
-.navbar-links-right .rightButton {
+.navbar-links-right .rightButton{
     color: white;
     padding: 10px;
     background-color: #2389DE;
@@ -65,17 +66,17 @@
     margin-right: 10px;
 }
 
-.navbar-links-right .icons {
+.navbar-links-right .icons{
     color: #2389DE;
     align-self: center;
 }
 
-.navbar-links-right .icons:hover {
+.navbar-links-right .icons:hover{
     cursor: pointer;
 }
 
 
-.landingHome {
+.landingHome{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -84,7 +85,7 @@
     box-shadow: 0 0 .2rem gray;
 }
 
-.landingHomeTextBox {
+.landingHomeTextBox{
     width: 90%;
     margin: auto;
     align-self: center;
@@ -92,21 +93,21 @@
     justify-content: center;
 }
 
-.landingHomeTextBox h1 {
+.landingHomeTextBox h1{
     font-size: 54px;
     font-family: inter;
     font-weight: 500;
     line-height: 1rem;
 }
 
-.landingHomeTextBox p {
+.landingHomeTextBox p{
     font-weight: 20px;
     color: #98A2B3;
     width: 45%;
     margin: auto;
 }
 
-.buttonBox {
+.buttonBox{
     padding-top: 20px;
     width: fit-content;
     margin: auto;
@@ -114,7 +115,7 @@
     justify-content: space-between;
 }
 
-.buttonBox .leftButton {
+.buttonBox .leftButton{
     padding: 10px;
     background-color: #2389DE;
     color: white;
@@ -125,19 +126,19 @@
     display: flex;
 }
 
-.leftButton a {
+.leftButton a{
     color: white;
     font-size: 14px;
     text-decoration: none;
     align-self: center;
 }
 
-.leftButton .icons {
+.leftButton .icons{
     align-self: center;
     padding-left: 10px;
 }
 
-.buttonBox .rightButton {
+.buttonBox .rightButton{
     padding: 10px;
     background-color: white;
     color: #2389DE;
@@ -149,19 +150,19 @@
     display: flex;
 }
 
-.rightButton a {
+.rightButton a{
     color: #2389DE;
     font-size: 14px;
     text-decoration: none;
     align-self: center;
 }
 
-.rightButton .icons {
+.rightButton .icons{
     align-self: center;
     padding-left: 10px;
 }
 
-.landingHome img {
+.landingHome img{
     width: 80%;
     margin: auto;
     box-shadow: 0 0 .2rem gray;
@@ -172,15 +173,20 @@
 
 
 .communitySection {
+
     height: 100vh;
     /* margin: 0; */
+
+    height: fit-content;
+    margin: 0;
+
     padding: 20px;
     text-align: center;
     margin-bottom: 200px;
     margin-top: 80px;
 }
 
-.communitySection h2 {
+.communitySection h2{
     width: 75%;
     margin: auto;
     font-size: 50px;
@@ -188,7 +194,7 @@
     font-weight: 400;
 }
 
-.communityCard {
+.communityCard{
     background-color: #E9F3FC;
     height: fit-content;
     width: fit-content;
@@ -200,14 +206,14 @@
     padding: 20px;
 }
 
-.communityCard img {
+.communityCard img{
     height: 90px;
     width: auto;
     padding-right: 0;
     margin-right: 0;
 }
 
-.communityCardText {
+.communityCardText{
     text-align: left;
     width: 100%;
     flex-direction: row;
@@ -215,14 +221,14 @@
     margin-left: 0;
 }
 
-.communityCardText .special {
+.communityCardText .special{
     font-size: 21px;
     display: inline-block;
     white-space: nowrap;
     /* padding-top: 20px; */
 }
 
-.communityCardText h2 {
+.communityCardText h2{
     font-size: 25px;
     font-weight: 600;
     padding: 0;
@@ -230,7 +236,7 @@
     line-height: 1rem;
 }
 
-.communityCardText h6 {
+.communityCardText h6{
     margin: 0;
     margin-top: 10px;
     padding: 0;
@@ -239,11 +245,11 @@
     font-weight: 200;
 }
 
-.communityCardText p {
+.communityCardText p{
     font-size: 18px;
 }
 
-.communityCardGrid {
+.communityCardGrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 70%;
@@ -261,7 +267,7 @@ margin-left: 10px;
 }
 
 .footerContainer {
-    height: 50vh;
+    height: fit-content;
     width: 100%;
     margin-top: 80px;
     background-position: center;
@@ -271,7 +277,7 @@ margin-left: 10px;
     flex-direction: column;
 }
 
-.linkBox {
+.linkBox{
     height: 300px;
     width: 90%;
     margin: auto;
@@ -280,32 +286,32 @@ margin-left: 10px;
     margin-bottom: 5px;
 }
 
-.leftLinkBox {
+.leftLinkBox{
     align-items: start;
     justify-content: left;
     text-align: left;
     padding-right: 70px;
 }
 
-.leftLinkBox img {
+.leftLinkBox img{
     height: 35px;
     width: auto;
 }
 
-.leftLinkBox p {
+.leftLinkBox p{
     font-size: 14px;
     font-weight: 200;
     font-family: inter;
 }
 
-.leftLinkButtonBox {
+.leftLinkButtonBox{
     width: 100%;
     display: flex;
     height: 50px;
     justify-content: space-between;
 }
 
-.leftLinkButtonBox a {
+.leftLinkButtonBox a{
     align-self: center;
     width: 40%;
     height: 50px;
@@ -317,33 +323,33 @@ margin-left: 10px;
     text-decoration: none;
 }
 
-.leftLinkButtonBox input {
+.leftLinkButtonBox input{
     border: .5px solid grey;
     width: 55%;
     border-radius: 10px;
 }
 
-.leftLinkButtonBox input::placeholder {
+.leftLinkButtonBox input::placeholder{
     padding-left: 10px;
 }
 
-.rightLinkBox {
+.rightLinkBox{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.rightListBox {
+.rightListBox{
     padding-left: 85px;
     width: fit-content;
     text-align: left;
 }
 
-.rightListBox ul {
+.rightListBox ul{
     list-style: none;
     width: fit-content;
 }
 
-.rightListBox li {
+.rightListBox li{
     color: #98A2B3;
     padding: 5px;
     font-size: 14px;
@@ -352,12 +358,12 @@ margin-left: 10px;
 }
 
 
-.rightListBox li span {
+.rightListBox li span{
     font-size: 12px;
 }
 
 
-.lowerFooterText {
+.lowerFooterText{
     height: fit-content;
     width: 90%;
     margin: auto;
@@ -367,252 +373,60 @@ margin-left: 10px;
     padding-top: 0;
 }
 
-.lowerFooterLeft {
+.lowerFooterLeft{
     width: fit-content;
     display: flex;
     justify-content: space-between;
 }
 
-.lowerFooterLeft li {
+.lowerFooterLeft li{
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
     color: #98A2B3;
 }
 
-.lowerFooterRight li {
+.lowerFooterRight li{
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
     color: #98A2B3;
 }
 
-body {
-    font-family: inter;
-    width: 100%;
-}
-
-.sectionThree {
-    width: 100%;
-    margin: auto;
-    height: fit-content;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.sectionThree h1 {
-    font-size: 45px;
-    font-weight: 500;
-    font-family: inter;
-}
-
-.sectionThreeHorizontalCard {
-    width: 73%;
-    margin: auto;
-    height: fit-content;
-    background-color: #F9FAFB;
-    display: flex;
-    padding: 20px 40px;
-    justify-content: space-between;
-    border-radius: 20px;
-    box-shadow: 0 0 .05rem gray;
-    margin-bottom: 20px;
-}
-
-.sectionThreeHorizontalCardLeft {
-    width: 30%;
-    margin: 10px 0;
-    height: fit-content;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-}
-
-.sectionThreeHorizontalCardLeft img {
-    height: 50px;
-    width: 50px;
-
-}
-
-.sectionThreeHorizontalCardLeft h1 {
-    font-size: 26px;
-}
-
-.sectionThreeHorizontalCardLeft p {
-    color: #98A2B3;
-    font-size: 16px;
-    font-weight: 200px;
-    font-family: inter;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-
-.sectionThreeGrid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: fit-content;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 20px;
-   
-}
-
-.sectionThreeGridLeft{
-    width: 90%;
-    margin: auto;
-    background-color: #F9FAFB;
-    /* padding-right: 40px; */
-    border-radius: 20px;
-    box-shadow: 0 0 .05rem gray;
-    margin-top: 10px;
-}
-
-
-.sectionThreeRightMargin{
-padding-left: 50px;
-}
-.sectionThreeGridLeftTextBox{
-    text-align: left;
-}
-
-.sectionThreeGridLeftTextBox img{
-    width: 50px;
-    height: 50px;
-}
-
-.sectionThreeGridLeftTextBox h1{
-    font-size: 26px;
-}
-
-.sectionThreeGridLeftTextBox p{
-    color: #98A2B3;
-    font-size: 16px;
-    font-weight: 200px;
-    font-family: inter;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.sectionThreeGridLeftTextBoxImage{
-    width: 100%;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.sectionThreeGridLeftTextBoxImage img{
-    width: 100%;
-    height: auto;
-}
-
-.sectionThreeGridLeftTextBoxImage .sectionImageRight{
-    width: 60%;
-}
-/* .sectionThreeGrid {
-    width: 78%;
-    margin: auto;
-    display: flex;
-    height: fit-content;
-    justify-content: space-between;
-}
-
-.sectionThreeGridLeft {
-    width: fit-content;
-    height: fit-content;
-    background-color: #F9FAFB;
-    text-align: left;
-    padding: 60px 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 .05rem gray;
-    margin-bottom: 20px;
-}
-
-.sectionThreeGridLeftImageBox {
-    width: 100%;
-    height: 400px;
-    display: flex;
-}
-
-.sectionThreeGridLeftImageBox .sectionImage {
-    align-self: center;
-    height: 200px;
-    width: auto;
-}
-
-.sectionThreeGridLeft img {
-    height: 50px;
-    width: 50px;
-}
-
-.sectionThreeGridLeft h1 {
-    font-size: 26px;
-}
-
-.sectionThreeGridLeft p {
-    color: #98A2B3;
-    font-size: 16px;
-    font-weight: 200px;
-    font-family: inter;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.sectionThreeGridLeft .sectionImage {
-    width: 450px;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    align-self: center;
-}
-
-.sectionThreeGridLeft .sectionImageRight {
-    width: 370px;
-    height: auto;
-    margin: auto;
-    margin-bottom: 0;
-    padding: 0;
-    align-self: center;
-    justify-self: center;
-} */
 
 
 .imageOne img {
-    height: 400px;
-    width: auto;
+  height: 400px;
+  width: auto;
 }
-
 .smallText {
-    font-size: small;
-    color: #98a2b3;
-    text-align: center;
+  font-size: small;
+  color: #98a2b3;
+  text-align: center;
 }
 
 .leftIcon {
-    flex: 1;
+  flex: 1;
 }
 
 
 
 .smallTextTwo {
-    font-size: small;
-    color: #98a2b3;
-    text-align: center;
+  font-size: small;
+  color: #98a2b3;
+  text-align: center;
 }
 
 .imageTwo img {
-    height: 280px;
-    width: auto;
+  height: 280px;
+  width: auto;
 }
 
 
 
 
 .fullLP {
-    max-height: 100vh;
+    max-height: fit-content;
 }
 
 .fullLP::-webkit-scrollbar {
@@ -785,7 +599,7 @@ padding-left: 50px;
 
 
 
-@media screen and (max-width: 971px) {
+
     .sidebar {
         display: none;
     }
@@ -802,12 +616,10 @@ padding-left: 50px;
     .burger-menu {
         display: block;
         padding-right: 10px;
-        /* Display burger menu icon on smaller screens */
     }
 
     .nav-links {
         display: none;
-        /* Hide the nav links on smaller screens */
     }
 }
 
@@ -939,4 +751,147 @@ padding-left: 50px;
     .landingHomeTextBox h1{
         font-size: 22px;
     }
+} */
+
+.sectionThree{
+    width: 90vw;
+    margin: auto;
+    padding: 30px;
+    height: fit-content;
 }
+
+.sectionThree .headerText{
+    text-align: center;
+    font-family: inter;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.sectionThreeHorizontalCard{
+    width: 85%;
+    margin: auto;
+    height: fit-content;
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 .05rem gray;
+}
+
+.sectionThreeGrid{
+    width: 85%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sectionThreeHorizontalCardText{
+    width: 40%;
+}
+
+.sectionThreeHorizontalCardText img{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.sectionThreeHorizontalCardText h1{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sectionThreeHorizontalCardImage{
+    width: 60%;
+}
+
+.sectionThreeHorizontalCardImage img{
+    width: 90%;
+}
+
+
+.sectionThreeGridCard{
+    width: 45%;
+    height: fit-content;
+    background-color: #F9FAFB;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 .05rem gray;
+}
+
+.sectionThreeGridCard img{
+    width: 50px;
+    height: 50px;
+}
+
+.sectionThreeGridCard h1{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sectionThreeGridCardRight{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionThreeGridCardRight img{
+    width: 90%;
+    height: auto;
+}
+
+.sectionThreeGridCardRight1{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionThreeGridCardRight1 img{
+    height: 90%;
+    width: auto;
+}
+
+
+@media (max-width: 950px) {
+    .questionsBox {
+        width: 70%;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cardBody {
+        display: flex;
+        flex-direction: column;
+    }
+    .rightBody{
+        align-self: center;
+    }
+    .leftBody{
+        align-self: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1050px) {
+    .linkBox{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+

@@ -105,6 +105,10 @@ function Dashboard() {
                                 <option>Securing Your Mobile Devices</option>
                                 <option>Protecting Personal Data Online</option>
                                 <option>Intro to Two-Factor Authentication (2FA)</option>
+                                <option>Recognising and Avoiding Scams</option>
+                                <option>Privacy Settings on Social Media Platforms</option>
+                                <option>Cyberbullying and Online Harassment</option>
+                                {/* <option>None</option> */}
                             </select>
                         </div>
                         <div className='currencyBox'>
