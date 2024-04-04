@@ -159,6 +159,11 @@
   align-self: center;
 }
 
+.rightChallengeBtn a{
+  text-decoration: none;
+  color: #2389DE;
+}
+
 
 .challengesContainer{
   height: 100vh;
