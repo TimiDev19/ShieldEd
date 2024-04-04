@@ -1,0 +1,63 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+body{
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.unitCompleted{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: auto;
+}
+
+.unitCompleted h1{
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.unitCompleted img{
+    width: 400px;
+    height: 250px;
+    margin-top:40px;
+    margin-bottom: 60px;
+}
+
+.completedButton1{
+    width: 400px;
+    height: 30px;
+    font-family: inter;
+    font-size: 15px;
+    padding:8px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2389DE;
+    border-radius:5px;
+    text-decoration: none;
+    
+}
+
+.completedButton2{
+    width: 400px;
+    height: 30px;
+    font-family: inter;
+    font-size: 15px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgba(118, 118, 118, 1);
+    border-radius: 5px;
+    color: rgba(118, 118, 118, 1);
+    text-decoration: none;
+}
+
