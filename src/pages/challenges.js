@@ -26,7 +26,9 @@ const challenges = () => {
         <img src={quizImage} />
         <div className='challengButtonBox'>
           <Link className='leftChallengeBtn'>Report as Phising</Link>
-          <Link className='rightChallengeBtn'>Verify</Link>
+          < div className='rightChallengeBtn'>
+            <Link to='/unitCompletion'>Verify</Link>
+            </div> 
         </div>
       </div>
     </div>
