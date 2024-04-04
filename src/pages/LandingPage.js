@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
 import { Link } from 'react-router-dom';
@@ -21,16 +22,14 @@ import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIcon from "../assets/sectionThreeIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
-import section3icon from '../assets/section3icon.png'
-import section3image from '../assets/section3image.png'
-import section3image1 from '../assets/section3image1.png'
+import section3icon from "../assets/section3icon.png";
+import section3image from "../assets/section3image.png";
+import section3image1 from "../assets/section3image1.png";
 
-import LPtraining from '../assets/LPtraining.png'
-import LPTestimonials from '../assets/LPTestimonials.png'
-import patternLP from '../assets/patternLP.png'
-import EventAvailableOutlinedIcon from '@mui/icons-material/EventAvailableOutlined';
-
-
+import LPtraining from "../assets/LPtraining.png";
+import LPTestimonials from "../assets/LPTestimonials.png";
+import patternLP from "../assets/patternLP.png";
+import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
 
 const LandingPage = () => {
 
@@ -368,6 +367,39 @@ const LandingPage = () => {
                 </div>
 
 
+        <div className="communityCardGrid">
+          <div className="leftcardMargin">
+            <div className="communityCard">
+              <img src={LandingAvatar2} />
+              <div className="communityCardText">
+                <h2>Priya Patel</h2>
+                <h6>Mumbai, India</h6>
+                <p>
+                  Received a suspicious text message <br />
+                  asking me to click on a link to claim a <br />
+                  prize. Wondering if anyone else has <br />
+                  encountered this scam?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rightCardMargin">
+            <div className="communityCard">
+              <img src={LandingAvatar3} />
+              <div className="communityCardText">
+                <h2 className="special">Oluwabukola Aderinsola</h2>
+                <h6>Paris, France</h6>
+                <p>
+                  Encountered a suspicious email today <br /> claiming to be
+                  from my bank. Has anyone else experienced something similar?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
                 <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
                     <div className='linkBox'>
                         <div className='leftLinkBox'>
@@ -435,4 +467,5 @@ const LandingPage = () => {
         </>
     );
 }
+
 export default LandingPage;
