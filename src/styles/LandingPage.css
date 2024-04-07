@@ -601,15 +601,15 @@ margin-left: 10px;
 
 
     .sidebar {
-        display: none;
+        display: flex;
     }
 
     .landingnavbar {
-        display: none;
+        display: flex;
     }
 
     .navbar {
-        display: flex;
+        display: none;
         padding: 0px 7px;
     }
 
@@ -621,7 +621,7 @@ margin-left: 10px;
     .nav-links {
         display: none;
     }
-}
+
 
 @media (max-width: 1200px) {
     .sectionThreeHorizontalCard {
