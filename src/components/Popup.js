@@ -23,7 +23,7 @@ function PopupExample({ cards }) {
 
   return (
     <div>
-      <button onClick={togglePopup} className='popupTrigger'>Open Popup</button>
+      <button onClick={togglePopup} className='popupTrigger'>Learning Cards</button>
       {isOpen && (
         <div className="popup">
           <div className="popup-content">
