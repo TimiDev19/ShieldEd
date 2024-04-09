@@ -82,7 +82,7 @@ const LandingPage = () => {
                     </div>
                     <div className="navbar-links-right">
                         <a href="/loginPage">Login</a>
-                        <a href="/signup" className='rightButton'>Get Started</a>
+                        <a href="/getStarted1" className='rightButton'>Get Started</a>
                         <TranslateIcon className='icons' />
                     </div>
                 </nav>
