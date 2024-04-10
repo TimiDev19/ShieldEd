@@ -1,11 +1,11 @@
 
-.step3{
+.fourthContainer{
     width: 100%;
     display: flex;
     height: 100vh;
 }
 
-.leftStep3Box{
+.fourthleftBox{
     width: 80%;
     margin: auto;
     height: fit-content;
@@ -13,7 +13,7 @@
     margin-top: 6%;
 }
 
-.leftStep3{
+.fourthleft{
     width: 35%;
     height: 100%;
     display: flex;
@@ -21,19 +21,19 @@
     background-color: rgba(233, 243, 252, 1);
 }
 
-.leftStep3 img{
+.fourthleft img{
     height: 35px;
     width: auto;
 }
 
-.leftStep3 h1{
+.fourthleft h1{
     font-size: 35px;
     color: rgba(12, 48, 78, 1);
     margin-top: 25px;
     margin-bottom: 0;
 }
 
-.leftStep3 p{
+.fourthleft p{
     font-size: 15px;
     color: rgba(118, 118, 118, 1);
     word-spacing: 10px;
@@ -54,60 +54,62 @@
     height: 220px;
 }
 
-.rightStep3Box .icons{
+.fourthrightBox .icon1{
     color: black;
     top: 15px;
     right: 35px;
     position: absolute;
 }
 
-.rightStep3{
+.fourthright{
     width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.rightStep3Box{
+.fourthrightBox{
     width: 100%;
     margin: auto;
+    margin-top: 120px;
     height: fit-content;
     align-self: center;
     text-align: center;
 }
 
-.rightStep3Box h2{
+.fourthrightBox h2{
     font-size: 34px;
     font-family: inter;
     font-weight: 600;
-    margin-bottom: 0;
+    margin: 0;
 }
 
-.buttons{
+.littleCard{
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
-.button1{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 8px 15px 8px 15px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: #2389DE;
-    border-radius:5px;
-    text-decoration: none;
     
+    justify-items: center;
+    align-content: center;
+
+    border: 1px solid rgba(222, 222, 222, 1);
+    /* text-align: center; */
+    margin:  0 auto;
+    width: 400px;
+    height: 200px;
 }
 
-.button2, .button3{
+.littleCard img{
+    height: 35px;
+    width: auto;
+
+}
+
+.icon2{
+    color: black;
+    left: 5px;
+    position: relative;
+}
+
+.firstbutton{
     width: 400px;
     height: 30px;
     font-family: inter;
@@ -122,39 +124,7 @@
     text-decoration: none;
 }
 
-/* .button2{
-    display: flex;
-    justify-content: space-between;
-}
-
-button{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 8px 15px 8px 15px;
-    background-color: white;
-    border: 1px solid rgba(118, 118, 118, 1);
-    border-radius: 5px;
-    color: rgba(118, 118, 118, 1);
-    text-decoration: none;
-}
-
-button :focus{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 8px 15px 8px 15px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: #2389DE;
-    border-radius:5px;
-    text-decoration: none;
-} */
-
-.button4{
+.secondbutton{
     width: 400px;
     height: 30px;
     font-family: inter;
@@ -169,3 +139,19 @@ button :focus{
     text-decoration: none;
 }
 
+.thirdbutton{
+    width: 400px;
+    height: 30px;
+    font-family: inter;
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(236, 236, 236, 1);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 20px;
+}

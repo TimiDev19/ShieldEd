@@ -28,7 +28,7 @@ const getStarted3 = () => {
                     <Link className="button1">Beginner <span className='endText'> 5mins/day </span> </Link>
                     <Link className='button2'>Determined <span className='endText'> 15mins/day</span></Link>
                     <Link className='button3'>Intense <span className='endText'> 30mins/day</span></Link>
-                    <Link className='button4'>I’m ready!</Link>
+                    <Link to='/fourthGs' className='button4'>I’m ready!</Link>
                     </div>
                 </div>
             </div>
