@@ -17,6 +17,7 @@ import getStarted3 from './pages/getStarted3.js'
 import streak from './pages/streakPage.js';
 import { lazy } from 'react';
 import successPage from './pages/successPage.js';
+import leaderboard from './pages/leaderboard.js';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Routes>
         <Route path='/' exact Component={LandingPage} />
         <Route path="/dashboard" exact Component={Dashboard}/>
+        <Route path="/leaderboard" exact Component={leaderboard}/>
         <Route path="/learningCard" exact Component={learningCard}/>
         <Route path="/challenges" exact Component={challenges}/>
         <Route path="/courses" exact Component={coursePage} />

@@ -1,0 +1,430 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+body {
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.page-container {
+    display: flex;
+    height: 100vh;
+    font-family: inter;
+    overflow-y: scroll;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 272px;
+    height: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 .5rem gray;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu img {
+    height: 39px;
+    width: auto;
+    margin-left: 5px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.sidebar-menu li {
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.sidebar-menu li:hover {
+    background-color: #555;
+}
+
+.leaderboardLeftSideTop {
+    border-bottom: 1px solid #F2F2F2;
+    margin-bottom: 10px
+}
+
+.leaderboardLeftSideTop a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5A5A5A;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #FFFFFF;
+    align-self: center;
+}
+
+.leaderboardLeftSideTop a .icons {
+    align-self: center;
+    margin: auto;
+    justify-self: center;
+    font-size: large;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.leaderboardLeftSideTop .menuLink {
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s ease-in-out;
+}
+
+.leaderboardLeftSideTop .menuLink:hover {
+    background-color: #e9f2f9;
+    cursor: pointer;
+}
+
+.leaderboardLeftSideTop .menuLinkSelected {
+    background-color: #E9F3FC;
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menuLinkBottom {
+    margin-bottom: 10px
+}
+
+.menuLinkBottom a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5A5A5A;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.menuLinkBottom a .icons {
+    align-self: center;
+    margin: auto;
+    justify-self: center;
+    font-size: medium;
+    margin-right: 10px;
+}
+
+.menuLinkBottom .menuLink {
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s ease-in-out;
+}
+
+.menuLinkBottom .menuLink:hover {
+    background-color: #e9f2f9;
+    cursor: pointer;
+}
+
+.menuLinkBottom .menuLinkSelected {
+    background-color: #E9F3FC;
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.sideBarBottom {
+    margin-bottom: 10px
+}
+
+.sideBarBottom a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5A5A5A;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.sideBarBottom a .icons {
+    align-self: center;
+    margin: auto;
+    justify-self: center;
+    font-size: medium;
+    margin-right: 10px;
+}
+
+.sideBarBottom .menuLink {
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: .5s ease-in-out;
+}
+
+.sideBarBottom .menuLink:hover {
+    background-color: #e9f2f9;
+    cursor: pointer;
+}
+
+.sideBarBottom .menuLinkSelected {
+    background-color: #E9F3FC;
+    width: 90%;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profileBox{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    height: fit-content;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.profileBox img{
+    height: 100%;
+    align-self: center;
+}
+
+.profileBox .profileText{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    align-self: center;
+}
+
+.profileBox .profileText h4{
+    font-size: 16px;
+    line-height: 10px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.profileBox .profileText h6{
+    margin-top: 7px;
+    font-weight: 300;
+}
+
+.profileBox a .icons{
+    align-self: center;
+    padding-left: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.content {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.contentNavbar {
+    width: auto;
+    margin: auto;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.welcomeText {
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.welcomeText h1 {
+    align-self: center;
+    font-family: inter;
+    font-size: 26px;
+}
+
+.welcomeText h1 span {
+    font-weight: 200;
+    font-family: inter;
+    font-size: 20px;
+}
+
+.currencyBox .gameCurrency {
+    display: flex;
+    align-self: center;
+    text-align: right;
+    justify-content: right;
+}
+.currencyBox #hidden {
+    display: none;
+}
+
+.currencyBox .gameCurrency h4 {
+    padding: 10px;
+    font-weight: 400;
+    font-family: inter;
+    display: flex;
+    align-self: center;
+    font-size: 20px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.gameCurrency h4 img {
+    height: 25px;
+    align-items: center;
+    align-self: center;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.gameCurrency h4 .icons {
+    font-size: larger;
+    padding-right: 3px;
+    color: #2389DE;
+}
+
+.gameCurrency h4 .icons-heart {
+    font-size: larger;
+    padding-right: 3px;
+    color: red;
+}
+.FrameImage{
+    align-items: center;
+    align-self: center;
+    margin-left: 300px;
+    display: inline-block;
+}
+.Frame{
+    padding: 2px;
+}
+.Frame-Image{
+    align-items: center;
+    align-self: center;
+    margin-left: 100px;
+    display: inline-block;
+    size: 4px;
+    margin-top: 0px;
+}
+.main{
+    overflow-y: scroll;
+}
+.img1{
+    width: 400PX;
+    align-items: center;
+}
+.img2{
+    width: 750px;
+}
+
+@media screen and (max-width: 971px) {
+    .sidebar{
+        display: none;
+    }
+    .landingnavbar{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        padding: 0px 7px;
+    }
+
+    .burger-menu {
+        display: block;
+        padding-right: 10px;
+        /* Display burger menu icon on smaller screens */
+    }
+
+    .nav-links {
+        display: none;
+        /* Hide the nav links on smaller screens */
+    }
+
+
+@media (max-width: 1140px) {
+    .contentNavbar{
+        padding: 0px 10px;
+    }
+    .content{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 750px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .contentNavbar{
+        grid-template-columns: repeat(1, 1fr);
+        height: fit-content;
+    }
+    .dropdownBox{
+        display: none;
+    }
+    .hiddenDropdown {
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+    }
+    
+    .hiddenDropdown select {
+        align-self: top;
+        height: 40px;
+        width: fit-content;
+        border: none;
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 16px;
+    }
+    .currencyBox{
+        margin-bottom: 0;
+        margin-top: 22px;
+        padding-bottom: 0;
+        height: fit-content;
+    }
+    .currencyBox .gameCurrency {
+        display: flex;
+        align-self: center;
+        text-align: left;
+        justify-content: left;
+    }
+    .dropdownBox select{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    .img1 {
+        height: 100px;
+        width: auto;
+        margin-left: 0;
+    }
+    .img2 {
+        height: 120px;
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .FrameImage{
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .Frame-Image{
+        text-align: center;
+    }
+}
+
+
+}
