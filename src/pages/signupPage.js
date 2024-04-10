@@ -28,7 +28,7 @@ function signupPage() {
                             </div>
                         </div>
 
-                        <Link className='createAccountBtn' to='/getStarted'>Create Account</Link>
+                        <Link className='createAccountBtn' to='/Dashboard'>Create Account</Link>
 
                         <div className='orBox'><h14>OR</h14></div>
 
