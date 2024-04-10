@@ -18,6 +18,7 @@ import streak from './pages/streakPage.js';
 import { lazy } from 'react';
 import successPage from './pages/successPage.js';
 import leaderboard from './pages/leaderboard.js';
+import fourthGs from './pages/fourthGs.js';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/challenges" exact Component={challenges}/>
         <Route path="/courses" exact Component={coursePage} />
         <Route path='/loginPage' exact Component={loginPage} />
+        <Route path='/fourthGs' exact Component={fourthGs} />
         <Route path='/signup' exact Component={signupPage} />
 
         <Route path='/newSignup' exact Component={newSignup} />
