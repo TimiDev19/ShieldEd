@@ -12,7 +12,7 @@ const CollapsibleBox = ({ title, children }) => {
     <div className="collapsible-box">
       <div className="collapsible-header" onClick={toggleCollapse}>
         <span className="title">{title}</span>
-        <span className={`icon ${isOpen ? 'open' : ''}`}>v</span>
+        <span className={`icon ${isOpen ? 'open' : ''}`}>+</span>
       </div>
       {isOpen && (
         <div className="collapsible-content">

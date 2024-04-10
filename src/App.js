@@ -11,7 +11,10 @@ import signupPage from './pages/signupPage';
 import newSignup from './pages/newSignup';
 
 import unitCompletion from './pages/unitCompletion.js';
-import getStarted from './pages/getStarted.js'
+import getStarted1 from './pages/getStarted1.js'
+import getStarted2 from './pages/getStarted2.js'
+import getStarted3 from './pages/getStarted3.js'
+import streak from './pages/streakPage.js';
 import { lazy } from 'react';
 import successPage from './pages/successPage.js';
 import leaderboard from './pages/leaderboard.js';
@@ -36,7 +39,10 @@ function App() {
         <Route path="/landingPage" exact Component={landingPage} />
         <Route path="/LandingPage" exact Component={LandingPage}/>
         <Route path="/unitCompletion" exact Component={unitCompletion} />
-        <Route path="/getStarted" exact Component={getStarted} />
+        <Route path="/getStarted1" exact Component={getStarted1} />
+        <Route path="/getStarted2" exact Component={getStarted2} />
+        <Route path="/getStarted3" exact Component={getStarted3} />
+        <Route path="/streakPage" exact Component={streak} />
         </Routes>
       </Router>
     </div>

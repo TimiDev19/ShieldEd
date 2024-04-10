@@ -82,7 +82,7 @@ const LandingPage = () => {
                     </div>
                     <div className="navbar-links-right">
                         <a href="/loginPage">Login</a>
-                        <a href="/signup" className='rightButton'>Get Started</a>
+                        <a href="/getStarted1" className='rightButton'>Get Started</a>
                         <TranslateIcon className='icons' />
                     </div>
                 </nav>
@@ -153,95 +153,6 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-                {/* <div className="sectionThree">
-                <h1>Feel the best experince<br /> with our features</h1>
-
-                <div className='sectionThreeHorizontalCard'>
-                    <div className='sectionThreeHorizontalCardLeft'>
-                        <img src={section3icon} />
-                        <h1>Free Bite-Sized Lessons</h1>
-                        <p>
-                            With quick, bite-sized lessons, you’ll earn <br />
-                            points and unlock new levels while gaining <br />
-                            practical cybersecurity skills.
-                        </p>
-
-                    </div>
-                    <div className='sectionThreeHorizontalCardRight'>
-                        <img src={section3image} />
-                    </div>
-                </div>
-                <div className='responsiveSection3Card'>
-                    <div className='sectionThreeHorizontalCard'>
-                        <div className='sectionThreeHorizontalCardLeft'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
-                            <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
-                            </p>
-
-                        </div>
-                        <div className='sectionThreeHorizontalCardRight'>
-                            <img src={section3image1} />
-                        </div>
-                    </div>
-
-                    <div className='sectionThreeHorizontalCard'>
-                        <div className='sectionThreeHorizontalCardLeft'>
-                            <img src={leftIcon} />
-                            <h1>Compete and Earn Rewards</h1>
-                            <p>
-                                Track your progress, challenge yourself, and climb the <br />
-                                ranks. See how you measure up against peers as you <br />
-                                master cybersecurity skills and earn rewards.
-                            </p>
-
-                        </div>
-                        <div className='sectionThreeHorizontalCardRight'>
-                            <img src={sectionThreeIconTwo} />
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div className='sectionThreeGrid'>
-                    <div className='sectionThreeGridLeft'>
-                        <div className='sectionThreeGridLeftTextBox'>
-                            <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
-                            <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
-                            </p>
-                        </div>
-                        <div className='sectionThreeCardImageBox'>
-                            <img src={section3image1} className='sectionThreeCardImageBoxImage'/>
-                        </div>
-                    </div>
-
-
-                    <div className='sectionThreeGridLeft'>
-                        <div className='sectionThreeGridLeftTextBox'>
-                            <img src={leftIcon} />
-                            <h1>Compete and Earn Rewards</h1>
-                            <p>
-                            Track your progress, challenge yourself, and climb the <br/>
-                            ranks. See how you measure up against peers as you <br/>
-                            master cybersecurity skills and earn rewards.
-                            </p>
-                        </div>
-                        <div className='sectionThreeCardImageBox'>
-                            <img src={sectionThreeIconTwo} className='sectionThreeCardImageBoxImage2'/>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
 
 
                 <div className='fullLP'>
@@ -366,38 +277,6 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-
-        <div className="communityCardGrid">
-          <div className="leftcardMargin">
-            <div className="communityCard">
-              <img src={LandingAvatar2} />
-              <div className="communityCardText">
-                <h2>Priya Patel</h2>
-                <h6>Mumbai, India</h6>
-                <p>
-                  Received a suspicious text message <br />
-                  asking me to click on a link to claim a <br />
-                  prize. Wondering if anyone else has <br />
-                  encountered this scam?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="rightCardMargin">
-            <div className="communityCard">
-              <img src={LandingAvatar3} />
-              <div className="communityCardText">
-                <h2 className="special">Oluwabukola Aderinsola</h2>
-                <h6>Paris, France</h6>
-                <p>
-                  Encountered a suspicious email today <br /> claiming to be
-                  from my bank. Has anyone else experienced something similar?
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
 
 
                 <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
