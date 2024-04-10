@@ -47,7 +47,7 @@ function Dashboard() {
                 <div className="logo"><img src={Logo} /></div>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
-                    <li><Link><div className='menuLink'>LEADERBOARDS</div>leaderboard</Link></li>
+                    <li><Link to="/leaderboard"><div className='menuLink'>LEADERBOARDS</div>leaderboard</Link></li>
                     <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
                     <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
                     <li><Link><div className='menuLink'>SHOP</div></Link></li>
