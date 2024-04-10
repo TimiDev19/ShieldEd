@@ -29,6 +29,7 @@ import avatar from '../assets/Avatars.png';
 import LogoutIcon from '@mui/icons-material/Logout';
 import learningCard from './learningCard';
 import LandingPage from './LandingPage'
+import Leaderboard from './leaderboard'
 
 
 
@@ -39,14 +40,14 @@ function Dashboard() {
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
     };
-
+ 
     return (
         <>
             <nav className="navbar">
                 <div className="logo"><img src={Logo} /></div>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
-                    <li><Link><div className='menuLink'>LEADERBOARDS</div></Link></li>
+                    <li><Link><div className='menuLink'>LEADERBOARDS</div>leaderboard</Link></li>
                     <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
                     <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
                     <li><Link><div className='menuLink'>SHOP</div></Link></li>
@@ -64,7 +65,7 @@ function Dashboard() {
                         <img src={Logo} />
                         <div className='dashboardLeftSideTop'>
                             <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
-                            <Link><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
+                            <Link to ="/leaderboard"><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
                             <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
                             <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
                         </div>

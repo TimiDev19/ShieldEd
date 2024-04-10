@@ -39,8 +39,8 @@ return (
 <nav className="navbar">
                 <div className="logo"><img src={Logo} /></div>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-                    <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
-                    <li><Link><div className='menuLink'>LEADERBOARDS</div></Link></li>
+                    <li><Link><div className='menuLink'>LEARN</div></Link></li>
+                    <li><Link><div className='menuLinkSelected'>LEADERBOARDS</div></Link></li>
                     <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
                     <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
                     <li><Link><div className='menuLink'>SHOP</div></Link></li>
@@ -56,8 +56,8 @@ return (
                     <ul className="sidebar-menu">
                         <img src={Logo} />
                         <div className='leaderboardLeftSideTop'>
-                            <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
-                            <Link><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
+                            <Link><div className='menuLink'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
+                            <Link><div className='menuLinkSelected'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
                             <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
                             <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
                         </div>
@@ -66,6 +66,9 @@ return (
                             <Link><div className='menuLink'><Groups2OutlinedIcon className='icons' />SHIELDED FOR TEAMS</div></Link>
                         </div>
                         {/* Add more sidebar menu items as needed */}
+                    <div className='leadercompil'>
+                    <Link to="/dashboard"><LeaderboardOutlinedIcon className='icons' /></Link>
+                    </div>
                     </ul>
                     <div className='sideBarBottom'>
                         <Link><div className='menuLink'><SettingsOutlinedIcon className='icons' />Settings</div></Link>
