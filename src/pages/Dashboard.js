@@ -59,7 +59,7 @@ function Dashboard() {
             </nav>
 
 
-           <div className="page-container">
+            <div className="dashboard-page-container">
                 <div className="sidebar">
                     <ul className="sidebar-menu">
                         <img src={Logo} />

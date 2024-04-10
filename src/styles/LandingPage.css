@@ -13,7 +13,7 @@
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    box-shadow: 0 0 .2rem gray;
+    box-shadow: 0 0 .05rem gray;
     /* Change the background color as needed */
 }
 
@@ -80,6 +80,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-bottom: 0;
     margin-bottom: 0;
     box-shadow: 0 0 .2rem gray;
@@ -91,6 +92,7 @@
     align-self: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .landingHomeTextBox h1{
@@ -111,6 +113,7 @@
     padding-top: 20px;
     width: fit-content;
     margin: auto;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -182,7 +185,7 @@
 
     padding: 20px;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
     margin-top: 80px;
 }
 
@@ -278,7 +281,7 @@ margin-left: 10px;
 }
 
 .linkBox{
-    height: 300px;
+    height: fit-content;
     width: 90%;
     margin: auto;
     display: flex;
@@ -325,8 +328,9 @@ margin-left: 10px;
 
 .leftLinkButtonBox input{
     border: .5px solid grey;
-    width: 55%;
+    width: 60%;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .leftLinkButtonBox input::placeholder{
@@ -334,6 +338,7 @@ margin-left: 10px;
 }
 
 .rightLinkBox{
+    width: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -355,6 +360,7 @@ margin-left: 10px;
     font-size: 14px;
     margin-bottom: 10px;
     font-family: inter;
+    line-break: none;
 }
 
 
@@ -464,6 +470,7 @@ margin-left: 10px;
 .cardBody {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .topParagraph {
@@ -499,6 +506,10 @@ margin-left: 10px;
     text-decoration: none;
 }
 
+.leftBody{
+    width: fit-content;
+}
+
 .leftBody img {
     height: 350px;
     /* width: 700px; */
@@ -518,7 +529,7 @@ margin-left: 10px;
     margin-right: 30px;
 }
 
-.button1 {
+.leftBodyButton1 {
     color: #2389de;
     background-color: white;
     border: 1px;
@@ -542,7 +553,7 @@ margin-left: 10px;
     margin-top: 4px;
 }
 
-.button2 {
+.leftBodybutton2 {
     width: 134px;
     height: 50px;
     border: 1px solid white;
@@ -752,6 +763,7 @@ margin-left: 10px;
         font-size: 22px;
     }
 } 
+
 
 .sectionThree{
     width: 90vw;
