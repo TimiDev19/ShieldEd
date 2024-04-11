@@ -71,6 +71,8 @@ const LandingPage = () => {
         <>
 
             <div className='landingPageContainer'>
+
+                {/* ==THIS IS THE NAVBAR FOR THE LANDING PAGE== */}
                 <nav className="landingnavbar">
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
@@ -87,7 +89,7 @@ const LandingPage = () => {
                     </div>
                 </nav>
 
-
+                {/* ==THIS IS THE HOME SECTION OF THE LANDING PAGE== */}
                 <div className='landingHome'>
 
                     <div className='landingHomeTextBox'>
@@ -101,14 +103,14 @@ const LandingPage = () => {
                             learning experiences, engaging challenges, and expert guidance.
                         </p>
                         <div className='buttonBox'>
-                            <div className='leftButton'><Link to='/getStarted1'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='leftButton'><Link to='/courses'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
                             <div className='rightButton'><Link>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>
                     <img src={landingImage} />
                 </div>
 
-
+                {/* ==THIS IS THE FEATURES SECTION OF THE LANDING PAGE== */}
                 <div className='sectionThree'>
                     <h1 className='headerText'>Feel the best experince<br />  with our features</h1>
                     <div className='sectionThreeHorizontalCard'>
