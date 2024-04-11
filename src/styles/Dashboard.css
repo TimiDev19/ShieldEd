@@ -5,7 +5,7 @@ body {
     overflow-y: hidden;
 }
 
-.page-container {
+.dashboard-page-container {
     display: flex;
     height: 100vh;
     font-family: inter;

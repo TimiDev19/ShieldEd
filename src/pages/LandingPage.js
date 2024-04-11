@@ -101,7 +101,7 @@ const LandingPage = () => {
                             learning experiences, engaging challenges, and expert guidance.
                         </p>
                         <div className='buttonBox'>
-                            <div className='leftButton'><Link to='/dashboard'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='leftButton'><Link to='/getStarted1'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
                             <div className='rightButton'><Link>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@ const LandingPage = () => {
 
 
                         <div className='sectionThreeGridCard'>
-                            <img src={leftIcon} />
+                            <img src={rightIcon} />
                             <h1>Compete and Earn Rewards</h1>
                             <p>
                                 Track your progress, challenge yourself, and climb the <br />
@@ -181,8 +181,8 @@ const LandingPage = () => {
                             <div className='leftBody'>
                                 <img src={LPtraining} />
                                 <div className='buttonContainer'>
-                                    <Link><button className='button1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
-                                    <Link><button className='button2'>Read more</button></Link>
+                                    <Link><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
+                                    <Link><button className='leftBodybutton2'>Read more</button></Link>
 
                                 </div>
                             </div>
