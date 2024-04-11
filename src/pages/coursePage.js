@@ -12,6 +12,8 @@ import newIcon from '../assets/icon.png'
 import HexagonRoundedIcon from '@mui/icons-material/HexagonRounded';
 import ShieldIcon from '@mui/icons-material/Shield';
 import PopupExample from '../components/Popup';
+import learningHexagons from '../assets/learningCardHexagonSet.png'
+import learningHexagons2 from '../assets/learningHexagon2.png'
 
 import '../styles/Courses.css'
 
@@ -162,6 +164,7 @@ function coursePage() {
                                     {/* <Link to="/learningCard">Learning Cards</Link> */}
                                 </div>
                             </div>
+                            <img src={learningHexagons} className='hexagonSet'/>
 
 
 
@@ -174,6 +177,7 @@ function coursePage() {
                                    
                                 </div>
                             </div>
+                            <img src={learningHexagons2} className='hexagonSet'/>
 
                             <div className='learningCardBox'>
                                 <div className='learningCardHeader'>
@@ -184,6 +188,7 @@ function coursePage() {
                                     
                                 </div>
                             </div>
+                            <img src={learningHexagons2} className='hexagonSet'/>
 
 
                         </div>
