@@ -104,7 +104,7 @@ const LandingPage = () => {
                         </p>
                         <div className='buttonBox'>
                             <div className='leftButton'><Link to='/courses'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
-                            <div className='rightButton'><Link>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
+                            <div className='rightButton'><Link to='/courses'>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>
                     <img src={landingImage} />
@@ -192,7 +192,7 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-
+                {/* ==THIS IS THE COMMUNITY SECTION== */}
                 <div className='communitySection'>
                     <h2>Join our cybersecurity awareness community</h2>
                     <div className='communityCard'>
@@ -208,7 +208,7 @@ const LandingPage = () => {
                     </div>
 
                     <div className='communityCardGrid'>
-                        <div className='communityCard'>
+                        <div className='communityCard' id='horizontalCommunityCrad'>
                             <img src={LandingAvatar2} />
                             <div className='communityCardText'>
                                 <h2>Priya Patel</h2>
@@ -222,14 +222,14 @@ const LandingPage = () => {
                             </div>
                         </div>
 
-                        <div className='communityCard'>
+                        <div className='communityCard' id='horizontalCommunityCrad1'>
                             <img src={LandingAvatar3} />
                             <div className='communityCardText'>
                                 <h2 className='special'>Oluwabukola Aderinsola</h2>
                                 <h6>Paris, France</h6>
                                 <p>
-                                    Encountered a suspicious email today <br /> claiming to be from my
-                                    bank. Has anyone <br />else experienced something similar?
+                                    Encountered a suspicious email <br /> today claiming to be from my
+                                    bank. Has anyone else experienced something similar?
                                 </p>
                             </div>
                         </div>
@@ -251,6 +251,7 @@ const LandingPage = () => {
                     </div>
                 </div>
 
+                {/* ==THIS IS THE FREQUENTLY ASKED QUESTIONS SECTION== */}
                 <div className='frequentlyAskedQuestions'>
                     <h1>Have Questions? We're Happy To Help!</h1>
                     <div className='questionsBox'>
@@ -280,7 +281,7 @@ const LandingPage = () => {
                 </div>
 
 
-
+                {/* ==THIS IS THE FOOTER== */}
                 <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
                     <div className='linkBox'>
                         <div className='leftLinkBox'>
