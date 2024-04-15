@@ -25,10 +25,14 @@ const getStarted2 = () => {
                 <Link to='/'><CloseOutlined className='icons' /></Link>
                 <h2> How much do you know <br/>Cybersecurity ?</h2>   
                     <div className='buttons'>
-                    <Link className="button1">I have no idea at all </Link>
-                    <Link className='button2'>I know just basic words and concepts</Link>
-                    <Link className='button3'>I am intermediate or higher</Link>
-                    <Link to='/getStarted3'className='button4'>Continue</Link>
+                     <ul>
+                        <div className='style'>
+                        <li><Link className="button1">I have no idea at all </Link></li>
+                        <li><Link className='button1'>I know just basic words and concepts</Link></li>
+                        <li><Link className='button1'>I am intermediate or higher</Link></li>
+                        <li><Link to='/getStarted3' className='button2'>Continue</Link></li>
+                        </div>
+                     </ul>
                     </div>
                 </div>
             </div>

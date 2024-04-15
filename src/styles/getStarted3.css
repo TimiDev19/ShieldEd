@@ -83,16 +83,21 @@
     margin-bottom: 0;
 }
 
-.buttons{
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.rightbuttons{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 0px;
     gap: 40px;
     justify-content: center;
     align-items: center;
 }
 
-.button1{
+/* .button1{
     width: 400px;
     height: 30px;
     font-family: inter;
@@ -105,14 +110,15 @@
     border-radius:5px;
     text-decoration: none;
     
-}
+} */
 
-.button2, .button3{
+.rightbutton1{
     width: 400px;
-    height: 30px;
+    height: 28px;
+    margin-top: 40px;
     font-family: inter;
     font-size: 15px;
-    padding: 8px 15px 8px 15px;
+    padding: 13px 15px 9px 15px;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -120,11 +126,14 @@
     border-radius: 5px;
     color: rgba(118, 118, 118, 1);
     text-decoration: none;
+    transition: all 0.2s ease;
+    
 }
 
-/* .button2{
+/* .rightbutton1{
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 button{
@@ -146,6 +155,7 @@ button :focus{
     font-family: inter;
     font-size: 15px;
     padding: 8px 15px 8px 15px;
+    margin-top: -10px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -154,18 +164,85 @@ button :focus{
     text-decoration: none;
 } */
 
-.button4{
+.rightbutton2{
     width: 400px;
     height: 30px;
     font-family: inter;
     font-size: 15px;
     padding: 8px 15px 8px 15px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(236, 236, 236, 1);
     color: black;
     border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+li :hover{
+    color: white;
+    background-color: #2389DE; 
+}
+
+/* li:focus{
+    width: 400px;
+    height: 30px;
+    font-family: inter;
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #2389DE;
+    border-radius:5px;
+    text-decoration: none;
+} */
+
+/* li :hover{
+    width: 400px;
+    height: 30px;
+    font-family: inter;
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #2389DE;
+    border-radius:5px;
+    text-decoration: none;
+} */
+
+li :focus{
+    width: 400px;
+    height: 30px;
+    font-family: inter;
+    font-size: 15px;
+    padding: 13px 15px 7px 15px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #2389DE;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+.lastbutton li :focus{
+    width: 400px;
+    height: 30px;
+    font-family: inter;
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2389DE;
+    border-radius:5px;
     text-decoration: none;
 }
 

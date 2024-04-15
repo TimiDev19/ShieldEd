@@ -82,7 +82,7 @@ const LandingPage = () => {
                     </div>
                     <div className="navbar-links-right">
                         <a href="/loginPage">Login</a>
-                        <a href="/getStarted1" className='rightButton'>Get Started</a>
+                        <a href="/getStarted2" className='rightButton'>Get Started</a>
                         <TranslateIcon className='icons' />
                     </div>
                 </nav>
@@ -101,7 +101,7 @@ const LandingPage = () => {
                             learning experiences, engaging challenges, and expert guidance.
                         </p>
                         <div className='buttonBox'>
-                            <div className='leftButton'><Link to='/getStarted1'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='leftButton'><Link to='/challenges'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
                             <div className='rightButton'><Link>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>

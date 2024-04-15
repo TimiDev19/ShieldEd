@@ -10,8 +10,12 @@ const unitCompletion = () => {
             <div className='unitCompleted'>
                 <h2>UNIT COMPLETED!</h2>
                 <img src={Badge}/>
-                <Link to='/streakPage' className="completedButton1">Continue </Link>
-                <Link to='/courses' className='completedButton2'>Review Unit</Link>
+                <ul>
+                    <div className='completedbutton'>
+                    <li><Link to='/streakPage' className="completedButton1">Continue </Link></li>
+                    <li><Link to='/courses' className='completedButton1'>Review Unit</Link></li>
+                    </div>
+                </ul>
             </div>
         </div>
      );
