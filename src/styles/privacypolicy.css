@@ -1,0 +1,117 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.policyPageContainer{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+
+.policynavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 0 0 .05rem gray;
+    /* Change the background color as needed */
+}
+
+.policynavbar-logo img{
+    height: 38px;
+    width: auto;
+    /* Adjust the font size as needed */
+}
+
+.policynavbar-links {
+    display: flex;
+}
+
+.policynavbar-links a {
+    margin-right: 20px;
+    /* Adjust the spacing between links as needed */
+    color: grey;
+    /* Change the link color as needed */
+    text-decoration: none;
+}
+
+.policynavbar-links-right {
+    margin-left: auto;
+}
+
+.policynavbar-links-right button{
+    background-color: #2389DE;
+}
+
+.rightLinkButton{
+    color: white;
+    padding: 10px;
+    background-color: #2389DE;
+    border-radius: 5px;
+}
+
+.navbar-links-right a{
+    text-decoration: none;
+    padding: 10px;
+    color: #2389DE;
+    size: 14px;
+    font-weight: 400;
+}
+
+.navbar-links-right .rightButton{
+    color: white;
+    padding: 10px;
+    background-color: #2389DE;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.navbar-links-right .icons{
+    color: #2389DE;
+    align-self: center;
+}
+
+.navbar-links-right .icons:hover{
+    cursor: pointer;
+}
+
+
+.selectone{
+    margin-right: 15px;
+    background-color:white;
+    border: none;
+}
+
+.policysign{
+    height: 20vh;
+    background-color: #2389DE;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    border: solid rgb(223, 213, 213);
+    border-radius: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: x-small;
+}
+
+.policyimage{
+    align-items: center;
+}
+
+.section {
+    height: auto;
+    width: 1250px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+
+
+    

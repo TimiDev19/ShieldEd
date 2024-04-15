@@ -77,7 +77,7 @@ const LandingPage = () => {
                         <a href="#home">Learn</a>
                         <a href="#link">Resources</a>
                         <a href="#link">Industries</a>
-                        <a href="#link">About Us</a>
+                        <Link to ="/privacypolicy"><a href="#link">About Us</a></Link>
                         <a href="#link">Contact</a>
                     </div>
                     <div className="navbar-links-right">

@@ -9,7 +9,7 @@ body {
     display: flex;
     height: 100vh;
     font-family: inter;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .sidebar {
@@ -269,14 +269,15 @@ body {
 }
 
 .currencyBox .gameCurrency h4 {
-    padding: 10px;
-    font-weight: 400;
+    padding: 8px;
+    font-weight: 300;
     font-family: inter;
     display: flex;
     align-self: center;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 0;
     margin-top: 0;
+    margin-right: 2px;
 }
 
 
@@ -325,6 +326,7 @@ body {
 }
 .img2{
     width: 750px;
+    height: 220px;
 }
 
 @media screen and (max-width: 971px) {
