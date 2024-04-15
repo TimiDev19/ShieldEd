@@ -84,7 +84,7 @@ const LandingPage = () => {
                     </div>
                     <div className="navbar-links-right">
                         <a href="/loginPage">Login</a>
-                        <a href="/getStarted1" className='rightButton'>Get Started</a>
+                        <a href="/getStarted2" className='rightButton'>Get Started</a>
                         <TranslateIcon className='icons' />
                     </div>
                 </nav>
@@ -226,7 +226,7 @@ const LandingPage = () => {
                             <img src={LandingAvatar3} />
                             <div className='communityCardText'>
                                 <h2 className='special'>Oluwabukola Aderinsola</h2>
-                                <h6>Paris, France</h6>
+                                <h6>Lagos, Nigeria</h6>
                                 <p>
                                     Encountered a suspicious email <br /> today claiming to be from my
                                     bank. Has anyone else experienced something similar?

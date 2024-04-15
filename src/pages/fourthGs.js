@@ -28,14 +28,14 @@ const fourthGs = () => {
 
                     <div className='littleCard'>
                         <img src={blueIcon}/> 
-                        <CloseOutlined className='icon2' />
                         <p className='text'> wants to</p>
+                        <CloseOutlined className='icon2' />
                         <p><NotificationsNoneOutlinedIcon/> Show notification</p>
                         <Link className='firstbutton'>Decline</Link>
-                        <Link className='secondbutton'>Allow</Link>
+                        <Link className='firstbutton'>Allow</Link>
                     </div>
 
-                    <Link to='/getStarted5' className='thirdbutton'>Continue</Link>
+                    <Link to='/fifthStart' className='secondbutton'>Continue</Link>
                 </div>
             </div> 
         </div>

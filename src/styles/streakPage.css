@@ -22,20 +22,27 @@ body{
     color: #000000;
 }
 
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 .streakBox img{
     width: 400px;
-    height: 200px;
+    height: 150px;
     margin-top:40px;
     margin-bottom: 60px;
 }
 
-.streakButton1{
+.streakbutton li :focus{
     width: 400px;
     height: 30px;
     font-family: inter;
     font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 0px;
     padding:8px;
-    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,12 +53,13 @@ body{
     
 }
 
-.streakButton2{
+.streakButton1{
     width: 400px;
     height: 30px;
     font-family: inter;
     font-size: 15px;
     padding: 8px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
