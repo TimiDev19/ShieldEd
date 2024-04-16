@@ -24,11 +24,15 @@ const getStarted3 = () => {
                 <div className='rightStep3Box'>
                 <Link to='/'><CloseOutlined className='icons' /></Link>
                 <h2>What’s your daily learning <br/> goal ?</h2>   
-                    <div className='buttons'>
-                    <Link className="button1">Beginner <span className='endText'> 5mins/day </span> </Link>
-                    <Link className='button2'>Determined <span className='endText'> 15mins/day</span></Link>
-                    <Link className='button3'>Intense <span className='endText'> 30mins/day</span></Link>
-                    <Link className='button4' to="/signup">I’m ready!</Link>
+                    <div className='rightbuttons'>
+                       <ul>
+                        <li><Link className="rightbutton1">Beginner <span className='endText'> 5mins/day </span> </Link></li>
+                        <li><Link className='rightbutton1'>Determined <span className='endText'> 15mins/day</span></Link></li>
+                        <li><Link className='rightbutton1'>Intense <span className='endText'> 30mins/day</span></Link></li>
+                         <div className='lastbutton'>
+                        <li><Link to='/fourthGs'className='rightbutton2'>I’m ready!</Link></li>
+                        </div>
+                       </ul> 
                     </div>
                 </div>
             </div>

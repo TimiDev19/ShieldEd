@@ -1,11 +1,11 @@
 
-.step3{
+.fifthStartContainer{
     width: 100%;
     display: flex;
     height: 100vh;
 }
 
-.leftStep3Box{
+.fifthStartleftBox{
     width: 80%;
     margin: auto;
     height: fit-content;
@@ -13,7 +13,7 @@
     margin-top: 6%;
 }
 
-.leftStep3{
+.fifthStartleft{
     width: 35%;
     height: 100%;
     display: flex;
@@ -21,19 +21,19 @@
     background-color: rgba(233, 243, 252, 1);
 }
 
-.leftStep3 img{
+.fifthStartleft img{
     height: 35px;
     width: auto;
 }
 
-.leftStep3 h1{
+.fifthStartleft h1{
     font-size: 35px;
     color: rgba(12, 48, 78, 1);
     margin-top: 25px;
     margin-bottom: 0;
 }
 
-.leftStep3 p{
+.fifthStartleft p{
     font-size: 15px;
     color: rgba(118, 118, 118, 1);
     word-spacing: 10px;
@@ -54,41 +54,37 @@
     height: 220px;
 }
 
-.rightStep3Box .icons{
+.fifthStartrightBox .icon1{
     color: black;
     top: 15px;
     right: 35px;
     position: absolute;
 }
 
-.rightStep3{
+.fifthStartright{
     width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.rightStep3Box{
+.fifthStartrightBox{
     width: 100%;
     margin: auto;
+    margin-top: 120px;
     height: fit-content;
     align-self: center;
     text-align: center;
 }
 
-.rightStep3Box h2{
+.fifthStartrightBox h2{
     font-size: 34px;
     font-family: inter;
     font-weight: 600;
-    margin-bottom: 0;
-}
-
-ul{
-    list-style: none;
-    padding: 0;
     margin: 0;
 }
-.rightbuttons{
+
+.fifthStartbuttons{
     display: flex;
     flex-direction: column;
     margin-top: 0px;
@@ -97,74 +93,101 @@ ul{
     align-items: center;
 }
 
-/* .button1{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 8px 15px 8px 15px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: #2389DE;
-    border-radius:5px;
-    text-decoration: none;
-    
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.iconOne{
+    color: black;
+    top: 15px;
+    right: 35px;
+    position: absolute;
+}
+
+.iconContainer{
+ display: flex;
+ align-items: center;
+ 
+}
+
+.iconTwo{
+    color: rgba(118, 118, 118, 1);
+}
+
+/* .FSfirstbutton p{
+    margin-top: 20px;
 } */
 
-.rightbutton1{
+.FSfirstbutton{
     width: 400px;
-    height: 28px;
+    height: fit-content;
     margin-top: 40px;
     font-family: inter;
     font-size: 15px;
     padding: 13px 15px 9px 15px;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    gap: 20px;
     border: 1px solid rgba(118, 118, 118, 1);
     border-radius: 5px;
+
+}
+
+.FSsecondbutton{
+    width: 400px;
+    height: fit-content;
+    margin-top: 40px;
+    font-family: inter;
+    font-size: 15px;
+    padding: 13px 15px 9px 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid rgba(118, 118, 118, 1);
+    border-radius: 5px;
+}
+
+.FsOne{
+    width: 40%;
+    background-color: white;
     color: rgba(118, 118, 118, 1);
     text-decoration: none;
     transition: all 0.2s ease;
-    
+    width: 40%;
 }
 
-/* .rightbutton1{
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-}
-
-button{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 8px 15px 8px 15px;
+.FsTwo{
     background-color: white;
-    border: 1px solid rgba(118, 118, 118, 1);
-    border-radius: 5px;
     color: rgba(118, 118, 118, 1);
     text-decoration: none;
+    transition: all 0.2s ease;
 }
 
-button :focus{
+.FSfirstbutton li :focus{
     width: 400px;
     height: 30px;
     font-family: inter;
     font-size: 15px;
-    padding: 8px 15px 8px 15px;
-    margin-top: -10px;
+    padding: 13px 15px 7px 15px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    /* border: none; */
     color: white;
     background-color: #2389DE;
     border-radius:5px;
     text-decoration: none;
-} */
+}
 
-.rightbutton2{
+.FSfirstbutton li :hover{
+    background-color: #2389DE;
+    color: white;
+    /* border: none; */
+}
+
+.FsThree{
     width: 400px;
     height: 30px;
     font-family: inter;
@@ -181,56 +204,7 @@ button :focus{
     transition: all 0.2s ease;
 }
 
-li :hover{
-    color: white;
-    background-color: #2389DE; 
-}
-
-/* li:focus{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 8px 15px 8px 15px;
-    margin-top: -10px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: #2389DE;
-    border-radius:5px;
-    text-decoration: none;
-} */
-
-/* li :hover{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 8px 15px 8px 15px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: #2389DE;
-    border-radius:5px;
-    text-decoration: none;
-} */
-
-li :focus{
-    width: 400px;
-    height: 30px;
-    font-family: inter;
-    font-size: 15px;
-    padding: 13px 15px 7px 15px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: #2389DE;
-    border-radius:5px;
-    text-decoration: none;
-}
-
-.lastbutton li :focus{
+.FSlastbutton li :focus{
     width: 400px;
     height: 30px;
     font-family: inter;
@@ -246,3 +220,8 @@ li :focus{
     text-decoration: none;
 }
 
+.FSlastbutton li :hover{
+    background-color: #2389DE;
+    color: white;
+    border: none;
+}

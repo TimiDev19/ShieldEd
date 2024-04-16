@@ -19,6 +19,8 @@ import { lazy } from 'react';
 import successPage from './pages/successPage.js';
 import leaderboard from './pages/leaderboard.js';
 import privacypolicy from './pages/privacypolicy.js';
+import fourthGs from './pages/fourthGs.js';
+import fifthStart from './pages/fifthStart.js';
 
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
         <Route path="/challenges" exact Component={challenges}/>
         <Route path="/courses" exact Component={coursePage} />
         <Route path='/loginPage' exact Component={loginPage} />
+        <Route path='/fourthGs' exact Component={fourthGs} />
         <Route path='/signup' exact Component={signupPage} />
 
         <Route path='/newSignup' exact Component={newSignup} />
@@ -45,6 +48,7 @@ function App() {
         <Route path="/getStarted3" exact Component={getStarted3} />
         <Route path="/streakPage" exact Component={streak} />
         <Route path="/privacypolicy" exact Component={privacypolicy} />
+        <Route path="/fifthStart" exact Component={fifthStart} />
         </Routes>
       </Router>
     </div>

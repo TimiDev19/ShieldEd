@@ -19,6 +19,9 @@
     margin-bottom: 10px;
 }
 
+.page-container{
+    overflow-y: hidden;
+}
 
 .learningCardHeader{
     display: flex;
@@ -79,4 +82,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 0;
+}
+
+.leftCardBox .hexagonSet{
+    width: 95%;
+    height: auto;
+    margin: auto;
 }

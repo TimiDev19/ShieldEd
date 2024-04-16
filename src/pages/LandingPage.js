@@ -71,6 +71,8 @@ const LandingPage = () => {
         <>
 
             <div className='landingPageContainer'>
+
+                {/* ==THIS IS THE NAVBAR FOR THE LANDING PAGE== */}
                 <nav className="landingnavbar">
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
@@ -82,12 +84,12 @@ const LandingPage = () => {
                     </div>
                     <div className="navbar-links-right">
                         <a href="/loginPage">Login</a>
-                        <a href="/getStarted1" className='rightButton'>Get Started</a>
+                        <a href="/getStarted2" className='rightButton'>Join for FREE</a>
                         <TranslateIcon className='icons' />
                     </div>
                 </nav>
 
-
+                {/* ==THIS IS THE HOME SECTION OF THE LANDING PAGE== */}
                 <div className='landingHome'>
 
                     <div className='landingHomeTextBox'>
@@ -101,14 +103,14 @@ const LandingPage = () => {
                             learning experiences, engaging challenges, and expert guidance.
                         </p>
                         <div className='buttonBox'>
-                            <div className='leftButton'><Link to='/getStarted1'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
-                            <div className='rightButton'><Link>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
+                            <div className='leftButton'><Link to='/courses'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='rightButton'><Link to='/courses'>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>
                     <img src={landingImage} />
                 </div>
 
-
+                {/* ==THIS IS THE FEATURES SECTION OF THE LANDING PAGE== */}
                 <div className='sectionThree'>
                     <h1 className='headerText'>Feel the best experince<br />  with our features</h1>
                     <div className='sectionThreeHorizontalCard'>
@@ -190,7 +192,7 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-
+                {/* ==THIS IS THE COMMUNITY SECTION== */}
                 <div className='communitySection'>
                     <h2>Join our cybersecurity awareness community</h2>
                     <div className='communityCard'>
@@ -206,7 +208,7 @@ const LandingPage = () => {
                     </div>
 
                     <div className='communityCardGrid'>
-                        <div className='communityCard'>
+                        <div className='communityCard' id='horizontalCommunityCrad'>
                             <img src={LandingAvatar2} />
                             <div className='communityCardText'>
                                 <h2>Priya Patel</h2>
@@ -220,14 +222,14 @@ const LandingPage = () => {
                             </div>
                         </div>
 
-                        <div className='communityCard'>
+                        <div className='communityCard' id='horizontalCommunityCrad1'>
                             <img src={LandingAvatar3} />
                             <div className='communityCardText'>
                                 <h2 className='special'>Oluwabukola Aderinsola</h2>
-                                <h6>Paris, France</h6>
+                                <h6>Lagos, Nigeria</h6>
                                 <p>
-                                    Encountered a suspicious email today <br /> claiming to be from my
-                                    bank. Has anyone <br />else experienced something similar?
+                                    Encountered a suspicious email <br /> today claiming to be from my
+                                    bank. Has anyone else experienced something similar?
                                 </p>
                             </div>
                         </div>
@@ -249,6 +251,7 @@ const LandingPage = () => {
                     </div>
                 </div>
 
+                {/* ==THIS IS THE FREQUENTLY ASKED QUESTIONS SECTION== */}
                 <div className='frequentlyAskedQuestions'>
                     <h1>Have Questions? We're Happy To Help!</h1>
                     <div className='questionsBox'>
@@ -278,7 +281,7 @@ const LandingPage = () => {
                 </div>
 
 
-
+                {/* ==THIS IS THE FOOTER== */}
                 <div className='footerContainer' style={{ backgroundImage: `url(${pattern})` }}>
                     <div className='linkBox'>
                         <div className='leftLinkBox'>
