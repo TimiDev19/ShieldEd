@@ -143,25 +143,26 @@ position: fixed;
     font-weight: 600;
 }
 
-.googleButton{
+.googlebutton{
     display: flex;
     width: fit-content;
     margin: auto;
     align-content: center;
     background-color: transparent;
     justify-content: center;
-    padding: 10 10px;
+    padding: 0 10px;
     border: 1px solid #949CA9;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 13px;
     margin-top: 0px;
+
 }
 
-.googleButton img{
+.googlebutton img{
     height: 27px;
     width: auto;
     align-self: center;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .googleButtonLink{
