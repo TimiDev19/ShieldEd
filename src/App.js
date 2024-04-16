@@ -3,7 +3,7 @@ import Dashboard from './pages/Dashboard';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import learningCard from './pages/learningCard.js';
 import landingPage from './pages/LandingPage.js';
-import challenges from './pages/challenges.js';
+import Challenges from './pages/challenges.js';
 import coursePage from './pages/coursePage';
 import LandingPage from './pages/LandingPage';
 import loginPage from './pages/loginPage';
@@ -32,7 +32,7 @@ function App() {
         <Route path="/dashboard" exact Component={Dashboard}/>
         <Route path="/leaderboard" exact Component={leaderboard}/>
         <Route path="/learningCard" exact Component={learningCard}/>
-        <Route path="/challenges" exact Component={challenges}/>
+        <Route path="/challenges" exact Component={Challenges}/>
         <Route path="/courses" exact Component={coursePage} />
         <Route path='/loginPage' exact Component={loginPage} />
         <Route path='/fourthGs' exact Component={fourthGs} />
