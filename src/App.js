@@ -18,6 +18,7 @@ import streak from './pages/streakPage.js';
 import { lazy } from 'react';
 import successPage from './pages/successPage.js';
 import leaderboard from './pages/leaderboard.js';
+import privacypolicy from './pages/privacypolicy.js';
 import fourthGs from './pages/fourthGs.js';
 import fifthStart from './pages/fifthStart.js';
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/getStarted2" exact Component={getStarted2} />
         <Route path="/getStarted3" exact Component={getStarted3} />
         <Route path="/streakPage" exact Component={streak} />
+        <Route path="/privacypolicy" exact Component={privacypolicy} />
         <Route path="/fifthStart" exact Component={fifthStart} />
         </Routes>
       </Router>
