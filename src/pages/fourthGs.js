@@ -4,6 +4,7 @@ import blueIcon from '../assets/Frame 1.png'
 import teddy from '../assets/teddybear.png'
 import { CloseOutlined } from '@mui/icons-material'
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import prog3 from '../assets/Imageprog3.png'
 
 const fourthGs = () => {
     return ( 
@@ -15,6 +16,13 @@ const fourthGs = () => {
                     <p>
                     By answering a few quick questions, we <br/>can tailor your learning experience to <br/>suit your needs and preferences.
                     </p>
+                    <div className='Prog3'>
+                    <img src={prog3} />
+                    </div>
+                    <div className='ProgText3'>
+                        <p>Stage0</p>
+                        <p>Stage4</p>
+                    </div>
                     <div className='secondImage'>
                         <img src={teddy}/>
                     </div>

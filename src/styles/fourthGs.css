@@ -54,6 +54,26 @@
     height: 220px;
 }
 
+.Prog3{
+    margin-bottom: 0px;
+}
+.Prog3 img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 384px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.ProgText3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+}
+
+
 .fourthrightBox .icon1{
     color: black;
     top: 15px;
