@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 
-p {
+.update {
     border: solid rgb(223, 213, 213);
     border-radius: 30px;
     padding-bottom: 10px;

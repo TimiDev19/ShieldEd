@@ -14,13 +14,11 @@ import LandingAvatar4 from '../assets/landingAvatar3.png';
 import pattern from '../assets/pattern.png'
 import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
-import PopupExample from '../components/Popup';
 
 
 import "../styles/LandingPage.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
-import sectionThreeIcon from "../assets/sectionThreeIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
 import section3icon from "../assets/section3icon.png";
 import section3image from "../assets/section3image.png";

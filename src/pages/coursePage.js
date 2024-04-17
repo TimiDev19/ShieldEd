@@ -164,7 +164,10 @@ function coursePage() {
                                     {/* <Link to="/learningCard">Learning Cards</Link> */}
                                 </div>
                             </div>
-                            <img src={learningHexagons} className='hexagonSet'/>
+                            <Link to='/challenges'>
+                                <img src={learningHexagons} className='hexagonSet' />
+                            </Link>
+
 
 
 
@@ -174,10 +177,10 @@ function coursePage() {
                                         <h4>UNIT 2 <PopupExample cards={cards} /></h4>
                                         <h2>Spotting Suspicious Sender Addresses</h2>
                                     </div>
-                                   
+
                                 </div>
                             </div>
-                            <img src={learningHexagons2} className='hexagonSet'/>
+                            <img src={learningHexagons2} className='hexagonSet' />
 
                             <div className='learningCardBox'>
                                 <div className='learningCardHeader'>
@@ -185,10 +188,10 @@ function coursePage() {
                                         <h4>UNIT 3 <PopupExample cards={cards} /></h4>
                                         <h2>Analyzing Phishing Email Content</h2>
                                     </div>
-                                    
+
                                 </div>
                             </div>
-                            <img src={learningHexagons2} className='hexagonSet'/>
+                            <img src={learningHexagons2} className='hexagonSet' />
 
 
                         </div>
