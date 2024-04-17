@@ -59,6 +59,24 @@
     right: 35px;
     position: absolute;
 }
+.prog1{
+    margin-bottom: 0px;
+}
+.prog1 img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 384px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.progText1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+}
 
 .rightStep2{
     width: 65%;

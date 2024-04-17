@@ -54,6 +54,26 @@
     height: 220px;
 }
 
+.progress4{
+    margin-bottom: 0px;
+}
+.progress4 img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 384px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.progtext4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+}
+
+
 .fifthStartrightBox .icon1{
     color: black;
     top: 15px;
@@ -107,13 +127,18 @@ ul{
 }
 
 .iconContainer{
- display: flex;
- align-items: center;
+  width: auto;
+  height: auto;
  
 }
 
 .iconTwo{
     color: rgba(118, 118, 118, 1);
+    /* align-self: center; */
+    margin-left: 8px;
+    margin-top: 4px;
+    width: 0px;
+  height: 0px;
 }
 
 /* .FSfirstbutton p{
@@ -128,8 +153,11 @@ ul{
     font-size: 15px;
     padding: 13px 15px 9px 15px;
     display: flex;
+    flex-direction: row;
+    /* display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 20px; */
     border: 1px solid rgba(118, 118, 118, 1);
     border-radius: 5px;
 
@@ -150,12 +178,16 @@ ul{
 }
 
 .FsOne{
-    width: 40%;
     background-color: white;
     color: rgba(118, 118, 118, 1);
     text-decoration: none;
     transition: all 0.2s ease;
-    width: 40%;
+    align-self: center;   
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
 
 .FsTwo{

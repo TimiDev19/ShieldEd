@@ -42,6 +42,25 @@
     margin-top: 20px;
 }
 
+.prog2{
+    margin-bottom: 0px;
+}
+.prog2 img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 384px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.progText2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+}
+
 .secondImage{
     position: absolute;
     bottom: 0;
