@@ -38,11 +38,13 @@ const fifthStart = () => {
                         <ul>
                             <div className='FSfirstbutton'>
                             <li>
+                                {/* <div className='FsOne'> */}
                                 <Link className='FsOne'>
                                 <h3>Start from the scratch</h3>
                                 <p>Take the easiest cybersecurity course</p>
                                 </Link>
-                                {/* <MenuBookOutlinedIcon className='iconTwo'fontSize='large'/> */}
+                                
+                                <MenuBookOutlinedIcon className='iconTwo'fontSize='large'/>
                             </li>
                             </div>
                             
