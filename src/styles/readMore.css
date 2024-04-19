@@ -1,0 +1,324 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.mainContaine{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.testimonialsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(249, 250, 251, 1);
+}
+
+
+
+.testimonialsContainer h2{
+    font-size: 45px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.testimonialBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.stars{
+    color: rgba(255, 103, 0, 1);
+}
+
+.testimonial-card{
+    width: 270px ;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.testimonial-card p{
+    font-weight: 500;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(0, 78, 152, 1);
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.card-footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 55%;
+}
+
+.card-footer h4{
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 500;
+    color: rgba(58, 110, 165, 1);
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.card-footer p{
+    font-size: 12px;
+    font-family: inter;
+    font-weight: 500;
+    opacity: 70%;
+    color: rgba(92, 113, 132, 1);
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+.see-allButton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    background-color: rgba(35, 137, 222, 1);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+    text-decoration: none;
+}
+
+.see-allButton p{
+    margin-top: 15px;
+    color: white;
+    font-family: inter;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bookDemo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #2389de;
+}
+
+.bookDemo-container h2{
+    font-family: inter;
+    color: white;
+    font-weight: 500;
+    font-size: 55px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.bookDemo-container p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bookdemo-buuton{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.demoButton{
+    color: rgba(0, 132, 180, 1);
+    background-color: white;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: inter;
+    width: 210px;
+    height: 50px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+
+
+.demoButton .icons{
+    margin-left: 8px;
+    margin-top: 4px;
+    color: rgba(0, 132, 180, 1);
+}
+
+.footerContainer {
+    height: fit-content;
+    width: 100%;
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkBox{
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px #98A2B3 solid;
+    margin-bottom: 5px;
+}
+
+.leftLinkBox{
+    align-items: start;
+    justify-content: left;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.leftLinkBox img{
+    height: 35px;
+    width: auto;
+}
+
+.leftLinkBox p{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: inter;
+}
+
+.leftLinkButtonBox{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.leftLinkButtonBox a{
+    align-self: center;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    background-color: #2389DE;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.leftLinkButtonBox input{
+    border: .5px solid grey;
+    width: 60%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.leftLinkButtonBox input::placeholder{
+    padding-left: 10px;
+}
+
+.rightLinkBox{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.rightListBox{
+    padding-left: 85px;
+    width: fit-content;
+    text-align: left;
+}
+
+.rightListBox ul{
+    list-style: none;
+    width: fit-content;
+}
+
+.rightListBox li{
+    color: #98A2B3;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: inter;
+    line-break: none;
+}
+
+
+.rightListBox li span{
+    font-size: 12px;
+}
+
+
+.lowerFooterText{
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+.lowerFooterLeft{
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerFooterLeft li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #98A2B3;
+}
+
+.lowerFooterRight li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #98A2B3;
+}
+
+
+
+.imageOne img {
+  height: 400px;
+  width: auto;
+}
+.smallText {
+  font-size: small;
+  color: #98a2b3;
+  text-align: center;
+}
+
+.leftIcon {
+  flex: 1;
+}
+
+
+
+.smallTextTwo {
+  font-size: small;
+  color: #98a2b3;
+  text-align: center;
+}
+
+.imageTwo img {
+  height: 280px;
+  width: auto;
+}
