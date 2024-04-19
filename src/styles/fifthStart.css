@@ -54,6 +54,26 @@
     height: 220px;
 }
 
+.progress4{
+    margin-bottom: 0px;
+}
+.progress4 img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 384px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.progtext4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+}
+
+
 .fifthStartrightBox .icon1{
     color: black;
     top: 15px;
@@ -106,14 +126,16 @@ ul{
     position: absolute;
 }
 
-.iconContainer{
- display: flex;
- align-items: center;
- 
-}
+
 
 .iconTwo{
     color: rgba(118, 118, 118, 1);
+    /* align-self: center; */
+    /* margin-left: 8px;
+    margin-top: 4px; */
+    bottom: 70px;
+    left: 200px;
+    position: relative;
 }
 
 /* .FSfirstbutton p{
@@ -122,14 +144,14 @@ ul{
 
 .FSfirstbutton{
     width: 400px;
-    height: fit-content;
+    height: 50px;
     margin-top: 40px;
     font-family: inter;
     font-size: 15px;
     padding: 13px 15px 9px 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
     border: 1px solid rgba(118, 118, 118, 1);
     border-radius: 5px;
 
@@ -149,13 +171,31 @@ ul{
     border-radius: 5px;
 }
 
+.FsOne a{
+    color: rgba(118, 118, 118, 1);
+    text-decoration: none;
+}
+
 .FsOne{
-    width: 40%;
+    display: inline;
     background-color: white;
     color: rgba(118, 118, 118, 1);
     text-decoration: none;
     transition: all 0.2s ease;
-    width: 40%;
+    align-self: center;   
+    text-align: center;
+    bottom: 15px;
+    position: relative;
+    line-height: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.FsOne h3{
+    margin-left: -75px;
+
 }
 
 .FsTwo{
@@ -174,12 +214,13 @@ ul{
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    /* border: none; */
+    border: none;
     color: white;
     background-color: #2389DE;
     border-radius:5px;
     text-decoration: none;
 }
+
 
 .FSfirstbutton li :hover{
     background-color: #2389DE;

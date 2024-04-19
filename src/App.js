@@ -21,6 +21,7 @@ import fourthGs from './pages/fourthGs.js';
 import fifthStart from './pages/fifthStart.js';
 import Shop from './pages/Shop';
 import SecondChallenge from './pages/SecondChallenge';
+import readMore from './pages/readMore.js';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path='/loginPage' exact Component={loginPage} />
         <Route path='/fourthGs' exact Component={fourthGs} />
         <Route path='/signup' exact Component={signupPage} />
+        <Route path='/readMore' exact Component={readMore} />
         <Route path='/newSignup' exact Component={newSignup} />
         <Route path='/successPage' exact Component={successPage} />
         <Route path="/landingPage" exact Component={landingPage} />
