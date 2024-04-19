@@ -405,7 +405,11 @@ margin-left: 10px;
     color: #98A2B3;
 }
 
-
+.lowerFooterLeft li a{
+    font-size: 14px;
+    color: #98A2B3;
+    text-decoration: none;
+}
 
 .imageOne img {
   height: 400px;
@@ -956,4 +960,9 @@ margin-left: 10px;
     100%{
         transform: translateX(0%);
     }
+}
+
+.communitySection img{
+    max-width: 80vw;
+    overflow-x: hidden;
 }

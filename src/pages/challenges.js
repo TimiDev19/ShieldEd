@@ -1,13 +1,35 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 import { Favorite } from '@mui/icons-material';
 import Success from '../components/Success';
 import Error from '../components/Error';
 import quizImage from '../assets/quiz-image.png';
-import '../styles/challenges.css'
+import '../styles/challenges.css';
+import { Howl } from 'howler';
 
 const Challenges = () => {
+
+  const sound = new Howl({
+    src: ['../assets/wrongAnswer.mp3']
+  });
+
+  // Play sound on button click
+  const playSound = () => {
+    sound.play();
+  };
+
+  const verifyButton = () => {
+    handleVerifyClick();
+    playSound();
+  };
+
+  // Or play sound when the component mounts
+  useEffect(() => {
+    sound.play();
+  }, []);
+
+
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
   const [showErrorAlert, setShowErrorAlert] = useState(false);
 
@@ -48,7 +70,7 @@ const Challenges = () => {
         <div className='challengButtonBox'>
           <Link className='leftChallengeBtn' onClick={handleVerifyClickE}>Report as Phishing</Link>
           <div className='rightChallengeBtn'>
-            <Link to='' onClick={handleVerifyClick}>Verify</Link>
+            <Link to='' onClick={verifyButton} >Verify</Link>
           </div>
         </div>
       </div>

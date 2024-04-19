@@ -9,21 +9,19 @@ import LandingPage from './pages/LandingPage';
 import loginPage from './pages/loginPage';
 import signupPage from './pages/signupPage';
 import newSignup from './pages/newSignup';
-
 import unitCompletion from './pages/unitCompletion.js';
 import getStarted1 from './pages/getStarted1.js'
 import getStarted2 from './pages/getStarted2.js'
 import getStarted3 from './pages/getStarted3.js'
 import streak from './pages/streakPage.js';
-import { lazy } from 'react';
 import successPage from './pages/successPage.js';
 import leaderboard from './pages/leaderboard.js';
 import privacypolicy from './pages/privacypolicy.js';
 import fourthGs from './pages/fourthGs.js';
 import fifthStart from './pages/fifthStart.js';
+import Shop from './pages/Shop';
+import SecondChallenge from './pages/SecondChallenge';
 import readMore from './pages/readMore.js';
-
-
 
 
 function App() {
@@ -41,7 +39,6 @@ function App() {
         <Route path='/fourthGs' exact Component={fourthGs} />
         <Route path='/signup' exact Component={signupPage} />
         <Route path='/readMore' exact Component={readMore} />
-
         <Route path='/newSignup' exact Component={newSignup} />
         <Route path='/successPage' exact Component={successPage} />
         <Route path="/landingPage" exact Component={landingPage} />
@@ -53,6 +50,8 @@ function App() {
         <Route path="/streakPage" exact Component={streak} />
         <Route path="/privacypolicy" exact Component={privacypolicy} />
         <Route path="/fifthStart" exact Component={fifthStart} />
+        <Route path="/shop" exact Component={Shop}/>
+        <Route path="/secondChallenge" exact Component={SecondChallenge}/>
         </Routes>
       </Router>
     </div>
