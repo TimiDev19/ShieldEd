@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
 import { Link } from 'react-router-dom';
@@ -183,7 +182,7 @@ const LandingPage = () => {
                                 <img src={LPtraining} />
                                 <div className='buttonContainer'>
                                     <Link><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
-                                    <Link><button className='leftBodybutton2'>Read more</button></Link>
+                                    <Link to='/readmore'><button className='leftBodybutton2'>Read more</button></Link>
 
                                 </div>
                             </div>
