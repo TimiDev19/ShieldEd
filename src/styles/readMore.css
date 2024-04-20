@@ -1,324 +1,250 @@
-@import url('https://fonts.cdnfonts.com/css/inter');
-
-.mainContaine{
-    overflow-y: scroll;
+.readmorePage{
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.testimonialsContainer{
+.readmorePage::-webkit-scrollbar{
+    display: none;
+}
+
+.readmoreHome{
+    height: 90vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(249, 250, 251, 1);
 }
 
-
-
-.testimonialsContainer h2{
-    font-size: 45px;
-    font-family: inter;
-    font-weight: 500;
-}
-
-.testimonialBox{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    gap: 25px;
-    margin-top: 30px;
-}
-
-.stars{
-    color: rgba(255, 103, 0, 1);
-}
-
-.testimonial-card{
-    width: 270px ;
-    height: 270px;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: rgba(0, 0, 0, 0.07);
+.readmoreCard{
+    width: 90%;
+    height: 95%;
+    margin: auto;
+    background-color: #2389DE;
     border-radius: 20px;
-    padding: 40px;
-}
-
-.testimonial-card p{
-    font-weight: 500;
-    font-family: inter;
-    font-size: 16px;
-    line-height: 30px;
-    color: rgba(0, 78, 152, 1);
-}
-
-.card-footer{
     display: flex;
-    align-items: center;
-    gap: 1px;
+    justify-content: space-between;
 }
 
-.card-footer img{
-    width: 40px;
-    height: 40px;
-    border-radius: 55%;
+.readmoreCardRight{
+    width: 50%;
+    display: flex;
 }
 
-.card-footer h4{
-    font-size: 14px;
-    font-family: inter;
-    font-weight: 500;
-    color: rgba(58, 110, 165, 1);
-    margin-bottom: 0px;
-    margin-left: 10px;
+.readmoreCardRight img{
+    align-self: center;
+    width: 90%;
 }
 
-.card-footer p{
-    font-size: 12px;
-    font-family: inter;
-    font-weight: 500;
-    opacity: 70%;
-    color: rgba(92, 113, 132, 1);
-    margin-top: -4px;
-    margin-left: 10px;
+.readmoreCardLeft{
+    width: 50%;
+    display: flex;
 }
 
-.see-allButton{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 150px;
-    height: 48px;
-    text-align: center;
-    background-color: rgba(35, 137, 222, 1);
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 2px 4px 2px 4px;
+.readmoreLeftContainer{
+    align-self: center;
+    padding-left: 40px;
+}
+
+.readmoreCardButton1{
+    color: #2389DE;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.readmoreLeftContainer h1{
+    margin-top: 10%;
+    color: white;
+    font-size: 50px;
+}
+
+.readmoreLeftContainer p{
+    color: white;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.readmoreCardButton2{
+    color: #2389DE;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.readmoreLeftContainer a{
     text-decoration: none;
 }
 
-.see-allButton p{
-    margin-top: 15px;
-    color: white;
-    font-family: inter;
-    font-size: 17px;
-    font-weight: 500;
-}
-
-.bookDemo-container{
+.demoSection{
+    background-color: #2389DE;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color:  #2389de;
+    align-content: center;
 }
 
-.bookDemo-container h2{
-    font-family: inter;
+.demoTextBox{
     color: white;
-    font-weight: 500;
-    font-size: 55px;
-    margin-top: 60px;
-    margin-bottom: 0px;
-}
-
-.bookDemo-container p{
+    width: 40%;
+    margin: auto;
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: inter;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
-.bookdemo-buuton{
-    margin-top: 20px;
+.demoTextBox h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.demoTextBox p{
+    font-weight: 200;
+}
+
+.demoTextBox a{
+    margin: auto;
+    text-decoration: none;
+    align-self: center;
     margin-bottom: 40px;
 }
 
-.demoButton{
-    color: rgba(0, 132, 180, 1);
-    background-color: white;
-    border: 1px;
-    border-radius: 4px;
-    font-weight: 400;
-    font-size: 17px;
-    font-family: inter;
-    width: 210px;
-    height: 50px;
-    padding: 0px;
-    margin: 10px;
-    text-align: center;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none; 
-}
-
-
-
-.demoButton .icons{
-    margin-left: 8px;
-    margin-top: 4px;
-    color: rgba(0, 132, 180, 1);
-}
-
-.footerContainer {
-    height: fit-content;
+.readmoreSection2{
     width: 100%;
-    margin-top: 80px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    padding: 20px;
+}
+
+.readmoreSectionLeft{
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.linkBox{
-    height: fit-content;
+.readmoreSectionLeft img{
+    width: 70%;
+    align-self: center;
+}
+
+.readmoreSectionRight{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+}
+
+.readmoreSectionRight h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.readmoreSectionRight p{
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.readmoreSection3{
+    text-align: center;
+    padding: 20px;
+}
+
+.readmoreSection3 h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.readmoreSection3CardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
     width: 90%;
     margin: auto;
-    display: flex;
-    border-bottom: 1px #98A2B3 solid;
-    margin-bottom: 5px;
 }
 
-.leftLinkBox{
-    align-items: start;
-    justify-content: left;
+.benefitCard{
+    background-color: #E9F3FC;
+    width: 43%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    padding-right: 70px;
+    padding: 20px;
+    border-radius: 21px;
+    margin-bottom: 50px;
+    box-shadow: 0 .1rem .1rem gray;
 }
 
-.leftLinkBox img{
-    height: 35px;
-    width: auto;
+.benefitCard img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: #BBDAF5;
+    border-radius: 50%;
+    display: block;
 }
 
-.leftLinkBox p{
-    font-size: 14px;
-    font-weight: 200;
-    font-family: inter;
+.benefitCard h1{
+    font-size: 25px;
+    font-weight: 500;
 }
 
-.leftLinkButtonBox{
-    width: 100%;
+.benefitCard p{
+    color: #6D7482;
+}
+
+.cardWrap{
     display: flex;
-    height: 50px;
+    align-self: center;
     justify-content: space-between;
+    width: 70%;
 }
 
-.leftLinkButtonBox a{
-    align-self: center;
-    width: 40%;
-    height: 50px;
+.readmoreSection4{
     text-align: center;
-    align-content: center;
-    background-color: #2389DE;
-    border-radius: 10px;
+    padding: 20px;
+    background-color: #F9FAFB;
+}
+
+.readmoreSection4 h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.readmoreSection4 a{
     color: white;
+    padding: 10px 40px;
+    background-color: #2389DE;
+    border-radius: 5px;
     text-decoration: none;
 }
 
-.leftLinkButtonBox input{
-    border: .5px solid grey;
-    width: 60%;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-
-.leftLinkButtonBox input::placeholder{
-    padding-left: 10px;
-}
-
-.rightLinkBox{
-    width: fit-content;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.rightListBox{
-    padding-left: 85px;
-    width: fit-content;
-    text-align: left;
-}
-
-.rightListBox ul{
-    list-style: none;
-    width: fit-content;
-}
-
-.rightListBox li{
-    color: #98A2B3;
-    padding: 5px;
-    font-size: 14px;
-    margin-bottom: 10px;
-    font-family: inter;
-    line-break: none;
-}
-
-
-.rightListBox li span{
-    font-size: 12px;
-}
-
-
-.lowerFooterText{
-    height: fit-content;
-    width: 90%;
+.readmoreSection4CardBox{
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    padding-top: 0;
     margin-bottom: 30px;
 }
 
-.lowerFooterLeft{
-    width: fit-content;
-    display: flex;
-    justify-content: space-between;
+.testimonialCard{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 25%;
+    text-align: left;
 }
 
-.lowerFooterLeft li{
-    list-style: none;
-    padding-right: 20px;
-    font-size: 14px;
-    color: #98A2B3;
+.testimonialCard p{
+    color: #004E98;
+    line-height: 1.5rem;
+    width: 90%;
 }
 
-.lowerFooterRight li{
-    list-style: none;
-    padding-right: 20px;
-    font-size: 14px;
-    color: #98A2B3;
+.testimonialCard img{
+    margin-top: 30px;
+    width: 50%;
 }
 
-
-
-.imageOne img {
-  height: 400px;
-  width: auto;
-}
-.smallText {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
-}
-
-.leftIcon {
-  flex: 1;
-}
-
-
-
-.smallTextTwo {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
-}
-
-.imageTwo img {
-  height: 280px;
-  width: auto;
+.testimonialCard .review{
+    width: 30%;
 }
