@@ -181,7 +181,7 @@ button :focus{
     transition: all 0.2s ease;
 }
 
-li :hover{
+.rightbuttons li :hover{
     color: white;
     background-color: #2389DE; 
 }
@@ -215,7 +215,7 @@ li :hover{
     text-decoration: none;
 } */
 
-li :focus{
+.rightbuttons li :focus{
     width: 400px;
     height: 30px;
     font-family: inter;
