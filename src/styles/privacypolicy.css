@@ -100,17 +100,165 @@ p {
     font-size: x-small;
 }
 
-.policyimage{
-    align-items: center;
+.policysection2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 200vh;
+    height: 2000vh;
+}
+
+.leftpolicysection2{
+    width: 80%;
+}
+
+.word{
+    color:#98A2B3;
+    word-spacing: 5px;
+    gap: 10px;
+}
+
+.word2{
+    color:rgb(56, 54, 54);
+    word-spacing: spacing 5px;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: justify;
+    text-indent: 5px;
+    line-height: 1.8;
+}
+
+.quote{
+    color:rgb(56, 54, 54);
+    word-spacing: spacing 5px;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: justify;
+    text-indent: 5px;
+    line-height: 1.8;
+    margin-left: 50px;
+}
+
+.rightpolicysection2{
+    margin-left: -50%;
+    width: 60%;
 }
 
 .section {
     height: auto;
-    width: 1250px;
+    width: 125px;
     align-items: center;
     margin-left: 100px;
 }
 
+.joinforfree{
+    width: 100%;
+    height: 60vh;
+    background-color: #2389DE;
+    display: flex;
+}
+
+.leftboxjoinforfree{
+    align-items: center;
+    color: white;
+    padding: 80px;
+    padding-top: 100px;
+}
+
+.rightboxjoinforfree{
+    align-items: center;
+    color: black;
+    height: 70%;
+    width: 35%;
+    background-color: white;
+    border-radius: 5%;
+    border: solid white;
+    margin-top: 5%;
+    margin-left: 150px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+    padding-right: 20PX;
+}
+
+.signup{
+    display: flex;
+    gap: 320px
+}
+
+.or{
+    color: #98A2B3;
+}
+
+.signin{
+    display: flex;
+}
+
+.divicon{
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.goggleicon {
+    width: 30px;
+    height: 30px;
+    margin-top: 20PX;
+    cursor: pointer;
+}
+
+.lowerFooterLeft{
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerFooterLeft li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #98A2B3;
+}
+
+.footerp{
+    color: #98A2B3;
+}
+
+.lowerFooterRight li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #98A2B3;
+}
+
+
+
+.imageOne img {
+  height: 400px;
+  width: auto;
+}
+.smallText {
+  font-size: small;
+  color: #98a2b3;
+  text-align: center;
+}
+
+.leftIcon {
+  flex: 1;
+}
+
+
+
+.smallTextTwo {
+  font-size: small;
+  color: #98a2b3;
+  text-align: center;
+}
+
+.imageTwo img {
+  height: 280px;
+  width: auto;
+}
 
 
 

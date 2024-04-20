@@ -77,8 +77,8 @@ const LandingPage = () => {
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
                         <a href="#home">Learn</a>
-                        <a href="#link">Resources</a>
-                        <a href="#link">Industries</a>
+                        <a href="/resources">Resources</a>
+                        <a href="/industries">Industries</a>
                         <Link to ="/privacypolicy"><a href="#link">About Us</a></Link>
                         <a href="#link">Contact</a>
                     </div>

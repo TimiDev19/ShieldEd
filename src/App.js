@@ -21,6 +21,8 @@ import leaderboard from './pages/leaderboard.js';
 import privacypolicy from './pages/privacypolicy.js';
 import fourthGs from './pages/fourthGs.js';
 import fifthStart from './pages/fifthStart.js';
+import resources from './pages/resourcespage.js'
+import industries from './pages/industries.js'
 
 
 function App() {
@@ -49,6 +51,8 @@ function App() {
         <Route path="/streakPage" exact Component={streak} />
         <Route path="/privacypolicy" exact Component={privacypolicy} />
         <Route path="/fifthStart" exact Component={fifthStart} />
+        <Route path="/resources" exact Component={resources} />
+        <Route path="/industries" exact Component={industries} />
         </Routes>
       </Router>
     </div>
