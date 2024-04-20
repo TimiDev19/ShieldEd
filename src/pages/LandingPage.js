@@ -182,7 +182,7 @@ const LandingPage = () => {
                                 <img src={LPtraining} />
                                 <div className='buttonContainer'>
                                     <Link><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
-                                    <Link to='/readmore'><button className='leftBodybutton2'>Read more</button></Link>
+                                    <Link to='/readMore'><button className='leftBodybutton2'>Read more</button></Link>
 
                                 </div>
                             </div>
