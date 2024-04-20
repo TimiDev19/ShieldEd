@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
 import { Link } from 'react-router-dom';
