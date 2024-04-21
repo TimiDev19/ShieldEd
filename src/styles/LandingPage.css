@@ -84,6 +84,7 @@
     padding-bottom: 0;
     margin-bottom: 0;
     box-shadow: 0 0 .2rem gray;
+    overflow-y: hidden;
 }
 
 .landingHomeTextBox{
@@ -588,7 +589,8 @@ margin-left: 10px;
     width: 100%;
     background-color: #F9FAFB;
     text-align: center;
-    overflow-x: hidden;  
+    overflow-x: hidden;
+    padding-bottom: 40px;  
 }
 
 .frequentlyAskedQuestions h1 {

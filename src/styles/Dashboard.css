@@ -853,3 +853,38 @@ right: 0;
         width: auto;
     }
 }
+
+
+
+.progressBarEmpty {
+    height: 15px;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 0;
+    box-shadow: 0 0 .05rem gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBarEmpty img{
+    align-self: center;
+    height: 25px;
+}
+
+.progressEmpty {
+    height: 15px;
+    width: 33%;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.progressTextEmpty{
+    width: 303%;
+    background-color: transparent;
+    height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+}

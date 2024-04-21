@@ -171,7 +171,7 @@
     padding: 20px;
     border-radius: 21px;
     margin-bottom: 50px;
-    box-shadow: 0 .1rem .1rem gray;
+    box-shadow: 0 0 .2rem gray;
 }
 
 .benefitCard img{
@@ -203,6 +203,7 @@
     text-align: center;
     padding: 20px;
     background-color: #F9FAFB;
+    padding-bottom: 40px;
 }
 
 .readmoreSection4 h1{

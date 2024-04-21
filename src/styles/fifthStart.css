@@ -205,6 +205,10 @@ ul{
     transition: all 0.2s ease;
 }
 
+.iconConatiner{
+    height: fit-content;
+}
+
 .FSfirstbutton li :focus{
     width: 400px;
     height: 30px;
