@@ -22,6 +22,7 @@ import fifthStart from './pages/fifthStart.js';
 import Shop from './pages/Shop';
 import SecondChallenge from './pages/SecondChallenge';
 import readMore from './pages/readMore.js';
+import requestDemo from './pages/requestDemo.js';
 
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
         <Route path="/getStarted2" exact Component={getStarted2} />
         <Route path="/getStarted3" exact Component={getStarted3} />
         <Route path="/streakPage" exact Component={streak} />
-        <Route path="/privacypolicy" exact Component={privacypolicy} />
+        <Route path="/streakPage" exact Component={streak} />
+        <Route path="/requestDemo" exact Component={requestDemo} />
         <Route path="/fifthStart" exact Component={fifthStart} />
         <Route path="/shop" exact Component={Shop}/>
         <Route path="/secondChallenge" exact Component={SecondChallenge}/>

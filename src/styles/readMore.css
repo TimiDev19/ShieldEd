@@ -1,9 +1,309 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-.mainContaine{
+.mainContainer{
     overflow-y: scroll;
     height: 100vh;
+    font-family: inter;
 }
+
+.landingnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 0 .05rem gray;
+    width: 87%;
+}
+
+.landingnavbar-logo img{
+    height: 38px;
+    width: auto;
+    margin-left: 120px;
+    /* Adjust the font size as needed */
+}
+
+.landingnavbar-links {
+    display: flex;
+}
+
+.landingnavbar-links a {
+    margin-right: 15px;
+    /* Adjust the spacing between links as needed */
+    color: grey;
+    /* Change the link color as needed */
+    text-decoration: none;
+}
+
+.landingnavbar-links-right {
+    margin-left: auto;
+}
+
+.landingnavbar-links-right button{
+    background-color: #2389DE;
+}
+
+.rightLinkButton{
+    color: white;
+    padding: 10px;
+    background-color: #2389DE;
+    border-radius: 5px;
+}
+
+.navbar-links-right a{
+    text-decoration: none;
+    padding: 10px;
+    color: #2389DE;
+    size: 14px;
+    font-weight: 400;
+}
+
+.navbar-links-right .rightButton{
+    color: white;
+    padding: 10px;
+    background-color: #2389DE;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.navbar-links-right .icons{
+    color: #2389DE;
+    align-self: center;
+}
+
+.navbar-links-right .icons:hover{
+    cursor: pointer;
+}
+
+
+/* section two */
+
+.firstreadmore_card {
+flex: 1;
+  width: 80%; /* Set width to 80% of the horizontal space */
+  margin: 30px auto; /* Add margin on top and bottom, and center horizontally */ 
+}
+
+.firstreadmore_Container {
+    background-color: #2389de;
+    padding: 85px 60px;
+    border-radius: 30px;
+}
+
+.readmoreButton1{
+background-color: white;
+border: none;
+border-radius: 20px;
+padding: 10px 12px;
+color:#2389DE;
+}
+/* .background-container{
+    background-image: `
+} */
+
+.header {
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightBody header {
+    width: 696px;
+    height: 115px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: inter;
+    line-height: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.rightBody h5 {
+    color: rgba(225, 225, 225, 1);
+    font-weight: 100;
+    font-family: inter;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.leftBody img {
+    height: 300px;
+    flex: 1;
+    margin-left: -150px;
+
+    /* width: 700px; */
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.buttonContainer button {
+    margin-right: 30px;
+}
+
+.readmoreButton2 {
+    color: #2389de;
+    background-color: white;
+    border: 1px;
+    font-size: 16px;
+    font-family: inter;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+}
+
+.icons {
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.leftBodybutton2 {
+    width: 210px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    padding: 17px 20px 17px 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #2389de;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* third section */
+.secondreadmore_container {
+    display: flex; /* Use flexbox to layout elements */
+   padding: 40px 60px; /* Add padding for spacing */
+   width: 87%;
+  }
+  
+  .image-container,
+  .text-container {
+    flex: 1; /* Each container takes up equal space */
+  }
+  
+  .text-container h1{
+  padding-top: 50px;
+  font: inter;
+  }
+  
+  .text-container p{
+  line-height: 2.5;  
+  padding-top: 30px;
+  }
+  
+  .image-container img {
+  flex: 1;
+    max-width: 80%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 30px;    
+  }
+
+
+
+
+
+
+
+  .thirdreadmore_container{
+    justify-content: space-between; /* Space out the items evenly */
+    width: 80%; /* Set the width of the container to 80% */
+    margin: 0 auto; /* Center the container horizontally */
+    }
+    
+
+.thirdcontainer_cards img{
+width: 50px;
+height: 40px;
+
+}
+
+.thirdreadmore_container h1{
+text-align: center;
+}
+
+.thirdcontainer_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    margin-right:-110px;
+    margin-left:-50px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px; /* Add some margin between rows */
+  }
+
+  .left_card {
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 60px;
+    margin: 25px; /* Add some margin around cards */
+    max-width: 300px; /* Set maximum width for responsiveness */
+    background-color:#E9F3FC;
+
+;
+  }
+  
+  .right_card {
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 60px;
+    margin: 25px; /* Add some margin around cards */
+    max-width: 300px; /* Set maximum width for responsiveness */
+    background-color:#E9F3FC;
+    
+  }
+  
+  .card h2 {
+    padding-top: 10px;
+  }
+  
+  .card p{
+  color: #6D7482;
+  }
+
+
+
+
+
+
+
+
+
+
 
 .testimonialsContainer{
     display: flex;
