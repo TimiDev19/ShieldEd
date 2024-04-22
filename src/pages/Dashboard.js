@@ -168,9 +168,9 @@ function Dashboard() {
                                         <img src={card2} alt=''/>
                                     </div>
                                 </div>
-                                <div className='progressBar'>
-                                    <div className='progress'>
-                                        <div className='progressText'>0/3</div>
+                                <div className='progressBarEmpty'>
+                                    <div className='progressEmpty'>
+                                        <div className='progressTextEmpty'>0/3</div>
                                     </div>
                                     <img src={newIcon} alt=''/>
                                 </div>
@@ -195,9 +195,9 @@ function Dashboard() {
                                         <img src={card3} alt=''/>
                                     </div>
                                 </div>
-                                <div className='progressBar'>
-                                    <div className='progress'>
-                                        <div className='progressText'>0/3</div>
+                                <div className='progressBarEmpty'>
+                                    <div className='progressEmpty'>
+                                        <div className='progressTextEmpty'>0/3</div>
                                     </div>
                                     <img src={newIcon} alt=''/>
                                 </div>

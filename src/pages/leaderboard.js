@@ -67,7 +67,6 @@ return (
                         </div>
                         {/* Add more sidebar menu items as needed */}
                     <div className='leadercompil'>
-                    <Link to="/dashboard"><LeaderboardOutlinedIcon className='icons' /></Link>
                     </div>
                     </ul>
                     <div className='sideBarBottom'>

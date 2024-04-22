@@ -133,7 +133,7 @@ ul{
     
 }
 
-li :hover{
+.buttons li :hover{
     background-color: #2389DE;
     color: white;
 }

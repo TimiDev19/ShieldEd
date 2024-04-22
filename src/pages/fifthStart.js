@@ -48,20 +48,18 @@ const fifthStart = () => {
                             </li>
                             </div>
                             
-                            <div className='FSsecondbutton'>
+                            <div className='FSfirstbutton'>
                             <li>
-                                <Link className='FsTwo'>
+                                <Link className='FsOne'>
                                 <h3>Decide your starting point</h3>
                                 <p>Answer some questionsto skip the basics</p>
                                 </Link>
-                                <div className='iconConatiner'>
                                 <ExploreOutlinedIcon className='iconTwo' fontSize='large'/>
-                                </div>
                             </li>
                             </div>
 
                             <div className='FSlastbutton'>
-                            <li><Link className='FsThree'>I’m ready!</Link></li>
+                            <li><Link className='FsThree' to="/dashboard">I’m ready!</Link></li>
                             </div>
                         </ul>
                     </div>
