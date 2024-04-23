@@ -79,7 +79,7 @@ const LandingPage = () => {
                         <a href="#home">Learn</a>
                         <a href="/resources">Resources</a>
                         <a href="/industries">Industries</a>
-                        <Link to ="/privacypolicy"><a href="#link">About Us</a></Link>
+                        <a href="#link">About Us</a>
                         <a href="#link">Contact</a>
                     </div>
                     <div className="navbar-links-right">
@@ -337,7 +337,7 @@ const LandingPage = () => {
                     <div className='lowerFooterText'>
                         <div className='lowerFooterLeft'>
                             <li>Terms of Service</li>
-                            <li>Privacy Policy</li>
+                            <Link to ="/privacypolicy"><li>privacy policy</li></Link>
                             <li>Accessibility Statement</li>
                         </div>
                         <div className='lowerFooterRight'>
@@ -345,6 +345,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
         </>
     );

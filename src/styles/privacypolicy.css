@@ -260,6 +260,129 @@ p {
   width: auto;
 }
 
-
-
+@media (max-width: 1200px) {
     
+    .policyPageContainer{
+        width: 1000px
+    }
+
+    .policysection2{
+        width: 100%;
+        margin-left: 10px;
+        padding-left: 5px;
+        height:fit-content;
+    }
+
+    .leftpolicysection2{
+        width: 800px;
+        margin-left: 5px;
+    }
+
+    .rightpolicysection2{
+        width: 800px;
+        margin-left: 100px;
+}
+
+    .joinforfree{
+        height: 450px;
+        width: 1000px;
+    }
+
+    .rightboxjoinforfree{
+        height: 70%;
+        width: 40%;
+        margin-left: 30px;
+        margin-bottom: 10%;
+    }
+
+    .lowerFooterLeft{
+        width: fit-content;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 830px) {
+    .policynavbar{
+        display: contents;
+    }
+    .policyPageContainer{
+        width: 750px
+    }
+
+    .policysection2{
+        width: 700px;
+        display: flex;
+        margin-left: 10px;
+        padding-left: 5px;
+        height:fit-content;
+    }
+
+    .leftpolicysection2{
+        width: 200px;
+        margin-left: 5px;
+    }
+
+    .rightpolicysection2{
+        width: 600px;
+        margin-left: 100px;
+}
+
+    .joinforfree{
+        height: 450px;
+        width: 600px;
+    }
+
+    .rightboxjoinforfree{
+        height: 70%;
+        width: 30%;
+        margin-left: 2px;
+        margin-bottom: 10%;
+    }
+
+    .lowerFooterLeft{
+        width: fit-content;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .policynavbar{
+        display: none;
+    }
+
+    .policyPageContainer{
+        width: 450px
+    }
+
+    .policysection2{
+        width: 400px;
+        display: flex;
+        margin-left: 0.5cm;
+        padding-left: 0.5;
+        height:fit-content;
+    }
+
+    .leftpolicysection2{
+        width: 60px;
+        margin-left: 0;
+    }
+
+    .rightpolicysection2{
+        width: 200px;
+        margin-left: 100px;
+}
+
+    .joinforfree{
+        display: none;
+
+    }
+
+    .lowerFooterLeft{
+        width: fit-content;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
