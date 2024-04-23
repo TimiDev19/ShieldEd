@@ -1,17 +1,14 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import Logo from '../assets/Frame 1.png'
-import card1 from '../assets/card1.png'
-import card2 from '../assets/card2.png'
-import card3 from '../assets/card3.png'
-import card4 from '../assets/card4.png'
-import card5 from '../assets/card5.png'
-import card6 from '../assets/card6.png'
-import icon from '../assets/newicon.png'
-import newIcon from '../assets/icon.png'
-import ShieldIcon from '@mui/icons-material/Shield';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../assets/Frame 1.png';
+import card1 from '../assets/card1.png';
+import card2 from '../assets/card2.png';
+import card3 from '../assets/card3.png';
+import card4 from '../assets/card4.png';
+import card5 from '../assets/card5.png';
+import card6 from '../assets/card6.png';
+import newIcon from '../assets/icon.png';
 import '../styles/Dashboard.css'
-import SearchIcon from '@mui/icons-material/Search';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
@@ -21,15 +18,11 @@ import Groups2OutlinedIcon from '@mui/icons-material/Groups2Outlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import WhatshotOutlinedIcon from '@mui/icons-material/WhatshotOutlined';
-import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import avatar from '../assets/Avatars.png';
 import LogoutIcon from '@mui/icons-material/Logout';
-import learningCard from './learningCard';
-import LandingPage from './LandingPage'
-import Leaderboard from './leaderboard'
 
 
 
@@ -44,7 +37,7 @@ function Dashboard() {
     return (
         <>
             <nav className="navbar">
-                <div className="logo"><img src={Logo} /></div>
+                <div className="logo"><img src={Logo} alt='Sheilded Logo'/></div>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
                     <li><Link to="/leaderboard"><div className='menuLink'>LEADERBOARDS</div>leaderboard</Link></li>
@@ -62,7 +55,7 @@ function Dashboard() {
             <div className="dashboard-page-container">
                 <div className="sidebar">
                     <ul className="sidebar-menu">
-                        <img src={Logo} />
+                        <img src={Logo} alt='Shieled logo'/>
                         <div className='dashboardLeftSideTop'>
                             <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
                             <Link to ="/leaderboard"><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
@@ -70,7 +63,7 @@ function Dashboard() {
                             <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
                         </div>
                         <div className='menuLinkBottom'>
-                            <Link><div className='menuLink'><StorefrontOutlinedIcon className='icons' />SHOP</div></Link>
+                            <Link to="/shop"><div className='menuLink'><StorefrontOutlinedIcon className='icons' />SHOP</div></Link>
                             <Link><div className='menuLink'><Groups2OutlinedIcon className='icons' />SHIELDED FOR TEAMS</div></Link>
                         </div>
                         {/* Add more sidebar menu items as needed */}
@@ -79,7 +72,7 @@ function Dashboard() {
                         <Link><div className='menuLink'><SettingsOutlinedIcon className='icons' />Settings</div></Link>
                         <Link><div className='menuLink'><HelpOutlineOutlinedIcon className='icons' />Help</div></Link>
                         <div className='profileBox'>
-                            <img src={avatar} />
+                            <img src={avatar} alt='Profile'/>
                             <div className='profileText'>
                                 <h4>Gabriella Blu</h4>
                                 <h6>gabriella@gmail.com</h6>
@@ -114,7 +107,7 @@ function Dashboard() {
                         </div>
                         <div className='currencyBox'>
                             <div className='gameCurrency'>
-                                <h4><img src={newIcon} />100</h4>
+                                <h4><img src={newIcon} alt=''/>100</h4>
                                 <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
                                 <h4><FavoriteIcon className='icons-heart' />10</h4>
                             </div>
@@ -145,14 +138,14 @@ function Dashboard() {
                                         <h3>3 UNITS</h3>
                                     </div>
                                     <div className='bodyImage'>
-                                        <img src={card1} />
+                                        <img src={card1} alt=''/>
                                     </div>
                                 </div>
                                 <div className='progressBar'>
                                     <div className='progress'>
                                         <div className='progressText'>1/3</div>
                                     </div>
-                                    <img src={newIcon}/>
+                                    <img src={newIcon} alt=''/>
                                 </div>
                                 <div className='cardButton'>
                                 <Link to="/courses">Continue</Link>
@@ -172,14 +165,14 @@ function Dashboard() {
                                         <h3>3 UNITS</h3>
                                     </div>
                                     <div className='bodyImage'>
-                                        <img src={card2} />
+                                        <img src={card2} alt=''/>
                                     </div>
                                 </div>
-                                <div className='progressBar'>
-                                    <div className='progress'>
-                                        <div className='progressText'>1/3</div>
+                                <div className='progressBarEmpty'>
+                                    <div className='progressEmpty'>
+                                        <div className='progressTextEmpty'>0/3</div>
                                     </div>
-                                    <img src={newIcon}/>
+                                    <img src={newIcon} alt=''/>
                                 </div>
                                 <div className='cardButton'>
                                     <Link to='/landingPage'>Start Learning</Link>
@@ -199,14 +192,14 @@ function Dashboard() {
                                         <h3>3 UNITS</h3>
                                     </div>
                                     <div className='bodyImage'>
-                                        <img src={card3} />
+                                        <img src={card3} alt=''/>
                                     </div>
                                 </div>
-                                <div className='progressBar'>
-                                    <div className='progress'>
-                                        <div className='progressText'>1/3</div>
+                                <div className='progressBarEmpty'>
+                                    <div className='progressEmpty'>
+                                        <div className='progressTextEmpty'>0/3</div>
                                     </div>
-                                    <img src={newIcon}/>
+                                    <img src={newIcon} alt=''/>
                                 </div>
                                 <div className='cardButton'>
                                     <Link to="/LandingPage">Start Learning</Link>
@@ -220,12 +213,12 @@ function Dashboard() {
                                     <p>No ads, advanced challenges and special rewards!</p>
                                     <Link className='smallCardButton'>Try 7 Days For Free</Link>
                                 </div>
-                                <img src={card4} />
+                                <img src={card4} alt=''/>
                             </div>
 
 
                             <div className='smallCard'>
-                                <img src={card5} className='trophyImage' />
+                                <img src={card5} className='trophyImage' alt=''/>
                                 <div className='smallCardTextBox'>
                                     <h2>Shield Master League</h2>
                                     <p>Complete a course to join this week’s leaderboard and compete against other learners</p>
@@ -243,7 +236,7 @@ function Dashboard() {
                                     </div>
                                     <Link className='smallCardLink'>SEE ALL</Link>
                                 </div>
-                                <img src={card6} />
+                                <img src={card6} alt=''/>
                             </div>
 
 

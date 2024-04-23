@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
 import { Link } from 'react-router-dom';
@@ -14,13 +13,11 @@ import LandingAvatar4 from '../assets/landingAvatar3.png';
 import pattern from '../assets/pattern.png'
 import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
-import PopupExample from '../components/Popup';
 
 
 import "../styles/LandingPage.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
-import sectionThreeIcon from "../assets/sectionThreeIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
 import section3icon from "../assets/section3icon.png";
 import section3image from "../assets/section3image.png";
@@ -30,6 +27,7 @@ import LPtraining from "../assets/LPtraining.png";
 import LPTestimonials from "../assets/LPTestimonials.png";
 import patternLP from "../assets/patternLP.png";
 import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
+import communitySection from "../assets/Testimonials.png";
 
 const LandingPage = () => {
 
@@ -199,7 +197,7 @@ const LandingPage = () => {
                                 <img src={LPtraining} />
                                 <div className='buttonContainer'>
                                     <Link><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
-                                    <Link><button className='leftBodybutton2'>Read more</button></Link>
+                                    <Link to='/readMore'><button className='leftBodybutton2'>Read more</button></Link>
 
                                 </div>
                             </div>
@@ -209,61 +207,7 @@ const LandingPage = () => {
 
                 {/* ==THIS IS THE COMMUNITY SECTION== */}
                 <div className='communitySection'>
-                    <h2>Join our cybersecurity awareness community</h2>
-                    <div className='communityCard'>
-                        <img src={LandingAvatar1} />
-                        <div className='communityCardText'>
-                            <h2>Alexandre Dubois</h2>
-                            <h6>Paris, France</h6>
-                            <p>
-                                Encountered a suspicious email today <br /> claiming to be from my
-                                bank. Has anyone <br />else experienced something similar?
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className='communityCardGrid'>
-                        <div className='communityCard' id='horizontalCommunityCrad'>
-                            <img src={LandingAvatar2} />
-                            <div className='communityCardText'>
-                                <h2>Priya Patel</h2>
-                                <h6>Mumbai, India</h6>
-                                <p>
-                                    Received a suspicious text message <br />
-                                    asking me to click on a link to claim a <br />
-                                    prize. Wondering if anyone else has <br />
-                                    encountered this scam?
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className='communityCard' id='horizontalCommunityCrad1'>
-                            <img src={LandingAvatar3} />
-                            <div className='communityCardText'>
-                                <h2 className='special'>Oluwabukola Aderinsola</h2>
-                                <h6>Lagos, Nigeria</h6>
-                                <p>
-                                    Encountered a suspicious email <br /> today claiming to be from my
-                                    bank. Has anyone else experienced something similar?
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className='communityCard'>
-                        <img src={LandingAvatar4} />
-                        <div className='communityCardText'>
-                            <h2>Chen Wei</h2>
-                            <h6>Shanghai, China</h6>
-                            <p>
-                                "Need help identifying a potentially<br />
-                                malicious app on my smartphone. It's been <br />
-                                draining battery and displaying strange <br />
-                                behavior. Any advice on how to proceed?
-                            </p>
-                        </div>
-                    </div>
+                    <img src={communitySection}/>
                 </div>
 
                 {/* ==THIS IS THE FREQUENTLY ASKED QUESTIONS SECTION== */}
@@ -351,9 +295,9 @@ const LandingPage = () => {
 
                     <div className='lowerFooterText'>
                         <div className='lowerFooterLeft'>
-                            <li>Terms of Service</li>
-                            <Link to ="/privacypolicy"><li>privacy policy</li></Link>
-                            <li>Accessibility Statement</li>
+                            <li><Link to='' className='footerLink'>Terms of Service</Link></li>
+                            <li><Link to='/privacypolicy' className='footerLink'>Privacy Policy</Link></li>
+                            <li><Link to='' className='footerLink'>Accessibility Statement</Link></li>
                         </div>
                         <div className='lowerFooterRight'>
                             <li>&copy; 2024 ShieldEd. All rights reserved.</li>

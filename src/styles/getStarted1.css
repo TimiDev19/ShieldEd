@@ -78,7 +78,8 @@ ul{
     transition: all 0.2s ease;
 }
 
-li :hover{
+.step1buttons li :hover{
   background-color:#2389DE;
   color: white;
 }
+

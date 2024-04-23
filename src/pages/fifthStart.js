@@ -5,6 +5,7 @@ import teddy from '../assets/teddybear.png'
 import { CloseOutlined } from '@mui/icons-material'
 import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
+import progress4 from '../assets/Imageprog4.png'
 
 const fifthStart = () => {
     return ( 
@@ -16,6 +17,13 @@ const fifthStart = () => {
                     <p>
                     By answering a few quick questions, we <br/>can tailor your learning experience to <br/>suit your needs and preferences.
                     </p>
+                    <div className='progress4'>
+                    <img src={progress4} />
+                    </div>
+                    <div className='progtext4'>
+                        <p>Stage0</p>
+                        <p>Stage4</p>
+                    </div>
                     <div className='secondImage'>
                         <img src={teddy}/>
                 </div>
@@ -30,30 +38,28 @@ const fifthStart = () => {
                         <ul>
                             <div className='FSfirstbutton'>
                             <li>
+                                {/* <div className='FsOne'> */}
                                 <Link className='FsOne'>
                                 <h3>Start from the scratch</h3>
                                 <p>Take the easiest cybersecurity course</p>
                                 </Link>
-                                <div className='iconConatiner'>
+                                
                                 <MenuBookOutlinedIcon className='iconTwo'fontSize='large'/>
-                                </div>
                             </li>
                             </div>
                             
-                            <div className='FSsecondbutton'>
+                            <div className='FSfirstbutton'>
                             <li>
-                                <Link className='FsTwo'>
+                                <Link className='FsOne'>
                                 <h3>Decide your starting point</h3>
                                 <p>Answer some questionsto skip the basics</p>
                                 </Link>
-                                <div className='iconConatiner'>
                                 <ExploreOutlinedIcon className='iconTwo' fontSize='large'/>
-                                </div>
                             </li>
                             </div>
 
                             <div className='FSlastbutton'>
-                            <li><Link className='FsThree'>I’m ready!</Link></li>
+                            <li><Link className='FsThree' to="/dashboard">I’m ready!</Link></li>
                             </div>
                         </ul>
                     </div>

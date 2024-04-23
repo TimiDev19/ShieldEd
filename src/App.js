@@ -3,19 +3,17 @@ import Dashboard from './pages/Dashboard';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import learningCard from './pages/learningCard.js';
 import landingPage from './pages/LandingPage.js';
-import challenges from './pages/challenges.js';
+import Challenges from './pages/challenges.js';
 import coursePage from './pages/coursePage';
 import LandingPage from './pages/LandingPage';
 import loginPage from './pages/loginPage';
 import signupPage from './pages/signupPage';
 import newSignup from './pages/newSignup';
-
 import unitCompletion from './pages/unitCompletion.js';
 import getStarted1 from './pages/getStarted1.js'
 import getStarted2 from './pages/getStarted2.js'
 import getStarted3 from './pages/getStarted3.js'
 import streak from './pages/streakPage.js';
-import { lazy } from 'react';
 import successPage from './pages/successPage.js';
 import leaderboard from './pages/leaderboard.js';
 import privacypolicy from './pages/privacypolicy.js';
@@ -23,7 +21,9 @@ import fourthGs from './pages/fourthGs.js';
 import fifthStart from './pages/fifthStart.js';
 import resources from './pages/resourcespage.js'
 import industries from './pages/industries.js'
-
+import Shop from './pages/Shop';
+import SecondChallenge from './pages/SecondChallenge';
+import ReadMore from './pages/Readmore.js';
 
 function App() {
   return (
@@ -34,12 +34,12 @@ function App() {
         <Route path="/dashboard" exact Component={Dashboard}/>
         <Route path="/leaderboard" exact Component={leaderboard}/>
         <Route path="/learningCard" exact Component={learningCard}/>
-        <Route path="/challenges" exact Component={challenges}/>
+        <Route path="/challenges" exact Component={Challenges}/>
         <Route path="/courses" exact Component={coursePage} />
         <Route path='/loginPage' exact Component={loginPage} />
         <Route path='/fourthGs' exact Component={fourthGs} />
         <Route path='/signup' exact Component={signupPage} />
-
+        <Route path='/readMore' exact Component={ReadMore} />
         <Route path='/newSignup' exact Component={newSignup} />
         <Route path='/successPage' exact Component={successPage} />
         <Route path="/landingPage" exact Component={landingPage} />
@@ -53,6 +53,9 @@ function App() {
         <Route path="/fifthStart" exact Component={fifthStart} />
         <Route path="/resources" exact Component={resources} />
         <Route path="/industries" exact Component={industries} />
+        <Route path="/shop" exact Component={Shop}/>
+        <Route path="/secondChallenge" exact Component={SecondChallenge}/>
+        <Route path="/Readmore" exact Component={ReadMore}/>
         </Routes>
       </Router>
     </div>
