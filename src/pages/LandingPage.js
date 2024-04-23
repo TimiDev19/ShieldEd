@@ -74,10 +74,25 @@ const LandingPage = () => {
                 <nav className="landingnavbar">
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
-                        <a href="#home">Learn</a>
-                        <a href="#link">Resources</a>
+                    <a href="#home">Learn</a>
+                        <a href="/resources">Resources</a>
+                        <select className='selectone' >
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
                         <a href="#link">Industries</a>
-                        <Link to ="/privacypolicy"><a href="#link">About Us</a></Link>
+                        <select className='selectone'>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                        <a href="#link">About Us</a>
+                        <select className='selectone'>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
                         <a href="#link">Contact</a>
                     </div>
                     <div className="navbar-links-right">
@@ -280,15 +295,16 @@ const LandingPage = () => {
 
                     <div className='lowerFooterText'>
                         <div className='lowerFooterLeft'>
-                            <li><Link to='/privacypolicy' className='footerLink'>Terms of Service</Link></li>
+                            <li><Link to='' className='footerLink'>Terms of Service</Link></li>
                             <li><Link to='/privacypolicy' className='footerLink'>Privacy Policy</Link></li>
-                            <li><Link to='/privacypolicy' className='footerLink'>Accessibility Statement</Link></li>
+                            <li><Link to='' className='footerLink'>Accessibility Statement</Link></li>
                         </div>
                         <div className='lowerFooterRight'>
                             <li>&copy; 2024 ShieldEd. All rights reserved.</li>
                         </div>
                     </div>
                 </div>
+
             </div>
         </>
     );
