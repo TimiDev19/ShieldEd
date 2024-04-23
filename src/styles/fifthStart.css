@@ -225,3 +225,37 @@ ul{
     color: white;
     border: none;
 }
+
+@media screen and (max-width: 1200px) {
+    .fifthStartContainer{
+        width: 300%;
+        display: block;
+        height: 50%;
+}
+    .fifthStartleftBox{
+        width: fit-content;
+        margin: auto;
+        height: fit-content;
+        align-self: flex-start;
+        margin-top: 6%;
+}
+.secondImage{
+    position: absolute;
+    left: 15%;
+    bottom: 650px;
+}
+
+.secondImage img{
+    width: 100px;
+    height: 100px;
+    margin-top: -200px;
+}
+
+.fifthStartright{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+}

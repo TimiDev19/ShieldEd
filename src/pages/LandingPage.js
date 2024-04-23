@@ -76,10 +76,25 @@ const LandingPage = () => {
                 <nav className="landingnavbar">
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
-                        <a href="#home">Learn</a>
+                    <a href="#home">Learn</a>
                         <a href="/resources">Resources</a>
-                        <a href="/industries">Industries</a>
+                        <select className='selectone' >
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                        <a href="#link">Industries</a>
+                        <select className='selectone'>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
                         <a href="#link">About Us</a>
+                        <select className='selectone'>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
                         <a href="#link">Contact</a>
                     </div>
                     <div className="navbar-links-right">
