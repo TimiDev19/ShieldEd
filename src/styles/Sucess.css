@@ -37,6 +37,19 @@
     font-weight: bold;
 }
 
+.success-alert-left{
+    display: flex;
+}
+
+.success-alert-left img{
+    height: 100px;
+    align-self: center;
+}
+
+.success-alert-left-textbox{
+    align-self: center;
+}
+
 .success-alert-left h1 {
     font-size: 26px;
     font-family: inter;

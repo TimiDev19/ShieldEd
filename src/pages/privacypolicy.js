@@ -69,9 +69,10 @@ const privacypolicy = () => {
                         <TranslateIcon className='icons' />
                     </div>
                 </nav>
+                {/* <CreateOutlinedIcon className='icons' /> */}
 
                 <div className='policysign'>
-                <p className='update'><CreateOutlinedIcon className='icons' />LATEST UPDATE: April 8, 2024</p>
+                <p className='update'><h6> LATEST UPDATE: April 8, 2024</h6></p>
                 <h1 className='policywrite'>Privacy Policy</h1>
                 </div>
                 <div className='policyimage'>

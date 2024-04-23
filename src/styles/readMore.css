@@ -1,0 +1,250 @@
+.readmorePage{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.readmorePage::-webkit-scrollbar{
+    display: none;
+}
+
+.readmoreHome{
+    height: 90vh;
+    display: flex;
+}
+
+.readmoreCard{
+    width: 90%;
+    height: 95%;
+    margin: auto;
+    background-color: #2389DE;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.readmoreCardRight{
+    width: 50%;
+    display: flex;
+}
+
+.readmoreCardRight img{
+    align-self: center;
+    width: 90%;
+}
+
+.readmoreCardLeft{
+    width: 50%;
+    display: flex;
+}
+
+.readmoreLeftContainer{
+    align-self: center;
+    padding-left: 40px;
+}
+
+.readmoreCardButton1{
+    color: #2389DE;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.readmoreLeftContainer h1{
+    margin-top: 10%;
+    color: white;
+    font-size: 50px;
+}
+
+.readmoreLeftContainer p{
+    color: white;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.readmoreCardButton2{
+    color: #2389DE;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.readmoreLeftContainer a{
+    text-decoration: none;
+}
+
+.demoSection{
+    background-color: #2389DE;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+
+.demoTextBox{
+    color: white;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.demoTextBox h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.demoTextBox p{
+    font-weight: 200;
+}
+
+.demoTextBox a{
+    margin: auto;
+    text-decoration: none;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.readmoreSection2{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.readmoreSectionLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.readmoreSectionLeft img{
+    width: 70%;
+    align-self: center;
+}
+
+.readmoreSectionRight{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+}
+
+.readmoreSectionRight h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.readmoreSectionRight p{
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.readmoreSection3{
+    text-align: center;
+    padding: 20px;
+}
+
+.readmoreSection3 h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.readmoreSection3CardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.benefitCard{
+    background-color: #E9F3FC;
+    width: 43%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    border-radius: 21px;
+    margin-bottom: 50px;
+    box-shadow: 0 .1rem .1rem gray;
+}
+
+.benefitCard img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: #BBDAF5;
+    border-radius: 50%;
+    display: block;
+}
+
+.benefitCard h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.benefitCard p{
+    color: #6D7482;
+}
+
+.cardWrap{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.readmoreSection4{
+    text-align: center;
+    padding: 20px;
+    background-color: #F9FAFB;
+}
+
+.readmoreSection4 h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.readmoreSection4 a{
+    color: white;
+    padding: 10px 40px;
+    background-color: #2389DE;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.readmoreSection4CardBox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.testimonialCard{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 25%;
+    text-align: left;
+}
+
+.testimonialCard p{
+    color: #004E98;
+    line-height: 1.5rem;
+    width: 90%;
+}
+
+.testimonialCard img{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.testimonialCard .review{
+    width: 30%;
+}

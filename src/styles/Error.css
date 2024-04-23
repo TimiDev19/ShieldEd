@@ -37,6 +37,15 @@
     font-weight: bold;
 }
 
+.error-alert-left img{
+    height: 100px;
+    align-self: center;
+}
+
+.error-alert-left{
+    display: flex;
+}
+
 .error-alert-left h1 {
     font-size: 26px;
     font-family: inter;
