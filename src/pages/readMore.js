@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
 import { Link } from 'react-router-dom';
-import '../styles/Readmore.css';
+import '../styles/LandingPage.css';
 import TranslateIcon from '@mui/icons-material/Translate';
 import ReadmoreGroup from '../assets/readmoreGroup1.png';
 import Verified from '../assets/Verified.png';
