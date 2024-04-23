@@ -51,6 +51,7 @@ function App() {
         <Route path="/fifthStart" exact Component={fifthStart} />
         <Route path="/shop" exact Component={Shop}/>
         <Route path="/secondChallenge" exact Component={SecondChallenge}/>
+        <Route path="/Readmore" exact Component={ReadMore}/>
         </Routes>
       </Router>
     </div>

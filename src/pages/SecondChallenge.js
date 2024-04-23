@@ -5,28 +5,13 @@ import { Favorite } from '@mui/icons-material';
 import Success from '../components/Success';
 import Error from '../components/Error';
 import '../styles/SecondChallenge.css';
-import { Howl } from 'howler';
 import SecondChallengeImage from '../assets/secondChallengeQuestion.png';
 
 function SecondChallenge() {
-    const sound = new Howl({
-        src: ['../assets/wrongAnswer.mp3']
-    });
-
-    // Play sound on button click
-    const playSound = () => {
-        sound.play();
-    };
 
     const verifyButton = () => {
         handleVerifyClick();
-        playSound();
     };
-
-    // Or play sound when the component mounts
-    useEffect(() => {
-        sound.play();
-    }, );
 
 
     const [showSuccessAlert, setShowSuccessAlert] = useState(false);
