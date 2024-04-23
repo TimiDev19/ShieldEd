@@ -12,7 +12,7 @@ body {
     overflow-y: hidden;
 }
 
-.sidebar {
+.Dashboardsidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -656,7 +656,7 @@ body {
 
 
 
-.navbar {
+.Dashboardnavbar {
     display: none;
     justify-content: space-between;
     align-items: center;
@@ -681,9 +681,9 @@ body {
     flex-direction: column;
     background-color: #FFFFFF;
     position: absolute;
-    top: 60px;
+    top: 35px;
     /* Adjust top position based on your navbar height */
-right: 0;
+    right: 0;
     width: 100%;
     text-align: center;
 }
@@ -710,13 +710,13 @@ right: 0;
 
 /* Media query for smaller screens */
 @media screen and (max-width: 971px) {
-    .sidebar{
+    .Dashboardsidebar{
         display: none;
     }
     .landingnavbar{
         display: none;
     }
-    .navbar{
+    .Dashboardnavbar{
         display: flex;
         padding: 0px 7px;
     }
@@ -754,6 +754,7 @@ right: 0;
         height: fit-content;
         overflow-y: visible;
         padding-bottom: 10px;
+        margin: auto;
         margin-bottom: 10px;
     }
     .Card{

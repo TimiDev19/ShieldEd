@@ -33,7 +33,7 @@ function loginPage() {
                     </div>
                     <Link className='loginButton' to='/dashboard'>Login</Link>
                     <h1>OR</h1>
-                    <Link className='googleButtonLink' to='/'>
+                    <Link className='googleButtonLink' to='/dashboard'>
                         <div className='googlebutton'>
                             <img src={googleImage}/>
                             <h4>Sign in with Google</h4>

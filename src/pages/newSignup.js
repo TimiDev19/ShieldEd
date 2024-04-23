@@ -46,7 +46,7 @@ function newSignup() {
                         <Link className='createAccountBtn' to='/dashboard'>Sign Up</Link>
 
                         <div className='orBox'><h14>OR</h14></div>
-                    <Link className='googleButtonLink' to='/'>
+                    <Link className='googleButtonLink' to='/dashboard'>
                         <div className='googleButton'>
                             <img src={googleImage}/>
                             <h4>Sign in with Google</h4>

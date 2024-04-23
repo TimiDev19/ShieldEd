@@ -116,7 +116,7 @@ const LandingPage = () => {
                             learning experiences, engaging challenges, and expert guidance.
                         </p>
                         <div className='buttonBox'>
-                            <div className='leftButton'><Link to='/courses'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='leftButton'><Link to='/challenges'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
                             <div className='rightButton'><Link to='/courses'>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>

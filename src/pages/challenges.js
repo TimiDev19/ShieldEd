@@ -9,10 +9,12 @@ import '../styles/challenges.css';
 
 const Challenges = () => {
 
+
   const verifyButton = () => {
     handleVerifyClick();
 
   };
+
 
 
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
@@ -53,9 +55,9 @@ const Challenges = () => {
         </p>
         <img src={quizImage} alt="Quiz" />
         <div className='challengButtonBox'>
-          <Link className='leftChallengeBtn' onClick={handleVerifyClickE}>Report as Phishing</Link>
+          <Link className='leftChallengeBtn' onClick={verifyButton}>Report as Phishing</Link>
           <div className='rightChallengeBtn'>
-            <Link to='' onClick={verifyButton} >Verify</Link>
+            <Link to='' onClick={handleVerifyClickE} >Verify</Link>
           </div>
         </div>
       </div>
