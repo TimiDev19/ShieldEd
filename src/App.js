@@ -21,7 +21,7 @@ import fourthGs from './pages/fourthGs.js';
 import fifthStart from './pages/fifthStart.js';
 import Shop from './pages/Shop';
 import SecondChallenge from './pages/SecondChallenge';
-import ReadMore from './pages/Readmore';
+import ReadMore from './pages/Readmore.js';
 
 function App() {
   return (
