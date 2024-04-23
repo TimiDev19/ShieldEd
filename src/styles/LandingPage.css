@@ -183,7 +183,6 @@
 
 
 .communitySection {
-
     height: 100vh;
     /* margin: 0; */
 
@@ -192,7 +191,6 @@
     padding: 20px;
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 80px;
 }
 
 .communitySection h2 {

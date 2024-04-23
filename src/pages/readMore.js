@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Logo from '../assets/Frame 1.png'
 import { Link } from 'react-router-dom';
-import '../styles/LandingPage.css';
+import '../styles/Readmore.css';
 import TranslateIcon from '@mui/icons-material/Translate';
 import ReadmoreGroup from '../assets/readmoreGroup1.png';
 import Verified from '../assets/Verified.png';
@@ -17,7 +17,7 @@ import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
 
 
-import "../styles/readMore.css";
+import "../styles/Readmore.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
@@ -38,7 +38,7 @@ import testimonial2 from '../assets/testimonial2.png';
 import testimonial3 from '../assets/testimonial3.png';
 import review from '../assets/Review.png';
 
-function ReadMore() {
+function Readmore() {
     const revealRef = useRef(null);
 
     useEffect(() => {
@@ -262,4 +262,4 @@ function ReadMore() {
     )
 }
 
-export default ReadMore
+export default Readmore
