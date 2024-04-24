@@ -48,13 +48,6 @@ import subject2 from '../assets/subject3.png'
 
 function coursePage() {
 
-    // const [isMenuOpen, setMenuOpen] = useState(false);
-
-    // const toggleMenu = () => {
-    //     setMenuOpen(!isMenuOpen);
-    // };
-
-
     const cards = [
         {
             header: "Spoofed Email Addresses",
@@ -72,6 +65,12 @@ function coursePage() {
             image: subject
         }
     ];
+
+    // const [isMenuOpen, setMenuOpen] = useState(false);
+
+    // const toggleMenu = () => {
+    //     setMenuOpen(!isMenuOpen);
+    // };
 
     return (
         <>
@@ -92,9 +91,9 @@ function coursePage() {
 
 
             <div className="page-container">
-                <div className="sidebar">
+                <div className="Dashboardsidebar">
                     <ul className="sidebar-menu">
-                        <img src={Logo} />
+                        <Link to="/"><div className="logo"><img src={Logo} alt='Sheilded Logo' /></div></Link>
                         <div className='dashboardLeftSideTop'>
                             <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
                             <Link><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>

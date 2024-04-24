@@ -36,26 +36,27 @@ function Dashboard() {
  
     return (
         <>
-            <nav className="navbar">
-                <div className="logo"><img src={Logo} alt='Sheilded Logo'/></div>
+            <nav className="Dashboardnavbar">
+                <Link to="/"><div className="logo"><img src={Logo} alt='Sheilded Logo'/></div></Link>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
-                    <li><Link to="/leaderboard"><div className='menuLink'>LEADERBOARDS</div>leaderboard</Link></li>
+                    <li><Link to="/leaderboard"><div className='menuLink'>LEADERBOARDS</div></Link></li>
                     <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
                     <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
-                    <li><Link><div className='menuLink'>SHOP</div></Link></li>
+                    <li><Link to="/shop"><div className='menuLink'>SHOP</div></Link></li>
                     <li><Link><div className='menuLink'>SHIELDED FOR TEAMS</div></Link></li>
                     <li><Link><div className='menuLink'>SETTINGS</div></Link></li>
                     <li><Link><div className='menuLink'>HELP</div></Link></li>
+                    <li><Link to="/"><div className='menuLink'>LOGOUT</div></Link></li>
                 </ul>
                 <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
             </nav>
 
 
             <div className="dashboard-page-container">
-                <div className="sidebar">
+                <div className="Dashboardsidebar">
                     <ul className="sidebar-menu">
-                        <img src={Logo} alt='Shieled logo'/>
+                    <Link to="/"><div className="logo"><img src={Logo} alt='Sheilded Logo'/></div></Link>
                         <div className='dashboardLeftSideTop'>
                             <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
                             <Link to ="/leaderboard"><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>

@@ -6,28 +6,15 @@ import Success from '../components/Success';
 import Error from '../components/Error';
 import quizImage from '../assets/quiz-image.png';
 import '../styles/challenges.css';
-import { Howl } from 'howler';
 
 const Challenges = () => {
 
-  const sound = new Howl({
-    src: ['../assets/wrongAnswer.mp3']
-  });
-
-  // Play sound on button click
-  const playSound = () => {
-    sound.play();
-  };
 
   const verifyButton = () => {
     handleVerifyClick();
-    playSound();
   };
 
-  // Or play sound when the component mounts
-  useEffect(() => {
-    sound.play();
-  }, []);
+
 
 
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
@@ -68,9 +55,9 @@ const Challenges = () => {
         </p>
         <img src={quizImage} alt="Quiz" />
         <div className='challengButtonBox'>
-          <Link className='leftChallengeBtn' onClick={handleVerifyClickE}>Report as Phishing</Link>
+          <Link className='leftChallengeBtn' onClick={verifyButton}>Report as Phishing</Link>
           <div className='rightChallengeBtn'>
-            <Link to='' onClick={verifyButton} >Verify</Link>
+            <Link to='' onClick={handleVerifyClickE} >Verify</Link>
           </div>
         </div>
       </div>

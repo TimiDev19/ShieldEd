@@ -1,11 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-.landingPageContainer{
+.landingPageContainer {
     overflow-y: scroll;
     height: 100vh;
 }
-
-
 
 .landingnavbar {
     display: flex;
@@ -17,7 +15,7 @@
     /* Change the background color as needed */
 }
 
-.landingnavbar-logo img{
+.landingnavbar-logo img {
     height: 38px;
     width: auto;
     /* Adjust the font size as needed */
@@ -39,18 +37,18 @@
     margin-left: auto;
 }
 
-.landingnavbar-links-right button{
+.landingnavbar-links-right button {
     background-color: #2389DE;
 }
 
-.rightLinkButton{
+.rightLinkButton {
     color: white;
     padding: 10px;
     background-color: #2389DE;
     border-radius: 5px;
 }
 
-.navbar-links-right a{
+.navbar-links-right a {
     text-decoration: none;
     padding: 10px;
     color: #2389DE;
@@ -58,7 +56,7 @@
     font-weight: 400;
 }
 
-.navbar-links-right .rightButton{
+.navbar-links-right .rightButton {
     color: white;
     padding: 10px;
     background-color: #2389DE;
@@ -66,17 +64,17 @@
     margin-right: 10px;
 }
 
-.navbar-links-right .icons{
+.navbar-links-right .icons {
     color: #2389DE;
     align-self: center;
 }
 
-.navbar-links-right .icons:hover{
+.navbar-links-right .icons:hover {
     cursor: pointer;
 }
 
 
-.landingHome{
+.landingHome {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -87,7 +85,7 @@
     overflow-y: hidden;
 }
 
-.landingHomeTextBox{
+.landingHomeTextBox {
     width: 90%;
     margin: auto;
     align-self: center;
@@ -96,21 +94,21 @@
     margin-bottom: 20px;
 }
 
-.landingHomeTextBox h1{
+.landingHomeTextBox h1 {
     font-size: 54px;
     font-family: inter;
     font-weight: 500;
     line-height: 1rem;
 }
 
-.landingHomeTextBox p{
+.landingHomeTextBox p {
     font-weight: 20px;
     color: #98A2B3;
     width: 45%;
     margin: auto;
 }
 
-.buttonBox{
+.buttonBox {
     padding-top: 20px;
     width: fit-content;
     margin: auto;
@@ -119,7 +117,7 @@
     justify-content: space-between;
 }
 
-.buttonBox .leftButton{
+.buttonBox .leftButton {
     padding: 10px;
     background-color: #2389DE;
     color: white;
@@ -130,7 +128,7 @@
     display: flex;
 }
 
-.leftButton a{
+.leftButton a {
     color: white;
     font-size: 16px;
     text-decoration: none;
@@ -139,7 +137,7 @@
     padding-left: 8px;
 }
 
-.leftButton .icons{
+.leftButton .icons {
     align-self: center;
     padding-right: 10px;
     margin-right: 8px;
@@ -147,7 +145,7 @@
     margin-bottom: 5px;
 }
 
-.buttonBox .rightButton{
+.buttonBox .rightButton {
     padding: 10px 6px 10px 10px;
     background-color: white;
     color: #2389DE;
@@ -159,7 +157,7 @@
     display: flex;
 }
 
-.rightButton a{
+.rightButton a {
     color: #2389DE;
     font-size: 16px;
     text-decoration: none;
@@ -167,14 +165,14 @@
     margin-left: 3px;
 }
 
-.rightButton .icons{
+.rightButton .icons {
     align-self: center;
     /* padding-left: 10px; */
     margin-right: 7px;
     margin-bottom: 5px;
 }
 
-.landingHome img{
+.landingHome img {
     width: 80%;
     margin: auto;
     box-shadow: 0 0 .2rem gray;
@@ -197,7 +195,7 @@
     margin-top: 80px;
 }
 
-.communitySection h2{
+.communitySection h2 {
     width: 75%;
     margin: auto;
     font-size: 50px;
@@ -205,7 +203,7 @@
     font-weight: 400;
 }
 
-.communityCard{
+.communityCard {
     background-color: #E9F3FC;
     height: fit-content;
     width: fit-content;
@@ -217,14 +215,14 @@
     padding: 20px;
 }
 
-.communityCard img{
+.communityCard img {
     height: 90px;
     width: auto;
     padding-right: 0;
     margin-right: 0;
 }
 
-.communityCardText{
+.communityCardText {
     text-align: left;
     width: 100%;
     flex-direction: row;
@@ -232,14 +230,14 @@
     margin-left: 0;
 }
 
-.communityCardText .special{
+.communityCardText .special {
     font-size: 21px;
     display: inline-block;
     white-space: nowrap;
     /* padding-top: 20px; */
 }
 
-.communityCardText h2{
+.communityCardText h2 {
     font-size: 25px;
     font-weight: 600;
     padding: 0;
@@ -247,7 +245,7 @@
     line-height: 1rem;
 }
 
-.communityCardText h6{
+.communityCardText h6 {
     margin: 0;
     margin-top: 10px;
     padding: 0;
@@ -256,24 +254,24 @@
     font-weight: 200;
 }
 
-.communityCardText p{
+.communityCardText p {
     font-size: 18px;
 }
 
-.communityCardGrid{
+.communityCardGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 70%;
     margin: auto;
 }
 
-.leftcardMargin{
-margin-right: 22px;
-margin-left: -15px;
+.leftcardMargin {
+    margin-right: 22px;
+    margin-left: -15px;
 }
 
-.rightCardMargin{
-margin-left: 10px;
+.rightCardMargin {
+    margin-left: 10px;
 }
 
 .footerContainer {
@@ -287,7 +285,7 @@ margin-left: 10px;
     flex-direction: column;
 }
 
-.linkBox{
+.linkBox {
     height: fit-content;
     width: 90%;
     margin: auto;
@@ -296,32 +294,32 @@ margin-left: 10px;
     margin-bottom: 5px;
 }
 
-.leftLinkBox{
+.leftLinkBox {
     align-items: start;
     justify-content: left;
     text-align: left;
     padding-right: 70px;
 }
 
-.leftLinkBox img{
+.leftLinkBox img {
     height: 35px;
     width: auto;
 }
 
-.leftLinkBox p{
+.leftLinkBox p {
     font-size: 14px;
     font-weight: 200;
     font-family: inter;
 }
 
-.leftLinkButtonBox{
+.leftLinkButtonBox {
     width: 100%;
     display: flex;
     height: 50px;
     justify-content: space-between;
 }
 
-.leftLinkButtonBox a{
+.leftLinkButtonBox a {
     align-self: center;
     width: 40%;
     height: 50px;
@@ -333,35 +331,35 @@ margin-left: 10px;
     text-decoration: none;
 }
 
-.leftLinkButtonBox input{
+.leftLinkButtonBox input {
     border: .5px solid grey;
     width: 60%;
     border-radius: 10px;
     margin-right: 10px;
 }
 
-.leftLinkButtonBox input::placeholder{
+.leftLinkButtonBox input::placeholder {
     padding-left: 10px;
 }
 
-.rightLinkBox{
+.rightLinkBox {
     width: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.rightListBox{
+.rightListBox {
     padding-left: 85px;
     width: fit-content;
     text-align: left;
 }
 
-.rightListBox ul{
+.rightListBox ul {
     list-style: none;
     width: fit-content;
 }
 
-.rightListBox li{
+.rightListBox li {
     color: #98A2B3;
     padding: 5px;
     font-size: 14px;
@@ -371,12 +369,12 @@ margin-left: 10px;
 }
 
 
-.rightListBox li span{
+.rightListBox li span {
     font-size: 12px;
 }
 
 
-.lowerFooterText{
+.lowerFooterText {
     height: fit-content;
     width: 90%;
     margin: auto;
@@ -386,57 +384,58 @@ margin-left: 10px;
     padding-top: 0;
 }
 
-.lowerFooterLeft{
+.lowerFooterLeft {
     width: fit-content;
     display: flex;
     justify-content: space-between;
 }
 
-.lowerFooterLeft li{
+.lowerFooterLeft li {
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
     color: #98A2B3;
 }
 
-.lowerFooterRight li{
+.lowerFooterRight li {
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
     color: #98A2B3;
 }
 
-.lowerFooterLeft li a{
+.lowerFooterLeft li a {
     font-size: 14px;
     color: #98A2B3;
     text-decoration: none;
 }
 
 .imageOne img {
-  height: 400px;
-  width: auto;
+    height: 400px;
+    width: auto;
 }
+
 .smallText {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
+    font-size: small;
+    color: #98a2b3;
+    text-align: center;
 }
 
 .leftIcon {
-  flex: 1;
+    flex: 1;
 }
 
 
 
 .smallTextTwo {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
+    font-size: small;
+    color: #98a2b3;
+    text-align: center;
 }
 
 .imageTwo img {
-  height: 280px;
-  width: auto;
+    height: 280px;
+    width: auto;
 }
 
 
@@ -517,7 +516,7 @@ margin-left: 10px;
     text-decoration: none;
 }
 
-.leftBody{
+.leftBody {
     width: fit-content;
 }
 
@@ -590,7 +589,7 @@ margin-left: 10px;
     background-color: #F9FAFB;
     text-align: center;
     overflow-x: hidden;
-    padding-bottom: 40px;  
+    padding-bottom: 40px;
 }
 
 .frequentlyAskedQuestions h1 {
@@ -606,192 +605,43 @@ margin-left: 10px;
     grid-template-columns: repeat(2, 1fr);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .sidebar {
-        display: flex;
-    }
-
-    .landingnavbar {
-        display: flex;
-    }
-
-    .navbar {
-        display: none;
-        padding: 0px 7px;
-    }
-
-    .burger-menu {
-        display: block;
-        padding-right: 10px;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-
-@media (max-width: 1200px) {
-    .sectionThreeHorizontalCard {
-        flex-direction: column;
-    }
-
-    .sectionThreeHorizontalCardLeft {
-        align-self: flex-start;
-        width: fit-content;
-    }
-
-    .sectionThreeHorizontalCardRight img {
-        width: 100%;
-        height: auto;
-        padding: 0;
-    }
-
-    .sectionThreeGrid {
-        justify-content: center;
-        align-content: center;
-    }
-
-    .sectionThreeGridLeft {
-        margin: auto;
-        margin-bottom: 20px;
-        width: 40%;
-        height: fit-content;
-    }
-
-    .sectionThreeGridLeftImageBox .sectionImage {
-        align-self: center;
-        height: auto;
-        width: 90%;
-        padding-bottom: 0;
-    }
-
-    .communityCardGrid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        margin: auto;
-    }
-
-    .rightLinkBox {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding-bottom: 20px;
-    }
-
-    .rightListBox {
-        padding-left: 85px;
-        width: fit-content;
-        text-align: left;
-    }
-
-    .rightListBox ul {
-        list-style: none;
-        width: fit-content;
-    }
-
-    .rightListBox li {
-        color: #98A2B3;
-        padding: 5px;
-        font-size: 14px;
-        margin-bottom: 10px;
-        font-family: inter;
-    }
-
-
-    .rightListBox li span {
-        font-size: 12px;
-    }
-    .linkBox {
-        height: fit-content;
-        width: 90%;
-        margin: auto;
-        display: flex;
-        border-bottom: 1px #98A2B3 solid;
-        margin-bottom: 5px;
-    }
-
+.sidebar {
+    display: flex;
 }
 
-@media (max-width: 1150px) {
-    
+.landingnavbar {
+    display: flex;
 }
 
-@media (max-width: 830px) {
-    .landingHome {
-        width: 100%;
-        height: 90vh;
-    }
+/* .navbar {
+    display: none;
+    padding: 0px 7px;
+} */
 
-    .landingHomeTextBox h1 {
-        font-size: 40px;
-    }
+.burger-menu {
+    display: block;
+    padding-right: 10px;
 }
 
-@media (max-width: 950px) {
-    .questionsBox {
-        width: 70%;
-        display: grid;
-        margin: auto;
-        grid-template-columns: repeat(1, 1fr);
-    }
+.nav-links {
+    display: none;
 }
 
-@media (max-width: 600px) {
-    .landingHome{
-        height: 80vh;
-    }
-    .landingHomeTextBox h1 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 450px) {
-    .landingHome{
-        height: 60vh;
-    }
-    .landingHomeTextBox h1{
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 400px) {
-    .landingHomeTextBox h1{
-        font-size: 22px;
-    }
-} 
-
-
-.sectionThree{
+.sectionThree {
     width: 90vw;
     margin: auto;
     padding: 30px;
     height: fit-content;
 }
 
-.sectionThree .headerText{
+.sectionThree .headerText {
     text-align: center;
     font-family: inter;
     font-size: 50px;
     font-weight: 500;
 }
 
-.sectionThreeHorizontalCard{
+.sectionThreeHorizontalCard {
     width: 85%;
     margin: auto;
     height: fit-content;
@@ -803,7 +653,7 @@ margin-left: 10px;
     box-shadow: 0 0 .05rem gray;
 }
 
-.sectionThreeGrid{
+.sectionThreeGrid {
     width: 85%;
     margin: auto;
     height: fit-content;
@@ -813,32 +663,32 @@ margin-left: 10px;
     border-radius: 20px;
 }
 
-.sectionThreeHorizontalCardText{
+.sectionThreeHorizontalCardText {
     width: 40%;
 }
 
-.sectionThreeHorizontalCardText img{
+.sectionThreeHorizontalCardText img {
     width: 50px;
     height: 50px;
     color: white;
 }
 
-.sectionThreeHorizontalCardText h1{
+.sectionThreeHorizontalCardText h1 {
     font-family: inter;
     font-weight: 500;
     font-size: 30px;
 }
 
-.sectionThreeHorizontalCardImage{
+.sectionThreeHorizontalCardImage {
     width: 60%;
 }
 
-.sectionThreeHorizontalCardImage img{
+.sectionThreeHorizontalCardImage img {
     width: 90%;
 }
 
 
-.sectionThreeGridCard{
+.sectionThreeGridCard {
     width: 45%;
     height: fit-content;
     background-color: #F9FAFB;
@@ -847,18 +697,18 @@ margin-left: 10px;
     box-shadow: 0 0 .05rem gray;
 }
 
-.sectionThreeGridCard img{
+.sectionThreeGridCard img {
     width: 50px;
     height: 50px;
 }
 
-.sectionThreeGridCard h1{
+.sectionThreeGridCard h1 {
     font-family: inter;
     font-weight: 500;
     font-size: 30px;
 }
 
-.sectionThreeGridCardRight{
+.sectionThreeGridCardRight {
     width: 90%;
     margin: auto;
     height: 300px;
@@ -867,12 +717,12 @@ margin-left: 10px;
     justify-content: center;
 }
 
-.sectionThreeGridCardRight img{
+.sectionThreeGridCardRight img {
     width: 90%;
     height: auto;
 }
 
-.sectionThreeGridCardRight1{
+.sectionThreeGridCardRight1 {
     width: 90%;
     margin: auto;
     height: 280px;
@@ -881,44 +731,12 @@ margin-left: 10px;
     justify-content: center;
 }
 
-.sectionThreeGridCardRight1 img{
+.sectionThreeGridCardRight1 img {
     height: 90%;
     width: auto;
 }
 
-
-@media (max-width: 950px) {
-    .questionsBox {
-        width: 70%;
-        display: grid;
-        margin: auto;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .cardBody {
-        display: flex;
-        flex-direction: column;
-    }
-    .rightBody{
-        align-self: center;
-    }
-    .leftBody{
-        align-self: center;
-    }
-}
-
-@media (max-width: 1200px) {
-    
-}
-
-@media (max-width: 1050px) {
-    .linkBox{
-        flex-direction: column;
-        justify-content: center;
-    }
-
-}
-
-#horizontalCommunityCrad{
+#horizontalCommunityCrad {
     animation-name: cards;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -926,22 +744,9 @@ margin-left: 10px;
     animation-timing-function: linear;
 }
 
-@keyframes cards {
-    0%{
-        transform: translateX(0%);
-    }
-    33%{
-        transform: translateX(-20%);
-    }
-    66%{
-        transform: translateX(-20%);
-    }
-    100%{
-        transform: translateX(0%);
-    }
-}
 
-#horizontalCommunityCrad1{
+
+#horizontalCommunityCrad1 {
     animation-name: cards1;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -949,22 +754,147 @@ margin-left: 10px;
     animation-timing-function: linear;
 }
 
-@keyframes cards1 {
-    0%{
+.communitySection img {
+    max-width: 80vw;
+    overflow-x: hidden;
+}
+
+/*Animations*/
+
+@keyframes cards {
+    0% {
         transform: translateX(0%);
     }
-    33%{
-        transform: translateX(20%);
+
+    33% {
+        transform: translateX(-20%);
     }
-    66%{
-        transform: translateX(20%);
+
+    66% {
+        transform: translateX(-20%);
     }
-    100%{
+
+    100% {
         transform: translateX(0%);
     }
 }
 
-.communitySection img{
-    max-width: 80vw;
-    overflow-x: hidden;
+@keyframes cards1 {
+    0% {
+        transform: translateX(0%);
+    }
+
+    33% {
+        transform: translateX(20%);
+    }
+
+    66% {
+        transform: translateX(20%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/* Media queries for screens smaller than 1200px */
+@media (max-width: 1200px) {
+    .sectionThreeHorizontalCard {
+        width: 70%;
+        margin: auto;
+    }
+    .sectionThreeHorizontalCardText{
+        width: 100%;
+    }
+    .sectionThreeHorizontalCardImage{
+        align-self: flex-end;
+    }
+    .sectionThreeGrid {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionThreeGridCard {
+        width: 100%;
+        margin-bottom: 40px;
+        align-self: center;
+    }
+    .sectionThreeGridCardRight img {
+        width: 60%;
+        height: auto;
+    }
+    /* Add your responsive styles here */
+}
+
+/* Media queries for screens smaller than 1150px */
+@media (max-width: 1150px) {
+    .sectionThreeHorizontalCardImage{
+        align-self: center;
+    }
+    .cardBody {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Add your responsive styles here */
+}
+
+/* Media queries for screens smaller than 950px */
+@media (max-width: 950px) {
+    .questionsBox {
+        width: 70%;
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Add your responsive styles here */
+}
+
+/* Media queries for screens smaller than 830px */
+@media (max-width: 830px) {
+    .landingHomeTextBox h1 {
+        font-size: 40px;
+        font-family: inter;
+        font-weight: 500;
+        line-height: 1rem;
+    }
+    .linkBox {
+        flex-direction: column;
+    }
+    .rightLinkBox {
+        align-self: center;
+        width: fit-content;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* Add your responsive styles here */
+}
+
+/* Media queries for screens smaller than 600px */
+@media (max-width: 600px) {
+    .landingHomeTextBox h1 {
+        font-size: 30px;
+    }
+    .card3Container header {
+        width: fit-content;
+        font-size: 30px;
+    }
+    /* Add your responsive styles here */
+}
+
+/* Media queries for screens smaller than 450px */
+@media (max-width: 450px) {
+    .landingHomeTextBox h1 {
+        font-size: 25px;
+    }
+    /* Add your responsive styles here */
+}
+
+/* Media queries for screens smaller than 400px */
+@media (max-width: 400px) {
+    .landingHomeTextBox h1 {
+        font-size: 20px;
+    }
+    /* Add your responsive styles here */
 }
