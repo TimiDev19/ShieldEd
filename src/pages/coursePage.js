@@ -96,7 +96,7 @@ function coursePage() {
                         <Link to="/"><div className="logo"><img src={Logo} alt='Sheilded Logo' /></div></Link>
                         <div className='dashboardLeftSideTop'>
                             <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
-                            <Link><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
+                            <Link to='/leaderboard'><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
                             <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
                             <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
                         </div>

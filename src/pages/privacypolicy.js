@@ -42,7 +42,9 @@ const privacypolicy = () => {
         <>
             <div className='policyPageContainer'>
                 <nav className="policynavbar">
-                    <div className="policynavbar-logo"><img src={Logo} /></div>
+                    <div className="policynavbar-logo">
+                    <Link to='/'><img src={Logo} /></Link>
+                    </div>
                     <div className="policynavbar-links">
                         <a href="#home">Learn</a>
                         <a href="/resources">Resources</a>
