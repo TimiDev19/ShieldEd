@@ -125,7 +125,7 @@
     margin-left: 100px;
     margin-top: 60px;
     width: 200vh;
-    height: 2000vh;
+    height: fit-content;
 }
 
 .leftpolicysection2{
@@ -411,4 +411,5 @@
     font-size: 60px;
     font-family: inter;
     font-weight: 400;
+}
 }

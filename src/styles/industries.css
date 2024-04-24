@@ -1,68 +1,125 @@
-.step2{
-    width: 110%;
-    display: flex;
-    height: 100vh;
-}
+@import url('https://fonts.cdnfonts.com/css/inter');
 
-.leftStep2Box{
-    width: 110%;
-    margin: auto;
+.industry-overlay {
     height: fit-content;
-    align-self: flex-start;
-    margin-top: 6%;
-    margin-left: 10%;
-}
-
-.leftStep2{
-    width: 40%;
-    height: fit-content;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    /* Display at the bottom */
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    justify-content: center;
+}
+
+.industry-alert {
+    position: relative;
+    /* Adjust positioning */
+    width: 100%;
+    /* Adjust width */
+    /* Set max-width for responsiveness */
+    padding: 0px 15px;
     background-color: white;
-}
-
-.leftStep2 h6{
-    font-size: 25px;
-    color: rgb(118, 118, 118);
-    word-spacing: 10px;
-    font-weight: 400;
-    font-family: inter;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-.icon{
-    width: 500px;
-    height: 300px;
-    margin-top: 300px;
-    margin-left: -450px;
-    align-items: center;
-
-}
-
-.right1{
+    color: #CB1A14;
+    border-radius: 4px;
+    display: flex;
     text-align: left;
-    margin-top: -10px;
+    justify-content: space-between;
 }
 
-.right2 {
-    text-align: left;
-    color:rgb(56, 54, 54);
-    font-size: 16px;
-    font-weight: lighter;
-    text-align: justify;
-    margin-top: -10px;
+.close-btn {
+    position: absolute;
+    /* Adjust positioning */
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-.rightStep2{
-    width: 60%;
+
+.industry-alert-left{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    padding-left: 50px;
-    padding-top: 0px;
-    background-color: rgb(230, 213, 216);
+    width: 50%;
+    height: 100%;
 }
 
+.industry-alert-left h1{
+    color: black;
+    font-size: 25px;
+}
 
+.industry-alert-left p{
+    width: 70%;
+    color: #767676;
+    font-weight: 300;
+    font-family: inter;
+}
 
+.industry-alert-left img{
+    width: 70%;
+}
+
+.error-alert-left h1 {
+    font-size: 26px;
+    font-family: inter;
+}
+
+.error-alert-left h3 {
+    font-size: 16px;
+    font-family: inter;
+}
+
+.industry-alert-right{
+    align-self: center;
+    width: 50%;
+    background-color: #FFF1EA;
+    height: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.industry-alert-right h3 a{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.industry-alert-right p{
+    color: black;
+    font-weight: 200;
+    font-family: inter;
+}
+
+.error-alert-right a{
+    color: #F7E9E9;
+    padding: 10px 30px;
+    background-color: #CB1A14;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.closeTray{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.closeTray a{
+    display: flex;
+    align-self: center;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    box-shadow: 0 0 .5rem black;
+    border-radius: 50%;
+}

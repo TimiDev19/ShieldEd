@@ -353,9 +353,6 @@ const privacypolicy = () => {
                         Shield Web Application faces various potential security threats and vulnerabilities, ranging from common web application vulnerabilities like XSS and SQL injection to more sophisticated attacks such as CSRF and DoS/DDoS. To mitigate these risks, it's crucial to implement a comprehensive security strategy that includes secure coding practices, robust authentication mechanisms, proper access controls, regular security audits, and staying updated on emerging threats and security patches. By proactively addressing these issues, ShieldEd Web Application can enhance its resilience against potential security breaches and safeguard its users' data and privacy. 
                         </h6>
                     </div>
-                    <h6>
-                    
-                    </h6>
                 </div>
                 <div className='joinforfree'>
                    <div className='leftboxjoinforfree'>
