@@ -28,8 +28,19 @@ import LPTestimonials from "../assets/LPTestimonials.png";
 import patternLP from "../assets/patternLP.png";
 import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
 import communitySection from "../assets/Testimonials.png";
+import Industries from '../components/Industries';
 
 const LandingPage = () => {
+
+    const [showIndAlert, setShowIndAlert] = useState(false);
+
+    const handleVerifyClickI = () => {
+        setShowIndAlert(true);
+    }
+
+    const handleCloseInd = () => {
+        setShowIndAlert(false); // Reset the state back to false when the alert is closed
+    };
 
 
     const revealRef = useRef(null);
@@ -74,14 +85,14 @@ const LandingPage = () => {
                 <nav className="landingnavbar">
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
-                    <a href="#home">Learn</a>
+                        <a href="#home">Learn</a>
                         <a href="/resources">Resources</a>
                         <select className='selectone' >
                             <option></option>
                             <option></option>
                             <option></option>
                         </select>
-                        <a href="#link">Industries</a>
+                        <Link onClick={handleVerifyClickI}>Industries</Link>
                         <select className='selectone'>
                             <option></option>
                             <option></option>
@@ -207,7 +218,7 @@ const LandingPage = () => {
 
                 {/* ==THIS IS THE COMMUNITY SECTION== */}
                 <div className='communitySection'>
-                    <img src={communitySection}/>
+                    <img src={communitySection} />
                 </div>
 
                 {/* ==THIS IS THE FREQUENTLY ASKED QUESTIONS SECTION== */}
@@ -306,6 +317,7 @@ const LandingPage = () => {
                 </div>
 
             </div>
+            {showIndAlert && <Industries onClose={handleCloseInd} />}
         </>
     );
 }
