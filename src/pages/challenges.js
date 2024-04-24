@@ -12,8 +12,8 @@ const Challenges = () => {
 
   const verifyButton = () => {
     handleVerifyClick();
-  };
 
+  };
 
 
 
