@@ -37,7 +37,7 @@ function Shop() {
     return (
         <div>
             <>
-                <nav className="navbar">
+                {/* <nav className="navbar">
                     <div className="logo"><img src={Logo} alt='Sheilded Logo'/></div>
                     <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                         <li><Link><div className='menuLink'>LEARN</div></Link></li>
@@ -50,13 +50,13 @@ function Shop() {
                         <li><Link><div className='menuLink'>HELP</div></Link></li>
                     </ul>
                     <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
-                </nav>
+                </nav> */}
 
 
                 <div className="dashboard-page-container">
                     <div className="sidebar">
                         <ul className="sidebar-menu">
-                            <img src={Logo} alt='Shielded logo'/>
+                        <Link to='/'><img src={Logo} alt='Shielded logo'/></Link>
                             <div className='dashboardLeftSideTop'>
                                 <Link to='/dashboard'><div className='menuLink'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
                                 <Link to="/leaderboard"><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
