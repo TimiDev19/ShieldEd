@@ -59,7 +59,7 @@ const fifthStart = () => {
                             </div>
 
                             <div className='FSlastbutton'>
-                            <li><Link className='FsThree' to="/dashboard">I’m ready!</Link></li>
+                            <li><Link className='FsThree' to="/newSignup">I’m ready!</Link></li>
                             </div>
                         </ul>
                     </div>
