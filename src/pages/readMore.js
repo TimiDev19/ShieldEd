@@ -17,7 +17,7 @@ import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
 
 
-import "../styles/readMore.css";
+import "../styles/Readmore.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";
@@ -38,7 +38,7 @@ import testimonial2 from '../assets/testimonial2.png';
 import testimonial3 from '../assets/testimonial3.png';
 import review from '../assets/Review.png';
 
-function ReadMore() {
+function Readmore() {
     const revealRef = useRef(null);
 
     useEffect(() => {
@@ -262,4 +262,4 @@ function ReadMore() {
     )
 }
 
-export default ReadMore
+export default Readmore
