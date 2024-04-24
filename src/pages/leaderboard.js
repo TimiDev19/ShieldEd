@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/Frame 1.png'
-import Frame1L from'../assets/Frame 1L.png'
-import Frame2L from'../assets/Frame 2L.png'
+import Frame1L from '../assets/Frame 1L.png'
+import Frame2L from '../assets/Frame 2L.png'
 import icon from '../assets/newicon.png'
 import newIcon from '../assets/icon.png'
 import ShieldIcon from '@mui/icons-material/Shield';
@@ -33,23 +33,23 @@ function Leaderboard() {
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
-    }; 
-return (
-    <>
-<nav className="navbar">
+    };
+    return (
+        <>
+            {/* <nav className="navbar">
                 <div className="logo"><img src={Logo} /></div>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <li><Link to="/Dashboard"><div className='menuLink'>LEARN</div></Link></li>
                     <li><Link><div className='menuLinkSelected'>LEADERBOARDS</div></Link></li>
                     <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
                     <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
-                    <li><Link><div className='menuLink'>SHOP</div></Link></li>
+                    <li><Link to="/shop"><div className='menuLink'>SHOP</div></Link></li>
                     <li><Link><div className='menuLink'>SHIELDED FOR TEAMS</div></Link></li>
                     <li><Link><div className='menuLink'>SETTINGS</div></Link></li>
                     <li><Link><div className='menuLink'>HELP</div></Link></li>
                 </ul>
                 <div className="burger-menu" onClick={toggleMenu}>&#9776;</div>
-            </nav>
+            </nav> */}
 
             <div className="page-container">
                 <div className="sidebar">
@@ -62,12 +62,12 @@ return (
                             <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
                         </div>
                         <div className='menuLinkBottom'>
-                            <Link><div className='menuLink'><StorefrontOutlinedIcon className='icons' />SHOP</div></Link>
+                            <Link to="/shop"><div className='menuLink'><StorefrontOutlinedIcon className='icons' />SHOP</div></Link>
                             <Link><div className='menuLink'><Groups2OutlinedIcon className='icons' />SHIELDED FOR TEAMS</div></Link>
                         </div>
                         {/* Add more sidebar menu items as needed */}
-                    <div className='leadercompil'>
-                    </div>
+                        <div className='leadercompil'>
+                        </div>
                     </ul>
                     <div className='sideBarBottom'>
                         <Link><div className='menuLink'><SettingsOutlinedIcon className='icons' />Settings</div></Link>
@@ -83,32 +83,67 @@ return (
                     </div>
                 </div>
                 <div className="content">
-                    <div className='contentNavbar'>
-                        <div className='welcomeText'>
-                            <h1>Shield Master League<br /> <span>Earn a top Shield and badge when you finish top 3</span></h1>
-                        </div>
-                        <div className='currencyBox'>
-                            <div className='gameCurrency'>
-                                <h4><img src={newIcon} />300</h4>
-                                <h4><WhatshotOutlinedIcon className='icons' /> 20</h4>
-                                <h4><FavoriteIcon className='icons-heart' />10</h4>
+                    <div className='leaderboardContainer'>
+                        <div className='leaderboardTop'>
+                            <div className='leaderboardLeft'>
+                                <div className='leaderboardLeftStepUp'>
+
+                                </div>
+
                             </div>
-                        </div> 
-                        <div className='FrameImage'>
-                            <img src={Frame1L}className='img1' />
+                            <div className='leaderboardMiddle'>
+                                <div className='leaderboardMiddleStepUp'>
+
+                                </div>
+                            </div>
+                            <div className='leaderboardRight'>
+                                <div className='leaderboardRightStepUp'>
+
+                                </div>
+                            </div>
                         </div>
-                        <br/>
-                        <div className='Frame-Image'>
-                            <img src={Frame2L} className='img2'/>
+                        <div className='leaderboardBottom'>
+                            <div className='leaderboardItem'>
+                                <h2>4. Rotimi Oluwatimilehin Ayodeji</h2>
+                                <h3>2360 points</h3>
+                            </div>
+                            <div className='leaderboardItem'>
+                                <h2>5. Olufadi Abdulmajeed Abolarinwa</h2>
+                                <h3>2300 points</h3>
+                            </div>
+                            <div className='leaderboardItem'>
+                                <h2>6. Abdulkadir Fawaz Tomilola</h2>
+                                <h3>2290 points</h3>
+                            </div>
+                            <div className='leaderboardItem'>
+                                <h2>7. Adekola Abdulrahman Abidemi</h2>
+                                <h3>2289 points</h3>
+                            </div>
+                            <div className='leaderboardItem'>
+                                <h2>8. Adebisi Habeeb Omotoni</h2>
+                                <h3>2260 points</h3>
+                            </div>
+                            <div className='leaderboardItem'>
+                                <h2>9. Playboy Carti</h2>
+                                <h3>1356 points</h3>
+                            </div>
+                            <div className='leaderboardItem'>
+                                <h2>10. Shola Abdulrahman</h2>
+                                <h3>1250 points</h3>
+                            </div>
+                            <div className='leaderboardItem'>
+                                <h2>11. Moshood Jamaal Oluwatosin</h2>
+                                <h3>1240 points</h3>
+                            </div>
                         </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
-    </>
-)
-        
+        </>
+    )
+
 }
 
 export default Leaderboard

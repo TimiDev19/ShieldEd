@@ -28,8 +28,19 @@ import LPTestimonials from "../assets/LPTestimonials.png";
 import patternLP from "../assets/patternLP.png";
 import EventAvailableOutlinedIcon from "@mui/icons-material/EventAvailableOutlined";
 import communitySection from "../assets/Testimonials.png";
+import Industries from '../components/Industries';
 
 const LandingPage = () => {
+
+    const [showIndAlert, setShowIndAlert] = useState(false);
+
+    const handleVerifyClickI = () => {
+        setShowIndAlert(true);
+    }
+
+    const handleCloseInd = () => {
+        setShowIndAlert(false); // Reset the state back to false when the alert is closed
+    };
 
 
     const revealRef = useRef(null);
@@ -75,9 +86,24 @@ const LandingPage = () => {
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
                         <a href="#home">Learn</a>
-                        <a href="#link">Resources</a>
-                        <a href="#link">Industries</a>
-                        <Link to ="/privacypolicy"><a href="#link">About Us</a></Link>
+                        <a href="/resources">Resources</a>
+                        <select className='selectone' >
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                        <Link onClick={handleVerifyClickI}>Industries</Link>
+                        <select className='selectone'>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                        <a href="#link">About Us</a>
+                        <select className='selectone'>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
                         <a href="#link">Contact</a>
                     </div>
                     <div className="navbar-links-right">
@@ -101,7 +127,7 @@ const LandingPage = () => {
                             learning experiences, engaging challenges, and expert guidance.
                         </p>
                         <div className='buttonBox'>
-                            <div className='leftButton'><Link to='/courses'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='leftButton'><Link to='/challenges'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
                             <div className='rightButton'><Link to='/courses'>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>
@@ -192,7 +218,7 @@ const LandingPage = () => {
 
                 {/* ==THIS IS THE COMMUNITY SECTION== */}
                 <div className='communitySection'>
-                    <img src={communitySection}/>
+                    <img src={communitySection} />
                 </div>
 
                 {/* ==THIS IS THE FREQUENTLY ASKED QUESTIONS SECTION== */}
@@ -280,16 +306,18 @@ const LandingPage = () => {
 
                     <div className='lowerFooterText'>
                         <div className='lowerFooterLeft'>
-                            <li><Link to='/privacypolicy' className='footerLink'>Terms of Service</Link></li>
+                            <li><Link to='' className='footerLink'>Terms of Service</Link></li>
                             <li><Link to='/privacypolicy' className='footerLink'>Privacy Policy</Link></li>
-                            <li><Link to='/privacypolicy' className='footerLink'>Accessibility Statement</Link></li>
+                            <li><Link to='' className='footerLink'>Accessibility Statement</Link></li>
                         </div>
                         <div className='lowerFooterRight'>
                             <li>&copy; 2024 ShieldEd. All rights reserved.</li>
                         </div>
                     </div>
                 </div>
+
             </div>
+            {showIndAlert && <Industries onClose={handleCloseInd} />}
         </>
     );
 }

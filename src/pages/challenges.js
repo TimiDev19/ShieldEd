@@ -6,8 +6,10 @@ import Success from '../components/Success';
 import Error from '../components/Error';
 import quizImage from '../assets/quiz-image.png';
 import '../styles/challenges.css';
+import Industries from '../components/Industries';
 
 const Challenges = () => {
+
 
   const verifyButton = () => {
     handleVerifyClick();
@@ -15,8 +17,10 @@ const Challenges = () => {
   };
 
 
+
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
   const [showErrorAlert, setShowErrorAlert] = useState(false);
+  const [showIndAlert, setShowIndAlert] = useState(false);
 
   const handleVerifyClick = () => {
     setShowSuccessAlert(true);
@@ -26,8 +30,16 @@ const Challenges = () => {
     setShowErrorAlert(true);
   }
 
+  const handleVerifyClickI = () => {
+    setShowIndAlert(true);
+  }
+
   const handleCloseAlert = () => {
     setShowSuccessAlert(false); // Reset the state back to false when the alert is closed
+  };
+
+  const handleCloseInd = () => {
+    setShowIndAlert(false); // Reset the state back to false when the alert is closed
   };
 
   const handleCloseAlertE = () => {
@@ -53,14 +65,15 @@ const Challenges = () => {
         </p>
         <img src={quizImage} alt="Quiz" />
         <div className='challengButtonBox'>
-          <Link className='leftChallengeBtn' onClick={handleVerifyClickE}>Report as Phishing</Link>
+          <Link className='leftChallengeBtn' onClick={handleVerifyClickI}>Report as Phishing</Link>
           <div className='rightChallengeBtn'>
-            <Link to='' onClick={verifyButton} >Verify</Link>
+            <Link to='' onClick={handleVerifyClickE} >Verify</Link>
           </div>
         </div>
       </div>
       {showSuccessAlert && <Success message="Verification successful!" onClose={handleCloseAlert} />} {/* Pass handleCloseAlert function as onClose prop */}
       {showErrorAlert && <Error message="Verification successful!" onClose={handleCloseAlertE} />}
+      {showIndAlert && <Industries onClose={handleCloseInd}/>}
     </div>
   );
 };
