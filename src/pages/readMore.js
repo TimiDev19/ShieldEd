@@ -17,7 +17,7 @@ import ScrollReveal from 'scrollreveal';
 import CollapsibleBox from '../components/collapsableBox';
 
 
-import "../styles/Readmore.css";
+import "../styles/readMore.css";
 import leftIcon from "../assets/leftIcon.png";
 import rightIcon from "../assets/rightIcon.png";
 import sectionThreeIconTwo from "../assets/sectionThreeIcontwo.png";

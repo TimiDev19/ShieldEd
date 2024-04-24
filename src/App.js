@@ -23,7 +23,7 @@ import resources from './pages/resourcespage.js'
 import industries from './pages/industries.js'
 import Shop from './pages/Shop';
 import SecondChallenge from './pages/SecondChallenge';
-import ReadMore from './pages/Readmore.js';
+import ReadMore from './pages/readMore';
 
 function App() {
   return (

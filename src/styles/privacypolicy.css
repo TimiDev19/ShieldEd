@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-.policyPageContainer{
+.policyPageContainer {
     overflow-y: scroll;
     height: 100vh;
 }
@@ -17,7 +17,7 @@
     /* Change the background color as needed */
 }
 
-.policynavbar-logo img{
+.policynavbar-logo img {
     height: 38px;
     width: auto;
     /* Adjust the font size as needed */
@@ -39,18 +39,18 @@
     margin-left: auto;
 }
 
-.policynavbar-links-right button{
+.policynavbar-links-right button {
     background-color: #2389DE;
 }
 
-.rightLinkButton{
+.rightLinkButton {
     color: white;
     padding: 10px;
     background-color: #2389DE;
     border-radius: 5px;
 }
 
-.navbar-links-right a{
+.navbar-links-right a {
     text-decoration: none;
     padding: 10px;
     color: #2389DE;
@@ -58,7 +58,7 @@
     font-weight: 400;
 }
 
-.navbar-links-right .rightButton{
+.navbar-links-right .rightButton {
     color: white;
     padding: 10px;
     background-color: #2389DE;
@@ -66,23 +66,23 @@
     margin-right: 10px;
 }
 
-.navbar-links-right .icons{
+.navbar-links-right .icons {
     color: #2389DE;
     align-self: center;
 }
 
-.navbar-links-right .icons:hover{
+.navbar-links-right .icons:hover {
     cursor: pointer;
 }
 
 
-.selectone{
+.selectone {
     margin-right: 15px;
-    background-color:white;
+    background-color: white;
     border: none;
 }
 
-.policysign{
+.policysign {
     height: 20vh;
     background-color: #2389DE;
     padding: 100px;
@@ -92,7 +92,7 @@
 }
 
 .update {
-   
+
     border-radius: 30px;
     padding: 5px 10px;
     display: flex;
@@ -102,14 +102,14 @@
     align-content: center;
 }
 
-.update .icons{
+.update .icons {
     align-self: center;
     justify-self: center;
     font-size: large;
-    
+
 }
 
-.update h6{
+.update h6 {
     font-size: 10px;
     line-height: 1rem;
     margin: 0;
@@ -120,7 +120,7 @@
     border-radius: 20px;
 }
 
-.policysection2{
+.policysection2 {
     display: flex;
     margin-left: 100px;
     margin-top: 60px;
@@ -128,18 +128,18 @@
     height: 2000vh;
 }
 
-.leftpolicysection2{
+.leftpolicysection2 {
     width: 80%;
 }
 
-.word{
-    color:#98A2B3;
+.word {
+    color: #98A2B3;
     word-spacing: 5px;
     gap: 10px;
 }
 
-.word2{
-    color:rgb(56, 54, 54);
+.word2 {
+    color: rgb(56, 54, 54);
     word-spacing: spacing 5px;
     font-size: medium;
     font-weight: lighter;
@@ -148,8 +148,8 @@
     line-height: 1.8;
 }
 
-.quote{
-    color:rgb(56, 54, 54);
+.quote {
+    color: rgb(56, 54, 54);
     word-spacing: spacing 5px;
     font-size: medium;
     font-weight: lighter;
@@ -159,7 +159,7 @@
     margin-left: 50px;
 }
 
-.rightpolicysection2{
+.rightpolicysection2 {
     margin-left: -50%;
     width: 60%;
 }
@@ -171,21 +171,21 @@
     margin-left: 100px;
 }
 
-.joinforfree{
+.joinforfree {
     width: 100%;
     height: 60vh;
     background-color: #2389DE;
     display: flex;
 }
 
-.leftboxjoinforfree{
+.leftboxjoinforfree {
     align-items: center;
     color: white;
     padding: 80px;
     padding-top: 100px;
 }
 
-.rightboxjoinforfree{
+.rightboxjoinforfree {
     align-items: center;
     color: black;
     height: 70%;
@@ -200,20 +200,20 @@
     padding-right: 20PX;
 }
 
-.signup{
+.signup {
     display: flex;
     gap: 320px
 }
 
-.or{
+.or {
     color: #98A2B3;
 }
 
-.signin{
+.signin {
     display: flex;
 }
 
-.divicon{
+.divicon {
     width: 20px;
     height: 20px;
     margin-top: 17px;
@@ -227,24 +227,24 @@
     cursor: pointer;
 }
 
-.lowerFooterLeft{
+.lowerFooterLeft {
     width: fit-content;
     display: flex;
     justify-content: space-between;
 }
 
-.lowerFooterLeft li{
+.lowerFooterLeft li {
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
     color: #98A2B3;
 }
 
-.footerp{
+.footerp {
     color: #98A2B3;
 }
 
-.lowerFooterRight li{
+.lowerFooterRight li {
     list-style: none;
     padding-right: 20px;
     font-size: 14px;
@@ -254,68 +254,69 @@
 
 
 .imageOne img {
-  height: 400px;
-  width: auto;
+    height: 400px;
+    width: auto;
 }
+
 .smallText {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
+    font-size: small;
+    color: #98a2b3;
+    text-align: center;
 }
 
 .leftIcon {
-  flex: 1;
+    flex: 1;
 }
 
 
 
 .smallTextTwo {
-  font-size: small;
-  color: #98a2b3;
-  text-align: center;
+    font-size: small;
+    color: #98a2b3;
+    text-align: center;
 }
 
 .imageTwo img {
-  height: 280px;
-  width: auto;
+    height: 280px;
+    width: auto;
 }
 
 @media (max-width: 1200px) {
-    
-    .policyPageContainer{
+
+    .policyPageContainer {
         width: 1000px
     }
 
-    .policysection2{
+    .policysection2 {
         width: 100%;
         margin-left: 10px;
         padding-left: 5px;
-        height:fit-content;
+        height: fit-content;
     }
 
-    .leftpolicysection2{
+    .leftpolicysection2 {
         width: 800px;
         margin-left: 5px;
     }
 
-    .rightpolicysection2{
+    .rightpolicysection2 {
         width: 800px;
         margin-left: 100px;
-}
+    }
 
-    .joinforfree{
+    .joinforfree {
         height: 450px;
         width: 1000px;
     }
 
-    .rightboxjoinforfree{
+    .rightboxjoinforfree {
         height: 70%;
         width: 40%;
         margin-left: 30px;
         margin-bottom: 10%;
     }
 
-    .lowerFooterLeft{
+    .lowerFooterLeft {
         width: fit-content;
         display: flex;
         justify-content: space-between;
@@ -323,44 +324,45 @@
 }
 
 @media (max-width: 830px) {
-    .policynavbar{
+    .policynavbar {
         display: contents;
     }
-    .policyPageContainer{
+
+    .policyPageContainer {
         width: 750px
     }
 
-    .policysection2{
+    .policysection2 {
         width: 700px;
         display: flex;
         margin-left: 10px;
         padding-left: 5px;
-        height:fit-content;
+        height: fit-content;
     }
 
-    .leftpolicysection2{
+    .leftpolicysection2 {
         width: 200px;
         margin-left: 5px;
     }
 
-    .rightpolicysection2{
+    .rightpolicysection2 {
         width: 600px;
         margin-left: 100px;
-}
+    }
 
-    .joinforfree{
+    .joinforfree {
         height: 450px;
         width: 600px;
     }
 
-    .rightboxjoinforfree{
+    .rightboxjoinforfree {
         height: 70%;
         width: 30%;
         margin-left: 2px;
         margin-bottom: 10%;
     }
 
-    .lowerFooterLeft{
+    .lowerFooterLeft {
         width: fit-content;
         display: flex;
         justify-content: space-between;
@@ -368,47 +370,48 @@
 }
 
 @media screen and (max-width: 450px) {
-    .policynavbar{
+    .policynavbar {
         display: none;
     }
 
-    .policyPageContainer{
+    .policyPageContainer {
         width: 450px
     }
 
-    .policysection2{
+    .policysection2 {
         width: 400px;
         display: flex;
         margin-left: 0.5cm;
         padding-left: 0.5;
-        height:fit-content;
+        height: fit-content;
     }
 
-    .leftpolicysection2{
+    .leftpolicysection2 {
         width: 60px;
         margin-left: 0;
     }
 
-    .rightpolicysection2{
+    .rightpolicysection2 {
         width: 200px;
         margin-left: 100px;
-}
+    }
 
-    .joinforfree{
+    .joinforfree {
         display: none;
 
     }
 
-    .lowerFooterLeft{
+    .lowerFooterLeft {
         width: fit-content;
         display: flex;
         justify-content: space-between;
     }
 
-.policywrite{
-    margin-top: 0;
-    padding-top: 0;
-    font-size: 60px;
-    font-family: inter;
-    font-weight: 400;
+    .policywrite {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 60px;
+        font-family: inter;
+        font-weight: 400;
+    }
 }
