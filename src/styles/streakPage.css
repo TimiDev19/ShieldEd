@@ -69,3 +69,11 @@ ul{
     color: rgba(118, 118, 118, 1);
     text-decoration: none;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .streakButton1 {
+        width: 100%; /* Make button full width */
+        margin-bottom: 20px; /* Adjust margin */
+    }
+}
