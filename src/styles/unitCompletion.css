@@ -69,3 +69,10 @@ ul{
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    .completedButton1 {
+        width: 100%; /* Make button full width */
+        margin-bottom: 20px; /* Adjust margin */
+    }
+}
+

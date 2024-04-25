@@ -172,3 +172,59 @@ ul{
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    .step2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .leftStep2 {
+        width: 100%;
+    }
+
+    .rightStep2 {
+        width: 100%;
+    }
+
+    .leftStep2Box {
+        width: 90%;
+    }
+
+    .rightStep2Box {
+        margin-top: 40px;
+    }
+
+    .secondImage {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .secondImage img {
+        width: 120px;
+        height: 150px;
+    }
+
+    .rightStep2Box h2 {
+        font-size: 28px;
+    }
+
+    .buttons {
+        gap: 20px;
+    }
+
+    .button1, .button2 {
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .secondImage img {
+        width: 100%; /* Make the image width 100% of its container */
+        height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    }
+}
+

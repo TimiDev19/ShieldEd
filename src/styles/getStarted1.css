@@ -83,3 +83,24 @@ ul{
   color: white;
 }
 
+@media (max-width: 768px) {
+  .step1 p {
+      font-size: 30px;
+      width: 90%;
+      text-align: center;
+  }
+
+  .step1 p:last-of-type {
+      font-size: 14px;
+      line-height: 20px;
+  }
+
+  .step1buttons li {
+      margin-bottom: 10px;
+  }
+
+  .step1Button {
+      width: 90%;
+  }
+}
+
