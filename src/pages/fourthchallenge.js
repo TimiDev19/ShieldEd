@@ -65,9 +65,9 @@ const FourthChallenge = () => {
                 </p>
                 <img src={SecondChallengeImage} alt="Quiz" />
                 <div className='challengButtonboxthree'>
-                    <Link className='leftChallengebtnthree' onClick={handleVerifyClick}>Report as Phishing</Link>
+                    <Link className='leftChallengebtnthree' onClick={handleVerifyClickE}>Report as Phishing</Link>
                     <div className='rightChallengebtnthree'>
-                        <Link to='' onClick={handleVerifyClickE} >Verify</Link>
+                        <Link to='' onClick={handleVerifyClick} >Verify</Link>
                     </div>
                 </div>
                           </div>

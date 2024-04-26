@@ -63,9 +63,9 @@ function SecondChallenge() {
                 </p>
                 <img src={SecondChallengeImage} alt="Quiz" />
                 <div className='challengButtonBox'>
-                    <Link className='leftChallengeBtn' onClick={handleVerifyClick}>Report as Phishing</Link>
+                    <Link className='leftChallengeBtn' onClick={handleVerifyClickE}>Report as Phishing</Link>
                     <div className='rightChallengeBtn'>
-                        <Link to='' onClick={handleVerifyClickE} >Verify</Link>
+                        <Link to='' onClick={handleVerifyClick} >Verify</Link>
                     </div>
                 </div>
                 </div>
