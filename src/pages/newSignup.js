@@ -6,33 +6,32 @@ import whiteIcon from '../assets/whiteIcon.png'
 import googleImage from '../assets/google.png'
 import { CloseOutlined } from '@mui/icons-material'
 import loginPage from './loginPage';
-import axios from 'axios';
 import { useState } from 'react'
 
 
 
 function NewSignup() {
 
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        password: ''
-    });
+    // const [formData, setFormData] = useState({
+    //     name: '',
+    //     email: '',
+    //     password: ''
+    // });
 
 
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
+    // const handleChange = (e) => {
+    //     setFormData({ ...formData, [e.target.name]: e.target.value });
+    // };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.post('signup-api-endpoint', formData);
-            console.log(response.data); // Handle successful signup
-        } catch (error) {
-            console.error('Signup failed:', error.message); // Handle signup error
-        }
-    };
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     try {
+    //         const response = await axios.post('signup-api-endpoint', formData);
+    //         console.log(response.data); // Handle successful signup
+    //     } catch (error) {
+    //         console.error('Signup failed:', error.message); // Handle signup error
+    //     }
+    // };
 
     return (
         <div className='loginPage'>
@@ -47,18 +46,18 @@ function NewSignup() {
                 </div>
             </div>
             <div className='rightPage'>
-                <form onSubmit={handleSubmit}>
+                <form >
                     <div className='rightFormBox'>
                         <Link to='/'><CloseOutlined className='icons' /></Link>
                         <h3>Create your profile</h3>
                         <div className='rightFormInputBox'>
                             <label>Name</label>
                             {/* value={formData.name} */}
-                            <input placeholder='Name' type='text'  onChange={handleChange} required/>
+                            <input placeholder='Name' type='text'  required/>
                             <label>Email</label>
-                            <input placeholder='Enter your email' type='email'  onChange={handleChange} required/>
+                            <input placeholder='Enter your email' type='email'  required/>
                             <label>Password</label>
-                            <input placeholder='Enter your password' type='password'  onChange={handleChange} required/>
+                            <input placeholder='Enter your password' type='password'  required/>
                             <h6 className='bottomLabels'>Use 8 or more characters with a mix of letters, numbers & symbols</h6>
 
                             <div className='checkboxContainer'>
