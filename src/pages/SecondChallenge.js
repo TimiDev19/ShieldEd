@@ -2,36 +2,47 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 import { Favorite } from '@mui/icons-material';
-import Success from '../components/Success';
-import Error from '../components/Error';
+import Success from '../components/success2';
+import Error from '../components/errorpopup2';
 import '../styles/SecondChallenge.css';
 import SecondChallengeImage from '../assets/secondChallengeQuestion.png';
+import Industries from '../components/Industries';
 
 function SecondChallenge() {
 
+
     const verifyButton = () => {
         handleVerifyClick();
-    };
-
-
-    const [showSuccessAlert, setShowSuccessAlert] = useState(false);
-    const [showErrorAlert, setShowErrorAlert] = useState(false);
-
-    const handleVerifyClick = () => {
+    
+      };
+  
+      const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+      const [showErrorAlert, setShowErrorAlert] = useState(false);
+      const [showIndAlert, setShowIndAlert] = useState(false);
+    
+      const handleVerifyClick = () => {
         setShowSuccessAlert(true);
-    };
-
-    const handleVerifyClickE = () => {
+      };
+    
+      const handleVerifyClickE = () => {
         setShowErrorAlert(true);
-    }
-
-    const handleCloseAlert = () => {
+      }
+    
+      const handleVerifyClickI = () => {
+        setShowIndAlert(true);
+      }
+    
+      const handleCloseAlert = () => {
         setShowSuccessAlert(false); // Reset the state back to false when the alert is closed
-    };
-
-    const handleCloseAlertE = () => {
+      };
+    
+      const handleCloseInd = () => {
+        setShowIndAlert(false); // Reset the state back to false when the alert is closed
+      };
+    
+      const handleCloseAlertE = () => {
         setShowErrorAlert(false);
-    }
+      }
 
     return (
         <div className="challengesContainer">
@@ -52,15 +63,16 @@ function SecondChallenge() {
                 </p>
                 <img src={SecondChallengeImage} alt="Quiz" />
                 <div className='challengButtonBox'>
-                    <Link className='leftChallengeBtn' onClick={handleVerifyClickE}>Report as Phishing</Link>
+                    <Link className='leftChallengeBtn' onClick={handleVerifyClick}>Report as Phishing</Link>
                     <div className='rightChallengeBtn'>
-                        <Link to='' onClick={verifyButton} >Verify</Link>
+                        <Link to='' onClick={handleVerifyClickE} >Verify</Link>
                     </div>
                 </div>
-            </div>
-            {showSuccessAlert && <Success message="Verification successful!" onClose={handleCloseAlert} />} {/* Pass handleCloseAlert function as onClose prop */}
-            {showErrorAlert && <Error message="Verification successful!" onClose={handleCloseAlertE} />}
-        </div>
+                </div>
+      {showSuccessAlert && <Success message="Verification successful!" onClose={handleCloseAlert} />} {/* Pass handleCloseAlert function as onClose prop */}
+      {showErrorAlert && <Error message="Verification successful!" onClose={handleCloseAlertE} />}
+      {showIndAlert && <Industries onClose={handleCloseInd}/>}
+    </div>
     );
 }
 

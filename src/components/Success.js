@@ -16,7 +16,7 @@ const Success = ({ message, onClose, className }) => {
           </div>
         </div>
         <div className='success-alert-right'>
-          <Link onClick={onClose}>Continue</Link>
+          <Link to='/SecondChallenge'onClick={onClose}>Continue</Link>
         </div>
       </div>
     </div>

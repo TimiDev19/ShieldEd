@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.successful4-overlay {
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+    /* Display at the bottom */
+    left: 0;
+    width: 100%;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    display: flex;
+    justify-content: center;
+}
+
+.successful4-alert {
+    position: relative;
+    /* Adjust positioning */
+    width: 100%;
+    /* Adjust width */
+    /* Set max-width for responsiveness */
+    padding: 15px;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 4px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.close-btn {
+    position: absolute;
+    /* Adjust positioning */
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.successful4-alert-left{
+    display: flex;
+}
+
+.successful4-alert-left img{
+    height: 100px;
+    align-self: center;
+}
+
+.successful4-alert-left-textbox{
+    align-self: center;
+}
+
+.successful4-alert-left h1 {
+    font-size: 26px;
+    font-family: inter;
+}
+
+.successful4-alert-left h3 {
+    font-size: 16px;
+    font-family: inter;
+}
+
+.successful4-alert-right{
+    align-self: center;
+}
+
+.successful4-alert-right a{
+    color: #d4edda;
+    padding: 10px 30px;
+    background-color: #155724;
+    border-radius: 10px;
+    text-decoration: none;
+}
