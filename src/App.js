@@ -24,9 +24,13 @@ import industries from './pages/industries.js'
 import Shop from './pages/Shop';
 import SecondChallenge from './pages/SecondChallenge';
 import ReadMore from './pages/Readmore.js';
+
 import ThirdChallenges from './pages/thirdChallenges.js';
 import  Challengefive from './pages/challengefive.js';
 import FourthChallenge from './pages/fourthchallenge.js';
+
+import FrenchLandingPage from './pages/FrenchLandingPage';
+
 
 function App() {
   return (
@@ -59,9 +63,13 @@ function App() {
         <Route path="/shop" exact Component={Shop}/>
         <Route path="/secondChallenge" exact Component={SecondChallenge}/>
         <Route path="/Readmore" exact Component={ReadMore}/>
+
         <Route path="/thirdChallenges" exact Component={ThirdChallenges}/>
         <Route path="/fourthchallenge" exact Component={FourthChallenge}/>
         <Route path="/challengefive" exact Component={Challengefive}/>
+
+        <Route path='/french' exact Component={FrenchLandingPage}/>
+
         </Routes>
       </Router>
     </div>

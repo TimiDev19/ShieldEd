@@ -50,7 +50,7 @@ function SecondChallenge() {
                 <Link to="/courses"><CloseIcon className='icons' /></Link>
                 <div className='challengesProgressBar'>
                     <div className='challengesProgress'>
-                        <div className='challengesText'><h8 className="challengeProgress">1/5</h8></div>
+                        <div className='challengesText'><h8 className="challengeProgress">2/5</h8></div>
                     </div>
                 </div>
                 <Favorite className='heart' />

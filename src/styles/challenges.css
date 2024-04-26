@@ -114,6 +114,10 @@
   margin-top: 0px;
 }
 
+.challengeHeadText img{
+  width: 55%;
+}
+
 .challengeHeadText p{
   color: #050505;
   font-family: inter;
