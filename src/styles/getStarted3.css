@@ -265,3 +265,46 @@ button :focus{
     text-decoration: none;
 }
 
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .step3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .leftStep3 {
+        width: 100%;
+    }
+
+    .rightStep3 {
+        width: 100%;
+    }
+
+    .leftStep3Box {
+        width: 90%;
+        margin: auto;
+    }
+
+    .rightStep3Box {
+        width: 90%;
+        margin: auto;
+    }
+
+    .secondImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .rightbuttons {
+        margin-top: 20px;
+    }
+
+    .rightbutton1 {
+        width: 90%;
+    }
+
+    .rightbutton2 {
+        width: 90%;
+    }
+}
+

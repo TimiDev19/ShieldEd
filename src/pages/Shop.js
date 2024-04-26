@@ -56,7 +56,7 @@ function Shop() {
                 <div className="dashboard-page-container">
                     <div className="sidebar">
                         <ul className="sidebar-menu">
-                            <img src={Logo} alt='Shielded logo'/>
+                        <Link to='/'><img src={Logo} alt='Shielded logo'/></Link>
                             <div className='dashboardLeftSideTop'>
                                 <Link to='/dashboard'><div className='menuLink'><SchoolOutlinedIcon className='icons' />HOME</div></Link>
                                 <Link to="/leaderboard"><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>

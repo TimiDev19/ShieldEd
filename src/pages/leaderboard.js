@@ -54,7 +54,7 @@ function Leaderboard() {
             <div className="page-container">
                 <div className="sidebar">
                     <ul className="sidebar-menu">
-                        <img src={Logo} />
+                    <Link to='/'><img src={Logo} /></Link>
                         <div className='leaderboardLeftSideTop'>
                             <Link to="/Dashboard"><div className='menuLink'><SchoolOutlinedIcon className='icons' />HOME</div></Link>
                             <Link><div className='menuLinkSelected'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>

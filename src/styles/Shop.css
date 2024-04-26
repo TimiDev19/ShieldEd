@@ -198,3 +198,44 @@
 .shopItemPurchaseBoxLeft{
     display: flex;
 }
+
+/* Responsive CSS */
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide sidebar on small screens */
+  }
+  
+  .cardContainer {
+    width: 100%; /* Make card container full width */
+  }
+
+  .shopRightCardBox {
+    width: 100%; /* Make shop right card box full width */
+    overflow-y: scroll; /* Add scroll for smaller screens */
+    height: calc(100vh - 200px); /* Adjust height */
+  }
+  
+  .scrollableShopRightCardBox {
+    display: none; /* Hide scrollable shop right card box */
+  }
+
+  .dashboard-page-container {
+    padding: 10px; /* Add padding for content */
+  }
+
+  .shopCard,
+  .smalShopCard,
+  .advertShopCard {
+    width: 100%; /* Make shop cards full width */
+  }
+  
+  .shopCard img {
+    display: none; /* Hide image in shop card on small screens */
+  }
+
+  .shopLeftBottom h1 {
+    font-size: 20px; /* Reduce font size of headings */
+  }
+}

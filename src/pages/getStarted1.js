@@ -10,7 +10,7 @@ const getStarted1 = () => {
             <p>Create a profile to save your progress and continue learning for free.</p>
             <div className='step1buttons'>
                 <ul>
-                    <li><Link to='/newSignup' className='step1Button'>Create Account</Link></li>
+                    <li><Link to='/getStarted2' className='step1Button'>Create Account</Link></li>
                     <li><Link to='/' className='step1Button'> Later </Link></li>
                 </ul>
             </div>
