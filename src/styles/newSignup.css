@@ -221,6 +221,19 @@
 margin-top: 15px;
 }
 
+
+form{
+    width: 100%;
+}
+
+button{
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .loginPage {
@@ -254,3 +267,4 @@ margin-top: 15px;
         margin-top: 10px;
     }
 }
+

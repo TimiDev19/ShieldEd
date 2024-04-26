@@ -40,7 +40,7 @@ function Shop() {
                 {/* <nav className="navbar">
                     <div className="logo"><img src={Logo} alt='Sheilded Logo'/></div>
                     <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-                        <li><Link><div className='menuLink'>LEARN</div></Link></li>
+                        <li><Link><div className='menuLink'>HOME</div></Link></li>
                         <li><Link to="/leaderboard"><div className='menuLink'>LEADERBOARDS</div>leaderboard</Link></li>
                         <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
                         <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
@@ -58,7 +58,7 @@ function Shop() {
                         <ul className="sidebar-menu">
                         <Link to='/'><img src={Logo} alt='Shielded logo'/></Link>
                             <div className='dashboardLeftSideTop'>
-                                <Link to='/dashboard'><div className='menuLink'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
+                                <Link to='/dashboard'><div className='menuLink'><SchoolOutlinedIcon className='icons' />HOME</div></Link>
                                 <Link to="/leaderboard"><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
                                 <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
                                 <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>

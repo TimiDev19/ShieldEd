@@ -12,26 +12,26 @@ const Industries = ({ message, onClose, className }) => {
             <nav className="landingnavbar">
                 <div className="landingnavbar-logo"><img src={Logo} /></div>
                 <div className="landingnavbar-links">
-                    <a href="#home">Learn</a>
-                    <a href="/resources">Resources</a>
+                    <a href="#home" onClick={onClose}>Home</a>
+                    <a href="#home" onClick={onClose}>Resources</a>
                     <select className='selectone' >
                         <option></option>
                         <option></option>
                         <option></option>
                     </select>
                     <Link onClick={onClose}>Industries</Link>
+                    <select className='selectoneI'>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                    <a href="#link" onClick={onClose}>About Us</a>
                     <select className='selectone'>
                         <option></option>
                         <option></option>
                         <option></option>
                     </select>
-                    <a href="#link">About Us</a>
-                    <select className='selectone'>
-                        <option></option>
-                        <option></option>
-                        <option></option>
-                    </select>
-                    <a href="#link">Contact</a>
+                    <a href="#link" onClick={onClose}>Contact</a>
                 </div>
                 <div className="navbar-links-right">
                     <a href="/loginPage">Login</a>

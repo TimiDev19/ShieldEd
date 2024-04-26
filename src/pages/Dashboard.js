@@ -39,7 +39,7 @@ function Dashboard() {
             <nav className="Dashboardnavbar">
                 <Link to="/"><div className="logo"><img src={Logo} alt='Sheilded Logo'/></div></Link>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-                    <li><Link><div className='menuLinkSelected'>LEARN</div></Link></li>
+                    <li><Link><div className='menuLinkSelected'>HOME</div></Link></li>
                     <li><Link to="/leaderboard"><div className='menuLink'>LEADERBOARDS</div></Link></li>
                     <li><Link><div className='menuLink'>PRACTICE</div></Link></li>
                     <li><Link><div className='menuLink'>EVENTS AND WEBINARS</div></Link></li>
@@ -58,7 +58,7 @@ function Dashboard() {
                     <ul className="sidebar-menu">
                     <Link to="/"><div className="logo"><img src={Logo} alt='Sheilded Logo'/></div></Link>
                         <div className='dashboardLeftSideTop'>
-                            <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
+                            <Link><div className='menuLinkSelected'><SchoolOutlinedIcon className='icons' />HOME</div></Link>
                             <Link to ="/leaderboard"><div className='menuLink'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
                             <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
                             <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>
