@@ -38,7 +38,7 @@ import testimonial2 from '../assets/testimonial2.png';
 import testimonial3 from '../assets/testimonial3.png';
 import review from '../assets/Review.png';
 
-function Readmore() {
+function ReadMore() {
     const revealRef = useRef(null);
 
     useEffect(() => {
@@ -262,4 +262,4 @@ function Readmore() {
     )
 }
 
-export default Readmore
+export default ReadMore;

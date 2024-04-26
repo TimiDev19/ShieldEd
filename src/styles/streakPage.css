@@ -50,7 +50,13 @@ ul{
     background-color: #2389DE;
     border-radius:5px;
     text-decoration: none;
+    transition: all 0.2s ease;
     
+}
+
+.streakbutton li :hover{
+    background-color:#2389DE;
+    color: white;
 }
 
 .streakButton1{

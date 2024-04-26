@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.successpopup3-overlay {
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+    /* Display at the bottom */
+    left: 0;
+    width: 100%;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    display: flex;
+    justify-content: center;
+}
+
+.successpopup3-alert {
+    position: relative;
+    /* Adjust positioning */
+    width: 100%;
+    /* Adjust width */
+    /* Set max-width for responsiveness */
+    padding: 15px;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 4px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.close-btn {
+    position: absolute;
+    /* Adjust positioning */
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.successpopup3-alert-left{
+    display: flex;
+}
+
+.successpopup3-alert-left img{
+    height: 100px;
+    align-self: center;
+}
+
+.successpopup3-alert-left-textbox{
+    align-self: center;
+}
+
+.successpopup3-alert-left h1 {
+    font-size: 26px;
+    font-family: inter;
+}
+
+.successpopup3-alert-left h3 {
+    font-size: 16px;
+    font-family: inter;
+}
+
+.successpopup3-alert-right{
+    align-self: center;
+}
+
+.successpopup3-alert-right a{
+    color: #d4edda;
+    padding: 10px 30px;
+    background-color: #155724;
+    border-radius: 10px;
+    text-decoration: none;
+}
