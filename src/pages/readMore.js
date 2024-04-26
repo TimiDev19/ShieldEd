@@ -74,9 +74,9 @@ function Readmore() {
     return (
         <div className='readmorePage'>
             <nav className="landingnavbar">
-                <div className="landingnavbar-logo"><img src={Logo} /></div>
+                <Link to='/'><div className="landingnavbar-logo"><img src={Logo} /></div></Link>
                 <div className="landingnavbar-links">
-                    <a href="#home">Learn</a>
+                    <a href="#home">Home</a>
                     <a href="#link">Resources</a>
                     <a href="#link">Industries</a>
                     <Link to="/privacypolicy"><a href="#link">About Us</a></Link>

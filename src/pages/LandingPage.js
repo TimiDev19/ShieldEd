@@ -55,7 +55,7 @@ const LandingPage = () => {
             delay: 200,
             easing: 'cubic-bezier(0.5, 0, 0, 1)', // Optional easing function
         });
-    }, []); // Ensure thi
+    }, []);
 
 
 
@@ -71,7 +71,7 @@ const LandingPage = () => {
             } else {
                 clearInterval(typingInterval);
             }
-        }, 100); // Adjust the typing speed (milliseconds per character) here
+        }, 100);
         return () => clearInterval(typingInterval);
     }, [fullText]);
 
@@ -85,8 +85,8 @@ const LandingPage = () => {
                 <nav className="landingnavbar">
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
-                        <a href="#home">Learn</a>
-                        <a href="/resources">Resources</a>
+                        <a href="#home">Home</a>
+                        <a href="">Resources </a>
                         <select className='selectone' >
                             <option></option>
                             <option></option>
@@ -94,8 +94,6 @@ const LandingPage = () => {
                         </select>
                         <Link onClick={handleVerifyClickI}>Industries</Link>
                         <select className='selectone'>
-                            <option></option>
-                            <option></option>
                             <option></option>
                         </select>
                         <a href="#link">About Us</a>

@@ -56,7 +56,7 @@ function Leaderboard() {
                     <ul className="sidebar-menu">
                         <img src={Logo} />
                         <div className='leaderboardLeftSideTop'>
-                            <Link to="/Dashboard"><div className='menuLink'><SchoolOutlinedIcon className='icons' />LEARN</div></Link>
+                            <Link to="/Dashboard"><div className='menuLink'><SchoolOutlinedIcon className='icons' />HOME</div></Link>
                             <Link><div className='menuLinkSelected'><LeaderboardOutlinedIcon className='icons' />LEADERBOARDS</div></Link>
                             <Link><div className='menuLink'><CreateOutlinedIcon className='icons' />PRACTICE</div></Link>
                             <Link><div className='menuLink'><CardMembershipOutlinedIcon className='icons' />EVENTS AND WEBINARS</div></Link>

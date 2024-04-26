@@ -221,3 +221,14 @@
 margin-top: 15px;
 }
 
+form{
+    width: 100%;
+}
+
+button{
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
