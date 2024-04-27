@@ -221,6 +221,7 @@
 margin-top: 15px;
 }
 
+
 form{
     width: 100%;
 }
@@ -232,3 +233,38 @@ button{
 button:hover{
     cursor: pointer;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .loginPage {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .leftLoginPage {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .leftLoginBox {
+        margin-top: 10%;
+    }
+
+    .rightPage {
+        width: 100%;
+    }
+
+    .rightFormBox {
+        width: 90%;
+    }
+
+    .createAccountBtn {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .googleButton {
+        margin-top: 10px;
+    }
+}
+
