@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-.resources-overlay {
+.language-overlay {
     height: fit-content;
     position: fixed;
     margin-top: 0;
@@ -16,25 +16,42 @@
     justify-content: center;
 }
 
-.resources-alert {
+.language-alert {
     position: relative;
     /* Adjust positioning */
-    width: 100%;
+    height: fit-content;
+    width: 15%;
+    align-self: flex-end;
     /* Adjust width */
     /* Set max-width for responsiveness */
-    padding: 0px 15px;
     background-color: white;
     color: #CB1A14;
-    border-radius: 4px;
+    border-radius: 0;
     display: flex;
+    flex-direction: column;
     text-align: left;
     justify-content: space-between;
-    height: fit-content;
+    box-shadow: 0 0 .1rem gray;
 }
 
-.close-btn {
+.language-alert li{
+    padding: 10px;
+    list-style: none;
+    color: black;
+    border-bottom: 1px solid #E9F3FC;
+}
+
+.language-alert li:hover{
+    cursor: pointer;
+    background-color: #E9F3FC;
+}
+
+.language-alert .active{
+    background-color: #E9F3FC;
+}
+
+/* .close-btn {
     position: absolute;
-    /* Adjust positioning */
     top: 5px;
     right: 5px;
     cursor: pointer;
@@ -42,26 +59,26 @@
 }
 
 
-.resources-alert-left{
+.language-alert-left{
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: fit-content;
+    height: 50vh;
 }
 
-.resources-alert-left h1{
+.language-alert-left h1{
     color: black;
     font-size: 25px;
 }
 
-.resources-alert-left p{
+.language-alert-left p{
     width: 70%;
     color: #767676;
     font-weight: 300;
     font-family: inter;
 }
 
-.resources-alert-left img{
+.language-alert-left img{
     height: 90%;
 }
 
@@ -75,28 +92,28 @@
     font-family: inter;
 }
 
-.resources-alert-right{
+.language-alert-right{
     align-self: center;
     width: 50%;
-    background-color: #E9F3FC;
-    /* height: fit-content; */
+    background-color: #FFF1EA;
+    height: 50vh;
     padding: 10px;
     text-align: left;
 }
 
-.resources-alert-right h3{
+.language-alert-right h3{
     margin: 10px;
     padding: 0;
 }
 
-.resources-alert-right h3 a{
+.language-alert-right h3 a{
     color: black;
     margin: 0;
     padding: 0;
     font-size: 15px;
 }
 
-.resources-alert-right p{
+.language-alert-right p{
     color: black;
     font-weight: 200;
     font-family: inter;
@@ -139,10 +156,8 @@
     border: none;
     margin: 0;
     padding: 0;
-}
+} */
 
-.resources-alert-left li{
-    color: black;
-    list-style: none;
-    padding: 20px;
+.language-alert a{
+    text-decoration: none;
 }

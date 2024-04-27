@@ -32,8 +32,9 @@ import Industries from '../components/Industries';
 import LanguageComponent from '../components/LanguageComponent';
 import Resources from '../components/Resources';
 import About from '../components/About';
+import FrenchLanguageComponent from '../components/FrenchLanguageComponent';
 
-const LandingPage = () => {
+const FrenchLandingPage = () => {
 
     const [showIndAlert, setShowIndAlert] = useState(false);
     const [showLanguageAlert, setShowLanguageAlert] = useState(false);
@@ -90,7 +91,7 @@ const LandingPage = () => {
 
 
     const [text, setText] = useState('');
-    const fullText = 'Stay Secure . Stay Educated';
+    const fullText = 'Restez en sécurité . Restez informé';
 
     useEffect(() => {
         let currentIndex = 0;
@@ -115,18 +116,18 @@ const LandingPage = () => {
                 <nav className="landingnavbar">
                     <div className="landingnavbar-logo"><img src={Logo} /></div>
                     <div className="landingnavbar-links">
-                        <a href="#home">Home</a>
-                        <Link onClick={handleVerifyClickR}>Resources </Link>
+                        <a href="#home">Maison</a>
+                        <Link onClick={handleVerifyClickR}>Ressources </Link>
                         {/* <select className='selectone' >
                             <option></option>
                             <option></option>
                             <option></option>
                         </select> */}
-                        <Link onClick={handleVerifyClickI}>Industries</Link>
+                        <Link onClick={handleVerifyClickI}>les industries</Link>
                         {/* <select className='selectone'>
                             <option></option>
                         </select> */}
-                        <Link onClick={handleVerifyClickA}>About Us</Link>
+                        <Link onClick={handleVerifyClickA}>À propos de nous</Link>
                         {/* <select className='selectone'>
                             <option></option>
                             <option></option>
@@ -135,9 +136,9 @@ const LandingPage = () => {
                         <a href="#link">Contact</a>
                     </div>
                     <div className="navbar-links-right">
-                        <a href="/loginPage">Login</a>
-                        <a href="/getStarted2" className='rightButton'>Join for FREE</a>
-                        <TranslateIcon className='icons' onClick={handleVerifyClickL}/>
+                        <a href="/loginPage">Se connecter</a>
+                        <a href="/getStarted2" className='rightButton'>Rejoignez gratuitement</a>
+                        <TranslateIcon className='icons' onClick={handleVerifyClickL} />
                     </div>
                 </nav>
 
@@ -147,16 +148,16 @@ const LandingPage = () => {
                     <div className='landingHomeTextBox'>
                         <h1>{text}</h1>
                         <div ref={revealRef}>
-                            <h1>The Fun Way</h1>
+                            <h1>La manière amusante</h1>
                         </div>
 
                         <p>
-                            Unlock the secrets of cybersecurity through interactive
-                            learning experiences, engaging challenges, and expert guidance.
+                            Percez les secrets de la cybersécurité grâce à l'interactivité
+                            des expériences d’apprentissage, des défis engageants et des conseils d’experts.
                         </p>
                         <div className='buttonBox'>
-                            <div className='leftButton'><Link to='/challenges'>Start Learning</Link> <SchoolOutlinedIcon className='icons' /></div>
-                            <div className='rightButton'><Link to=''>Free teams demo</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
+                            <div className='leftButton'><Link to='/challenges'>Commencer à apprendre</Link> <SchoolOutlinedIcon className='icons' /></div>
+                            <div className='rightButton'><Link to=''>Démo gratuite des équipes</Link> <CalendarMonthOutlinedIcon className='icons'></CalendarMonthOutlinedIcon></div>
                         </div>
                     </div>
                     <img src={landingImage} />
@@ -164,15 +165,15 @@ const LandingPage = () => {
 
                 {/* ==THIS IS THE FEATURES SECTION OF THE LANDING PAGE== */}
                 <div className='sectionThree'>
-                    <h1 className='headerText'>Feel the best experince<br />  with our features</h1>
+                    <h1 className='headerText'>Ressentez la meilleure expérience<br />  avec nos fonctionnalités</h1>
                     <div className='sectionThreeHorizontalCard'>
                         <div className='sectionThreeHorizontalCardText'>
                             <img src={section3icon} />
-                            <h1>Free Bite-Sized Lessons</h1>
+                            <h1>Leçons gratuites en bouchées</h1>
                             <p>
-                                With quick, bite-sized lessons, you’ll earn <br />
-                                points and unlock new levels while gaining <br />
-                                practical cybersecurity skills.
+                                Avec des leçons rapides et en petits morceaux, vous gagnerez <br />
+                                points et débloquez de nouveaux niveaux tout en gagnant <br />
+                                compétences pratiques en cybersécurité.
                             </p>
                         </div>
                         <div className='sectionThreeHorizontalCardImage'>
@@ -182,10 +183,10 @@ const LandingPage = () => {
                     <div className='sectionThreeGrid'>
                         <div className='sectionThreeGridCard'>
                             <img src={leftIcon} />
-                            <h1>We Keep You Motivated</h1>
+                            <h1>Nous vous gardons motivé</h1>
                             <p>
-                                With game-like features, interactive challenges, and <br />
-                                friendly reminders, we ensure that learning adventure.
+                                Avec des fonctionnalités de jeu, des défis interactifs et <br />
+                                rappels amicaux, nous garantissons cette aventure d’apprentissage.
                             </p>
                             <div className='sectionThreeGridCardRight'>
                                 <img src={section3image1} />
@@ -195,11 +196,11 @@ const LandingPage = () => {
 
                         <div className='sectionThreeGridCard'>
                             <img src={rightIcon} />
-                            <h1>Compete and Earn Rewards</h1>
+                            <h1>Participez et gagnez des récompenses</h1>
                             <p>
-                                Track your progress, challenge yourself, and climb the <br />
-                                ranks. See how you measure up against peers as you <br />
-                                master cybersecurity skills and earn rewards.
+                                Suivez vos progrès, relevez des défis et gravissez les échelons. <br />
+                                rangs. Voyez comment vous vous comparez à vos pairs lorsque vous <br />
+                                maîtrisez les compétences en cybersécurité et gagnez des récompenses.
                             </p>
                             <div className='sectionThreeGridCardRight1'>
                                 <img src={sectionThreeIconTwo} />
@@ -212,31 +213,33 @@ const LandingPage = () => {
                 <div className='fullLP'>
                     <div className='card3Container' style={{ backgroundImage: `url(${patternLP})`, backgroundSize: `cover`, backgroundPosition: `center` }}>
                         <div className='header'>
-                            <header> Cyber Security Training <br />for Every Department</header>
+                            <header> Formation en cybersécurité <br />pour chaque département</header>
                         </div>
                         <div className='cardBody'>
                             <div className='rightBody'>
-                                <Link><p className='topParagraph'>Sales Department </p></Link>
-                                <h5>Our cybersecurity training for sales departments is <br /> meticulously crafted to address   the vulnerabilities <br /> and threats that sales teams face daily.</h5>
+                                <Link><p className='topParagraph'>Département des ventes </p></Link>
+                                <h5>Notre formation cybersécurité pour les services commerciaux est <br />
+                                    méticuleusement conçu pour remédier aux vulnérabilités <br />
+                                    et les menaces auxquelles les équipes commerciales sont confrontées quotidiennement.</h5>
                                 <hr />
-                                <Link><p className='smallParagraph'>Finance Teams</p></Link>
+                                <Link><p className='smallParagraph'>Équipes financières</p></Link>
                                 <hr />
-                                <Link><p className='smallParagraph'>Human Resources</p></Link>
+                                <Link><p className='smallParagraph'>Ressources humaines</p></Link>
                                 <hr />
-                                <Link><p className='smallParagraph'>Marketing Departments</p></Link>
+                                <Link><p className='smallParagraph'>Départements marketing</p></Link>
                                 <hr />
-                                <Link><p className='smallParagraph'>Procurement Teams</p></Link>
+                                <Link><p className='smallParagraph'>Équipes d'approvisionnement</p></Link>
                                 <hr />
-                                <Link><p className='smallParagraph'>Legal Departments</p></Link>
+                                <Link><p className='smallParagraph'>Départements juridiques</p></Link>
                                 <hr />
-                                <Link><p className='smallParagraph'>Executive Teams</p></Link>
+                                <Link><p className='smallParagraph'>Équipes de direction</p></Link>
 
                             </div>
                             <div className='leftBody'>
                                 <img src={LPtraining} />
                                 <div className='buttonContainer'>
-                                    <Link><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
-                                    <Link to='/readMore'><button className='leftBodybutton2'>Read more</button></Link>
+                                    <Link><button className='leftBodyButton1'>Démo gratuite des équipes <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>   <br />
+                                    <Link to='/readMore'><button className='leftBodybutton2'>En savoir plus</button></Link>
 
                                 </div>
                             </div>
@@ -251,28 +254,28 @@ const LandingPage = () => {
 
                 {/* ==THIS IS THE FREQUENTLY ASKED QUESTIONS SECTION== */}
                 <div className='frequentlyAskedQuestions'>
-                    <h1>Have Questions? We're Happy To Help!</h1>
+                    <h1>Avoir des questions? Nous sommes heureux de vous aider !</h1>
                     <div className='questionsBox'>
                         <div>
-                            <CollapsibleBox title="Is ShieldEd suitable for beginners?">
-                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            <CollapsibleBox title="ShieldEd est-il adapté aux débutants ?">
+                                <p>Oui, ShieldEd convient aux débutants et aux utilisateurs de tous niveaux. La plateforme propose des cours d'introduction couvrant les concepts fondamentaux de la cybersécurité de manière accessible et facile à comprendre. L'interface conviviale et l'approche d'apprentissage interactive de ShieldEd le rendent idéal pour les personnes qui débutent en cybersécurité et souhaitent acquérir une base solide de connaissances.</p>
                             </CollapsibleBox>
-                            <CollapsibleBox title="Security and Privacy">
-                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            <CollapsibleBox title="Sécurité et confidentialité">
+                                <p>Oui, ShieldEd convient aux débutants et aux utilisateurs de tous niveaux. La plateforme propose des cours d'introduction couvrant les concepts fondamentaux de la cybersécurité de manière accessible et facile à comprendre. L'interface conviviale et l'approche d'apprentissage interactive de ShieldEd le rendent idéal pour les personnes qui débutent en cybersécurité et souhaitent acquérir une base solide de connaissances.</p>
                             </CollapsibleBox>
-                            <CollapsibleBox title="Community  Features">
-                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            <CollapsibleBox title="Fonctionnalités communautaires">
+                                <p>Oui, ShieldEd convient aux débutants et aux utilisateurs de tous niveaux. La plateforme propose des cours d'introduction couvrant les concepts fondamentaux de la cybersécurité de manière accessible et facile à comprendre. L'interface conviviale et l'approche d'apprentissage interactive de ShieldEd le rendent idéal pour les personnes qui débutent en cybersécurité et souhaitent acquérir une base solide de connaissances.</p>
                             </CollapsibleBox>
                         </div>
                         <div>
-                            <CollapsibleBox title="Team Training">
-                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            <CollapsibleBox title="Formation d'équipe">
+                                <p>Oui, ShieldEd convient aux débutants et aux utilisateurs de tous niveaux. La plateforme propose des cours d'introduction couvrant les concepts fondamentaux de la cybersécurité de manière accessible et facile à comprendre. L'interface conviviale et l'approche d'apprentissage interactive de ShieldEd le rendent idéal pour les personnes qui débutent en cybersécurité et souhaitent acquérir une base solide de connaissances.</p>
                             </CollapsibleBox>
-                            <CollapsibleBox title="Technical Support">
-                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            <CollapsibleBox title="Soutien technique">
+                                <p>Oui, ShieldEd convient aux débutants et aux utilisateurs de tous niveaux. La plateforme propose des cours d'introduction couvrant les concepts fondamentaux de la cybersécurité de manière accessible et facile à comprendre. L'interface conviviale et l'approche d'apprentissage interactive de ShieldEd le rendent idéal pour les personnes qui débutent en cybersécurité et souhaitent acquérir une base solide de connaissances.</p>
                             </CollapsibleBox>
-                            <CollapsibleBox title="Subscription and Pricing">
-                                <p>Yes, ShieldEd is suitable for beginners and users of all skill levels. The platform offers introductory courses covering fundamental cybersecurity concepts in an accessible and easy-to-understand manner.  ShieldEd's user-friendly interface and interactive learning approach make it ideal for individuals who are new to cybersecurity and want to build a solid foundation of knowledge.</p>
+                            <CollapsibleBox title="Abonnement et tarifs">
+                                <p>Oui, ShieldEd convient aux débutants et aux utilisateurs de tous niveaux. La plateforme propose des cours d'introduction couvrant les concepts fondamentaux de la cybersécurité de manière accessible et facile à comprendre. L'interface conviviale et l'approche d'apprentissage interactive de ShieldEd le rendent idéal pour les personnes qui débutent en cybersécurité et souhaitent acquérir une base solide de connaissances.</p>
                             </CollapsibleBox>
                         </div>
                     </div>
@@ -285,48 +288,48 @@ const LandingPage = () => {
                         <div className='leftLinkBox'>
                             <img src={Logo} />
                             <p>
-                                Be the first to receive all the recent updates, <br />
-                                articles, and valuable materials.
+                            Soyez le premier à recevoir toutes les mises à jour récentes, <br />
+                            articles et matériaux de valeur.
                             </p>
                             <div className='leftLinkButtonBox'>
-                                <input type='email' placeholder='Email Address' />
-                                <Link>Subscribe</Link>
+                                <input type='email' placeholder='Adresse e-mail' />
+                                <Link>S'abonner</Link>
                             </div>
                         </div>
 
                         <div className='rightLinkBox'>
                             <div className='rightListBox'>
                                 <ul>
-                                    <li><span>Industries</span></li>
-                                    <li>Financial Services</li>
-                                    <li>Government</li>
-                                    <li>Enterprises</li>
-                                    <li>Remote Workers</li>
-                                    <li>Education</li>
-                                    <li>Healthcare</li>
+                                    <li><span>les industries</span></li>
+                                    <li>Services financiers</li>
+                                    <li>Gouvernement</li>
+                                    <li>Entreprises</li>
+                                    <li>Travailleurs à distance</li>
+                                    <li>Éducation</li>
+                                    <li>Soins de santé</li>
                                 </ul>
                             </div>
 
                             <div className='rightListBox'>
                                 <ul>
-                                    <li><span>Resources</span></li>
+                                    <li><span>Ressources</span></li>
                                     <li>Blog</li>
-                                    <li>News Room</li>
-                                    <li>Family Crash Course</li>
-                                    <li>Cybernary</li>
-                                    <li>Events and Webinars</li>
-                                    <li>Free Awarness Posters</li>
+                                    <li>Salle de presse</li>
+                                    <li>Cours intensif en famille</li>
+                                    <li>Cybernaire</li>
+                                    <li>Événements et webinaires</li>
+                                    <li>Affiches de sensibilisation gratuites</li>
                                 </ul>
                             </div>
 
                             <div className='rightListBox'>
                                 <ul>
-                                    <li><span>More</span></li>
-                                    <li>About Us</li>
-                                    <li>SecureSeniors Initiative</li>
-                                    <li>Affiliate Program</li>
-                                    <li>Community</li>
-                                    <li>Contact Us</li>
+                                    <li><span>Plus</span></li>
+                                    <li>À propos de nous</li>
+                                    <li>Initiative pour la sécurité des aînés</li>
+                                    <li>Programme d'affiliation</li>
+                                    <li>Communauté</li>
+                                    <li>Contactez-nous</li>
                                 </ul>
                             </div>
                         </div>
@@ -334,23 +337,23 @@ const LandingPage = () => {
 
                     <div className='lowerFooterText'>
                         <div className='lowerFooterLeft'>
-                            <li><Link to='' className='footerLink'>Terms of Service</Link></li>
-                            <li><Link to='/privacypolicy' className='footerLink'>Privacy Policy</Link></li>
-                            <li><Link to='' className='footerLink'>Accessibility Statement</Link></li>
+                            <li><Link to='' className='footerLink'>Conditions d'utilisation</Link></li>
+                            <li><Link to='/privacypolicy' className='footerLink'>politique de confidentialité</Link></li>
+                            <li><Link to='' className='footerLink'>Déclaration d'accessibilité</Link></li>
                         </div>
                         <div className='lowerFooterRight'>
-                            <li>&copy; 2024 ShieldEd. All rights reserved.</li>
+                            <li>&copy; 2024 ShieldEd. Tous droits réservés.</li>
                         </div>
                     </div>
                 </div>
 
             </div>
             {showIndAlert && <Industries onClose={handleCloseInd} />}
-            {showLanguageAlert && <LanguageComponent onClose={handleCloseLanguage} />}
-            {showResourceAlert && <Resources onClose={handleCLoseResource}/>}
-            {showAboutAlert && <About onClose={handleCloseAbout}/>}
+            {showLanguageAlert && <FrenchLanguageComponent onClose={handleCloseLanguage} />}
+            {showResourceAlert && <Resources onClose={handleCLoseResource} />}
+            {showAboutAlert && <About onClose={handleCloseAbout} />}
         </>
     );
 }
 
-export default LandingPage;
+export default FrenchLandingPage;

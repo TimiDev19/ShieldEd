@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 50vh;
+    height: fit-content;
 }
 
 .industry-alert-left h1{
