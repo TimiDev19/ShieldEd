@@ -19,8 +19,6 @@ const Success = ({ message, onClose, className }) => {
 
           <Link to='/SecondChallenge'onClick={onClose}>Continue</Link>
 
-          <Link onClick={onClose} to='/secondChallenge'>Continue</Link>
-
         </div>
       </div>
     </div>

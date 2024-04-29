@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import blueIcon from '../assets/Frame 1.png'
 import teddy from '../assets/teddybear.png'
 import { CloseOutlined } from '@mui/icons-material'
-import progress2 from '../assets/ImageProg2.png'
+import prog2bar from '../assets/progbar2.png'
 
 const getStarted3 = () => {
     return (  
@@ -16,7 +16,7 @@ const getStarted3 = () => {
                     By answering a few quick questions, we <br/> can tailor your learning experience to <br/> suit your needs and preferences.
                     </p>
                     <div className='prog2'>
-                    <img src={progress2} />
+                    <img src={prog2bar} />
                     </div>
                     <div className='progText2'>
                         <p>Stage0</p>

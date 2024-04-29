@@ -4,7 +4,7 @@ import blueIcon from '../assets/Frame 1.png'
 import teddy from '../assets/teddybear.png'
 import { CloseOutlined } from '@mui/icons-material'
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
-import prog3 from '../assets/Imageprog3.png'
+import progressbar3 from '../assets/thirdprogress.png'
 
 const fourthGs = () => {
     return (
@@ -17,7 +17,7 @@ const fourthGs = () => {
                         By answering a few quick questions, we <br />can tailor your learning experience to <br />suit your needs and preferences.
                     </p>
                     <div className='Prog3'>
-                    <img src={prog3} />
+                    <img src={progressbar3} />
                     </div>
                     <div className='ProgText3'>
                         <p>Stage0</p>

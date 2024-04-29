@@ -5,7 +5,7 @@ import teddy from '../assets/teddybear.png'
 import { CloseOutlined } from '@mui/icons-material'
 import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
-import progress4 from '../assets/Imageprog4.png'
+import prog4 from '../assets/lastprogress.png'
 
 const fifthStart = () => {
     return ( 
@@ -18,7 +18,7 @@ const fifthStart = () => {
                     By answering a few quick questions, we <br/>can tailor your learning experience to <br/>suit your needs and preferences.
                     </p>
                     <div className='progress4'>
-                    <img src={progress4} />
+                    <img src={prog4} />
                     </div>
                     <div className='progtext4'>
                         <p>Stage0</p>

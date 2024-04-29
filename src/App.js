@@ -30,6 +30,7 @@ import  Challengefive from './pages/challengefive.js';
 import FourthChallenge from './pages/fourthchallenge.js';
 
 import FrenchLandingPage from './pages/FrenchLandingPage';
+import requestDemo from './pages/requestDemo.js';
 
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
         <Route path="/thirdChallenges" exact Component={ThirdChallenges}/>
         <Route path="/fourthchallenge" exact Component={FourthChallenge}/>
         <Route path="/challengefive" exact Component={Challengefive}/>
+        <Route path="/requestDemo" exact Component={requestDemo}/>
 
         <Route path='/french' exact Component={FrenchLandingPage}/>
 

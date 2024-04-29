@@ -78,7 +78,7 @@
     align-self: center;
     width: 50%;
     background-color: #FFF1EA;
-    height: 50vh;
+    height: fit-content;
     padding: 10px;
     text-align: left;
 }

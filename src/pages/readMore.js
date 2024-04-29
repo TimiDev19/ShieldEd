@@ -96,7 +96,7 @@ function ReadMore() {
                             <Link className='readmoreCardButton1'>For Sales Department</Link>
                             <h1>Secuirity Awareness Training</h1>
                             <p>Sales departments are a prime target for cybercriminals since this departments deal with valuable assets and sensitive information that attackers covet.</p>
-                            <Link><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>
+                            <Link  to='/requestDemo'><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>
                         </div>
                     </div>
                     <div className='readmoreCardRight'><img src={LPtraining} /></div>
@@ -191,7 +191,7 @@ function ReadMore() {
                 <div className='demoTextBox'>
                     <h1>Book A Demo</h1>
                     <p>Would your sales department benefit from implementing powerful security awareness training? If so, please take a moment to complete the form below to request a free demo of our platform in action.</p>
-                    <Link><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>
+                    <Link to='/requestDemo'><button className='leftBodyButton1'>Free teams demo <h4><EventAvailableOutlinedIcon className='icons' /></h4></button></Link>
                 </div>
             </div>
 

@@ -54,6 +54,7 @@ const ThirdChallenges = () => {
                     </div>
                 </div>
                 <Favorite className='heart' />
+                <div className='hearttext'><p>10</p></div>
             </div>
             <div className='challengeHeadText2'>
                 <h3>Identifying Common Phishing Techniques</h3>

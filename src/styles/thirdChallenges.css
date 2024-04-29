@@ -114,6 +114,10 @@
     margin-top: 0px;
 }
 
+.challengeHeadText2 img{
+    width: 55%;
+}
+
 .challengeHeadText2 p {
     color: #050505;
     font-family: inter;
@@ -124,10 +128,19 @@
     padding-bottom: 35px;
 }
 
-.heart {
+.heart{
     color: red;
     margin-left: 10px;
-}
+    margin-top: 10px;
+  }
+  
+  .hearttext p{
+    margin-left: 5px;
+    font-family: inter;
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 16px;
+  }
 
 .challengButtonBox2 {
     width: 20%;
