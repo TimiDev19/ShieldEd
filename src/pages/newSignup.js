@@ -69,7 +69,7 @@ function NewSignup() {
 
 
                             {/* <Link className='createAccountBtn' to='/dashboard'>Sign Up</Link> */}
-                            <button type='submit' className='createAccountBtn'>Sign Up</button>
+                           <Link to='/dashboard'><button type='submit' className='createAccountBtn'>Sign Up</button></Link>
 
                             <div className='orBox'><h14>OR</h14></div>
                             <Link className='googleButtonLink' to='/dashboard'>
